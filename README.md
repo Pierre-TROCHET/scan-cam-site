@@ -1,6 +1,6 @@
 # Le site de Scan Cam
 
-Quatre pages, écrites le 26 août 2026, pour remplir les cases que l'App Store réclame :
+Quatre pages, écrites le 27 août 2026, pour remplir les cases que l'App Store réclame :
 
 | Fichier | Sert à | Obligatoire pour Apple |
 |---|---|---|
