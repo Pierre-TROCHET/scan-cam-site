@@ -1,54 +1,80 @@
-# Le site de Scan Cam
+# Le site de Scan Cam — scancam.app
 
-Quatre pages, écrites le 27 août 2026, pour remplir les cases que l'App Store réclame :
+Le site public de l'application, hébergé gratuitement par GitHub Pages sur le domaine
+**scancam.app** (certificat HTTPS fourni et renouvelé par GitHub, rien à faire).
 
-| Fichier | Sert à | Obligatoire pour Apple |
+## ⚠️ Les pages HTML sont ENGENDRÉES : ne les modifiez pas à la main
+
+`index.html`, `assistance.html`, `conditions.html`, `confidentialite.html`, `home.html`,
+`support.html`, `terms.html` et `privacy.html` sont **fabriquées par un programme**. Les
+corriger directement ne sert à rien : la prochaine fabrication les écrasera sans prévenir.
+
+Pour refabriquer le site, depuis ce dossier :
+
+    node build.js
+
+Ce qui se modifie, c'est :
+
+| Fichier | Ce qu'il contient |
+|---|---|
+| `textes/fr.js`, `textes/en.js` | **tous les mots** de la vitrine et de l'assistance |
+| `gabarit.js` | l'en-tête, le menu, le pied de page, l'ossature HTML |
+| `style.css` | l'habillage |
+| `images/` | les captures |
+
+**Pourquoi ce détour**, alors que le site n'a que quatre pages : il en aura vingt-quatre quand
+les six langues de l'application seront là. Écrites à la main, elles cesseraient d'être d'accord
+entre elles au bout d'un mois — c'est déjà arrivé deux fois en petit, le 9 septembre 2026 : le
+menu retirait le lien de sa propre page, deux pages avaient perdu leur lien App Store, et une
+phrase de la politique de confidentialité était coupée en deux par un lien égaré.
+
+## Les deux pages juridiques ne sont pas ici
+
+Les **conditions d'utilisation** et la **politique de confidentialité** sont lues directement
+dans l'application, dans `cam-scan/i18n/legal.ts` — le fichier que l'application affiche
+elle-même, dans les six langues. Elles ne sont donc jamais recopiées, et les deux ne peuvent pas
+diverger.
+
+Le programme dépose au passage une copie dans `textes/legal.json`. Elle sert de secours si le
+dossier `cam-scan` n'est pas à côté ; dans ce cas le programme le dit à voix haute.
+
+**Conséquence :** pour corriger un texte juridique, on ouvre `i18n/legal.ts` dans l'application,
+dans les six langues, puis on relance `node build.js` ici. Jamais l'inverse.
+
+## ⚠️ Les noms de fichiers sont déclarés chez Apple
+
+Quatre d'entre eux sont inscrits dans les dix fiches de l'App Store :
+
+| Case de la fiche | Fiche française | Les neuf autres |
 |---|---|---|
-| `index.html` | l'URL marketing | non |
-| `assistance.html` | l'URL d'assistance | **oui** |
-| `confidentialite.html` | l'URL de la politique de confidentialité | **oui** |
-| `conditions.html` | les conditions d'utilisation | recommandé |
+| URL d'assistance | `assistance.html` | `support.html` |
+| URL de la politique de confidentialité | `confidentialite.html` | `privacy.html` |
 
-`style.css` habille les quatre. Il n'y a rien d'autre : pas de code qui tourne, pas de compte,
-pas de dépendance. Les pages s'ouvrent telles quelles dans n'importe quel navigateur.
+**Une adresse d'assistance qui ne répond pas est un motif de refus.** On ne renomme donc aucun
+de ces fichiers sans avoir changé la fiche d'abord. Les noms sont déclarés dans `textes/*.js`,
+dans le bloc `fichiers`.
 
-## ⚠️ Ce site doit rester d'accord avec l'application
+## Vérifier qu'on n'a rien cassé
 
-Les textes de `confidentialite.html` et de `conditions.html` sont **la copie exacte** de ce que
-l'application affiche dans ses réglages (`i18n/legal.ts` du projet `cam-scan`, version
-française, qui est le texte de référence). Le jour où l'un des deux change, **les deux
-changent** : une politique de confidentialité qui dit deux choses différentes à deux endroits
-est pire que pas de politique du tout.
+    node outils/empreinte.js avant.json      # avant de toucher à quoi que ce soit
+    node build.js
+    node outils/empreinte.js apres.json
+    node outils/empreinte.js --comparer avant.json apres.json
 
-Même règle pour le prix, qui est écrit dans `conditions.html` : s'il change, il change aussi
-dans le paywall de l'application, dans les six langues de `i18n/legal.ts`, et dans la
-description de la fiche (`BOUTIQUE.md`).
+L'empreinte relève de chaque page son titre, sa description, son texte visible et tous ses
+liens, en ignorant la mise en forme du HTML. Si elle est identique avant et après, le contenu
+n'a pas bougé — c'est prouvé plutôt que supposé. C'est ce témoin qui a rattrapé, le
+9 septembre 2026, deux adresses de courriel devenues non cliquables dans la politique de
+confidentialité.
 
-## Mettre en ligne, avec l'hébergement gratuit de GitHub
+## Mettre en ligne
 
-1. Sur **github.com**, bouton **New repository**. Nom : `scan-cam-site`. Cochez **Public** —
-   c'est obligatoire pour l'hébergement gratuit, et ça n'ouvre en rien le dépôt de
-   l'application, qui reste privé de son côté.
-2. Sur la page du dépôt vide, cliquez **uploading an existing file**, puis faites glisser les
-   cinq fichiers de ce dossier. Bouton vert **Commit changes**.
-3. Onglet **Settings** → **Pages** dans la colonne de gauche. Sous *Build and deployment* →
-   *Source*, laissez **Deploy from a branch** ; sous *Branch*, choisissez **main** et le dossier
-   **/ (root)**. **Save**.
-4. Attendez une à deux minutes, puis rechargez la page : GitHub affiche l'adresse du site.
+Un `git push` sur `main` suffit : GitHub Pages reconstruit tout seul en une minute environ.
+Attention, la feuille de style est gardée **dix minutes** en mémoire par les navigateurs — une
+page neuve peut donc s'afficher un moment avec l'ancien habillage. `Ctrl + Maj + R` pour forcer.
 
-Les quatre adresses à recopier dans App Store Connect seront alors :
+## Le plan du site
 
-    https://<votre-compte>.github.io/scan-cam-site/
-    https://<votre-compte>.github.io/scan-cam-site/assistance.html
-    https://<votre-compte>.github.io/scan-cam-site/confidentialite.html
-    https://<votre-compte>.github.io/scan-cam-site/conditions.html
-
-**Vérifiez que chacune s'ouvre depuis un téléphone** avant de les coller dans la fiche : une
-adresse d'assistance qui ne répond pas est un motif de refus.
-
-## Ce qui reste à ajouter le jour de la publication
-
-- Le **lien vers la fiche de l'App Store** sur la page d'accueil. Un commentaire marque
-  l'endroit dans `index.html`. Rien ne l'annonce pour l'instant, puisque l'application n'y est
-  pas encore.
-- La **date de mise à jour** de la politique de confidentialité, si son texte bouge d'ici là.
+Les travaux en cours et à venir — le gabarit, l'habillage, les animations, les six langues —
+sont dans la section **« Le site scancam.app — son plan à lui »** de `PLAN.md`, dans le dépôt de
+l'application. Les blocs y sont numérotés S1, S2, S3…

@@ -1,0 +1,389 @@
+{
+  "CONTACT": "pierremunozfrance@gmail.com",
+  "LEGAL_TEXT": {
+    "fr": {
+      "terms": [
+        {
+          "body": "En vous abonnant à Scan Cam, vous acceptez le contrat type de licence d’application de l’utilisateur final d’Apple, qui régit votre abonnement. Vous pouvez le lire en entier en appuyant sur le lien au bas de cette page."
+        },
+        {
+          "heading": "L’abonnement",
+          "body": "Scan Cam Pro coûte 24,99 € par an, après une période d’essai gratuite de 7 jours. L’abonnement se renouvelle automatiquement à la fin de chaque année, sauf s’il est annulé au moins 24 heures avant cette échéance. Le renouvellement est facturé par Apple sur votre compte Apple."
+        },
+        {
+          "heading": "Gérer ou résilier",
+          "body": "Votre abonnement se gère depuis les réglages de votre compte Apple, sur votre iPhone : c’est là, et seulement là, qu’il peut être résilié. Scan Cam ne peut pas le faire à votre place. Résilier avant la fin de la période d’essai gratuite n’entraîne aucun paiement."
+        },
+        {
+          "heading": "Ce que fait l’application",
+          "body": "Scan Cam est fournie telle quelle, pour numériser et travailler vos propres documents. Vous restez responsable de ce que contiennent les documents que vous scannez, modifiez et partagez, et du respect des droits qui s’y attachent."
+        }
+      ],
+      "privacy": [
+        {
+          "body": "Scan Cam n’a ni compte, ni inscription, ni serveur à nous, ni mesure d’audience, ni publicité. Vos documents restent sur votre téléphone et ne sont envoyés nulle part. La seule chose qui sorte de l’application concerne l’abonnement, et rien d’autre : elle est décrite plus bas."
+        },
+        {
+          "heading": "Vos documents restent sur votre téléphone",
+          "body": "Les pages que vous numérisez, les fichiers qui en sont tirés, vos dossiers et vos signatures sont enregistrés dans l’espace privé de l’application, sur votre iPhone. Ils ne sont transmis à personne. Si la sauvegarde iCloud de votre iPhone est activée, ils sont sauvegardés avec le reste de votre téléphone, par Apple et selon les règles d’Apple."
+        },
+        {
+          "heading": "La caméra",
+          "body": "La caméra ne sert qu’à photographier les documents que vous scannez, au moment où vous le demandez. Les images sont écrites directement sur votre téléphone."
+        },
+        {
+          "heading": "Vos photos",
+          "body": "L’application n’accède à vos photos que lorsque vous choisissez d’en importer une pour en faire un document. Elle ne les parcourt jamais d’elle-même, et elle n’écrit jamais rien dans votre pellicule."
+        },
+        {
+          "heading": "La reconnaissance de texte",
+          "body": "Le texte est lu sur vos pages par votre iPhone lui-même, sans connexion. Le contenu de vos documents n’est jamais envoyé à un service extérieur pour être analysé."
+        },
+        {
+          "heading": "Quand vous partagez",
+          "body": "Un document ne quitte votre téléphone que lorsque vous appuyez vous-même sur Partager, et il part vers l’application ou la personne que vous désignez à ce moment-là. Ce qu’elle en fait ensuite relève de ses propres règles, pas de celles-ci."
+        },
+        {
+          "heading": "L’abonnement",
+          "body": "L’abonnement est vendu et facturé par Apple. Votre moyen de paiement n’est connu que d’Apple : l’éditeur de Scan Cam ne le voit jamais.\n\nPour savoir si vous êtes abonné, l’application interroge RevenueCat, un service qui tient à jour l’état des abonnements. Il reçoit votre achat et un numéro anonyme qu’il fabrique lui-même — jamais votre nom, jamais votre adresse e-mail, jamais un seul de vos documents. C’est la seule information qui sorte de l’application, et elle ne sert qu’à débloquer ce que vous avez payé."
+        },
+        {
+          "heading": "Effacer vos données",
+          "body": "Supprimer un document dans l’application l’efface du téléphone. Supprimer l’application efface tout ce qu’elle contenait. Vos documents n’ayant jamais été envoyés ailleurs, il n’y a rien d’autre à effacer les concernant. Pour l’état de votre abonnement, voir « Vos droits », plus bas."
+        },
+        {
+          "heading": "Vos droits",
+          "body": "Le règlement européen sur les données personnelles vous donne le droit d’accéder aux données vous concernant, de les corriger et de les effacer. Vos documents étant sur votre téléphone et nulle part ailleurs, vous les effacez vous-même. Pour les informations d’abonnement conservées par RevenueCat, écrivez à pierremunozfrance@gmail.com : elles seront retrouvées et effacées sur demande."
+        },
+        {
+          "heading": "Qui édite l’application",
+          "body": "Scan Cam est éditée par Pierre Trochet. Pour toute question sur cette page ou sur l’application : pierremunozfrance@gmail.com."
+        },
+        {
+          "heading": "Modifications",
+          "body": "Cette politique peut évoluer si l’application évolue. La version en vigueur est toujours celle qui s’affiche ici. Dernière mise à jour : 28 août 2026."
+        }
+      ]
+    },
+    "en": {
+      "terms": [
+        {
+          "body": "By subscribing to Scan Cam, you accept Apple’s Standard End User License Agreement, which governs your subscription. You can read it in full by tapping the link at the foot of this page."
+        },
+        {
+          "heading": "The subscription",
+          "body": "Scan Cam Pro costs €24.99 a year, after a 7-day free trial. The subscription renews automatically at the end of each year unless it is cancelled at least 24 hours before that date. The renewal is billed by Apple to your Apple Account."
+        },
+        {
+          "heading": "Managing or cancelling",
+          "body": "Your subscription is managed from your Apple Account settings, on your iPhone: that is where, and only where, it can be cancelled. Scan Cam cannot do it for you. Cancelling before the end of the free trial costs nothing."
+        },
+        {
+          "heading": "What the app does",
+          "body": "Scan Cam is provided as it is, to scan and work on your own documents. You remain responsible for what the documents you scan, edit and share contain, and for the rights attached to them."
+        }
+      ],
+      "privacy": [
+        {
+          "body": "Scan Cam has no account, no sign-up, no server of ours, no analytics and no advertising. Your documents stay on your phone and are sent nowhere. The only thing that leaves the app concerns the subscription, and nothing else: it is described below."
+        },
+        {
+          "heading": "Your documents stay on your phone",
+          "body": "The pages you scan, the files made from them, your folders and your signatures are saved in the app’s private space, on your iPhone. They are passed to no one. If your iPhone’s iCloud backup is on, they are backed up along with the rest of your phone, by Apple and under Apple’s rules."
+        },
+        {
+          "heading": "The camera",
+          "body": "The camera is used only to photograph the documents you scan, at the moment you ask for it. The images are written straight onto your phone."
+        },
+        {
+          "heading": "Your photos",
+          "body": "The app reaches your photos only when you choose to import one to make a document from it. It never goes through them by itself, and it never writes anything into your camera roll."
+        },
+        {
+          "heading": "Text recognition",
+          "body": "The text on your pages is read by your iPhone itself, with no connection. The contents of your documents are never sent to an outside service to be analysed."
+        },
+        {
+          "heading": "When you share",
+          "body": "A document leaves your phone only when you tap Share yourself, and it goes to the app or the person you name at that moment. What they then do with it falls under their own rules, not under these."
+        },
+        {
+          "heading": "The subscription",
+          "body": "The subscription is sold and billed by Apple. Your payment method is known to Apple alone: the publisher of Scan Cam never sees it.\n\nTo know whether you are subscribed, the app asks RevenueCat, a service that keeps subscription status up to date. It receives your purchase and an anonymous number it makes up itself — never your name, never your email address, never a single one of your documents. That is the only information that leaves the app, and it serves only to unlock what you have paid for."
+        },
+        {
+          "heading": "Erasing your data",
+          "body": "Deleting a document in the app erases it from the phone. Deleting the app erases everything it held. As your documents were never sent anywhere else, there is nothing else to erase concerning them. For your subscription status, see “Your rights”, below."
+        },
+        {
+          "heading": "Your rights",
+          "body": "European data protection law gives you the right to access the data concerning you, to correct it and to erase it. As your documents are on your phone and nowhere else, you erase them yourself. For the subscription information held by RevenueCat, write to pierremunozfrance@gmail.com: it will be found and erased on request."
+        },
+        {
+          "heading": "Who publishes the app",
+          "body": "Scan Cam is published by Pierre Trochet. For any question about this page or about the app: pierremunozfrance@gmail.com."
+        },
+        {
+          "heading": "Changes",
+          "body": "This policy may change if the app changes. The version in force is always the one shown here. Last updated: 28 August 2026."
+        }
+      ]
+    },
+    "es": {
+      "terms": [
+        {
+          "body": "Al suscribirte a Scan Cam, aceptas el Contrato de Licencia de Usuario Final estándar de Apple, que rige tu suscripción. Puedes leerlo íntegramente pulsando el enlace al final de esta página."
+        },
+        {
+          "heading": "La suscripción",
+          "body": "Scan Cam Pro cuesta 24,99 € al año, tras un periodo de prueba gratuito de 7 días. La suscripción se renueva automáticamente al final de cada año, salvo que se cancele al menos 24 horas antes de esa fecha. Apple factura la renovación a tu cuenta de Apple."
+        },
+        {
+          "heading": "Gestionar o cancelar",
+          "body": "Tu suscripción se gestiona desde los ajustes de tu cuenta de Apple, en tu iPhone: ahí, y solo ahí, se puede cancelar. Scan Cam no puede hacerlo por ti. Cancelar antes de que termine la prueba gratuita no conlleva ningún pago."
+        },
+        {
+          "heading": "Lo que hace la aplicación",
+          "body": "Scan Cam se ofrece tal cual, para digitalizar y trabajar tus propios documentos. Sigues siendo responsable del contenido de los documentos que escaneas, modificas y compartes, y del respeto de los derechos que les corresponden."
+        }
+      ],
+      "privacy": [
+        {
+          "body": "Scan Cam no tiene cuenta, ni registro, ni servidor propio, ni analítica, ni publicidad. Tus documentos se quedan en tu teléfono y no se envían a ninguna parte. Lo único que sale de la aplicación tiene que ver con la suscripción, y con nada más: se explica más abajo."
+        },
+        {
+          "heading": "Tus documentos se quedan en tu teléfono",
+          "body": "Las páginas que escaneas, los archivos que salen de ellas, tus carpetas y tus firmas se guardan en el espacio privado de la aplicación, en tu iPhone. No se transmiten a nadie. Si la copia de seguridad de iCloud de tu iPhone está activada, se guardan junto con el resto del teléfono, por Apple y según las reglas de Apple."
+        },
+        {
+          "heading": "La cámara",
+          "body": "La cámara solo sirve para fotografiar los documentos que escaneas, en el momento en que lo pides. Las imágenes se escriben directamente en tu teléfono."
+        },
+        {
+          "heading": "Tus fotos",
+          "body": "La aplicación accede a tus fotos únicamente cuando eliges importar una para convertirla en documento. Nunca las recorre por su cuenta, y nunca escribe nada en tu carrete."
+        },
+        {
+          "heading": "El reconocimiento de texto",
+          "body": "El texto de tus páginas lo lee tu propio iPhone, sin conexión. El contenido de tus documentos nunca se envía a un servicio externo para ser analizado."
+        },
+        {
+          "heading": "Cuando compartes",
+          "body": "Un documento sale de tu teléfono solo cuando pulsas Compartir tú mismo, y va a la aplicación o a la persona que indicas en ese momento. Lo que hagan después con él depende de sus propias reglas, no de estas."
+        },
+        {
+          "heading": "La suscripción",
+          "body": "Apple vende y factura la suscripción. Tu método de pago solo lo conoce Apple: el editor de Scan Cam nunca lo ve.\n\nPara saber si estás suscrito, la aplicación consulta a RevenueCat, un servicio que mantiene al día el estado de las suscripciones. Recibe tu compra y un número anónimo que él mismo genera — nunca tu nombre, nunca tu correo electrónico, nunca ninguno de tus documentos. Es la única información que sale de la aplicación, y solo sirve para desbloquear lo que has pagado."
+        },
+        {
+          "heading": "Borrar tus datos",
+          "body": "Eliminar un documento en la aplicación lo borra del teléfono. Eliminar la aplicación borra todo lo que contenía. Como tus documentos nunca se han enviado a otro sitio, no queda nada más que borrar en cuanto a ellos. Para el estado de tu suscripción, consulta «Tus derechos», más abajo."
+        },
+        {
+          "heading": "Tus derechos",
+          "body": "El reglamento europeo de protección de datos te da derecho a acceder a los datos que te conciernen, a corregirlos y a borrarlos. Como tus documentos están en tu teléfono y en ningún otro sitio, los borras tú mismo. Para la información de suscripción que conserva RevenueCat, escribe a pierremunozfrance@gmail.com: se localizará y se borrará a petición tuya."
+        },
+        {
+          "heading": "Quién edita la aplicación",
+          "body": "Scan Cam está editada por Pierre Trochet. Para cualquier consulta sobre esta página o sobre la aplicación: pierremunozfrance@gmail.com."
+        },
+        {
+          "heading": "Modificaciones",
+          "body": "Esta política puede evolucionar si la aplicación evoluciona. La versión vigente es siempre la que se muestra aquí. Última actualización: 28 de agosto de 2026."
+        }
+      ]
+    },
+    "de": {
+      "terms": [
+        {
+          "body": "Mit dem Abschluss eines Abonnements von Scan Cam akzeptieren Sie Apples Standard-Lizenzvereinbarung für Endbenutzer, die für Ihr Abonnement gilt. Sie können sie vollständig lesen, indem Sie auf den Link am Ende dieser Seite tippen."
+        },
+        {
+          "heading": "Das Abonnement",
+          "body": "Scan Cam Pro kostet 24,99 € pro Jahr, nach einer kostenlosen Testphase von 7 Tagen. Das Abonnement verlängert sich am Ende jedes Jahres automatisch, sofern es nicht mindestens 24 Stunden vor diesem Termin gekündigt wird. Die Verlängerung wird von Apple über Ihren Apple-Account abgerechnet."
+        },
+        {
+          "heading": "Verwalten oder kündigen",
+          "body": "Ihr Abonnement verwalten Sie in den Einstellungen Ihres Apple-Accounts auf Ihrem iPhone: dort, und nur dort, kann es gekündigt werden. Scan Cam kann das nicht für Sie tun. Eine Kündigung vor Ablauf der kostenlosen Testphase verursacht keine Kosten."
+        },
+        {
+          "heading": "Was die App tut",
+          "body": "Scan Cam wird so bereitgestellt, wie sie ist, um Ihre eigenen Dokumente zu scannen und zu bearbeiten. Sie bleiben dafür verantwortlich, was die Dokumente enthalten, die Sie scannen, ändern und teilen, und für die daran bestehenden Rechte."
+        }
+      ],
+      "privacy": [
+        {
+          "body": "Scan Cam hat kein Konto, keine Anmeldung, keinen eigenen Server, keine Reichweitenmessung und keine Werbung. Ihre Dokumente bleiben auf Ihrem Telefon und werden nirgendwohin gesendet. Das Einzige, was die App verlässt, betrifft das Abonnement und sonst nichts: es wird weiter unten beschrieben."
+        },
+        {
+          "heading": "Ihre Dokumente bleiben auf Ihrem Telefon",
+          "body": "Die Seiten, die Sie scannen, die daraus entstehenden Dateien, Ihre Ordner und Ihre Unterschriften werden im privaten Bereich der App auf Ihrem iPhone gespeichert. Sie werden an niemanden weitergegeben. Wenn die iCloud-Sicherung Ihres iPhones aktiviert ist, werden sie zusammen mit dem Rest Ihres Telefons gesichert, durch Apple und nach den Regeln von Apple."
+        },
+        {
+          "heading": "Die Kamera",
+          "body": "Die Kamera dient ausschließlich dazu, die Dokumente zu fotografieren, die Sie scannen, in dem Moment, in dem Sie es verlangen. Die Bilder werden direkt auf Ihr Telefon geschrieben."
+        },
+        {
+          "heading": "Ihre Fotos",
+          "body": "Die App greift nur dann auf Ihre Fotos zu, wenn Sie eines auswählen, um daraus ein Dokument zu machen. Sie durchsucht sie nie von sich aus, und sie schreibt nie etwas in Ihre Aufnahmen."
+        },
+        {
+          "heading": "Die Texterkennung",
+          "body": "Der Text auf Ihren Seiten wird von Ihrem iPhone selbst gelesen, ohne Verbindung. Der Inhalt Ihrer Dokumente wird niemals zur Auswertung an einen externen Dienst gesendet."
+        },
+        {
+          "heading": "Wenn Sie teilen",
+          "body": "Ein Dokument verlässt Ihr Telefon nur, wenn Sie selbst auf Teilen tippen, und es geht an die App oder die Person, die Sie in diesem Moment bestimmen. Was damit anschließend geschieht, richtet sich nach deren eigenen Regeln, nicht nach diesen."
+        },
+        {
+          "heading": "Das Abonnement",
+          "body": "Das Abonnement wird von Apple verkauft und abgerechnet. Ihre Zahlungsdaten kennt allein Apple: der Herausgeber von Scan Cam sieht sie nie.\n\nUm zu wissen, ob Sie ein Abonnement haben, fragt die App bei RevenueCat nach, einem Dienst, der den Stand der Abonnements führt. Er erhält Ihren Kauf und eine anonyme Nummer, die er selbst vergibt — nie Ihren Namen, nie Ihre E-Mail-Adresse, nie eines Ihrer Dokumente. Das ist die einzige Information, die die App verlässt, und sie dient allein dazu, freizuschalten, wofür Sie bezahlt haben."
+        },
+        {
+          "heading": "Ihre Daten löschen",
+          "body": "Ein Dokument in der App zu löschen, entfernt es vom Telefon. Die App zu löschen, entfernt alles, was sie enthielt. Da Ihre Dokumente nie anderswohin gesendet wurden, gibt es dazu nirgends sonst etwas zu löschen. Zum Stand Ihres Abonnements siehe „Ihre Rechte“ weiter unten."
+        },
+        {
+          "heading": "Ihre Rechte",
+          "body": "Die europäische Datenschutz-Grundverordnung gibt Ihnen das Recht, auf die Sie betreffenden Daten zuzugreifen, sie zu berichtigen und zu löschen. Da Ihre Dokumente auf Ihrem Telefon und nirgends sonst liegen, löschen Sie sie selbst. Für die bei RevenueCat gespeicherten Abonnementdaten schreiben Sie an pierremunozfrance@gmail.com: sie werden auf Anfrage herausgesucht und gelöscht."
+        },
+        {
+          "heading": "Wer die App herausgibt",
+          "body": "Scan Cam wird von Pierre Trochet herausgegeben. Bei Fragen zu dieser Seite oder zur App: pierremunozfrance@gmail.com."
+        },
+        {
+          "heading": "Änderungen",
+          "body": "Diese Richtlinie kann sich ändern, wenn sich die App ändert. Es gilt immer die hier angezeigte Fassung. Letzte Aktualisierung: 28. August 2026."
+        }
+      ]
+    },
+    "ja": {
+      "terms": [
+        {
+          "body": "Scan Cam を購読すると、購読に適用される Apple の標準エンドユーザー使用許諾契約に同意したことになります。全文はこのページの下部のリンクから読めます。"
+        },
+        {
+          "heading": "購読について",
+          "body": "Scan Cam Pro は、7 日間の無料体験のあと、年額 24.99 € です。購読は毎年自動的に更新され、更新日の 24 時間前までに解約しない限り継続します。更新の請求は Apple があなたの Apple アカウントに対して行います。"
+        },
+        {
+          "heading": "管理と解約",
+          "body": "購読は iPhone の Apple アカウントの設定から管理します。解約できるのはそこだけです。Scan Cam が代わりに解約することはできません。無料体験の終了前に解約すれば、料金はかかりません。"
+        },
+        {
+          "heading": "このアプリについて",
+          "body": "Scan Cam は、あなた自身の書類をスキャンし扱うために、現状のまま提供されます。スキャン・編集・共有する書類の内容と、それに伴う権利の尊重については、あなたの責任となります。"
+        }
+      ],
+      "privacy": [
+        {
+          "body": "Scan Cam にはアカウントも、登録も、自前のサーバーも、アクセス解析も、広告もありません。あなたの書類は iPhone の中に留まり、どこにも送られません。アプリから外に出るのは購読に関することだけで、ほかには何もありません。詳しくは下記をご覧ください。"
+        },
+        {
+          "heading": "書類は iPhone の中に留まります",
+          "body": "スキャンしたページ、そこから作られたファイル、フォルダ、署名は、iPhone の中のアプリ専用の領域に保存されます。誰にも渡されません。iPhone の iCloud バックアップが有効な場合は、iPhone のほかのデータと一緒に、Apple によって Apple の規則に従ってバックアップされます。"
+        },
+        {
+          "heading": "カメラ",
+          "body": "カメラは、あなたがスキャンを求めたときに、その書類を撮影するためだけに使われます。画像は iPhone に直接書き込まれます。"
+        },
+        {
+          "heading": "写真",
+          "body": "アプリが写真にアクセスするのは、書類にするために 1 枚を選んだときだけです。自分から写真を見て回ることはなく、カメラロールに何かを書き込むこともありません。"
+        },
+        {
+          "heading": "文字認識",
+          "body": "ページの文字は iPhone 自身が読み取ります。通信は行いません。書類の内容が解析のために外部のサービスへ送られることはありません。"
+        },
+        {
+          "heading": "共有するとき",
+          "body": "書類が iPhone を離れるのは、あなた自身が「共有」を押したときだけで、その場で指定したアプリや相手に渡されます。渡された先での扱いは、その相手の規則によるものであり、この方針の対象ではありません。"
+        },
+        {
+          "heading": "購読について",
+          "body": "購読の販売と請求は Apple が行います。支払い方法を知っているのは Apple だけで、Scan Cam の提供者が見ることはありません。\n\n購読中かどうかを確認するため、アプリは RevenueCat という購読状況を管理するサービスに問い合わせます。RevenueCat が受け取るのは、購入の記録と、RevenueCat 自身が発行する匿名の番号だけです。お名前も、メールアドレスも、書類も、一切渡りません。アプリから外に出る情報はこれだけで、お支払いいただいた機能を使えるようにするためだけに使われます。"
+        },
+        {
+          "heading": "データの消去",
+          "body": "アプリの中で書類を削除すると、iPhone から消えます。アプリを削除すると、その中にあったものはすべて消えます。書類はどこにも送っていないので、書類について、ほかに消すものはありません。購読の状況については、下の「あなたの権利」をご覧ください。"
+        },
+        {
+          "heading": "あなたの権利",
+          "body": "欧州の個人データ保護規則は、自分に関するデータを閲覧し、訂正し、消去する権利を認めています。書類は iPhone の中だけにありますので、ご自身で消去できます。RevenueCat が保持している購読の情報については、pierremunozfrance@gmail.com までご連絡ください。お求めに応じて探し出し、消去します。"
+        },
+        {
+          "heading": "提供者",
+          "body": "Scan Cam は Pierre Trochet が提供しています。このページやアプリについてのお問い合わせは pierremunozfrance@gmail.com まで。"
+        },
+        {
+          "heading": "変更について",
+          "body": "アプリの変更に伴い、この方針も変わることがあります。有効なのは常にここに表示されている版です。最終更新：2026年8月28日。"
+        }
+      ]
+    },
+    "zh": {
+      "terms": [
+        {
+          "body": "订阅 Scan Cam 即表示你接受 Apple 的标准最终用户许可协议，你的订阅受该协议约束。点击本页底部的链接可阅读全文。"
+        },
+        {
+          "heading": "关于订阅",
+          "body": "Scan Cam Pro 在 7 天免费试用之后，每年 24.99 €。订阅每年自动续期，除非在到期前至少 24 小时取消。续期由 Apple 从你的 Apple 账户扣款。"
+        },
+        {
+          "heading": "管理与取消",
+          "body": "订阅在 iPhone 的 Apple 账户设置中管理，也只有在那里才能取消。Scan Cam 无法代你取消。在免费试用结束前取消，不会产生任何费用。"
+        },
+        {
+          "heading": "这个应用做什么",
+          "body": "Scan Cam 按现状提供，用于扫描和处理你自己的文档。你扫描、修改和分享的文档内容，以及与之相关的权利，由你自己负责。"
+        }
+      ],
+      "privacy": [
+        {
+          "body": "Scan Cam 没有账户，没有注册，没有我们自己的服务器，没有统计分析，也没有广告。你的文档留在手机上，不会被发送到任何地方。离开应用的只有与订阅有关的信息，此外别无其他：详见下文。"
+        },
+        {
+          "heading": "你的文档留在手机里",
+          "body": "你扫描的页面、由此生成的文件、你的文件夹和签名，都保存在 iPhone 上应用自己的私有空间中，不会转交给任何人。如果你开启了 iPhone 的 iCloud 备份，它们会和手机上的其他内容一起，由 Apple 按照 Apple 的规则备份。"
+        },
+        {
+          "heading": "摄像头",
+          "body": "摄像头只在你要求扫描时，用来拍摄你的文档。图像直接写入你的手机。"
+        },
+        {
+          "heading": "你的照片",
+          "body": "只有当你选择导入一张照片来生成文档时，应用才会访问你的照片。它从不自行浏览你的照片，也从不向你的相册写入任何东西。"
+        },
+        {
+          "heading": "文字识别",
+          "body": "页面上的文字由你的 iPhone 自己识别，无需联网。文档的内容绝不会发送到外部服务去分析。"
+        },
+        {
+          "heading": "当你分享时",
+          "body": "只有你自己点击分享，文档才会离开你的手机，并发送给你当时指定的应用或对象。对方之后如何处理，取决于对方自己的规则，不在本政策范围内。"
+        },
+        {
+          "heading": "关于订阅",
+          "body": "订阅由 Apple 销售并收款。你的支付方式只有 Apple 知道，Scan Cam 的发布者从不会看到。\n\n为了知道你是否已订阅，应用会向 RevenueCat 查询，这是一项记录订阅状态的服务。它收到的只有你的购买记录，以及它自己生成的一个匿名编号 —— 绝不会收到你的姓名、电子邮箱，也绝不会收到你的任何文档。这是离开应用的唯一信息，只用于解锁你已付费的功能。"
+        },
+        {
+          "heading": "删除你的数据",
+          "body": "在应用里删除一份文档，它就从手机上消失。删除应用，其中的一切都会消失。由于你的文档从未被发送到别处，就文档而言，别的地方没有什么需要删除。关于订阅状态，请见下文的「你的权利」。"
+        },
+        {
+          "heading": "你的权利",
+          "body": "欧洲的个人数据保护条例赋予你查阅、更正和删除与你相关数据的权利。你的文档只在你的手机上，可以自行删除。至于 RevenueCat 保存的订阅信息，请写信至 pierremunozfrance@gmail.com：我们会应你的要求找出并删除。"
+        },
+        {
+          "heading": "应用的发布者",
+          "body": "Scan Cam 由 Pierre Trochet 发布。关于本页面或应用的任何问题，请联系 pierremunozfrance@gmail.com。"
+        },
+        {
+          "heading": "变更",
+          "body": "如果应用有变化，本政策也可能随之调整。以此处显示的版本为准。最后更新：2026年8月28日。"
+        }
+      ]
+    }
+  }
+}
