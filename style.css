@@ -126,18 +126,34 @@ footer {
 .appstore:hover { background: var(--accent-dark); color: #fff; }
 .appstore-note { margin: 0 0 8px; font-size: 15px; color: var(--muted); }
 
-/* L image d ouverture : la meme page, froissee puis nette. Elle porte
-   l argument toute seule, ce que trois paragraphes ne faisaient pas. */
-.shot { margin: 28px 0 0; }
-.shot img {
+
+/* La comparaison d ouverture : les deux pages ENTIERES, cote a cote.
+   Un recadrage montrait des bouts de chacune — on ne compare pas deux images
+   tronquees. Les deux gardent leurs proportions d origine, a dix pixels pres. */
+.avant-apres {
+  margin: 28px 0 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+.avant-apres > div { margin: 0; }
+.avant-apres img {
   display: block;
   width: 100%;
   height: auto;
-  border-radius: 16px;
+  border-radius: 10px;
   border: 1px solid var(--border);
 }
-.shot figcaption {
-  margin-top: 10px;
+.avant-apres span {
+  display: block;
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--muted);
+}
+.avant-apres figcaption {
+  grid-column: 1 / -1;
+  margin-top: 6px;
   font-size: 15px;
   color: var(--muted);
 }
