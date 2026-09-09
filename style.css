@@ -157,3 +157,21 @@ footer {
   font-size: 15px;
   color: var(--muted);
 }
+
+/* Une capture de l application, a la taille d un telephone tenu en main.
+   Deux suffisent : celle qui montre les rendus, celle qui montre les outils. */
+.ecran { margin: 24px 0 8px; text-align: center; }
+.ecran img {
+  display: block;
+  width: 100%;
+  max-width: 280px;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+}
+.ecran figcaption {
+  margin-top: 10px;
+  font-size: 15px;
+  color: var(--muted);
+}
