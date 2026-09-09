@@ -117,6 +117,10 @@ footer {
   font-size: 14px;
 }
 
+/* Meme regle qu au menu : le pied de page porte les memes liens sur les huit
+   pages, et marque celle ou l on se trouve au lieu de la retirer. */
+footer .current { color: var(--accent); font-weight: 600; }
+
 /* Le bouton qui mene a la fiche App Store. Le site a vecu deux mois sans lui :
    il decrivait l app et ne disait pas ou l obtenir. */
 .appstore {
