@@ -99,8 +99,15 @@ a:hover { color: var(--accent-dark); }
 }
 .contact:hover { background: var(--accent-dark); color: #fff; }
 
+/* Le menu. Il est IDENTIQUE sur les huit pages, et la page ou l on se trouve y
+   est marquee au lieu d en etre retiree. Chaque page ecrivait avant son propre
+   menu en omettant son propre lien : on cliquait sur  Assistance  et le lien
+    Assistance  disparaissait du menu. Un menu qui bouge sous le doigt. */
 nav { margin-top: 20px; font-size: 15px; }
-nav a { margin-right: 18px; }
+nav a, nav .current { margin-right: 18px; }
+nav a { color: var(--muted); text-decoration: none; }
+nav a:hover { color: var(--accent); text-decoration: underline; }
+nav .current { color: var(--accent); font-weight: 600; }
 
 footer {
   margin-top: 48px;
