@@ -125,3 +125,19 @@ footer {
 }
 .appstore:hover { background: var(--accent-dark); color: #fff; }
 .appstore-note { margin: 0 0 8px; font-size: 15px; color: var(--muted); }
+
+/* L image d ouverture : la meme page, froissee puis nette. Elle porte
+   l argument toute seule, ce que trois paragraphes ne faisaient pas. */
+.shot { margin: 28px 0 0; }
+.shot img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  border: 1px solid var(--border);
+}
+.shot figcaption {
+  margin-top: 10px;
+  font-size: 15px;
+  color: var(--muted);
+}
