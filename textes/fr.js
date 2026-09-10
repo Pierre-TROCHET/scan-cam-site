@@ -14,6 +14,14 @@ module.exports = {
   code: 'fr',
   nom: 'Français',
 
+  // La phrase proposee au visiteur dont le navigateur parle cette langue,
+  // quand il arrive sur une page qui n en est pas. Elle est donc ecrite DANS
+  // cette langue, pour quelqu un qui ne lit peut-etre aucune des autres.
+  suggestion: {
+    phrase: 'Cette page existe aussi en français.',
+    fermer: 'Fermer',
+  },
+
   // Les noms de fichiers. ⚠️ Ils sont DÉCLARÉS CHEZ APPLE dans les dix fiches :
   // `assistance.html` et `confidentialite.html` pour la fiche française. Une
   // adresse d'assistance qui ne répond plus est un motif de refus — on ne les

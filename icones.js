@@ -73,4 +73,81 @@ const icones = {
     dessin('<path d="M4 17.5 3 7l5 3.5L12 4l4 6.5L21 7l-1 10.5z"></path><path d="M4 20.5h16"></path>', t),
 };
 
+// ------------------------------------------------------------- les drapeaux
+//
+// Dessinés, et non pris dans les emoji. Les drapeaux en emoji **ne s'affichent
+// pas sur Windows** : le système y remplace 🇫🇷 par les deux lettres « FR », et
+// la liste des langues aurait l'air cassée sur l'ordinateur de Pierre alors
+// qu'elle serait juste sur son iPhone. Dessinés, ils sont les mêmes partout.
+//
+// Le choix du drapeau par langue suit celui de l'application (`i18n/index.ts`) :
+// c'est le drapeau américain qui représente l'anglais, comme dans les réglages.
+
+// Chaque drapeau a son propre identifiant de decoupe : six drapeaux sur une page
+// avec le meme id, et les navigateurs decoupent tout avec le premier.
+const cadre = (corps, code) =>
+  '<svg class="drapeau" width="20" height="14" viewBox="0 0 20 14" aria-hidden="true">' +
+  `<defs><clipPath id="coupe-${code}"><rect width="20" height="14" rx="2.5"></rect></clipPath></defs>` +
+  `<g clip-path="url(#coupe-${code})">${corps}</g>` +
+  '<rect width="20" height="14" rx="2.5" fill="none" stroke="rgba(0,0,0,0.14)"></rect>' +
+  '</svg>';
+
+const etoile = (x, y, r) => {
+  const pts = [];
+  for (let i = 0; i < 10; i++) {
+    const rayon = i % 2 ? r * 0.42 : r;
+    const angle = (Math.PI / 5) * i - Math.PI / 2;
+    pts.push((x + rayon * Math.cos(angle)).toFixed(2) + ',' + (y + rayon * Math.sin(angle)).toFixed(2));
+  }
+  return `<polygon points="${pts.join(' ')}" fill="#FFDE00"></polygon>`;
+};
+
+const drapeaux = {
+  fr:
+    '<rect width="20" height="14" fill="#FFFFFF"></rect>' +
+    '<rect width="6.67" height="14" fill="#0055A4"></rect>' +
+    '<rect x="13.33" width="6.67" height="14" fill="#EF4135"></rect>',
+
+  // L'anglais, comme dans l'application. Treize bandes ne se voient pas à cette
+  // taille : sept suffisent à faire lire le drapeau.
+  en:
+    '<rect width="20" height="14" fill="#FFFFFF"></rect>' +
+    [0, 2, 4, 6].map((i) => `<rect y="${i * 2}" width="20" height="2" fill="#B22234"></rect>`).join('') +
+    '<rect width="9" height="8" fill="#3C3B6E"></rect>' +
+    [
+      [2, 2],
+      [4.5, 2],
+      [7, 2],
+      [3.25, 4],
+      [5.75, 4],
+      [2, 6],
+      [4.5, 6],
+      [7, 6],
+    ]
+      .map(([x, y]) => `<circle cx="${x}" cy="${y}" r="0.7" fill="#FFFFFF"></circle>`)
+      .join(''),
+
+  es:
+    '<rect width="20" height="14" fill="#AA151B"></rect>' +
+    '<rect y="3.5" width="20" height="7" fill="#F1BF00"></rect>',
+
+  de:
+    '<rect width="20" height="4.67" fill="#000000"></rect>' +
+    '<rect y="4.67" width="20" height="4.67" fill="#DD0000"></rect>' +
+    '<rect y="9.33" width="20" height="4.67" fill="#FFCE00"></rect>',
+
+  ja: '<rect width="20" height="14" fill="#FFFFFF"></rect><circle cx="10" cy="7" r="4.2" fill="#BC002D"></circle>',
+
+  zh:
+    '<rect width="20" height="14" fill="#DE2910"></rect>' +
+    etoile(4.2, 4, 2.4) +
+    etoile(8.4, 1.9, 0.9) +
+    etoile(9.6, 3.9, 0.9) +
+    etoile(9.4, 6.3, 0.9) +
+    etoile(7.8, 7.8, 0.9),
+};
+
+/** Le drapeau d'une langue, ou rien si elle n'en a pas. */
+icones.drapeau = (code) => (drapeaux[code] ? cadre(drapeaux[code], code) : '');
+
 module.exports = icones;

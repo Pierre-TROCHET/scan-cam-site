@@ -31,7 +31,8 @@ function liensLangues(langue, langues, cle) {
     .filter((autre) => autre.code !== langue.code)
     .map(
       (autre) =>
-        `<a class="lang" href="${autre.fichiers[cle]}" hreflang="${autre.code}" lang="${autre.code}">${autre.nom}</a>`
+        `<a class="lang" href="${autre.fichiers[cle]}" hreflang="${autre.code}" lang="${autre.code}">` +
+        `${icones.drapeau(autre.code)}<span>${autre.nom}</span></a>`
     );
 }
 
@@ -44,7 +45,7 @@ function liensLangues(langue, langues, cle) {
 function selecteurLangues(langue, langues, cle) {
   return [
     '<details class="langues">',
-    `        <summary>${icones.langue(14)}<span>${langue.nom}</span></summary>`,
+    `        <summary>${icones.drapeau(langue.code)}<span>${langue.nom}</span></summary>`,
     '        <ul>',
     ...liensLangues(langue, langues, cle).map((l) => `          <li>${l}</li>`),
     '        </ul>',
@@ -106,6 +107,23 @@ function page({ langue, langues, cle, titre, description, entete, corps, mesure 
     .filter((autre) => autre.code !== langue.code)
     .map((autre) => `<link rel="alternate" hreflang="${autre.code}" href="${autre.fichiers[cle]}">`)
     .join('\n');
+
+  // Ce que la page sait des autres langues : de quoi proposer la sienne au
+  // visiteur, dans SA langue. Déposé en JSON plutôt qu'écrit dans le script,
+  // pour que le script reste le même sur les 24 pages. Les « < » sont échappés :
+  // c'est du contenu posé à l'intérieur d'une balise <script>.
+  const donneesLangues = JSON.stringify(
+    langues
+      .filter((autre) => autre.code !== langue.code)
+      .map((autre) => ({
+        code: autre.code,
+        nom: autre.nom,
+        url: autre.fichiers[cle],
+        phrase: autre.suggestion.phrase,
+        fermer: autre.suggestion.fermer,
+        drapeau: icones.drapeau(autre.code),
+      }))
+  ).replace(/</g, '\\u003c');
 
   return `<!doctype html>
 <html lang="${langue.code}">
@@ -188,6 +206,102 @@ ${pied(langue, cle, langues, mesure)}
   window.addEventListener("resize", regarde);
   battement = setInterval(regarde, 250);
   regarde();
+})();
+</script>
+
+<script type="application/json" id="autres-langues">${donneesLangues}</script>
+<script>
+// Proposer au visiteur la page dans SA langue — proposer, jamais l'imposer.
+//
+// Trois règles :
+//  1. On ne redirige JAMAIS tout seul. Une redirection automatique enferme :
+//     quelqu'un qui veut lire l'anglais sur un téléphone réglé en japonais n'en
+//     sortirait plus. On pose une carte, il décide.
+//  2. Dès qu'il a choisi une langue — ici ou dans le menu — on s'en souvient et
+//     on ne propose plus rien.
+//  3. La carte est POSÉE PAR-DESSUS la page, jamais insérée dedans : rien ne se
+//     décale sous les yeux du lecteur. C'est la règle du bloc S5.
+(function () {
+  var noeud = document.getElementById('autres-langues');
+  if (!noeud) return;
+  var autres;
+  try {
+    autres = JSON.parse(noeud.textContent);
+  } catch (e) {
+    return;
+  }
+  var ici = document.documentElement.lang;
+  var CLE = 'scancam-langue';
+
+  function retenir(code) {
+    try {
+      localStorage.setItem(CLE, code);
+    } catch (e) {
+      /* navigation privée, réglages verrouillés : tant pis, on ne retient pas. */
+    }
+  }
+
+  // Un clic sur n'importe quel lien de langue vaut choix, où qu'il soit.
+  document.addEventListener('click', function (e) {
+    var n = e.target;
+    while (n && n !== document) {
+      if (n.tagName === 'A' && n.getAttribute('hreflang')) {
+        retenir(n.getAttribute('hreflang'));
+        return;
+      }
+      n = n.parentNode;
+    }
+  });
+
+  var deja = null;
+  try {
+    deja = localStorage.getItem(CLE);
+  } catch (e) {}
+  if (deja) return; // il a déjà tranché une fois
+
+  var demandees = navigator.languages || [navigator.language || ''];
+  var voulue = null;
+  for (var i = 0; i < demandees.length; i++) {
+    var code = String(demandees[i]).toLowerCase().split('-')[0];
+    if (code === ici) return; // sa langue est déjà celle de la page
+    for (var j = 0; j < autres.length; j++) {
+      if (autres[j].code === code) {
+        voulue = autres[j];
+        break;
+      }
+    }
+    if (voulue) break;
+  }
+  if (!voulue) return; // aucune des six : on ne dit rien
+
+  var carte = document.createElement('div');
+  carte.className = 'suggestion';
+  carte.style.opacity = '0';
+  carte.style.transform = 'translateY(10px)';
+  carte.setAttribute('lang', voulue.code);
+  var lien = document.createElement('a');
+  lien.href = voulue.url;
+  lien.setAttribute('hreflang', voulue.code);
+  lien.innerHTML = voulue.drapeau + '<span>' + voulue.nom + '</span>';
+  var texte = document.createElement('p');
+  texte.textContent = voulue.phrase;
+  var fermer = document.createElement('button');
+  fermer.type = 'button';
+  fermer.className = 'suggestion-fermer';
+  fermer.textContent = voulue.fermer;
+  fermer.addEventListener('click', function () {
+    retenir(ici); // fermer, c'est choisir de rester
+    carte.parentNode.removeChild(carte);
+  });
+  carte.appendChild(texte);
+  carte.appendChild(lien);
+  carte.appendChild(fermer);
+  document.body.appendChild(carte);
+  setTimeout(function () {
+    carte.style.opacity = '';
+    carte.style.transform = '';
+    carte.classList.add('vue');
+  }, 60);
 })();
 </script>
 

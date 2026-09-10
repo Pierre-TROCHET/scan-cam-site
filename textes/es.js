@@ -12,6 +12,14 @@ module.exports = {
   code: 'es',
   nom: 'Español',
 
+  // La phrase proposee au visiteur dont le navigateur parle cette langue,
+  // quand il arrive sur une page qui n en est pas. Elle est donc ecrite DANS
+  // cette langue, pour quelqu un qui ne lit peut-etre aucune des autres.
+  suggestion: {
+    phrase: 'Esta página también está disponible en español.',
+    fermer: 'Cerrar',
+  },
+
   fichiers: {
     accueil: 'home-es.html',
     assistance: 'support-es.html',

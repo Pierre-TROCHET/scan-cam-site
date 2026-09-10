@@ -12,6 +12,14 @@ module.exports = {
   code: 'ja',
   nom: '日本語',
 
+  // La phrase proposee au visiteur dont le navigateur parle cette langue,
+  // quand il arrive sur une page qui n en est pas. Elle est donc ecrite DANS
+  // cette langue, pour quelqu un qui ne lit peut-etre aucune des autres.
+  suggestion: {
+    phrase: 'このページは日本語でもご覧いただけます。',
+    fermer: '閉じる',
+  },
+
   fichiers: {
     accueil: 'home-ja.html',
     assistance: 'support-ja.html',

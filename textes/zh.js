@@ -13,6 +13,14 @@ module.exports = {
   code: 'zh',
   nom: '简体中文',
 
+  // La phrase proposee au visiteur dont le navigateur parle cette langue,
+  // quand il arrive sur une page qui n en est pas. Elle est donc ecrite DANS
+  // cette langue, pour quelqu un qui ne lit peut-etre aucune des autres.
+  suggestion: {
+    phrase: '本页也提供简体中文版本。',
+    fermer: '关闭',
+  },
+
   fichiers: {
     accueil: 'home-zh.html',
     assistance: 'support-zh.html',

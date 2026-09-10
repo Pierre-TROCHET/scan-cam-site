@@ -679,6 +679,67 @@ main li { margin: 6px 0; }
 .carte .puce { transition: transform 0.18s ease; }
 .carte:hover .puce { transform: scale(1.06); }
 
+/* ------------------------------------------------ les drapeaux et la langue */
+
+.drapeau { display: block; flex: none; }
+.langues summary .drapeau, .pied .lang .drapeau { margin-right: 2px; }
+.pied .lang { display: inline-flex; align-items: center; gap: 6px; }
+.bande .langues ul a { display: flex; align-items: center; gap: 9px; }
+
+/* La carte qui propose la page dans la langue du visiteur.
+   Elle est POSEE PAR-DESSUS la page, jamais inseree dedans : rien ne se decale
+   sous les yeux du lecteur (regle du bloc S5). */
+.suggestion {
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+  z-index: 40;
+  max-width: min(360px, calc(100vw - 40px));
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 14px;
+  background: var(--carte);
+  color: var(--encre);
+  border: 1px solid var(--bord);
+  border-radius: var(--rayon-carte);
+  box-shadow: var(--ombre-posee);
+  padding: 16px 18px;
+  font-size: 15px;
+  /* L etat de depart (invisible) est pose par le script qui cree la carte, et
+     non ici : ainsi aucune regle de cette feuille ne peut cacher du contenu.
+     Voir outils/rien-cache.js. */
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+.suggestion.vue { opacity: 1; transform: none; }
+.suggestion p { margin: 0; flex-basis: 100%; line-height: 1.45; }
+.suggestion a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--accent);
+  color: #FFFFFF;
+  padding: 8px 14px;
+  border-radius: 10px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.suggestion a:hover { background: var(--accent-fonce); color: #FFFFFF; }
+.suggestion-fermer {
+  background: none;
+  border: 0;
+  padding: 8px 4px;
+  color: var(--gris);
+  font: inherit;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.suggestion-fermer:hover { color: var(--encre); }
+
+@media (max-width: 620px) {
+  .suggestion { left: 12px; right: 12px; bottom: 12px; max-width: none; }
+}
+
 /* --------------------------------------------------------- les écrans étroits */
 
 @media (max-width: 900px) {
