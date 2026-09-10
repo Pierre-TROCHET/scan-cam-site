@@ -5,6 +5,26 @@
    dans l'application. Rien n'est inventé ici : si une couleur change là-bas,
    elle change ici, et nulle part ailleurs. */
 
+/* Plus Jakarta Sans — Copyright 2020 The Plus Jakarta Sans Project Authors,
+   sous licence SIL Open Font License 1.1 (voir polices/OFL.txt).
+   Fichier variable : un seul fichier couvre les graisses 600 à 800. */
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 600 800;
+  font-display: swap;
+  src: url("polices/plus-jakarta-sans-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 600 800;
+  font-display: swap;
+  src: url("polices/plus-jakarta-sans-latin-ext.woff2") format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
 :root {
   --accent: #1769F5;
   --accent-fonce: #0D47B5;
@@ -31,11 +51,11 @@
   --rayon-carte: 16px;
   --rayon-feuille: 20px;
 
-  /* Les titres. La maquette les montre en Plus Jakarta Sans ; en attendant de
-     décider si cette police entre dans le dépôt, ils prennent la police du
-     système — SF Pro sur iPhone, Segoe UI sur Windows. Une seule ligne à
-     changer le jour venu. */
-  --police-titre: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  /* Les titres, en Plus Jakarta Sans — la police de la maquette. Le fichier est
+     DANS le dépôt (polices/), il n’est pas appelé chez Google : une politique de
+     confidentialité qui promet que rien ne sort ne peut pas aller chercher un
+     fichier ailleurs à chaque ouverture. */
+  --police-titre: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   --police-texte: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 }
 
