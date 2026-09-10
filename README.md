@@ -56,7 +56,7 @@ dans le bloc `fichiers`.
 
 ## Vérifier qu'on n'a rien cassé
 
-Trois témoins, qui répondent à trois questions différentes. Chacun a déjà rattrapé quelque chose.
+Quatre témoins, qui répondent à quatre questions différentes. Chacun a déjà rattrapé quelque chose.
 
 **« Est-ce que rien n'a bougé ? »** — pour un changement qui ne doit RIEN changer à ce que le
 lecteur voit (la refonte de la charpente, par exemple) :
