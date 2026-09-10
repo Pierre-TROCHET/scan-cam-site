@@ -77,6 +77,17 @@ où la mise en page bouge exprès :
 
 Il cherche chacune des phrases de `textes/` dans les pages fabriquées.
 
+**« L’en-tête est-il le même partout ? »** — c’est le défaut qui revient :
+
+    node outils/entete-identique.js
+
+Il compare, d’une page à l’autre, la structure du bandeau, de l’en-tête et du pied, en mettant
+de côté ce qui DOIT varier : les adresses des liens et la marque de la page courante. Trois fois
+le 9 septembre 2026, quelque chose qui devait être identique partout ne l’était pas — un menu qui
+retirait son propre lien, deux pieds de page privés de leur lien App Store, puis un bandeau plus
+étroit sur les pages de texte, qui faisait **sauter le menu** en passant de l’accueil aux autres
+pages. Ce contrôle a été essayé en remettant le défaut en place : il le voit.
+
 **« Est-ce qu'une animation peut faire disparaître du contenu ? »** :
 
     node outils/rien-cache.js

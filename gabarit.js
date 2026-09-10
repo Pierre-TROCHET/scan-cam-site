@@ -65,7 +65,7 @@ function pied(langue, cle, langues, mesure) {
 
   return [
     '<footer class="pied">',
-    `  <div class="dedans${mesure ? ' mesure' : ''}">`,
+    '  <div class="dedans">',
     `    <div>${langue.pied.editeur}</div>`,
     '    <div class="pied-liens">',
     ...liens.map((l) => '      ' + l),
@@ -107,7 +107,7 @@ ${alternatives}
 <body>
 
 <div class="bande">
-  <div class="dedans${mesure ? ' mesure' : ''}">
+  <div class="dedans">
     <header class="entete">
       <a class="logo" href="${langue.fichiers.accueil}">
         <span class="mark">SC</span>
@@ -120,8 +120,8 @@ ${entete.trim()}
   </div>
 </div>
 
-<main class="dedans${mesure ? ' mesure' : ''}">
-${corps.trim()}
+<main class="dedans">
+${mesure ? '<div class="colonne">\n' + corps.trim() + '\n</div>' : corps.trim()}
 </main>
 
 ${pied(langue, cle, langues, mesure)}

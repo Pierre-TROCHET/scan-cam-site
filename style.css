@@ -98,7 +98,12 @@ body {
   margin: 0 auto;
   padding: 0 24px;
 }
-.mesure { max-width: 760px; }
+/* La colonne de lecture des pages de texte. Elle vit A L INTERIEUR de la colonne
+   pleine, et non a sa place : ainsi le texte demarre au meme bord que le logo,
+   et l en-tete garde exactement la meme largeur sur les huit pages. Le contraire
+   — resserrer le bandeau avec le texte — faisait sauter le menu d une page a
+   l autre (signale le 9 septembre 2026). */
+.colonne { max-width: 760px; }
 
 a { color: var(--accent); }
 a:hover { color: var(--accent-fonce); }
