@@ -1,4 +1,4 @@
-// Le quatrième témoin : l'en-tête et le pied sont-ils LES MÊMES sur les huit pages ?
+// Le quatrième témoin : l'en-tête et le pied sont-ils LES MÊMES sur toutes les pages ?
 //
 //     node outils/entete-identique.js
 //
@@ -17,7 +17,7 @@ const fs = require('fs');
 const path = require('path');
 
 const RACINE = path.join(__dirname, '..');
-const LANGUES = ['fr', 'en'];
+const { CODES: LANGUES } = require(path.join(RACINE, 'langues.js'));
 
 /**
  * Le squelette d'un morceau : ses balises, ses classes et ses libellés, mais
@@ -46,12 +46,14 @@ const extrait = (html, ouvre, ferme) => {
 };
 
 let fautes = 0;
+let pagesVues = 0;
 for (const code of LANGUES) {
   const L = require(path.join(RACINE, 'textes', code + '.js'));
   const fichiers = Object.values(L.fichiers);
   const reference = {};
 
   for (const f of fichiers) {
+    pagesVues++;
     const html = fs.readFileSync(path.join(RACINE, f), 'utf8');
     const morceaux = {
       'ouverture du bandeau': extrait(html, '<div class="bande">', '<header'),
@@ -90,9 +92,9 @@ for (const code of LANGUES) {
 
 console.log(
   fautes === 0
-    ? "✔ L'en-tête, le bandeau et le pied ont exactement la même structure sur les huit pages.\n" +
-        '  Seules varient les adresses des liens et la marque de la page courante — le menu ne\n' +
-        "  peut donc pas sauter d'une page à l'autre."
+    ? `✔ L'en-tête, le bandeau et le pied ont exactement la même structure sur les ${pagesVues} pages.\n` +
+      '  Seules varient les adresses des liens et la marque de la page courante — le menu ne\n' +
+      "  peut donc pas sauter d'une page à l'autre."
     : `\n${fautes} écart(s).`
 );
 process.exit(fautes === 0 ? 0 : 1);

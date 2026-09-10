@@ -13,10 +13,7 @@ const fs = require('fs');
 const path = require('path');
 
 const RACINE = path.join(__dirname, '..');
-const PAGES = [
-  'index.html', 'assistance.html', 'conditions.html', 'confidentialite.html',
-  'home.html', 'support.html', 'terms.html', 'privacy.html',
-];
+const PAGES = require(path.join(RACINE, 'langues.js')).fichiers();
 
 function releve(fichier) {
   const html = fs.readFileSync(path.join(RACINE, fichier), 'utf8');

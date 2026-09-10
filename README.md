@@ -5,9 +5,9 @@ Le site public de l'application, hébergé gratuitement par GitHub Pages sur le 
 
 ## ⚠️ Les pages HTML sont ENGENDRÉES : ne les modifiez pas à la main
 
-`index.html`, `assistance.html`, `conditions.html`, `confidentialite.html`, `home.html`,
-`support.html`, `terms.html` et `privacy.html` sont **fabriquées par un programme**. Les
-corriger directement ne sert à rien : la prochaine fabrication les écrasera sans prévenir.
+Les **24 pages HTML** de la racine — quatre pages dans chacune des six langues — sont
+**fabriquées par un programme**. Les corriger directement ne sert à rien : la prochaine
+fabrication les écrasera sans prévenir.
 
 Pour refabriquer le site, depuis ce dossier :
 
@@ -17,7 +17,8 @@ Ce qui se modifie, c'est :
 
 | Fichier | Ce qu'il contient |
 |---|---|
-| `textes/fr.js`, `textes/en.js` | **tous les mots** de la vitrine et de l'assistance |
+| `textes/<langue>.js` | **tous les mots** de la vitrine et de l'assistance, une langue par fichier |
+| `langues.js` | la liste des six langues — le seul endroit qui la déclare |
 | `gabarit.js` | l'en-tête, le menu, le pied de page, l'ossature HTML |
 | `style.css` | l'habillage |
 | `images/` | les captures |

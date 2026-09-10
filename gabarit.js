@@ -25,16 +25,31 @@ function echapper(texte) {
     .replace(/>/g, '&gt;');
 }
 
-/** Les liens vers les autres langues, pour la même page. */
-function liensLangues(langue, langues, cle, avecIcone) {
+/** Les liens vers les autres langues, pour la MÊME page — jamais vers l'accueil. */
+function liensLangues(langue, langues, cle) {
   return langues
     .filter((autre) => autre.code !== langue.code)
     .map(
       (autre) =>
-        `<a class="lang" href="${autre.fichiers[cle]}" hreflang="${autre.code}" lang="${autre.code}">` +
-        (avecIcone ? icones.langue(14) : '') +
-        `${autre.nom}</a>`
+        `<a class="lang" href="${autre.fichiers[cle]}" hreflang="${autre.code}" lang="${autre.code}">${autre.nom}</a>`
     );
+}
+
+/**
+ * Le sélecteur de langue de l'en-tête. À six langues, cinq liens posés à la
+ * suite ne tiennent plus dans la barre : c'est devenu une liste qui s'ouvre.
+ * Elle est faite avec <details>, donc **elle fonctionne sans JavaScript**, au
+ * doigt comme au clavier.
+ */
+function selecteurLangues(langue, langues, cle) {
+  return [
+    '<details class="langues">',
+    `        <summary>${icones.langue(14)}<span>${langue.nom}</span></summary>`,
+    '        <ul>',
+    ...liensLangues(langue, langues, cle).map((l) => `          <li>${l}</li>`),
+    '        </ul>',
+    '      </details>',
+  ].join('\n');
 }
 
 /**
@@ -47,7 +62,7 @@ function menu(langue, cle, langues) {
       ? `      <span class="current" aria-current="page">${langue.menu[p]}</span>`
       : `      <a href="${langue.fichiers[p]}">${langue.menu[p]}</a>`
   );
-  for (const l of liensLangues(langue, langues, cle, true)) liens.push('      ' + l);
+  liens.push('      ' + selecteurLangues(langue, langues, cle));
   return `<nav>\n${liens.join('\n')}\n    </nav>`;
 }
 
@@ -61,7 +76,7 @@ function pied(langue, cle, langues, mesure) {
         : `<a href="${langue.fichiers[p]}">${langue.pied.liens[p]}</a>`
     );
   }
-  for (const l of liensLangues(langue, langues, cle, false)) liens.push(l);
+  for (const l of liensLangues(langue, langues, cle)) liens.push(l);
 
   return [
     '<footer class="pied">',

@@ -187,19 +187,53 @@ nav .current {
   color: #FFFFFF;
   font-weight: 700;
 }
-nav .lang {
+/* Le selecteur de langue : une liste qui s ouvre, faite avec <details>.
+   A six langues, cinq liens poses a la suite ne tiennent plus dans la barre. */
+.langues { position: relative; }
+.langues summary {
   display: inline-flex;
   align-items: center;
   gap: 6px;
+  list-style: none;
+  cursor: pointer;
   border: 1px solid var(--bord-bande);
   border-radius: 999px;
   padding: 5px 12px;
+  color: var(--sur-bande);
+  transition: background 0.15s ease, color 0.15s ease;
 }
-nav .lang:hover {
-  background: rgba(255, 255, 255, 0.12);
-  border-bottom-color: var(--bord-bande);
+.langues summary::-webkit-details-marker { display: none; }
+.langues summary:hover { background: rgba(255, 255, 255, 0.12); color: #FFFFFF; }
+.langues[open] summary { background: rgba(255, 255, 255, 0.16); color: #FFFFFF; }
+.langues summary svg { display: block; }
+.langues ul {
+  position: absolute;
+  right: 0;
+  top: calc(100% + 8px);
+  z-index: 20;
+  margin: 0;
+  padding: 6px;
+  list-style: none;
+  min-width: 168px;
+  background: var(--carte);
+  border: 1px solid var(--bord);
+  border-radius: 12px;
+  box-shadow: var(--ombre-posee);
 }
-nav .lang svg { display: block; }
+.langues li { margin: 0; }
+/* ⚠️ Deuxieme fois que la regle « tous les liens du bandeau sont blancs »
+   l emporte par specificite : le bouton App Store s affichait vide, et la liste
+   des langues aussi. On prefixe donc par .bande pour repasser devant. */
+.bande .langues ul a {
+  display: block;
+  padding: 8px 12px;
+  border-radius: 8px;
+  color: var(--encre);
+  text-decoration: none;
+  font-size: 15px;
+  border-bottom: 0;
+}
+.bande .langues ul a:hover { background: var(--teinte); color: var(--accent); }
 
 /* --------------------------------------------------------------- l'ouverture */
 

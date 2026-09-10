@@ -12,10 +12,8 @@ const path = require('path');
 const { page, echapper, PAGES, APPSTORE } = require('./gabarit');
 const icones = require('./icones');
 const legal = require('./outils/legal');
+const { CODES, charger } = require('./langues');
 
-// Les langues fabriquées aujourd'hui. En ajouter une, c'est déposer son fichier
-// dans `textes/` et l'ajouter ici — rien d'autre (bloc S6).
-const LANGUES = ['fr', 'en'];
 
 // ---------------------------------------------------------------- les corps
 
@@ -145,10 +143,15 @@ function juridique(L, parties, h1, contact) {
   // — le renvoi vers le contrat d'Apple. L'application dit « en appuyant sur le
   //   lien au bas de cette page » parce qu'elle a ce lien sous l'écran ; le
   //   site, lui, peut poser un vrai lien.
+  // `remplace` est du HTML écrit par nous, où `{lien}` reçoit l'adresse du
+  // contrat. C'est plus souple qu'un simple libellé de lien : la phrase ne se
+  // coupe pas au même endroit selon la langue — l'allemand rejette son verbe à
+  // la fin, le japonais et le chinois placent « lire le texte entier » autour
+  // du lien. Chaque langue décrit donc sa propre coupure.
   const texte = (t) => {
     let e = echapper(t);
     if (apple && e.includes(apple.cherche)) {
-      e = e.replace(apple.cherche, `<a href="${apple.href}">${apple.remplace}</a>`);
+      e = e.replace(apple.cherche, apple.remplace.split('{lien}').join(apple.href));
     }
     return e.split(contact).join(`<a href="mailto:${contact}">${contact}</a>`);
   };
@@ -195,7 +198,7 @@ function main() {
     );
   }
 
-  const langues = LANGUES.map((code) => require(`./textes/${code}.js`));
+  const langues = charger();
 
   let ecrites = 0;
   for (const L of langues) {
@@ -227,7 +230,7 @@ function main() {
   }
 
   console.log(
-    `${ecrites} pages écrites — ${langues.length} langue(s) × ${PAGES.length} pages. ` +
+    `${ecrites} pages écrites — ${langues.length} langues × ${PAGES.length} pages. ` +
       `Textes juridiques : ${origine === 'application' ? "lus dans l'application" : 'copie locale'}.`
   );
 }

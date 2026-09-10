@@ -244,7 +244,7 @@ module.exports = {
     apple: {
       href: 'https://www.apple.com/legal/internet-services/itunes/dev/stdeula/',
       cherche: 'by tapping the link at the foot of this page',
-      remplace: 'on Apple’s website',
+      remplace: '<a href="{lien}">on Apple’s website</a>',
     },
   },
 };
