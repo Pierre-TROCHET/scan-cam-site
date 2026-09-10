@@ -72,7 +72,7 @@ module.exports = {
     lead:
       'Fotografías una hoja, la aplicación detecta sus bordes, la endereza y limpia el texto: obtienes un escaneo de verdad, no la foto de un papel.',
     image: {
-      src: 'images/filtres-en.jpg',
+      src: 'images/filtres-es.jpg',
       largeur: 560,
       hauteur: 1212,
       alt:
@@ -145,7 +145,7 @@ module.exports = {
     pro: {
       titre: 'Scan Cam Pro',
       image: {
-        src: 'images/document-en.jpg',
+        src: 'images/document-es.jpg',
         largeur: 560,
         hauteur: 1212,
         alt:

@@ -71,7 +71,7 @@ module.exports = {
     lead:
       '拍下一张纸，应用会找到它的边缘，把它校正，让文字变清晰：您得到的是一份真正的扫描件，而不是一张纸的照片。',
     image: {
-      src: 'images/filtres-en.jpg',
+      src: 'images/filtres-zh.jpg',
       largeur: 560,
       hauteur: 1212,
       alt:
@@ -141,7 +141,7 @@ module.exports = {
     pro: {
       titre: 'Scan Cam Pro',
       image: {
-        src: 'images/document-en.jpg',
+        src: 'images/document-zh.jpg',
         largeur: 560,
         hauteur: 1212,
         alt:

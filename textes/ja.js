@@ -72,7 +72,7 @@ module.exports = {
     lead:
       '紙を一枚撮るだけで、アプリが縁を見つけ、まっすぐに直し、文字をくっきりさせます。できあがるのは紙を写した写真ではなく、本物のスキャンです。',
     image: {
-      src: 'images/filtres-en.jpg',
+      src: 'images/filtres-ja.jpg',
       largeur: 560,
       hauteur: 1212,
       alt:
@@ -145,7 +145,7 @@ module.exports = {
     pro: {
       titre: 'Scan Cam Pro',
       image: {
-        src: 'images/document-en.jpg',
+        src: 'images/document-ja.jpg',
         largeur: 560,
         hauteur: 1212,
         alt:

@@ -72,7 +72,7 @@ module.exports = {
     lead:
       'Sie fotografieren ein Blatt Papier, die App erkennt seine Ränder, richtet es gerade und macht den Text sauber: Sie erhalten einen echten Scan und nicht das Foto eines Blattes.',
     image: {
-      src: 'images/filtres-en.jpg',
+      src: 'images/filtres-de.jpg',
       largeur: 560,
       hauteur: 1212,
       alt:
@@ -145,7 +145,7 @@ module.exports = {
     pro: {
       titre: 'Scan Cam Pro',
       image: {
-        src: 'images/document-en.jpg',
+        src: 'images/document-de.jpg',
         largeur: 560,
         hauteur: 1212,
         alt:
