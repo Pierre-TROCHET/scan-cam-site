@@ -45,7 +45,7 @@ function accueil(L, contact) {
 
   const cartes = c.sections.map((s) =>
     [
-      '  <div class="carte">',
+      '  <div class="carte revele">',
       `    <div class="puce">${icones[s.icone](22)}</div>`,
       `    <h2>${s.titre}</h2>`,
       liste(s.points, '    '),
@@ -54,7 +54,7 @@ function accueil(L, contact) {
   );
 
   const corps = [
-    '<section class="preuve">',
+    '<section class="preuve revele">',
     `  <h2>${c.comparaison.titre}</h2>`,
     `  <p class="preuve-texte">${c.comparaison.legende}</p>`,
     '  <div class="preuve-images">',
@@ -70,18 +70,18 @@ function accueil(L, contact) {
     '  </div>',
     '</section>',
     '',
-    `<h2 class="section-titre">${c.sectionsTitre}</h2>`,
+    `<h2 class="section-titre revele">${c.sectionsTitre}</h2>`,
     '<div class="cartes">',
     ...cartes,
     '</div>',
     '',
-    '<section class="bloc">',
+    '<section class="bloc revele">',
     `  <div class="puce">${icones.bouclier(22)}</div>`,
     `  <h2>${c.confidentialite.titre}</h2>`,
     `  <p>${c.promesse}</p>`,
     '</section>',
     '',
-    '<section class="bloc bloc--sombre bloc-duo">',
+    '<section class="bloc bloc--sombre bloc-duo revele">',
     '  <div>',
     '    <div class="pro-titre">',
     '      <span class="pro-badge">PRO</span>',
@@ -96,7 +96,7 @@ function accueil(L, contact) {
     `  ${image(c.pro.image, '')}`,
     '</section>',
     '',
-    '<section class="contact-carte">',
+    '<section class="contact-carte revele">',
     `  <h2>${c.contact.titre}</h2>`,
     `  <p>${c.contact.texte}</p>`,
     `  <a class="contact" href="mailto:${contact}">${contact}</a>`,
@@ -115,7 +115,7 @@ const enteteSimple = (h1, chapeau) =>
 function assistance(L, contact) {
   const a = L.assistance;
   const corps = [
-    '<section class="contact-carte">',
+    '<section class="contact-carte revele">',
     `  <a class="contact" href="mailto:${contact}">${contact}</a>`,
     `  <p>${a.carte.note}</p>`,
     '</section>',

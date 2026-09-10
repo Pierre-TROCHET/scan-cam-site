@@ -56,16 +56,36 @@ dans le bloc `fichiers`.
 
 ## Vérifier qu'on n'a rien cassé
 
+Trois témoins, qui répondent à trois questions différentes. Chacun a déjà rattrapé quelque chose.
+
+**« Est-ce que rien n'a bougé ? »** — pour un changement qui ne doit RIEN changer à ce que le
+lecteur voit (la refonte de la charpente, par exemple) :
+
     node outils/empreinte.js avant.json      # avant de toucher à quoi que ce soit
     node build.js
     node outils/empreinte.js apres.json
     node outils/empreinte.js --comparer avant.json apres.json
 
-L'empreinte relève de chaque page son titre, sa description, son texte visible et tous ses
-liens, en ignorant la mise en forme du HTML. Si elle est identique avant et après, le contenu
-n'a pas bougé — c'est prouvé plutôt que supposé. C'est ce témoin qui a rattrapé, le
-9 septembre 2026, deux adresses de courriel devenues non cliquables dans la politique de
-confidentialité.
+Il relève de chaque page son titre, sa description, son texte visible et tous ses liens, en
+ignorant la mise en forme du HTML. C'est lui qui a rattrapé, le 9 septembre 2026, deux adresses
+de courriel devenues non cliquables dans la politique de confidentialité.
+
+**« Est-ce qu'une phrase est tombée derrière un meuble ? »** — pour un changement d'habillage,
+où la mise en page bouge exprès :
+
+    node outils/rien-perdu.js
+
+Il cherche chacune des phrases de `textes/` dans les pages fabriquées.
+
+**« Est-ce qu'une animation peut faire disparaître du contenu ? »** :
+
+    node outils/rien-cache.js
+
+Il vérifie qu'aucune règle ne peut rendre quelque chose invisible en dehors de la classe
+`anime` — celle que le JavaScript pose sur la page, et seulement si le lecteur n'a pas demandé
+moins d'animations. **Sans JavaScript, avec le réglage « Réduire les animations » de l'iPhone,
+ou si le script tombe en panne, la page s'affiche entière et tout de suite.** Une page dont le
+contenu dépend d'une animation est une page qui peut rester vide sans que personne le sache.
 
 ## Mettre en ligne
 

@@ -8,6 +8,7 @@
 <meta name="theme-color" content="#1250C8">
 <link rel="alternate" hreflang="en" href="home.html">
 <link rel="stylesheet" href="style.css">
+<script>if(!matchMedia("(prefers-reduced-motion: reduce)").matches)document.documentElement.classList.add("anime");</script>
 </head>
 <body>
 
@@ -43,7 +44,7 @@
 </div>
 
 <main class="dedans">
-<section class="preuve">
+<section class="preuve revele">
   <h2>La même page, telle que Scan Cam la rend.</h2>
   <p class="preuve-texte">Photographiée froissée sur une table, et rendue droite, blanche et nette. Les deux pages sont entières : rien n’est recadré.</p>
   <div class="preuve-images">
@@ -59,9 +60,9 @@
   </div>
 </section>
 
-<h2 class="section-titre">Tout ce qu’elle sait faire</h2>
+<h2 class="section-titre revele">Tout ce qu’elle sait faire</h2>
 <div class="cartes">
-  <div class="carte">
+  <div class="carte revele">
     <div class="puce"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8V5.5A2.5 2.5 0 0 1 5.5 3H8"></path><path d="M16 3h2.5A2.5 2.5 0 0 1 21 5.5V8"></path><path d="M21 16v2.5a2.5 2.5 0 0 1-2.5 2.5H16"></path><path d="M8 21H5.5A2.5 2.5 0 0 1 3 18.5V16"></path><circle cx="12" cy="12" r="3.2"></circle></svg></div>
     <h2>Scanner</h2>
     <ul>
@@ -72,7 +73,7 @@
       <li>Plusieurs pages dans un même document, à réordonner, pivoter ou retirer</li>
     </ul>
   </div>
-  <div class="carte">
+  <div class="carte revele">
     <div class="puce"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7.5A1.5 1.5 0 0 1 4.5 6h4L11 8.5h8.5A1.5 1.5 0 0 1 21 10v7.5a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 17.5z"></path></svg></div>
     <h2>Ranger</h2>
     <ul>
@@ -81,7 +82,7 @@
       <li>Renommer, déplacer, dupliquer, supprimer</li>
     </ul>
   </div>
-  <div class="carte">
+  <div class="carte revele">
     <div class="puce"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 15V3.5"></path><path d="M8.5 7 12 3.5 15.5 7"></path><path d="M5 13v5.5A1.5 1.5 0 0 0 6.5 20h11a1.5 1.5 0 0 0 1.5-1.5V13"></path></svg></div>
     <h2>Finir et partager</h2>
     <ul>
@@ -93,13 +94,13 @@
   </div>
 </div>
 
-<section class="bloc">
+<section class="bloc revele">
   <div class="puce"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 3v5.5c0 4.2-2.9 7.6-7 9.5-4.1-1.9-7-5.3-7-9.5V6z"></path><path d="M9.2 12.2l2 2 3.6-3.8"></path></svg></div>
   <h2>Rien ne quitte votre iPhone.</h2>
   <p>Et tout se passe sur votre téléphone. Aucun compte à créer, aucun envoi vers un serveur, aucune publicité. Vos factures, vos contrats et vos papiers d’identité ne quittent jamais votre iPhone — sauf le jour où vous décidez vous-même de les partager.</p>
 </section>
 
-<section class="bloc bloc--sombre bloc-duo">
+<section class="bloc bloc--sombre bloc-duo revele">
   <div>
     <div class="pro-titre">
       <span class="pro-badge">PRO</span>
@@ -122,7 +123,7 @@
   <img  src="images/document-fr.jpg" width="560" height="1212" alt="L’écran d’un document dans Scan Cam : l’aperçu de la page, les miniatures des pages en bas, et la rangée d’outils — partager, filtres, extraire le texte, filigrane, signature, imprimer.">
 </section>
 
-<section class="contact-carte">
+<section class="contact-carte revele">
   <h2>Une question ?</h2>
   <p>Écrivez-moi : je réponds moi-même.</p>
   <a class="contact" href="mailto:pierremunozfrance@gmail.com">pierremunozfrance@gmail.com</a>
@@ -142,6 +143,56 @@
     </div>
   </div>
 </footer>
+
+<script>
+// Les sections marquées « revele » se posent quand on descend jusqu'à elles.
+//
+// Si le lecteur a demandé moins d'animations, ou si ce script ne s'exécute pas,
+// la classe « anime » est absente et tout est visible d'emblée : le contenu ne
+// dépend jamais de l'animation.
+//
+// On mesure à l'écoute du défilement plutôt qu'avec IntersectionObserver, qui
+// est pourtant l'outil prévu pour ça : il ne se déclenche jamais dans le
+// navigateur d'aperçu qui sert à vérifier ce site, donc son résultat n'y est
+// pas contrôlable. Livrer un mécanisme qu'on ne peut pas essayer, quand ce
+// mécanisme décide de ce qui s'affiche, c'est accepter que la page reste vide
+// sans le savoir. Ceci se mesure, se vérifie, et coûte huit calculs par image.
+(function () {
+  var cibles = [].slice.call(document.querySelectorAll(".revele"));
+  var i;
+  if (!document.documentElement.classList.contains("anime")) {
+    for (i = 0; i < cibles.length; i++) cibles[i].classList.add("vu");
+    return;
+  }
+  var battement = null;
+
+  function regarde() {
+    var limite = (window.innerHeight || document.documentElement.clientHeight) * 0.92;
+    for (var j = cibles.length - 1; j >= 0; j--) {
+      if (cibles[j].getBoundingClientRect().top > limite) continue;
+      cibles[j].classList.add("vu");
+      cibles.splice(j, 1);
+    }
+    if (cibles.length) return;
+    // Plus rien à attendre : on débranche tout.
+    window.removeEventListener("scroll", regarde);
+    window.removeEventListener("resize", regarde);
+    if (battement) clearInterval(battement);
+  }
+
+  // Deux déclencheurs, et c'est volontaire. Le défilement répond tout de suite,
+  // mais il ne parvient pas partout : dans le navigateur d'aperçu qui sert à
+  // vérifier ce site, aucun événement de défilement n'est émis, et
+  // requestAnimationFrame y est suspendu par-dessus le marché. Le battement,
+  // lui, se déclenche partout — c'est le seul des deux qui soit contrôlable
+  // ici, donc c'est lui qui garantit que rien ne reste invisible. Il s'arrête
+  // de lui-même dès que toutes les sections sont posées.
+  window.addEventListener("scroll", regarde, { passive: true });
+  window.addEventListener("resize", regarde);
+  battement = setInterval(regarde, 250);
+  regarde();
+})();
+</script>
 
 </body>
 </html>

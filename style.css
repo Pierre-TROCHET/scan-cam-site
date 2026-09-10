@@ -564,6 +564,82 @@ main li { margin: 6px 0; }
 .pied .current { color: var(--accent); font-weight: 700; }
 .pied .lang { display: inline-flex; align-items: center; gap: 6px; }
 
+/* ------------------------------------------------------------- ce qui bouge
+
+   Deux règles tiennent tout ce qui suit :
+
+   1. RIEN QUI BOUGE NE DÉCALE LE TEXTE. On ne touche qu à l opacité et aux
+      transformations — jamais à une hauteur, une marge ou une taille. Une page
+      qui se réajuste pendant qu on la lit fait perdre sa ligne au lecteur.
+
+   2. LE RÉGLAGE « RÉDUIRE LES ANIMATIONS » EST RESPECTÉ, et pas seulement
+      raccourci : la classe « anime » n est alors jamais posée sur la page, donc
+      l état de départ (invisible) n existe pas. Même chose si le JavaScript ne
+      s exécute pas : sans la classe, tout est visible, tout de suite. Une page
+      dont le contenu dépend d une animation est une page qui peut rester vide. */
+
+@keyframes monte {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes apparait {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* L ouverture, à l arrivée sur la page : les lignes se posent l une après l autre. */
+.anime .hero-mots > * { animation: monte 0.55s cubic-bezier(0.2, 0.7, 0.2, 1) both; }
+.anime .hero-mots > *:nth-child(1) { animation-delay: 0.02s; }
+.anime .hero-mots > *:nth-child(2) { animation-delay: 0.10s; }
+.anime .hero-mots > *:nth-child(3) { animation-delay: 0.18s; }
+.anime .hero-mots > *:nth-child(4) { animation-delay: 0.26s; }
+/* La capture n anime que son opacité : elle porte déjà une rotation, et une
+   animation de transformation l effacerait. */
+.anime .hero-photo { animation: apparait 0.8s ease 0.12s both; }
+.anime .entete-page > * { animation: monte 0.5s cubic-bezier(0.2, 0.7, 0.2, 1) both; }
+.anime .entete-page > *:nth-child(2) { animation-delay: 0.08s; }
+
+/* Les sections, quand on descend jusqu à elles. */
+.anime .revele {
+  opacity: 0;
+  transform: translateY(14px);
+  transition: opacity 0.6s ease, transform 0.6s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+.anime .revele.vu {
+  opacity: 1;
+  transform: none;
+}
+/* Les trois cartes arrivent en cascade, pas en bloc. */
+.anime .cartes .revele:nth-child(2) { transition-delay: 0.09s; }
+.anime .cartes .revele:nth-child(3) { transition-delay: 0.18s; }
+
+/* L animation qui gagne son pain : la feuille froissée devient un scan.
+   La photo se redresse et se pose, la flèche arrive, puis le scan sort du flou
+   et devient net — c est l argument de vente entier, en un mouvement. */
+.anime .preuve .avant img {
+  transform: rotate(-2.5deg) scale(0.965);
+  transition: transform 1s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+.anime .preuve.vu .avant img { transform: none; }
+
+.anime .preuve .fleche {
+  opacity: 0;
+  transform: translateX(-10px);
+  transition: opacity 0.45s ease 0.35s, transform 0.45s ease 0.35s;
+}
+.anime .preuve.vu .fleche { opacity: 1; transform: none; }
+
+.anime .preuve .apres img {
+  opacity: 0;
+  filter: blur(7px);
+  transition: opacity 0.6s ease 0.45s, filter 0.9s ease 0.45s;
+}
+.anime .preuve.vu .apres img { opacity: 1; filter: none; }
+
+/* Ce qui répond au doigt et à la souris. */
+.carte .puce { transition: transform 0.18s ease; }
+.carte:hover .puce { transform: scale(1.06); }
+
 /* --------------------------------------------------------- les écrans étroits */
 
 @media (max-width: 900px) {

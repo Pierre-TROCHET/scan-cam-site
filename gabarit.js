@@ -102,6 +102,7 @@ function page({ langue, langues, cle, titre, description, entete, corps, mesure 
 <meta name="theme-color" content="#1250C8">
 ${alternatives}
 <link rel="stylesheet" href="style.css">
+<script>if(!matchMedia("(prefers-reduced-motion: reduce)").matches)document.documentElement.classList.add("anime");</script>
 </head>
 <body>
 
@@ -124,6 +125,56 @@ ${corps.trim()}
 </main>
 
 ${pied(langue, cle, langues, mesure)}
+
+<script>
+// Les sections marquées « revele » se posent quand on descend jusqu'à elles.
+//
+// Si le lecteur a demandé moins d'animations, ou si ce script ne s'exécute pas,
+// la classe « anime » est absente et tout est visible d'emblée : le contenu ne
+// dépend jamais de l'animation.
+//
+// On mesure à l'écoute du défilement plutôt qu'avec IntersectionObserver, qui
+// est pourtant l'outil prévu pour ça : il ne se déclenche jamais dans le
+// navigateur d'aperçu qui sert à vérifier ce site, donc son résultat n'y est
+// pas contrôlable. Livrer un mécanisme qu'on ne peut pas essayer, quand ce
+// mécanisme décide de ce qui s'affiche, c'est accepter que la page reste vide
+// sans le savoir. Ceci se mesure, se vérifie, et coûte huit calculs par image.
+(function () {
+  var cibles = [].slice.call(document.querySelectorAll(".revele"));
+  var i;
+  if (!document.documentElement.classList.contains("anime")) {
+    for (i = 0; i < cibles.length; i++) cibles[i].classList.add("vu");
+    return;
+  }
+  var battement = null;
+
+  function regarde() {
+    var limite = (window.innerHeight || document.documentElement.clientHeight) * 0.92;
+    for (var j = cibles.length - 1; j >= 0; j--) {
+      if (cibles[j].getBoundingClientRect().top > limite) continue;
+      cibles[j].classList.add("vu");
+      cibles.splice(j, 1);
+    }
+    if (cibles.length) return;
+    // Plus rien à attendre : on débranche tout.
+    window.removeEventListener("scroll", regarde);
+    window.removeEventListener("resize", regarde);
+    if (battement) clearInterval(battement);
+  }
+
+  // Deux déclencheurs, et c'est volontaire. Le défilement répond tout de suite,
+  // mais il ne parvient pas partout : dans le navigateur d'aperçu qui sert à
+  // vérifier ce site, aucun événement de défilement n'est émis, et
+  // requestAnimationFrame y est suspendu par-dessus le marché. Le battement,
+  // lui, se déclenche partout — c'est le seul des deux qui soit contrôlable
+  // ici, donc c'est lui qui garantit que rien ne reste invisible. Il s'arrête
+  // de lui-même dès que toutes les sections sont posées.
+  window.addEventListener("scroll", regarde, { passive: true });
+  window.addEventListener("resize", regarde);
+  battement = setInterval(regarde, 250);
+  regarde();
+})();
+</script>
 
 </body>
 </html>
