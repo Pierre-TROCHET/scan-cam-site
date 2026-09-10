@@ -54,10 +54,19 @@ module.exports = {
   },
 
   accueil: {
+    badge: 'Free, no account, no advertising',
     h1: 'The document scanner that never leaves your iPhone.',
     lead:
       'You photograph a sheet of paper, the app finds its edges, straightens it and cleans up the text: what you get is a real scan, not a photo of a piece of paper.',
+    image: {
+      src: 'images/filtres-en.jpg',
+      largeur: 560,
+      hauteur: 1212,
+      alt:
+        'Scan Cam s filter screen: the document pages scroll along the top, the four renderings below, an intensity slider and a switch to remove shadows.',
+    },
     comparaison: {
+      titre: 'The same page, as Scan Cam returns it.',
       avant: {
         src: 'images/avant.jpg',
         largeur: 760,
@@ -75,16 +84,21 @@ module.exports = {
         legende: 'The scan',
       },
       legende:
-        'The same page, whole on both sides: photographed crumpled on a table, and as Scan Cam returns it.',
+        'Photographed crumpled on a table, and returned straight, white and sharp. Both pages are whole: nothing is cropped.',
     },
     appstore: {
-      note: 'Free, no account needed. iPhone and iPad.',
+      note: 'iPhone and iPad.',
+    },
+    confidentialite: {
+      titre: 'Nothing leaves your iPhone.',
     },
     promesse:
       'And it all happens on your phone. No account to create, nothing sent to a server, no adverts. Your invoices, your contracts and your identity papers never leave your iPhone — except on the day you decide to share them yourself.',
 
+    sectionsTitre: 'Everything it can do',
     sections: [
       {
+        icone: 'scanner',
         titre: 'Scanning',
         points: [
           'Edges detected and the page straightened, even shot at an angle',
@@ -93,16 +107,9 @@ module.exports = {
           'Shadows removed in one tap, for pages shot under a lamp or a hand',
           'Several pages in one document, to reorder, rotate or remove',
         ],
-        ecran: {
-          src: 'images/filtres-en.jpg',
-          largeur: 560,
-          hauteur: 1212,
-          alt:
-            'Scan Cam s filter screen: the document pages scroll along the top, the four renderings below, an intensity slider and a switch to remove shadows.',
-          legende: 'Four renderings, intensity under your finger, and shadow removal.',
-        },
       },
       {
+        icone: 'dossier',
         titre: 'Organizing',
         points: [
           'Folders and subfolders, like on a computer',
@@ -111,6 +118,7 @@ module.exports = {
         ],
       },
       {
+        icone: 'partager',
         titre: 'Finishing and sharing',
         points: [
           'Export to PDF or JPEG',
@@ -118,19 +126,22 @@ module.exports = {
           'Print straight from the app',
           'Save to the Files app, or send through the iPhone’s share sheet',
         ],
-        ecran: {
-          src: 'images/document-en.jpg',
-          largeur: 560,
-          hauteur: 1212,
-          alt:
-            'A document open in Scan Cam: the page preview, the page thumbnails below, and the row of tools — share, filters, extract text, watermark, signature, print.',
-          legende: 'A document open, and everything you can do with it.',
-        },
       },
     ],
 
     pro: {
       titre: 'Scan Cam Pro',
+      image: {
+        src: 'images/document-en.jpg',
+        largeur: 560,
+        hauteur: 1212,
+        alt:
+          'A document open in Scan Cam: the page preview, the page thumbnails below, and the row of tools — share, filters, extract text, watermark, signature, print.',
+      },
+      // ⚠️ See fr.js: build.js refuses to build if this price is not found
+      // word for word in the terms of use, which come from the app itself.
+      prix: '€24.99 a year, after a 7-day free trial.',
+      prixControle: '€24.99',
       gratuit:
         'The free version is complete and never expires: scan, organize, filter, annotate, print and export to PDF as much as you like. Free PDFs carry a small “Scanned with Scan Cam” line at the foot of the page.',
       intro: 'The Pro subscription adds:',

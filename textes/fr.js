@@ -67,10 +67,20 @@ module.exports = {
   },
 
   accueil: {
+    badge: 'Gratuit, sans compte, sans publicité',
     h1: 'Le scanner de documents qui ne quitte pas votre iPhone.',
     lead:
       'Vous photographiez une feuille, l’application détecte ses bords, la redresse et rend le texte net : vous obtenez un vrai scan, pas une photo de papier.',
+    // La capture qui accompagne l'ouverture, dans le bandeau bleu.
+    image: {
+      src: 'images/filtres-fr.jpg',
+      largeur: 560,
+      hauteur: 1212,
+      alt:
+        'L’écran des filtres de Scan Cam : les pages du document défilent en haut, les quatre rendus en dessous, un curseur d’intensité et un interrupteur pour retirer les ombres.',
+    },
     comparaison: {
+      titre: 'La même page, telle que Scan Cam la rend.',
       avant: {
         src: 'images/avant.jpg',
         largeur: 760,
@@ -88,16 +98,21 @@ module.exports = {
         legende: 'Le scan',
       },
       legende:
-        'La même page, entière des deux côtés : photographiée froissée sur une table, et telle que Scan Cam la rend.',
+        'Photographiée froissée sur une table, et rendue droite, blanche et nette. Les deux pages sont entières : rien n’est recadré.',
     },
     appstore: {
-      note: 'Gratuit, sans compte. iPhone et iPad.',
+      note: 'iPhone et iPad.',
+    },
+    confidentialite: {
+      titre: 'Rien ne quitte votre iPhone.',
     },
     promesse:
       'Et tout se passe sur votre téléphone. Aucun compte à créer, aucun envoi vers un serveur, aucune publicité. Vos factures, vos contrats et vos papiers d’identité ne quittent jamais votre iPhone — sauf le jour où vous décidez vous-même de les partager.',
 
+    sectionsTitre: 'Tout ce qu’elle sait faire',
     sections: [
       {
+        icone: 'scanner',
         titre: 'Scanner',
         points: [
           'Bords détectés et page redressée, même photographiée de travers',
@@ -106,16 +121,9 @@ module.exports = {
           'Retrait des ombres en une tape, pour les pages photographiées sous une lampe ou une main',
           'Plusieurs pages dans un même document, à réordonner, pivoter ou retirer',
         ],
-        ecran: {
-          src: 'images/filtres-fr.jpg',
-          largeur: 560,
-          hauteur: 1212,
-          alt:
-            'L’écran des filtres de Scan Cam : les pages du document défilent en haut, les quatre rendus en dessous, un curseur d’intensité et un interrupteur pour retirer les ombres.',
-          legende: 'Les quatre rendus, l’intensité au doigt, et le retrait des ombres.',
-        },
       },
       {
+        icone: 'dossier',
         titre: 'Ranger',
         points: [
           'Des dossiers et des sous-dossiers, comme sur un ordinateur',
@@ -124,6 +132,7 @@ module.exports = {
         ],
       },
       {
+        icone: 'partager',
         titre: 'Finir et partager',
         points: [
           'Exporter en PDF ou en JPEG',
@@ -131,19 +140,24 @@ module.exports = {
           'Imprimer directement depuis l’application',
           'Enregistrer dans l’app Fichiers, ou envoyer par la fenêtre de partage de l’iPhone',
         ],
-        ecran: {
-          src: 'images/document-fr.jpg',
-          largeur: 560,
-          hauteur: 1212,
-          alt:
-            'L’écran d’un document dans Scan Cam : l’aperçu de la page, les miniatures des pages en bas, et la rangée d’outils — partager, filtres, extraire le texte, filigrane, signature, imprimer.',
-          legende: 'Un document ouvert, et tout ce qu’on peut en faire.',
-        },
       },
     ],
 
     pro: {
       titre: 'Scan Cam Pro',
+      image: {
+        src: 'images/document-fr.jpg',
+        largeur: 560,
+        hauteur: 1212,
+        alt:
+          'L’écran d’un document dans Scan Cam : l’aperçu de la page, les miniatures des pages en bas, et la rangée d’outils — partager, filtres, extraire le texte, filigrane, signature, imprimer.',
+      },
+      // ⚠️ Ce prix est aussi écrit dans les conditions d'utilisation, qui
+      // viennent de l'application. `build.js` refuse de fabriquer le site si
+      // « prixControle » ne se retrouve pas mot pour mot dans ces conditions :
+      // c'est ce qui empêche l'accueil d'annoncer un prix que le contrat dément.
+      prix: '24,99 € par an, après 7 jours d’essai gratuit.',
+      prixControle: '24,99 €',
       gratuit:
         'La version gratuite est complète et sans limite de temps : scanner, ranger, filtrer, annoter, imprimer et exporter en PDF autant que vous voulez. Les PDF gratuits portent une petite mention « Numérisé avec Scan Cam » en bas de page.',
       intro: 'L’abonnement Pro ajoute :',

@@ -1,25 +1,61 @@
-/* Le site de Scan Cam — trois pages, une feuille de style.
-   Les couleurs sont celles de l'application (constants/theme.ts). */
+/* L'habillage du site de Scan Cam — direction « Le bleu », choisie le 9 septembre 2026.
+   Voir la maquette : marketing scan cam\maquettes-site\Main.dc.html
+
+   Les couleurs, les rayons d'angle et l'or du Pro viennent de constants/theme.ts,
+   dans l'application. Rien n'est inventé ici : si une couleur change là-bas,
+   elle change ici, et nulle part ailleurs. */
 
 :root {
-  --accent: #1769f5;
-  --accent-dark: #0d47b5;
-  --ink: #111827;
-  --muted: #667085;
-  --bg: #f7f9fc;
-  --card: #ffffff;
-  --border: #e4e7ec;
+  --accent: #1769F5;
+  --accent-fonce: #0D47B5;
+  --encre: #111827;
+  --gris: #667085;
+  --fond: #F7F9FC;
+  --carte: #FFFFFF;
+  --bord: #E4E7EC;
+  --pro: #B8862B;
+  --teinte: rgba(23, 105, 245, 0.10);
+
+  /* Le bandeau bleu. Il garde ses propres couleurs dans les deux thèmes :
+     du texte blanc sur du bleu profond se lit aussi bien de jour que de nuit. */
+  --bande: #1250C8;
+  --bande-fond: radial-gradient(120% 90% at 78% 8%, #2B7BFF 0%, #1250C8 46%, #0D3E9E 100%);
+  --sur-bande: rgba(255, 255, 255, 0.78);
+  --bord-bande: rgba(255, 255, 255, 0.24);
+
+  --ombre-carte: 0 1px 3px rgba(17, 24, 39, 0.06);
+  --ombre-posee: 0 18px 46px rgba(17, 24, 39, 0.10);
+  --ombre-bande: 0 32px 64px rgba(4, 26, 72, 0.42);
+
+  --rayon-bouton: 12px;
+  --rayon-carte: 16px;
+  --rayon-feuille: 20px;
+
+  /* Les titres. La maquette les montre en Plus Jakarta Sans ; en attendant de
+     décider si cette police entre dans le dépôt, ils prennent la police du
+     système — SF Pro sur iPhone, Segoe UI sur Windows. Une seule ligne à
+     changer le jour venu. */
+  --police-titre: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --police-texte: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --accent: #4c8dff;
-    --accent-dark: #2d6fe0;
-    --ink: #f3f4f6;
-    --muted: #9aa4b2;
-    --bg: #0f1420;
-    --card: #171d2b;
-    --border: #2a3242;
+    --accent: #4C8DFF;
+    --accent-fonce: #2D6FE0;
+    --encre: #EDF1F7;
+    --gris: #98A4B6;
+    --fond: #0C1017;
+    --carte: #161C26;
+    --bord: #2A323E;
+    --pro: #D5A445;
+    --teinte: rgba(76, 141, 255, 0.18);
+
+    --bande: #0E3F9E;
+    --bande-fond: radial-gradient(120% 90% at 78% 8%, #1E63D8 0%, #0E3F9E 46%, #0A2E75 100%);
+
+    --ombre-carte: 0 1px 3px rgba(0, 0, 0, 0.4);
+    --ombre-posee: 0 18px 46px rgba(0, 0, 0, 0.45);
   }
 }
 
@@ -27,150 +63,443 @@
 
 body {
   margin: 0;
-  padding: 0 20px 64px;
-  background: var(--bg);
-  color: var(--ink);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  padding: 0;
+  background: var(--fond);
+  color: var(--encre);
+  font-family: var(--police-texte);
   font-size: 17px;
   line-height: 1.6;
   -webkit-text-size-adjust: 100%;
 }
 
-.page { max-width: 720px; margin: 0 auto; }
+/* La colonne. Large pour l'accueil, resserrée pour les pages qui se lisent. */
+.dedans {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+.mesure { max-width: 760px; }
 
-header {
-  padding: 48px 0 32px;
-  border-bottom: 1px solid var(--border);
-  margin-bottom: 32px;
+a { color: var(--accent); }
+a:hover { color: var(--accent-fonce); }
+
+h1, h2, h3 {
+  font-family: var(--police-titre);
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+}
+
+/* ---------------------------------------------------------- le bandeau bleu */
+
+.bande {
+  background: var(--bande);
+  background-image: var(--bande-fond);
+  color: #FFFFFF;
+  border-radius: 0 0 32px 32px;
+  padding-bottom: 56px;
+}
+
+/* Tous les liens du bandeau sont blancs — sauf le bouton App Store, qui est
+   blanc lui-meme et porte donc son texte en bleu. Sans le :not(), la regle du
+   bandeau gagnait par specificite et le bouton s affichait vide. */
+.bande a:not(.appstore) { color: #FFFFFF; }
+
+.entete {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 22px 0 0;
 }
 
 .logo {
   display: inline-flex;
   align-items: center;
-  gap: 12px;
+  gap: 11px;
   text-decoration: none;
-  color: inherit;
+  color: #FFFFFF;
 }
-
 .mark {
-  width: 44px;
-  height: 44px;
-  border-radius: 11px;
-  background: var(--accent);
-  color: #fff;
+  width: 34px;
+  height: 34px;
+  border-radius: 9px;
+  background: #FFFFFF;
+  color: #1769F5;
   display: grid;
   place-items: center;
-  font-weight: 700;
+  font-weight: 800;
+  font-size: 14px;
+  letter-spacing: -0.4px;
+}
+.name {
+  font-family: var(--police-titre);
   font-size: 18px;
-  letter-spacing: -0.5px;
+  font-weight: 800;
+  letter-spacing: -0.3px;
 }
 
-.name { font-size: 22px; font-weight: 700; letter-spacing: -0.3px; }
+nav {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px 24px;
+  font-size: 14px;
+}
+nav a {
+  color: var(--sur-bande);
+  text-decoration: none;
+  padding: 3px 0;
+  border-bottom: 1px solid transparent;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+nav a:hover {
+  color: #FFFFFF;
+  border-bottom-color: rgba(255, 255, 255, 0.5);
+}
+/* La page où l'on se trouve est MARQUÉE, jamais retirée du menu. */
+nav .current {
+  color: #FFFFFF;
+  font-weight: 700;
+}
+nav .lang {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border: 1px solid var(--bord-bande);
+  border-radius: 999px;
+  padding: 5px 12px;
+}
+nav .lang:hover {
+  background: rgba(255, 255, 255, 0.12);
+  border-bottom-color: var(--bord-bande);
+}
+nav .lang svg { display: block; }
 
-h1 { font-size: 30px; line-height: 1.25; letter-spacing: -0.5px; margin: 24px 0 12px; }
-h2 { font-size: 20px; letter-spacing: -0.2px; margin: 36px 0 8px; }
-h3 { font-size: 17px; margin: 28px 0 6px; }
-p { margin: 12px 0; }
-.lead { font-size: 19px; color: var(--muted); }
+/* --------------------------------------------------------------- l'ouverture */
 
-ul { padding-left: 22px; }
-li { margin: 6px 0; }
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 44px;
+  padding-top: 52px;
+}
+.hero-mots {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  min-width: 0;
+}
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(255, 255, 255, 0.14);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 999px;
+  padding: 6px 14px;
+  font-size: 13px;
+  font-weight: 600;
+}
+.badge svg { display: block; }
 
-a { color: var(--accent); }
-a:hover { color: var(--accent-dark); }
+.hero h1 {
+  margin: 0;
+  font-size: clamp(32px, 5.2vw, 52px);
+  line-height: 1.06;
+  letter-spacing: -1.6px;
+  font-weight: 800;
+  text-wrap: pretty;
+}
+.hero .lead {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--sur-bande);
+  max-width: 480px;
+  text-wrap: pretty;
+}
 
-.card {
-  background: var(--card);
-  border: 1px solid var(--border);
-  border-radius: 14px;
-  padding: 20px 22px;
+.actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 4px;
+}
+.appstore {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: #FFFFFF;
+  color: #0D47B5;
+  padding: 15px 24px;
+  border-radius: var(--rayon-bouton);
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0 10px 26px rgba(4, 26, 72, 0.28);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.appstore:hover {
+  color: #0D47B5;
+  transform: translateY(-1px);
+  box-shadow: 0 14px 32px rgba(4, 26, 72, 0.34);
+}
+.appstore:active { transform: translateY(0); }
+.appstore svg { display: block; }
+.appstore-note {
+  margin: 0;
+  font-size: 15px;
+  color: var(--sur-bande);
+}
+
+.hero-photo {
+  width: 252px;
+  flex: none;
+  border-radius: 22px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: var(--ombre-bande);
+  transform: rotate(2.5deg);
+  display: block;
+  height: auto;
+}
+
+/* L'en-tête des pages qui ne sont pas l'accueil : le même bandeau, en plus calme. */
+.entete-page {
+  padding-top: 44px;
+}
+.entete-page h1 {
+  margin: 0 0 12px;
+  font-size: clamp(28px, 4.4vw, 40px);
+  font-weight: 800;
+  letter-spacing: -1.1px;
+}
+.entete-page .lead {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--sur-bande);
+  max-width: 640px;
+  text-wrap: pretty;
+}
+
+/* ------------------------------------------------------------------ le corps */
+
+main { display: block; }
+
+main h2 {
+  font-size: 22px;
+  font-weight: 800;
+  margin: 36px 0 10px;
+}
+main h3 {
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: -0.2px;
+  margin: 28px 0 6px;
+}
+main p { margin: 12px 0; }
+main ul { padding-left: 22px; margin: 10px 0; }
+main li { margin: 6px 0; }
+
+.section-titre {
+  font-family: var(--police-titre);
+  font-size: clamp(24px, 3.4vw, 30px);
+  font-weight: 800;
+  letter-spacing: -1px;
+  margin: 0 0 22px;
+}
+
+/* La carte de preuve, qui remonte sur le bandeau. */
+.preuve {
+  margin-top: -40px;
+  background: var(--carte);
+  border: 1px solid var(--bord);
+  border-radius: var(--rayon-feuille);
+  box-shadow: var(--ombre-posee);
+  padding: 32px 36px 36px;
+}
+.preuve h2 {
+  margin: 0 0 8px;
+  font-size: clamp(21px, 2.8vw, 26px);
+  font-weight: 800;
+  letter-spacing: -0.7px;
+  text-wrap: pretty;
+}
+.preuve-texte {
+  margin: 0 0 24px;
+  color: var(--gris);
+  max-width: 620px;
+  text-wrap: pretty;
+}
+.preuve-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.preuve-images figure {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+}
+.preuve-images img {
+  display: block;
+  width: 100%;
+  max-width: 260px;
+  height: auto;
+  border-radius: 8px;
+}
+.preuve-images .avant img { box-shadow: 0 8px 20px rgba(17, 24, 39, 0.16); }
+.preuve-images .apres img { border: 1px solid var(--bord); }
+.preuve-images figcaption {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+  color: var(--gris);
+}
+.preuve-images .apres figcaption { color: var(--accent); }
+.fleche {
+  flex: none;
+  color: var(--accent);
+  margin-bottom: 26px;
+}
+.fleche svg { display: block; }
+
+/* Les cartes. */
+.cartes {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+.carte {
+  background: var(--carte);
+  border: 1px solid var(--bord);
+  border-radius: var(--rayon-carte);
+  padding: 26px 24px;
+  box-shadow: var(--ombre-carte);
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+.carte:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent);
+  box-shadow: var(--ombre-posee);
+}
+.carte h2 {
+  margin: 12px 0 8px;
+  font-size: 18px;
+  font-weight: 800;
+}
+.carte ul { padding-left: 20px; }
+.carte li { font-size: 15px; color: var(--gris); }
+
+.puce {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: var(--teinte);
+  display: grid;
+  place-items: center;
+  color: var(--accent);
+}
+.puce svg { display: block; }
+
+/* Les blocs pleine largeur. */
+.bloc {
+  background: var(--carte);
+  border: 1px solid var(--bord);
+  border-radius: var(--rayon-feuille);
+  padding: 34px 36px;
+  margin: 20px 0;
+  box-shadow: var(--ombre-carte);
+}
+.bloc h2 { margin: 12px 0 8px; font-size: clamp(21px, 2.6vw, 26px); }
+.bloc p { color: var(--gris); text-wrap: pretty; }
+.bloc ul { color: var(--gris); }
+
+.bloc--sombre {
+  background: #111827;
+  border-color: #111827;
+  color: #FFFFFF;
+}
+.bloc--sombre h2 { color: #FFFFFF; }
+.bloc--sombre p, .bloc--sombre li { color: rgba(255, 255, 255, 0.72); }
+.bloc--sombre .puce { background: rgba(255, 255, 255, 0.10); color: #FFFFFF; }
+
+.pro-titre {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.pro-badge {
+  background: var(--pro);
+  color: #FFFFFF;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  padding: 4px 9px;
+  border-radius: 5px;
+}
+
+/* Le titre du bloc Pro tient sur la même ligne que sa pastille. */
+.pro-titre h2 { margin: 0; }
+.prix {
+  font-family: var(--police-titre);
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--pro);
+  margin-top: 14px;
+}
+.bloc--sombre .prix { color: #D5A445; }
+
+/* Le bloc qui porte une image à côté du texte. */
+.bloc-duo {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.bloc-duo > div { flex: 1; min-width: 0; }
+.bloc-duo img {
+  flex: none;
+  width: 190px;
+  height: auto;
+  display: block;
+  border-radius: 18px;
+  border: 1px solid var(--bord);
+  box-shadow: var(--ombre-posee);
+}
+
+/* La carte de contact. */
+.contact-carte {
+  background: var(--carte);
+  border: 1px solid var(--bord);
+  border-radius: var(--rayon-feuille);
+  padding: 28px 32px;
   margin: 20px 0;
 }
-
+.contact-carte h2 { margin-top: 0; }
 .contact {
   display: inline-block;
   margin-top: 8px;
-  padding: 12px 20px;
-  border-radius: 10px;
+  padding: 13px 22px;
+  border-radius: var(--rayon-bouton);
   background: var(--accent);
-  color: #fff;
-  font-weight: 600;
+  color: #FFFFFF;
+  font-weight: 700;
   text-decoration: none;
+  transition: background 0.15s ease, transform 0.15s ease;
 }
-.contact:hover { background: var(--accent-dark); color: #fff; }
+.contact:hover { background: var(--accent-fonce); color: #FFFFFF; transform: translateY(-1px); }
 
-/* Le menu. Il est IDENTIQUE sur les huit pages, et la page ou l on se trouve y
-   est marquee au lieu d en etre retiree. Chaque page ecrivait avant son propre
-   menu en omettant son propre lien : on cliquait sur  Assistance  et le lien
-    Assistance  disparaissait du menu. Un menu qui bouge sous le doigt. */
-nav { margin-top: 20px; font-size: 15px; }
-nav a, nav .current { margin-right: 18px; }
-nav a { color: var(--muted); text-decoration: none; }
-nav a:hover { color: var(--accent); text-decoration: underline; }
-nav .current { color: var(--accent); font-weight: 600; }
-
-footer {
-  margin-top: 48px;
-  padding-top: 24px;
-  border-top: 1px solid var(--border);
-  color: var(--muted);
-  font-size: 14px;
-}
-
-/* Meme regle qu au menu : le pied de page porte les memes liens sur les huit
-   pages, et marque celle ou l on se trouve au lieu de la retirer. */
-footer .current { color: var(--accent); font-weight: 600; }
-
-/* Le bouton qui mene a la fiche App Store. Le site a vecu deux mois sans lui :
-   il decrivait l app et ne disait pas ou l obtenir. */
-.appstore {
-  display: inline-block;
-  margin: 20px 0 8px;
-  padding: 15px 26px;
-  border-radius: 12px;
-  background: var(--accent);
-  color: #fff;
-  font-size: 17px;
-  font-weight: 600;
-  text-decoration: none;
-}
-.appstore:hover { background: var(--accent-dark); color: #fff; }
-.appstore-note { margin: 0 0 8px; font-size: 15px; color: var(--muted); }
-
-
-/* La comparaison d ouverture : les deux pages ENTIERES, cote a cote.
-   Un recadrage montrait des bouts de chacune — on ne compare pas deux images
-   tronquees. Les deux gardent leurs proportions d origine, a dix pixels pres. */
-.avant-apres {
-  margin: 28px 0 0;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 16px;
-}
-.avant-apres > div { margin: 0; }
-.avant-apres img {
-  display: block;
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-  border: 1px solid var(--border);
-}
-.avant-apres span {
-  display: block;
-  margin-top: 8px;
-  font-size: 14px;
-  font-weight: 600;
-  color: var(--muted);
-}
-.avant-apres figcaption {
-  grid-column: 1 / -1;
-  margin-top: 6px;
-  font-size: 15px;
-  color: var(--muted);
-}
-
-/* Une capture de l application, a la taille d un telephone tenu en main.
-   Deux suffisent : celle qui montre les rendus, celle qui montre les outils. */
+/* Une capture d'application, à la taille d'un téléphone tenu en main. */
 .ecran { margin: 24px 0 8px; text-align: center; }
 .ecran img {
   display: block;
@@ -179,10 +508,82 @@ footer .current { color: var(--accent); font-weight: 600; }
   height: auto;
   margin: 0 auto;
   border-radius: 20px;
-  border: 1px solid var(--border);
+  border: 1px solid var(--bord);
+  box-shadow: var(--ombre-posee);
 }
 .ecran figcaption {
   margin-top: 10px;
   font-size: 15px;
-  color: var(--muted);
+  color: var(--gris);
+}
+
+/* --------------------------------------------------------------- le pied */
+
+.pied {
+  margin-top: 72px;
+  border-top: 1px solid var(--bord);
+  color: var(--gris);
+  font-size: 14px;
+}
+.pied .dedans {
+  padding-top: 26px;
+  padding-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px 26px;
+  flex-wrap: wrap;
+}
+.pied-liens {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 22px;
+}
+.pied a { color: var(--gris); text-decoration: none; }
+.pied a:hover { color: var(--accent); text-decoration: underline; }
+.pied .current { color: var(--accent); font-weight: 700; }
+.pied .lang { display: inline-flex; align-items: center; gap: 6px; }
+
+/* --------------------------------------------------------- les écrans étroits */
+
+@media (max-width: 900px) {
+  .hero {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 36px;
+    padding-top: 40px;
+  }
+  .hero-photo {
+    width: 210px;
+    align-self: center;
+    transform: rotate(2deg);
+  }
+  .cartes { grid-template-columns: 1fr; }
+  .bloc-duo { flex-direction: column; align-items: flex-start; gap: 28px; }
+  .bloc-duo img { width: 170px; align-self: center; }
+}
+
+@media (max-width: 620px) {
+  body { font-size: 16px; }
+  .dedans { padding: 0 18px; }
+  .bande { border-radius: 0 0 24px 24px; padding-bottom: 44px; }
+  .entete { gap: 12px 16px; }
+  nav { gap: 6px 16px; font-size: 13px; }
+  .preuve { margin-top: -32px; padding: 24px 20px 28px; }
+  .preuve-images { gap: 12px; }
+  .fleche { margin-bottom: 22px; }
+  .fleche svg { width: 20px; height: 20px; }
+  .bloc { padding: 26px 22px; }
+  .contact-carte { padding: 24px 22px; }
+  .pied .dedans { flex-direction: column; align-items: flex-start; }
+}
+
+/* Le réglage « Réduire les animations » de l'iPhone est un réglage
+   d'accessibilité, pas une préférence : on le respecte. */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }
