@@ -44,12 +44,20 @@ dans les six langues, puis on relance `node build.js` ici. Jamais l'inverse.
 
 ## ⚠️ Les noms de fichiers sont déclarés chez Apple
 
-Quatre d'entre eux sont inscrits dans les dix fiches de l'App Store :
+Depuis le 10 septembre 2026, **chaque langue de fiche pointe vers ses propres pages** — c'est le
+bloc S7. Les dix fiches déclarent :
 
-| Case de la fiche | Fiche française | Les neuf autres |
-|---|---|---|
-| URL d'assistance | `assistance.html` | `support.html` |
-| URL de la politique de confidentialité | `confidentialite.html` | `privacy.html` |
+| Fiche | Assistance | Confidentialité | Marketing |
+|---|---|---|---|
+| fr-FR, fr-CA | `assistance.html` | `confidentialite.html` | `index.html` |
+| en-US, en-GB, en-AU | `support.html` | `privacy.html` | `home.html` |
+| es-ES, es-MX | `support-es.html` | `privacy-es.html` | `home-es.html` |
+| de-DE | `support-de.html` | `privacy-de.html` | `home-de.html` |
+| ja | `support-ja.html` | `privacy-ja.html` | `home-ja.html` |
+| zh-Hans | `support-zh.html` | `privacy-zh.html` | `home-zh.html` |
+
+Toutes préfixées de `https://scancam.app/`. **Ces adresses sont écrites dans la version 1.3, qui
+est en préparation :** la version en vente garde encore les anciennes, qui redirigent.
 
 **Une adresse d'assistance qui ne répond pas est un motif de refus.** On ne renomme donc aucun
 de ces fichiers sans avoir changé la fiche d'abord. Les noms sont déclarés dans `textes/*.js`,
