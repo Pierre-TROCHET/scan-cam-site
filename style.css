@@ -45,7 +45,6 @@
 
   --ombre-carte: 0 1px 3px rgba(17, 24, 39, 0.06);
   --ombre-posee: 0 18px 46px rgba(17, 24, 39, 0.10);
-  --ombre-bande: 0 32px 64px rgba(4, 26, 72, 0.42);
 
   --rayon-bouton: 12px;
   --rayon-carte: 16px;
@@ -315,12 +314,16 @@ nav .current {
   color: var(--sur-bande);
 }
 
+/* Pas d'ombre portée sur cette capture, et c'est voulu. Elle en avait une, très
+   étalée (64 px de flou) : sur une image de cette taille, elle coûte cher à
+   redessiner, et le navigateur la repeignait EN RETARD pendant le défilement —
+   l'ombre arrivait après la capture elle-même. Signalé par Pierre le 9 septembre
+   2026. Le mince liseré blanc ci-dessous suffit à détacher la capture du bleu. */
 .hero-photo {
   width: 252px;
   flex: none;
   border-radius: 22px;
   border: 1px solid rgba(255, 255, 255, 0.25);
-  box-shadow: var(--ombre-bande);
   transform: rotate(2.5deg);
   display: block;
   height: auto;
