@@ -768,6 +768,11 @@ main li { margin: 6px 0; }
   .bande { border-radius: 0 0 24px 24px; padding-bottom: 44px; }
   .entete { gap: 12px 16px; }
   nav { gap: 6px 16px; font-size: 13px; }
+  /* Sur un telephone, le menu passe a la ligne et le selecteur de langue se
+     retrouve a GAUCHE. Une liste accrochee a droite deborde alors de l ecran :
+     les drapeaux et le debut des noms sont coupes (vu le 10 septembre 2026 au
+     bloc S8, a 390 px). On l accroche a gauche. */
+  .langues ul { left: 0; right: auto; }
   .preuve { margin-top: -32px; padding: 24px 20px 28px; }
   .preuve-images { gap: 12px; }
   .fleche { margin-bottom: 22px; }
