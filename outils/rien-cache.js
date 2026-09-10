@@ -56,6 +56,10 @@ for (const r of regles) {
 for (const r of regles) {
   if (!/visibility:\s*hidden|display:\s*none/.test(r.corps)) continue;
   if (sousAnime(r.selecteur)) continue;
+  // Un pseudo-élément (::marker, ::-webkit-details-marker) est une décoration
+  // dessinée par le navigateur, pas du contenu : le cacher ne fait disparaître
+  // aucun texte. Ici, c'est le petit triangle par défaut du sélecteur de langue.
+  if (r.selecteur.includes('::')) continue;
   console.log('⚠ élément escamoté hors de « anime » (à vérifier à la main) : ' + r.selecteur);
 }
 

@@ -57,7 +57,7 @@ dans le bloc `fichiers`.
 
 ## Vérifier qu'on n'a rien cassé
 
-Quatre témoins, qui répondent à quatre questions différentes. Chacun a déjà rattrapé quelque chose.
+Cinq témoins, qui répondent à cinq questions différentes. Chacun a déjà rattrapé quelque chose.
 
 **« Est-ce que rien n'a bougé ? »** — pour un changement qui ne doit RIEN changer à ce que le
 lecteur voit (la refonte de la charpente, par exemple) :
@@ -98,6 +98,20 @@ Il vérifie qu'aucune règle ne peut rendre quelque chose invisible en dehors de
 moins d'animations. **Sans JavaScript, avec le réglage « Réduire les animations » de l'iPhone,
 ou si le script tombe en panne, la page s'affiche entière et tout de suite.** Une page dont le
 contenu dépend d'une animation est une page qui peut rester vide sans que personne le sache.
+
+**« Est-ce que ce qui est EN LIGNE est juste ? »** — les quatre autres relisent les fichiers ;
+celui-ci va voir le site publié, ce qui n’est pas la même chose :
+
+    node outils/verifier-en-ligne.js
+
+Il vérifie que les 24 pages répondent et annoncent leur langue, que chacune mène à ses cinq
+sœurs et vers la bonne page, qu'aucun lien ni aucune image ne manque, que le bouton App Store
+est partout, qu'aucune adresse ne part en http non sécurisé, que les 18 adresses déclarables
+chez Apple répondent, et que les anciennes adresses `github.io` redirigent toujours — ce sont
+celles que porte encore la version en vente. **Une adresse d’assistance qui ne répond pas est
+un motif de refus.**
+
+On peut aussi le lancer sur l’aperçu local : `node outils/verifier-en-ligne.js http://localhost:4173/`
 
 ## Mettre en ligne
 
