@@ -521,6 +521,7 @@ main li { margin: 6px 0; }
   margin-top: 14px;
 }
 .bloc--sombre .prix { color: #D5A445; }
+.prix-pays { font-size: 13px; margin-top: 2px; opacity: 0.7; }
 
 /* Le bloc qui porte une image à côté du texte. */
 .bloc-duo {

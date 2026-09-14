@@ -151,8 +151,11 @@ module.exports = {
         alt:
           'Un documento abierto en Scan Cam: la vista previa de la página, las miniaturas debajo y la fila de herramientas — compartir, filtros, extraer el texto, marca de agua, firma, imprimir.',
       },
-      prix: '24,99 € al año, tras 7 días de prueba gratuita.',
-      prixControle: '24,99 €',
+      // {prix} reçoit le prix du pays du visiteur, écrit à sa façon (voir prix.js).
+      // Le pays par défaut est celui d’un navigateur qui ne dit pas le sien.
+      prix: '{prix} al año, tras 7 días de prueba gratuita.',
+      prixPays: 'Precio de la App Store · {pays}',
+      paysParDefaut: 'ES',
       gratuit:
         'La versión gratuita es completa y no caduca: escanea, ordena, filtra, anota, imprime y exporta a PDF cuanto quieras. Los PDF gratuitos llevan al pie de página una pequeña mención «Escaneado con Scan Cam».',
       intro: 'La suscripción Pro añade:',

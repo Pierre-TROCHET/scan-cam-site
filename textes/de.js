@@ -151,8 +151,11 @@ module.exports = {
         alt:
           'Ein Dokument in Scan Cam geöffnet: die Vorschau der Seite, die Miniaturen darunter und die Werkzeugreihe — teilen, Filter, Text auslesen, Wasserzeichen, Unterschrift, drucken.',
       },
-      prix: '24,99 € pro Jahr, nach 7 Tagen kostenlos zur Probe.',
-      prixControle: '24,99 €',
+      // {prix} reçoit le prix du pays du visiteur, écrit à sa façon (voir prix.js).
+      // Le pays par défaut est celui d’un navigateur qui ne dit pas le sien.
+      prix: '{prix} pro Jahr, nach 7 Tagen kostenlos zur Probe.',
+      prixPays: 'App-Store-Preis · {pays}',
+      paysParDefaut: 'DE',
       gratuit:
         'Die kostenlose Version ist vollständig und läuft nie ab: scannen, ordnen, filtern, beschriften, drucken und als PDF exportieren, so viel Sie möchten. Kostenlose PDFs tragen unten auf der Seite den kleinen Hinweis „Gescannt mit Scan Cam“.',
       intro: 'Das Pro-Abo ergänzt:',

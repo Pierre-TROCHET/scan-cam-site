@@ -146,10 +146,11 @@ module.exports = {
         alt:
           'A document open in Scan Cam: the page preview, the page thumbnails below, and the row of tools — share, filters, extract text, watermark, signature, print.',
       },
-      // ⚠️ See fr.js: build.js refuses to build if this price is not found
-      // word for word in the terms of use, which come from the app itself.
-      prix: '€24.99 a year, after a 7-day free trial.',
-      prixControle: '€24.99',
+      // {prix} reçoit le prix du pays du visiteur, écrit à sa façon (voir prix.js).
+      // Le pays par défaut est celui d’un navigateur qui ne dit pas le sien.
+      prix: '{prix} a year, after a 7-day free trial.',
+      prixPays: 'App Store price · {pays}',
+      paysParDefaut: 'US',
       gratuit:
         'The free version is complete and never expires: scan, organize, filter, annotate, print and export to PDF as much as you like. Free PDFs carry a small “Scanned with Scan Cam” line at the foot of the page.',
       intro: 'The Pro subscription adds:',

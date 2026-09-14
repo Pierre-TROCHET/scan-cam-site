@@ -160,12 +160,11 @@ module.exports = {
         alt:
           'L’écran d’un document dans Scan Cam : l’aperçu de la page, les miniatures des pages en bas, et la rangée d’outils — partager, filtres, extraire le texte, filigrane, signature, imprimer.',
       },
-      // ⚠️ Ce prix est aussi écrit dans les conditions d'utilisation, qui
-      // viennent de l'application. `build.js` refuse de fabriquer le site si
-      // « prixControle » ne se retrouve pas mot pour mot dans ces conditions :
-      // c'est ce qui empêche l'accueil d'annoncer un prix que le contrat dément.
-      prix: '24,99 € par an, après 7 jours d’essai gratuit.',
-      prixControle: '24,99 €',
+      // {prix} reçoit le prix du pays du visiteur, écrit à sa façon (voir prix.js).
+      // Le pays par défaut est celui d’un navigateur qui ne dit pas le sien.
+      prix: '{prix} par an, après 7 jours d’essai gratuit.',
+      prixPays: 'Prix de l’App Store · {pays}',
+      paysParDefaut: 'FR',
       gratuit:
         'La version gratuite est complète et sans limite de temps : scanner, ranger, filtrer, annoter, imprimer et exporter en PDF autant que vous voulez. Les PDF gratuits portent une petite mention « Numérisé avec Scan Cam » en bas de page.',
       intro: 'L’abonnement Pro ajoute :',

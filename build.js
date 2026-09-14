@@ -13,6 +13,9 @@ const { page, echapper, PAGES, APPSTORE } = require('./gabarit');
 const icones = require('./icones');
 const legal = require('./outils/legal');
 const { CODES, charger } = require('./langues');
+const { formaterPrix, nomDuPays, lireTableau } = require('./prix');
+
+const TABLEAU = lireTableau();
 
 
 // ---------------------------------------------------------------- les corps
@@ -22,6 +25,50 @@ const liste = (points, indent = '') =>
 
 const image = (img, attributs) =>
   `<img ${attributs} src="${img.src}" width="${img.largeur}" height="${img.hauteur}" alt="${echapper(img.alt)}">`;
+
+/**
+ * Le prix, avec le pays auquel il s'applique. Écrit en dur pour le pays par
+ * défaut de la langue, puis recalculé sur le téléphone du visiteur d'après le
+ * pays de ses réglages — voir prix.js pour le pourquoi.
+ */
+function blocPrix(L) {
+  const pro = L.accueil.pro;
+  const defaut = pro.paysParDefaut;
+  const [montant, devise] = TABLEAU[defaut];
+  const donnees = JSON.stringify({ defaut, prix: TABLEAU }).replace(/</g, '\\u003c');
+  return [
+    `    <p class="prix">${pro.prix.split('{prix}').join(
+      `<span id="prix-montant">${formaterPrix(montant, devise, L.code, defaut)}</span>`
+    )}</p>`,
+    `    <p class="prix-pays">${pro.prixPays.split('{pays}').join(
+      `<span id="prix-pays-nom">${nomDuPays(L.code, defaut)}</span>`
+    )}</p>`,
+    `<script type="application/json" id="prix-par-pays">${donnees}</script>`,
+    '<script>',
+    formaterPrix.toString(),
+    nomDuPays.toString(),
+    '(function () {',
+    "  var noeud = document.getElementById('prix-par-pays');",
+    '  var d;',
+    '  try { d = JSON.parse(noeud.textContent); } catch (e) { return; }',
+    '  var langue = document.documentElement.lang;',
+    '  var demandees = navigator.languages || [navigator.language || ""];',
+    '  for (var i = 0; i < demandees.length; i++) {',
+    '    // « en-GB », « zh-Hans-CN » : le pays est la partie de deux lettres après la langue.',
+    '    var parties = String(demandees[i]).split("-");',
+    '    for (var j = 1; j < parties.length; j++) {',
+    '      var region = parties[j].toUpperCase();',
+    '      if (parties[j].length !== 2 || !d.prix[region]) continue;',
+    '      if (region === d.defaut) return;',
+    "      document.getElementById('prix-montant').textContent = formaterPrix(d.prix[region][0], d.prix[region][1], langue, region);",
+    "      document.getElementById('prix-pays-nom').textContent = nomDuPays(langue, region);",
+    '      return;',
+    '    }',
+    '  }',
+    '})();',
+    '</script>',
+  ].join('\n');
+}
 
 function accueil(L, contact) {
   const c = L.accueil;
@@ -89,7 +136,7 @@ function accueil(L, contact) {
     `    <p>${c.pro.intro}</p>`,
     liste(c.pro.points, '    '),
     `    <p>${c.pro.note}</p>`,
-    `    <p class="prix">${c.pro.prix}</p>`,
+    blocPrix(L),
     '  </div>',
     `  ${image(c.pro.image, '')}`,
     '</section>',
@@ -172,19 +219,20 @@ function juridique(L, parties, h1, contact) {
 // ------------------------------------------------------------- l'assemblage
 
 /**
- * Le prix affiché sur l'accueil doit se retrouver mot pour mot dans les
- * conditions d'utilisation, qui viennent de l'application. Sans ce contrôle, le
- * jour où le prix change dans l'app, la page d'accueil continuerait d'annoncer
- * l'ancien — et personne ne le verrait.
+ * Les conditions d'utilisation, qui viennent de l'application, écrivent encore
+ * le prix en euros. Ce contrôle vérifie que ce chiffre est toujours celui
+ * qu'Apple facture en France d'après `textes/prix.json` : le jour où le prix
+ * change chez Apple et que le relevé est refait, le contrat périmé bloque la
+ * fabrication au lieu de contredire l'accueil sans que personne le voie.
  */
 function verifierLePrix(L, conditions) {
-  const attendu = L.accueil.pro.prixControle;
+  const [montant, devise] = TABLEAU.FR;
+  const chiffre = montant.toFixed(2);
   const dansLesConditions = conditions.map((p) => p.body).join(' ');
-  if (!dansLesConditions.includes(attendu)) {
+  if (devise !== 'EUR' || ![chiffre, chiffre.replace('.', ',')].some((c) => dansLesConditions.includes(c))) {
     throw new Error(
-      `Le prix annoncé sur l'accueil (« ${attendu} », langue ${L.code}) ne se trouve pas dans les ` +
-        `conditions d'utilisation de l'application. Corrigez i18n/legal.ts ou textes/${L.code}.js — ` +
-        'mais pas seulement un des deux.'
+      `Apple facture ${chiffre} ${devise} en France, mais les conditions d'utilisation (langue ${L.code}) ` +
+        "ne citent pas ce montant. Corrigez i18n/legal.ts dans l'application."
     );
   }
 }

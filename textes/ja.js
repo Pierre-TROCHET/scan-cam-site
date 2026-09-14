@@ -151,8 +151,11 @@ module.exports = {
         alt:
           'Scan Cam で開いた書類。ページのプレビュー、下に並ぶページのサムネイル、そして道具の列 — 共有、フィルタ、文字を読み取る、透かし、署名、プリント。',
       },
-      prix: '年額 24.99 €、7 日間の無料体験のあと。',
-      prixControle: '24.99 €',
+      // {prix} reçoit le prix du pays du visiteur, écrit à sa façon (voir prix.js).
+      // Le pays par défaut est celui d’un navigateur qui ne dit pas le sien.
+      prix: '年額 {prix}、7 日間の無料体験のあと。',
+      prixPays: 'App Store 価格 · {pays}',
+      paysParDefaut: 'JP',
       gratuit:
         '無料版は期限なしで一通りそろっています。スキャン、整理、フィルタ、書き込み、印刷、PDF への書き出しは好きなだけ。無料版の PDF には、ページ下部に「Scanned with Scan Cam」という小さな一行が入ります。',
       intro: 'Pro にすると、さらに：',

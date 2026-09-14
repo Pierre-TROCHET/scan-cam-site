@@ -147,8 +147,11 @@ module.exports = {
         alt:
           '在 Scan Cam 中打开的一个文档：页面预览、下方的页面缩略图，以及那一排工具——分享、滤镜、提取文字、水印、签名、打印。',
       },
-      prix: '每年 24.99 €，含 7 天免费试用。',
-      prixControle: '24.99 €',
+      // {prix} reçoit le prix du pays du visiteur, écrit à sa façon (voir prix.js).
+      // Le pays par défaut est celui d’un navigateur qui ne dit pas le sien.
+      prix: '每年 {prix}，含 7 天免费试用。',
+      prixPays: 'App Store 价格 · {pays}',
+      paysParDefaut: 'CN',
       gratuit:
         '免费版功能完整，永不过期：扫描、整理、滤镜、批注、打印和导出 PDF，想用多少就用多少。免费版导出的 PDF 会在页面底部带有一行小字「Scanned with Scan Cam」。',
       intro: 'Pro 订阅另外提供：',
