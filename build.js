@@ -219,20 +219,20 @@ function juridique(L, parties, h1, contact) {
 // ------------------------------------------------------------- l'assemblage
 
 /**
- * Les conditions d'utilisation, qui viennent de l'application, écrivent encore
- * le prix en euros. Ce contrôle vérifie que ce chiffre est toujours celui
- * qu'Apple facture en France d'après `textes/prix.json` : le jour où le prix
- * change chez Apple et que le relevé est refait, le contrat périmé bloque la
- * fabrication au lieu de contredire l'accueil sans que personne le voie.
+ * Les conditions d'utilisation, qui viennent de l'application, ne citent AUCUN
+ * montant depuis le 14 septembre 2026 : elles renvoient au prix affiché par
+ * l'application et l'App Store, dans la monnaie du pays. Un chiffre écrit dans
+ * un contrat lu dans 175 pays est faux presque partout — celui-ci annonçait
+ * 24,99 € à des Américains facturés 22,99 $. Ce contrôle empêche qu'un montant
+ * y revienne par un copier-coller.
  */
 function verifierLePrix(L, conditions) {
-  const [montant, devise] = TABLEAU.FR;
-  const chiffre = montant.toFixed(2);
   const dansLesConditions = conditions.map((p) => p.body).join(' ');
-  if (devise !== 'EUR' || ![chiffre, chiffre.replace('.', ',')].some((c) => dansLesConditions.includes(c))) {
+  const montant = dansLesConditions.match(/\d+[.,]\d{2}\b|[€$£¥￥]/);
+  if (montant) {
     throw new Error(
-      `Apple facture ${chiffre} ${devise} en France, mais les conditions d'utilisation (langue ${L.code}) ` +
-        "ne citent pas ce montant. Corrigez i18n/legal.ts dans l'application."
+      `Les conditions d'utilisation (langue ${L.code}) citent un montant (« ${montant[0]} »), alors que le ` +
+        "prix change d'un pays à l'autre. Corrigez i18n/legal.ts dans l'application."
     );
   }
 }
