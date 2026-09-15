@@ -5,7 +5,7 @@
 // témoins qui le vérifient ne puissent pas être en désaccord sur ce qu'ils
 // doivent regarder. Ajouter une langue, c'est déposer son fichier dans
 // `textes/` et ajouter son code ici.
-const CODES = ['fr', 'en', 'es', 'de', 'ja', 'zh'];
+const CODES = ['fr', 'en', 'es', 'de', 'it', 'pt', 'ja', 'zh', 'ko'];
 
 /** Les six fichiers de textes, chargés. */
 const charger = () => CODES.map((code) => require(`./textes/${code}.js`));

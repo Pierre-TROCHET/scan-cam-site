@@ -59,8 +59,8 @@ async function chercher(url) {
   }
   if (!fautes) console.log(`  ✔ les ${Object.keys(pages).length} pages répondent, chacune dans sa langue`);
 
-  // 2. Chaque page mène à ses cinq sœurs, et vers la bonne.
-  console.log('\n2. Chaque page mène à ses cinq sœurs');
+  // 2. Chaque page mène à ses sœurs, dans toutes les autres langues, et vers la bonne.
+  console.log('\n2. Chaque page mène à ses sœurs, dans toutes les autres langues');
   let soeurs = 0;
   for (const [fichier, html] of Object.entries(pages)) {
     const qui = identite[fichier];
@@ -74,7 +74,8 @@ async function chercher(url) {
       else soeurs++;
     }
   }
-  if (soeurs === Object.keys(pages).length * 5) console.log(`  ✔ ${soeurs} liens de langue, tous vers la bonne page`);
+  if (soeurs !== Object.keys(pages).length * (CODES.length - 1)) rate(`${soeurs} liens de langue au lieu de ${Object.keys(pages).length * (CODES.length - 1)}`);
+  else console.log(`  ✔ ${soeurs} liens de langue, tous vers la bonne page`);
 
   // 3. Aucun lien interne mort, aucune image manquante.
   console.log('\n3. Les liens et les images');

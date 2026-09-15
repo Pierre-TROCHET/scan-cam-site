@@ -169,7 +169,7 @@ module.exports = {
         'Den Export nach Word (.docx) und Excel (.xlsx)',
       ],
       note:
-        'Die Texterkennung läuft auf dem Telefon, ohne Internet: Sie liest das lateinische Alphabet, Japanisch und Chinesisch.',
+        'Die Texterkennung läuft auf dem Telefon, ohne Internet: Sie liest das lateinische Alphabet, Japanisch, Chinesisch und Koreanisch.',
     },
 
     contact: {
@@ -234,13 +234,13 @@ module.exports = {
       {
         q: 'Braucht die Texterkennung Internet?',
         r: [
-          'Nein. Der Text wird von Ihrem iPhone selbst gelesen, ohne Verbindung, und der Inhalt Ihrer Dokumente wird nie an einen fremden Dienst gesendet. Sie liest das lateinische Alphabet, Japanisch und Chinesisch.',
+          'Nein. Der Text wird von Ihrem iPhone selbst gelesen, ohne Verbindung, und der Inhalt Ihrer Dokumente wird nie an einen fremden Dienst gesendet. Sie liest das lateinische Alphabet, Japanisch, Chinesisch und Koreanisch.',
         ],
       },
       {
         q: 'In welchen Sprachen gibt es die App?',
         r: [
-          'Französisch, Englisch, Spanisch, Deutsch, Japanisch und Chinesisch. Die Sprache wird in den Einstellungen der App gewechselt.',
+          'Französisch, Englisch, Spanisch, Deutsch, Italienisch, Portugiesisch (Brasilien), Japanisch, Chinesisch und Koreanisch. Die Sprache wird in den Einstellungen der App gewechselt.',
         ],
       },
       {

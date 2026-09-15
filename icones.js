@@ -136,6 +136,18 @@ const drapeaux = {
     '<rect y="4.67" width="20" height="4.67" fill="#DD0000"></rect>' +
     '<rect y="9.33" width="20" height="4.67" fill="#FFCE00"></rect>',
 
+  it:
+    '<rect width="6.67" height="14" fill="#009246"></rect>' +
+    '<rect x="6.67" width="6.67" height="14" fill="#FFFFFF"></rect>' +
+    '<rect x="13.33" width="6.67" height="14" fill="#CE2B37"></rect>',
+
+  // Le Brésil, comme dans l'application : c'est son portugais que l'app parle.
+  pt:
+    '<rect width="20" height="14" fill="#009C3B"></rect>' +
+    '<polygon points="10,1.7 18.3,7 10,12.3 1.7,7" fill="#FFDF00"></polygon>' +
+    '<circle cx="10" cy="7" r="3.2" fill="#002776"></circle>' +
+    '<path d="M6.9 6.4 Q10 5.6 13.1 7.4" stroke="#FFFFFF" stroke-width="0.6" fill="none"></path>',
+
   ja: '<rect width="20" height="14" fill="#FFFFFF"></rect><circle cx="10" cy="7" r="4.2" fill="#BC002D"></circle>',
 
   zh:
@@ -145,6 +157,16 @@ const drapeaux = {
     etoile(9.6, 3.9, 0.9) +
     etoile(9.4, 6.3, 0.9) +
     etoile(7.8, 7.8, 0.9),
+
+  // La Corée du Sud. Le cercle et les quatre trigrammes, simplifiés à cette taille.
+  ko:
+    '<rect width="20" height="14" fill="#FFFFFF"></rect>' +
+    '<path d="M6.9 5.1 A3.6 3.6 0 0 1 13.1 8.9 Z" fill="#CD2E3A"></path>' +
+    '<path d="M6.9 5.1 A3.6 3.6 0 0 0 13.1 8.9 Z" fill="#0047A0"></path>' +
+    '<g transform="translate(3.6 2.9) rotate(-33.7)"><rect x="-1.2" y="-0.97" width="2.4" height="0.44" fill="#000"></rect><rect x="-1.2" y="-0.22" width="2.4" height="0.44" fill="#000"></rect><rect x="-1.2" y="0.53" width="2.4" height="0.44" fill="#000"></rect></g>' +
+    '<g transform="translate(16.4 11.1) rotate(-33.7)"><rect x="-1.2" y="-0.97" width="1" height="0.44" fill="#000"></rect><rect x="0.2" y="-0.97" width="1" height="0.44" fill="#000"></rect><rect x="-1.2" y="-0.22" width="1" height="0.44" fill="#000"></rect><rect x="0.2" y="-0.22" width="1" height="0.44" fill="#000"></rect><rect x="-1.2" y="0.53" width="1" height="0.44" fill="#000"></rect><rect x="0.2" y="0.53" width="1" height="0.44" fill="#000"></rect></g>' +
+    '<g transform="translate(16.4 2.9) rotate(33.7)"><rect x="-1.2" y="-0.97" width="2.4" height="0.44" fill="#000"></rect><rect x="-1.2" y="-0.22" width="1" height="0.44" fill="#000"></rect><rect x="0.2" y="-0.22" width="1" height="0.44" fill="#000"></rect><rect x="-1.2" y="0.53" width="2.4" height="0.44" fill="#000"></rect></g>' +
+    '<g transform="translate(3.6 11.1) rotate(33.7)"><rect x="-1.2" y="-0.97" width="1" height="0.44" fill="#000"></rect><rect x="0.2" y="-0.97" width="1" height="0.44" fill="#000"></rect><rect x="-1.2" y="-0.22" width="2.4" height="0.44" fill="#000"></rect><rect x="-1.2" y="0.53" width="1" height="0.44" fill="#000"></rect><rect x="0.2" y="0.53" width="1" height="0.44" fill="#000"></rect></g>',
 };
 
 /** Le drapeau d'une langue, ou rien si elle n'en a pas. */

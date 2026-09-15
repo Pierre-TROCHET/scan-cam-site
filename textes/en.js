@@ -164,7 +164,7 @@ module.exports = {
         'Export to Word (.docx) and Excel (.xlsx)',
       ],
       note:
-        'Text recognition runs on the phone, with no internet: it reads the Latin alphabet, Japanese and Chinese.',
+        'Text recognition runs on the phone, with no internet: it reads the Latin alphabet, Japanese, Chinese and Korean.',
     },
 
     contact: {
@@ -229,13 +229,13 @@ module.exports = {
       {
         q: 'Does text recognition need the internet?',
         r: [
-          'No. The text is read by your iPhone itself, with no connection, and the contents of your documents are never sent to an outside service. It reads the Latin alphabet, Japanese and Chinese.',
+          'No. The text is read by your iPhone itself, with no connection, and the contents of your documents are never sent to an outside service. It reads the Latin alphabet, Japanese, Chinese and Korean.',
         ],
       },
       {
         q: 'What languages is the app available in?',
         r: [
-          'French, English, Spanish, German, Japanese and Chinese. The language is changed in the app’s settings.',
+          'French, English, Spanish, German, Italian, Portuguese (Brazil), Japanese, Chinese and Korean. The language is changed in the app’s settings.',
         ],
       },
       {

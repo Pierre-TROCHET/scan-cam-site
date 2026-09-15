@@ -792,3 +792,8 @@ main li { margin: 6px 0; }
     transition-duration: 0.01ms !important;
   }
 }
+
+/* Le coreen separe ses mots par des espaces, mais le navigateur coupe par defaut
+   entre deux syllabes : le grand titre sortait coupe au milieu d un mot. keep-all
+   ne coupe qu aux espaces, comme un lecteur coreen s y attend. (14 septembre 2026) */
+:lang(ko) { word-break: keep-all; overflow-wrap: anywhere; }
