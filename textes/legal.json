@@ -21,11 +21,11 @@
       ],
       "privacy": [
         {
-          "body": "Scan Cam n’a ni compte, ni inscription, ni serveur à nous, ni mesure d’audience, ni publicité. Vos documents restent sur votre téléphone et ne sont envoyés nulle part. La seule chose qui sorte de l’application concerne l’abonnement, et rien d’autre : elle est décrite plus bas."
+          "body": "Scan Cam n’a ni compte, ni inscription, ni serveur à nous, ni mesure d’audience, ni publicité. Vos documents restent sur votre iPhone et dans votre propre iCloud Drive — jamais sur un serveur à nous. En dehors de cette copie, que vous pouvez couper, la seule chose qui sorte de l’application concerne l’abonnement : elle est décrite plus bas."
         },
         {
-          "heading": "Vos documents restent sur votre téléphone",
-          "body": "Les pages que vous numérisez, les fichiers qui en sont tirés, vos dossiers et vos signatures sont enregistrés dans l’espace privé de l’application, sur votre iPhone. Ils ne sont transmis à personne. Si la sauvegarde iCloud de votre iPhone est activée, ils sont sauvegardés avec le reste de votre téléphone, par Apple et selon les règles d’Apple."
+          "heading": "Vos documents : sur votre iPhone et dans votre iCloud",
+          "body": "Les pages que vous numérisez, les fichiers qui en sont tirés, vos dossiers et vos signatures sont enregistrés dans l’espace privé de l’application, sur votre iPhone. Une copie en est gardée dans votre propre iCloud Drive, sur votre compte Apple, pour qu’ils reviennent si vous réinstallez l’application ou changez d’iPhone. Cette copie est stockée par Apple, selon les règles d’Apple : l’éditeur de Scan Cam n’y a pas accès et ne la voit jamais. Vous pouvez la couper dans les réglages de l’application (« Sauvegarde iCloud ») : elle est alors effacée d’iCloud, et vos documents restent seulement sur votre iPhone. Ils ne sont transmis à personne d’autre. Si la sauvegarde iCloud de votre iPhone est activée, ils sont aussi sauvegardés avec le reste de votre téléphone."
         },
         {
           "heading": "La caméra",
@@ -41,11 +41,11 @@
         },
         {
           "heading": "Quand vous partagez",
-          "body": "Un document ne quitte votre téléphone que lorsque vous appuyez vous-même sur Partager, et il part vers l’application ou la personne que vous désignez à ce moment-là. Ce qu’elle en fait ensuite relève de ses propres règles, pas de celles-ci."
+          "body": "En dehors de la copie dans votre iCloud Drive décrite plus haut, un document ne quitte votre téléphone que lorsque vous appuyez vous-même sur Partager, et il part vers l’application ou la personne que vous désignez à ce moment-là. Ce qu’elle en fait ensuite relève de ses propres règles, pas de celles-ci."
         },
         {
           "heading": "L’abonnement",
-          "body": "L’abonnement est vendu et facturé par Apple. Votre moyen de paiement n’est connu que d’Apple : l’éditeur de Scan Cam ne le voit jamais.\n\nPour savoir si vous êtes abonné, l’application interroge RevenueCat, un service qui tient à jour l’état des abonnements. Il reçoit votre achat et un numéro anonyme qu’il fabrique lui-même — jamais votre nom, jamais votre adresse e-mail, jamais un seul de vos documents. C’est la seule information qui sorte de l’application, et elle ne sert qu’à débloquer ce que vous avez payé."
+          "body": "L’abonnement est vendu et facturé par Apple. Votre moyen de paiement n’est connu que d’Apple : l’éditeur de Scan Cam ne le voit jamais.\n\nPour savoir si vous êtes abonné, l’application interroge RevenueCat, un service qui tient à jour l’état des abonnements. Il reçoit votre achat et un numéro anonyme qu’il fabrique lui-même — jamais votre nom, jamais votre adresse e-mail, jamais un seul de vos documents. C’est la seule information qui sorte de l’application vers un autre service que votre propre iCloud, et elle ne sert qu’à débloquer ce que vous avez payé."
         },
         {
           "heading": "Effacer vos données",
@@ -85,11 +85,11 @@
       ],
       "privacy": [
         {
-          "body": "Scan Cam has no account, no sign-up, no server of ours, no analytics and no advertising. Your documents stay on your phone and are sent nowhere. The only thing that leaves the app concerns the subscription, and nothing else: it is described below."
+          "body": "Scan Cam has no account, no sign-up, no server of ours, no analytics and no advertising. Your documents stay on your iPhone and in your own iCloud Drive — never on a server of ours. Apart from that copy, which you can turn off, the only thing that leaves the app concerns the subscription: it is described below."
         },
         {
-          "heading": "Your documents stay on your phone",
-          "body": "The pages you scan, the files made from them, your folders and your signatures are saved in the app’s private space, on your iPhone. They are passed to no one. If your iPhone’s iCloud backup is on, they are backed up along with the rest of your phone, by Apple and under Apple’s rules."
+          "heading": "Your documents: on your iPhone and in your iCloud",
+          "body": "The pages you scan, the files made from them, your folders and your signatures are saved in the app’s private space, on your iPhone. A copy is kept in your own iCloud Drive, on your Apple Account, so that they come back if you reinstall the app or change iPhones. That copy is stored by Apple, under Apple’s rules: the publisher of Scan Cam has no access to it and never sees it. You can turn it off in the app’s settings (“iCloud backup”): it is then erased from iCloud, and your documents stay on your iPhone only. They are passed to no one else. If your iPhone’s iCloud backup is on, they are also backed up along with the rest of your phone."
         },
         {
           "heading": "The camera",
@@ -105,11 +105,11 @@
         },
         {
           "heading": "When you share",
-          "body": "A document leaves your phone only when you tap Share yourself, and it goes to the app or the person you name at that moment. What they then do with it falls under their own rules, not under these."
+          "body": "Apart from the copy in your iCloud Drive described above, a document leaves your phone only when you tap Share yourself, and it goes to the app or the person you name at that moment. What they then do with it falls under their own rules, not under these."
         },
         {
           "heading": "The subscription",
-          "body": "The subscription is sold and billed by Apple. Your payment method is known to Apple alone: the publisher of Scan Cam never sees it.\n\nTo know whether you are subscribed, the app asks RevenueCat, a service that keeps subscription status up to date. It receives your purchase and an anonymous number it makes up itself — never your name, never your email address, never a single one of your documents. That is the only information that leaves the app, and it serves only to unlock what you have paid for."
+          "body": "The subscription is sold and billed by Apple. Your payment method is known to Apple alone: the publisher of Scan Cam never sees it.\n\nTo know whether you are subscribed, the app asks RevenueCat, a service that keeps subscription status up to date. It receives your purchase and an anonymous number it makes up itself — never your name, never your email address, never a single one of your documents. That is the only information that leaves the app for a service other than your own iCloud, and it serves only to unlock what you have paid for."
         },
         {
           "heading": "Erasing your data",
@@ -149,11 +149,11 @@
       ],
       "privacy": [
         {
-          "body": "Scan Cam no tiene cuenta, ni registro, ni servidor propio, ni analítica, ni publicidad. Tus documentos se quedan en tu teléfono y no se envían a ninguna parte. Lo único que sale de la aplicación tiene que ver con la suscripción, y con nada más: se explica más abajo."
+          "body": "Scan Cam no tiene cuenta, ni registro, ni servidor propio, ni analítica, ni publicidad. Tus documentos se quedan en tu iPhone y en tu propio iCloud Drive — nunca en un servidor nuestro. Aparte de esa copia, que puedes desactivar, lo único que sale de la aplicación tiene que ver con la suscripción: se explica más abajo."
         },
         {
-          "heading": "Tus documentos se quedan en tu teléfono",
-          "body": "Las páginas que escaneas, los archivos que salen de ellas, tus carpetas y tus firmas se guardan en el espacio privado de la aplicación, en tu iPhone. No se transmiten a nadie. Si la copia de seguridad de iCloud de tu iPhone está activada, se guardan junto con el resto del teléfono, por Apple y según las reglas de Apple."
+          "heading": "Tus documentos: en tu iPhone y en tu iCloud",
+          "body": "Las páginas que escaneas, los archivos que salen de ellas, tus carpetas y tus firmas se guardan en el espacio privado de la aplicación, en tu iPhone. Se guarda una copia en tu propio iCloud Drive, en tu cuenta de Apple, para que vuelvan si reinstalas la aplicación o cambias de iPhone. Esa copia la almacena Apple, según las reglas de Apple: el editor de Scan Cam no tiene acceso a ella y nunca la ve. Puedes desactivarla en los ajustes de la aplicación («Copia en iCloud»): entonces se borra de iCloud y tus documentos se quedan solo en tu iPhone. No se transmiten a nadie más. Si la copia de seguridad de iCloud de tu iPhone está activada, también se guardan junto con el resto del teléfono."
         },
         {
           "heading": "La cámara",
@@ -169,11 +169,11 @@
         },
         {
           "heading": "Cuando compartes",
-          "body": "Un documento sale de tu teléfono solo cuando pulsas Compartir tú mismo, y va a la aplicación o a la persona que indicas en ese momento. Lo que hagan después con él depende de sus propias reglas, no de estas."
+          "body": "Aparte de la copia en tu iCloud Drive descrita más arriba, un documento sale de tu teléfono solo cuando pulsas Compartir tú mismo, y va a la aplicación o a la persona que indicas en ese momento. Lo que hagan después con él depende de sus propias reglas, no de estas."
         },
         {
           "heading": "La suscripción",
-          "body": "Apple vende y factura la suscripción. Tu método de pago solo lo conoce Apple: el editor de Scan Cam nunca lo ve.\n\nPara saber si estás suscrito, la aplicación consulta a RevenueCat, un servicio que mantiene al día el estado de las suscripciones. Recibe tu compra y un número anónimo que él mismo genera — nunca tu nombre, nunca tu correo electrónico, nunca ninguno de tus documentos. Es la única información que sale de la aplicación, y solo sirve para desbloquear lo que has pagado."
+          "body": "Apple vende y factura la suscripción. Tu método de pago solo lo conoce Apple: el editor de Scan Cam nunca lo ve.\n\nPara saber si estás suscrito, la aplicación consulta a RevenueCat, un servicio que mantiene al día el estado de las suscripciones. Recibe tu compra y un número anónimo que él mismo genera — nunca tu nombre, nunca tu correo electrónico, nunca ninguno de tus documentos. Es la única información que sale de la aplicación hacia un servicio distinto de tu propio iCloud, y solo sirve para desbloquear lo que has pagado."
         },
         {
           "heading": "Borrar tus datos",
@@ -213,11 +213,11 @@
       ],
       "privacy": [
         {
-          "body": "Scan Cam hat kein Konto, keine Anmeldung, keinen eigenen Server, keine Reichweitenmessung und keine Werbung. Ihre Dokumente bleiben auf Ihrem Telefon und werden nirgendwohin gesendet. Das Einzige, was die App verlässt, betrifft das Abonnement und sonst nichts: es wird weiter unten beschrieben."
+          "body": "Scan Cam hat kein Konto, keine Anmeldung, keinen eigenen Server, keine Reichweitenmessung und keine Werbung. Ihre Dokumente bleiben auf Ihrem iPhone und in Ihrem eigenen iCloud Drive — nie auf einem Server von uns. Abgesehen von dieser Kopie, die Sie ausschalten können, betrifft das Einzige, was die App verlässt, das Abonnement: es wird weiter unten beschrieben."
         },
         {
-          "heading": "Ihre Dokumente bleiben auf Ihrem Telefon",
-          "body": "Die Seiten, die Sie scannen, die daraus entstehenden Dateien, Ihre Ordner und Ihre Unterschriften werden im privaten Bereich der App auf Ihrem iPhone gespeichert. Sie werden an niemanden weitergegeben. Wenn die iCloud-Sicherung Ihres iPhones aktiviert ist, werden sie zusammen mit dem Rest Ihres Telefons gesichert, durch Apple und nach den Regeln von Apple."
+          "heading": "Ihre Dokumente: auf Ihrem iPhone und in Ihrem iCloud",
+          "body": "Die Seiten, die Sie scannen, die daraus entstehenden Dateien, Ihre Ordner und Ihre Unterschriften werden im privaten Bereich der App auf Ihrem iPhone gespeichert. Eine Kopie wird in Ihrem eigenen iCloud Drive auf Ihrem Apple Account aufbewahrt, damit sie zurückkommen, wenn Sie die App neu installieren oder das iPhone wechseln. Diese Kopie wird von Apple nach den Regeln von Apple gespeichert: Der Herausgeber von Scan Cam hat keinen Zugriff darauf und sieht sie nie. Sie können sie in den Einstellungen der App ausschalten („iCloud-Sicherung“): Sie wird dann aus iCloud gelöscht, und Ihre Dokumente bleiben nur auf Ihrem iPhone. An niemanden sonst werden sie weitergegeben. Wenn die iCloud-Sicherung Ihres iPhones aktiviert ist, werden sie außerdem zusammen mit dem Rest Ihres Telefons gesichert."
         },
         {
           "heading": "Die Kamera",
@@ -233,11 +233,11 @@
         },
         {
           "heading": "Wenn Sie teilen",
-          "body": "Ein Dokument verlässt Ihr Telefon nur, wenn Sie selbst auf Teilen tippen, und es geht an die App oder die Person, die Sie in diesem Moment bestimmen. Was damit anschließend geschieht, richtet sich nach deren eigenen Regeln, nicht nach diesen."
+          "body": "Abgesehen von der oben beschriebenen Kopie in Ihrem iCloud Drive verlässt ein Dokument Ihr Telefon nur, wenn Sie selbst auf Teilen tippen, und es geht an die App oder die Person, die Sie in diesem Moment bestimmen. Was damit anschließend geschieht, richtet sich nach deren eigenen Regeln, nicht nach diesen."
         },
         {
           "heading": "Das Abonnement",
-          "body": "Das Abonnement wird von Apple verkauft und abgerechnet. Ihre Zahlungsdaten kennt allein Apple: der Herausgeber von Scan Cam sieht sie nie.\n\nUm zu wissen, ob Sie ein Abonnement haben, fragt die App bei RevenueCat nach, einem Dienst, der den Stand der Abonnements führt. Er erhält Ihren Kauf und eine anonyme Nummer, die er selbst vergibt — nie Ihren Namen, nie Ihre E-Mail-Adresse, nie eines Ihrer Dokumente. Das ist die einzige Information, die die App verlässt, und sie dient allein dazu, freizuschalten, wofür Sie bezahlt haben."
+          "body": "Das Abonnement wird von Apple verkauft und abgerechnet. Ihre Zahlungsdaten kennt allein Apple: der Herausgeber von Scan Cam sieht sie nie.\n\nUm zu wissen, ob Sie ein Abonnement haben, fragt die App bei RevenueCat nach, einem Dienst, der den Stand der Abonnements führt. Er erhält Ihren Kauf und eine anonyme Nummer, die er selbst vergibt — nie Ihren Namen, nie Ihre E-Mail-Adresse, nie eines Ihrer Dokumente. Das ist die einzige Information, die die App in Richtung eines anderen Dienstes als Ihres eigenen iCloud verlässt, und sie dient allein dazu, freizuschalten, wofür Sie bezahlt haben."
         },
         {
           "heading": "Ihre Daten löschen",
@@ -277,11 +277,11 @@
       ],
       "privacy": [
         {
-          "body": "Scan Cam non ha account, né registrazione, né server nostri, né misurazione del pubblico, né pubblicità. I tuoi documenti restano sul tuo telefono e non vengono inviati da nessuna parte. L’unica cosa che esce dall’app riguarda l’abbonamento, e nient’altro: è descritta più sotto."
+          "body": "Scan Cam non ha account, né registrazione, né server nostri, né misurazione del pubblico, né pubblicità. I tuoi documenti restano sul tuo iPhone e nel tuo iCloud Drive — mai su un nostro server. A parte questa copia, che puoi disattivare, l’unica cosa che esce dall’app riguarda l’abbonamento: è descritta più sotto."
         },
         {
-          "heading": "I tuoi documenti restano sul tuo telefono",
-          "body": "Le pagine che scansioni, i file che ne ricavi, le tue cartelle e le tue firme sono salvati nello spazio privato dell’app, sul tuo iPhone. Non vengono trasmessi a nessuno. Se il backup iCloud del tuo iPhone è attivo, vengono salvati insieme al resto del telefono, da Apple e secondo le regole di Apple."
+          "heading": "I tuoi documenti: sul tuo iPhone e nel tuo iCloud",
+          "body": "Le pagine che scansioni, i file che ne ricavi, le tue cartelle e le tue firme sono salvati nello spazio privato dell’app, sul tuo iPhone. Una copia viene conservata nel tuo iCloud Drive, sul tuo Account Apple, perché tornino se reinstalli l’app o cambi iPhone. Questa copia è conservata da Apple, secondo le regole di Apple: l’editore di Scan Cam non vi ha accesso e non la vede mai. Puoi disattivarla nelle impostazioni dell’app («Backup iCloud»): viene allora cancellata da iCloud e i tuoi documenti restano solo sul tuo iPhone. Non vengono trasmessi a nessun altro. Se il backup iCloud del tuo iPhone è attivo, vengono anche salvati insieme al resto del telefono."
         },
         {
           "heading": "La fotocamera",
@@ -297,11 +297,11 @@
         },
         {
           "heading": "Quando condividi",
-          "body": "Un documento lascia il tuo telefono solo quando tocchi tu stesso Condividi, e va all’app o alla persona che indichi in quel momento. Quello che poi ne fa dipende dalle sue regole, non da queste."
+          "body": "A parte la copia nel tuo iCloud Drive descritta sopra, un documento lascia il tuo telefono solo quando tocchi tu stesso Condividi, e va all’app o alla persona che indichi in quel momento. Quello che poi ne fa dipende dalle sue regole, non da queste."
         },
         {
           "heading": "L’abbonamento",
-          "body": "L’abbonamento è venduto e addebitato da Apple. Il tuo metodo di pagamento è noto solo ad Apple: l’editore di Scan Cam non lo vede mai.\n\nPer sapere se sei abbonato, l’app interroga RevenueCat, un servizio che tiene aggiornato lo stato degli abbonamenti. Riceve il tuo acquisto e un numero anonimo che genera da sé — mai il tuo nome, mai il tuo indirizzo email, mai nessuno dei tuoi documenti. È l’unica informazione che esce dall’app, e serve solo a sbloccare ciò per cui hai pagato."
+          "body": "L’abbonamento è venduto e addebitato da Apple. Il tuo metodo di pagamento è noto solo ad Apple: l’editore di Scan Cam non lo vede mai.\n\nPer sapere se sei abbonato, l’app interroga RevenueCat, un servizio che tiene aggiornato lo stato degli abbonamenti. Riceve il tuo acquisto e un numero anonimo che genera da sé — mai il tuo nome, mai il tuo indirizzo email, mai nessuno dei tuoi documenti. È l’unica informazione che esce dall’app verso un servizio diverso dal tuo iCloud, e serve solo a sbloccare ciò per cui hai pagato."
         },
         {
           "heading": "Cancellare i tuoi dati",
@@ -341,11 +341,11 @@
       ],
       "privacy": [
         {
-          "body": "O Scan Cam não tem conta, nem cadastro, nem servidor próprio, nem medição de audiência, nem publicidade. Os seus documentos ficam no seu celular e não são enviados a lugar nenhum. A única coisa que sai do aplicativo diz respeito à assinatura, e nada mais: ela é descrita mais abaixo."
+          "body": "O Scan Cam não tem conta, nem cadastro, nem servidor próprio, nem medição de audiência, nem publicidade. Os seus documentos ficam no seu iPhone e no seu próprio iCloud Drive — nunca em um servidor nosso. Fora essa cópia, que você pode desativar, a única coisa que sai do aplicativo diz respeito à assinatura: ela é descrita mais abaixo."
         },
         {
-          "heading": "Os seus documentos ficam no seu celular",
-          "body": "As páginas que você digitaliza, os arquivos gerados a partir delas, as suas pastas e as suas assinaturas são salvos no espaço privado do aplicativo, no seu iPhone. Eles não são transmitidos a ninguém. Se o backup do iCloud do seu iPhone estiver ativado, eles são incluídos no backup junto com o resto do seu celular, pela Apple e de acordo com as regras da Apple."
+          "heading": "Os seus documentos: no seu iPhone e no seu iCloud",
+          "body": "As páginas que você digitaliza, os arquivos gerados a partir delas, as suas pastas e as suas assinaturas são salvos no espaço privado do aplicativo, no seu iPhone. Uma cópia é guardada no seu próprio iCloud Drive, na sua Conta Apple, para que eles voltem se você reinstalar o aplicativo ou trocar de iPhone. Essa cópia é armazenada pela Apple, de acordo com as regras da Apple: o editor do Scan Cam não tem acesso a ela e nunca a vê. Você pode desativá-la nos ajustes do aplicativo (“Backup no iCloud”): ela é então apagada do iCloud, e os seus documentos ficam só no seu iPhone. Eles não são transmitidos a mais ninguém. Se o backup do iCloud do seu iPhone estiver ativado, eles também são incluídos no backup junto com o resto do seu celular."
         },
         {
           "heading": "A câmera",
@@ -361,11 +361,11 @@
         },
         {
           "heading": "Quando você compartilha",
-          "body": "Um documento só sai do seu celular quando você mesmo toca em Compartilhar, e vai para o aplicativo ou a pessoa que você indicar nesse momento. O que ela faz com ele depois segue as regras dela, e não estas."
+          "body": "Fora a cópia no seu iCloud Drive descrita acima, um documento só sai do seu celular quando você mesmo toca em Compartilhar, e vai para o aplicativo ou a pessoa que você indicar nesse momento. O que ela faz com ele depois segue as regras dela, e não estas."
         },
         {
           "heading": "A assinatura",
-          "body": "A assinatura é vendida e cobrada pela Apple. O seu meio de pagamento é conhecido apenas pela Apple: o editor do Scan Cam nunca tem acesso a ele.\n\nPara saber se você é assinante, o aplicativo consulta a RevenueCat, um serviço que mantém atualizado o status das assinaturas. Ela recebe a sua compra e um número anônimo que ela mesma gera — nunca o seu nome, nunca o seu endereço de e-mail, nunca nenhum dos seus documentos. Essa é a única informação que sai do aplicativo, e ela serve apenas para desbloquear o que você pagou."
+          "body": "A assinatura é vendida e cobrada pela Apple. O seu meio de pagamento é conhecido apenas pela Apple: o editor do Scan Cam nunca tem acesso a ele.\n\nPara saber se você é assinante, o aplicativo consulta a RevenueCat, um serviço que mantém atualizado o status das assinaturas. Ela recebe a sua compra e um número anônimo que ela mesma gera — nunca o seu nome, nunca o seu endereço de e-mail, nunca nenhum dos seus documentos. Essa é a única informação que sai do aplicativo para um serviço que não seja o seu próprio iCloud, e ela serve apenas para desbloquear o que você pagou."
         },
         {
           "heading": "Apagar os seus dados",
@@ -405,11 +405,11 @@
       ],
       "privacy": [
         {
-          "body": "Scan Cam にはアカウントも、登録も、自前のサーバーも、アクセス解析も、広告もありません。あなたの書類は iPhone の中に留まり、どこにも送られません。アプリから外に出るのは購読に関することだけで、ほかには何もありません。詳しくは下記をご覧ください。"
+          "body": "Scan Cam にはアカウントも、登録も、自前のサーバーも、アクセス解析も、広告もありません。あなたの書類は iPhone の中と、あなた自身の iCloud Drive にだけ保存され、私たちのサーバーに送られることはありません。オフにできるこのコピーを除けば、アプリから外に出るのは購読に関することだけです。詳しくは下記をご覧ください。"
         },
         {
-          "heading": "書類は iPhone の中に留まります",
-          "body": "スキャンしたページ、そこから作られたファイル、フォルダ、署名は、iPhone の中のアプリ専用の領域に保存されます。誰にも渡されません。iPhone の iCloud バックアップが有効な場合は、iPhone のほかのデータと一緒に、Apple によって Apple の規則に従ってバックアップされます。"
+          "heading": "書類の保存場所：iPhone とあなたの iCloud",
+          "body": "スキャンしたページ、そこから作られたファイル、フォルダ、署名は、iPhone の中のアプリ専用の領域に保存されます。アプリを再インストールしたり iPhone を買い替えたりしても戻ってくるように、そのコピーがあなた自身の iCloud Drive（あなたの Apple アカウント）に保存されます。このコピーは Apple によって Apple の規則に従って保管され、Scan Cam の提供者がアクセスしたり見たりすることはありません。アプリの設定（「iCloud バックアップ」）でオフにでき、その場合コピーは iCloud から削除され、書類はこの iPhone にだけ残ります。それ以外の誰にも渡されません。iPhone の iCloud バックアップが有効な場合は、iPhone のほかのデータと一緒にもバックアップされます。"
         },
         {
           "heading": "カメラ",
@@ -425,11 +425,11 @@
         },
         {
           "heading": "共有するとき",
-          "body": "書類が iPhone を離れるのは、あなた自身が「共有」を押したときだけで、その場で指定したアプリや相手に渡されます。渡された先での扱いは、その相手の規則によるものであり、この方針の対象ではありません。"
+          "body": "上記の iCloud Drive へのコピーを除けば、書類が iPhone を離れるのは、あなた自身が「共有」を押したときだけで、その場で指定したアプリや相手に渡されます。渡された先での扱いは、その相手の規則によるものであり、この方針の対象ではありません。"
         },
         {
           "heading": "購読について",
-          "body": "購読の販売と請求は Apple が行います。支払い方法を知っているのは Apple だけで、Scan Cam の提供者が見ることはありません。\n\n購読中かどうかを確認するため、アプリは RevenueCat という購読状況を管理するサービスに問い合わせます。RevenueCat が受け取るのは、購入の記録と、RevenueCat 自身が発行する匿名の番号だけです。お名前も、メールアドレスも、書類も、一切渡りません。アプリから外に出る情報はこれだけで、お支払いいただいた機能を使えるようにするためだけに使われます。"
+          "body": "購読の販売と請求は Apple が行います。支払い方法を知っているのは Apple だけで、Scan Cam の提供者が見ることはありません。\n\n購読中かどうかを確認するため、アプリは RevenueCat という購読状況を管理するサービスに問い合わせます。RevenueCat が受け取るのは、購入の記録と、RevenueCat 自身が発行する匿名の番号だけです。お名前も、メールアドレスも、書類も、一切渡りません。あなた自身の iCloud 以外のサービスへアプリから出る情報はこれだけで、お支払いいただいた機能を使えるようにするためだけに使われます。"
         },
         {
           "heading": "データの消去",
@@ -469,11 +469,11 @@
       ],
       "privacy": [
         {
-          "body": "Scan Cam 没有账户，没有注册，没有我们自己的服务器，没有统计分析，也没有广告。你的文档留在手机上，不会被发送到任何地方。离开应用的只有与订阅有关的信息，此外别无其他：详见下文。"
+          "body": "Scan Cam 没有账户，没有注册，没有我们自己的服务器，没有统计分析，也没有广告。你的文档只保存在你的 iPhone 和你自己的 iCloud 云盘中，绝不会存到我们的服务器上。除了这份可以关闭的副本，离开应用的只有与订阅有关的信息：详见下文。"
         },
         {
-          "heading": "你的文档留在手机里",
-          "body": "你扫描的页面、由此生成的文件、你的文件夹和签名，都保存在 iPhone 上应用自己的私有空间中，不会转交给任何人。如果你开启了 iPhone 的 iCloud 备份，它们会和手机上的其他内容一起，由 Apple 按照 Apple 的规则备份。"
+          "heading": "你的文档：在 iPhone 上，也在你的 iCloud 中",
+          "body": "你扫描的页面、由此生成的文件、你的文件夹和签名，都保存在 iPhone 上应用自己的私有空间中。为了在你重新安装应用或更换 iPhone 后能够找回，它们的一份副本会保存在你自己的 iCloud 云盘（你的 Apple 账户）中。这份副本由 Apple 按照 Apple 的规则存储，Scan Cam 的发布者无法访问，也从不会看到。你可以在应用的设置（“iCloud 备份”）中关闭它：副本随即从 iCloud 删除，你的文档只保留在这台 iPhone 上。它们不会转交给其他任何人。如果你开启了 iPhone 的 iCloud 备份，它们也会和手机上的其他内容一起备份。"
         },
         {
           "heading": "摄像头",
@@ -489,11 +489,11 @@
         },
         {
           "heading": "当你分享时",
-          "body": "只有你自己点击分享，文档才会离开你的手机，并发送给你当时指定的应用或对象。对方之后如何处理，取决于对方自己的规则，不在本政策范围内。"
+          "body": "除了上文所述保存到你 iCloud 云盘的副本，只有你自己点击分享，文档才会离开你的手机，并发送给你当时指定的应用或对象。对方之后如何处理，取决于对方自己的规则，不在本政策范围内。"
         },
         {
           "heading": "关于订阅",
-          "body": "订阅由 Apple 销售并收款。你的支付方式只有 Apple 知道，Scan Cam 的发布者从不会看到。\n\n为了知道你是否已订阅，应用会向 RevenueCat 查询，这是一项记录订阅状态的服务。它收到的只有你的购买记录，以及它自己生成的一个匿名编号 —— 绝不会收到你的姓名、电子邮箱，也绝不会收到你的任何文档。这是离开应用的唯一信息，只用于解锁你已付费的功能。"
+          "body": "订阅由 Apple 销售并收款。你的支付方式只有 Apple 知道，Scan Cam 的发布者从不会看到。\n\n为了知道你是否已订阅，应用会向 RevenueCat 查询，这是一项记录订阅状态的服务。它收到的只有你的购买记录，以及它自己生成的一个匿名编号 —— 绝不会收到你的姓名、电子邮箱，也绝不会收到你的任何文档。这是离开应用、发往你自己的 iCloud 以外服务的唯一信息，只用于解锁你已付费的功能。"
         },
         {
           "heading": "删除你的数据",
@@ -533,11 +533,11 @@
       ],
       "privacy": [
         {
-          "body": "Scan Cam에는 계정도, 가입 절차도, 자체 서버도, 이용 분석도, 광고도 없습니다. 사용자의 문서는 휴대폰에 그대로 남으며 어디로도 전송되지 않습니다. 앱 밖으로 나가는 것은 구독에 관한 정보뿐이며 그 외에는 아무것도 없습니다. 자세한 내용은 아래에 설명되어 있습니다."
+          "body": "Scan Cam에는 계정도, 가입 절차도, 자체 서버도, 이용 분석도, 광고도 없습니다. 사용자의 문서는 iPhone과 사용자 본인의 iCloud Drive에만 보관되며, 저희 서버로는 절대 전송되지 않습니다. 끌 수 있는 이 사본을 제외하면, 앱 밖으로 나가는 것은 구독에 관한 정보뿐입니다. 자세한 내용은 아래에 설명되어 있습니다."
         },
         {
-          "heading": "문서는 휴대폰에 남습니다",
-          "body": "사용자가 스캔한 페이지, 그로부터 만들어진 파일, 폴더와 서명은 iPhone에 있는 앱 전용 공간에 저장됩니다. 누구에게도 전달되지 않습니다. iPhone의 iCloud 백업이 켜져 있는 경우, 휴대폰의 다른 데이터와 함께 Apple에 의해 Apple의 규정에 따라 백업됩니다."
+          "heading": "문서 보관 위치: iPhone과 내 iCloud",
+          "body": "사용자가 스캔한 페이지, 그로부터 만들어진 파일, 폴더와 서명은 iPhone에 있는 앱 전용 공간에 저장됩니다. 앱을 다시 설치하거나 iPhone을 바꿔도 돌아올 수 있도록, 그 사본이 사용자 본인의 iCloud Drive(Apple 계정)에 보관됩니다. 이 사본은 Apple이 Apple의 규정에 따라 저장하며, Scan Cam의 개발자는 접근할 수 없고 볼 수도 없습니다. 앱 설정(“iCloud 백업”)에서 끌 수 있으며, 끄면 사본이 iCloud에서 삭제되고 문서는 이 iPhone에만 남습니다. 그 밖의 누구에게도 전달되지 않습니다. iPhone의 iCloud 백업이 켜져 있는 경우, 휴대폰의 다른 데이터와 함께 백업되기도 합니다."
         },
         {
           "heading": "카메라",
@@ -553,11 +553,11 @@
         },
         {
           "heading": "공유할 때",
-          "body": "문서는 사용자가 직접 공유를 탭할 때에만 휴대폰을 떠나며, 그 순간 사용자가 지정한 앱이나 사람에게 전달됩니다. 이후 그 앱이나 사람이 문서를 어떻게 처리하는지는 해당 당사자의 규정을 따르며, 본 방침의 적용을 받지 않습니다."
+          "body": "위에서 설명한 iCloud Drive 사본을 제외하면, 문서는 사용자가 직접 공유를 탭할 때에만 휴대폰을 떠나며, 그 순간 사용자가 지정한 앱이나 사람에게 전달됩니다. 이후 그 앱이나 사람이 문서를 어떻게 처리하는지는 해당 당사자의 규정을 따르며, 본 방침의 적용을 받지 않습니다."
         },
         {
           "heading": "구독",
-          "body": "구독은 Apple이 판매하고 요금을 청구합니다. 결제 수단은 Apple만 알고 있으며, Scan Cam의 개발자는 이를 볼 수 없습니다.\n\n구독 여부를 확인하기 위해 앱은 구독 상태를 최신으로 관리하는 서비스인 RevenueCat에 조회합니다. RevenueCat이 받는 것은 사용자의 구입 내역과 RevenueCat이 직접 생성하는 익명 번호뿐이며, 사용자의 이름, 이메일 주소, 문서는 절대 받지 않습니다. 이것이 앱 밖으로 나가는 유일한 정보이며, 사용자가 결제한 기능을 잠금 해제하는 데에만 사용됩니다."
+          "body": "구독은 Apple이 판매하고 요금을 청구합니다. 결제 수단은 Apple만 알고 있으며, Scan Cam의 개발자는 이를 볼 수 없습니다.\n\n구독 여부를 확인하기 위해 앱은 구독 상태를 최신으로 관리하는 서비스인 RevenueCat에 조회합니다. RevenueCat이 받는 것은 사용자의 구입 내역과 RevenueCat이 직접 생성하는 익명 번호뿐이며, 사용자의 이름, 이메일 주소, 문서는 절대 받지 않습니다. 이것이 사용자 본인의 iCloud 외의 서비스로 앱 밖으로 나가는 유일한 정보이며, 사용자가 결제한 기능을 잠금 해제하는 데에만 사용됩니다."
         },
         {
           "heading": "데이터 삭제",
