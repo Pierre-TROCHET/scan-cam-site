@@ -62,7 +62,7 @@ module.exports = {
     confidentialite: {
       titre: 'Política de privacidad — Scan Cam',
       description:
-        'Tus documentos se quedan en tu iPhone y en tu propio iCloud Drive, nunca en un servidor nuestro: sin cuenta, sin analíticas, sin publicidad.',
+        'Tus documentos se quedan en tu iPhone y en tu propio iCloud, nunca en un servidor nuestro: sin cuenta, sin analíticas, sin publicidad.',
     },
   },
 
@@ -106,7 +106,7 @@ module.exports = {
       titre: 'Nunca en un servidor nuestro.',
     },
     promesse:
-      'Tus documentos se quedan en tu iPhone y en tu propio iCloud Drive, nunca en un servidor nuestro. Sin cuenta que crear, sin analíticas, sin publicidad. Tus facturas, tus contratos y tus documentos de identidad no van a ningún otro sitio, salvo el día en que decidas compartirlos tú mismo.',
+      'Tus documentos se quedan en tu iPhone y en tu propio iCloud, nunca en un servidor nuestro. Sin cuenta que crear, sin analíticas, sin publicidad. Tus facturas, tus contratos y tus documentos de identidad no van a ningún otro sitio, salvo el día en que decidas compartirlos tú mismo.',
 
     sectionsTitre: 'Todo lo que sabe hacer',
     sections: [
@@ -129,7 +129,7 @@ module.exports = {
           'Carpetas y subcarpetas, como en un ordenador',
           'Una búsqueda que encuentra también lo guardado en el fondo de una carpeta, y te dice dónde está',
           'Renombrar, mover, duplicar, eliminar',
-          'Una copia en tu iCloud Drive, que recupera tus documentos si reinstalas la app o cambias de iPhone',
+          'Una copia en tu iCloud, que recupera tus documentos si reinstalas la app o cambias de iPhone',
         ],
       },
       {
@@ -199,7 +199,7 @@ module.exports = {
       {
         q: '¿Dónde se guardan mis documentos?',
         r: [
-          'En tu iPhone, en el espacio privado de la aplicación, con una copia en tu propio iCloud Drive, actualizada unos segundos después de cada cambio. Nadie más tiene acceso: no hay ningún servidor nuestro. Esta copia se desactiva en <strong>Ajustes</strong> → <strong>Copia en iCloud</strong>; tus documentos quedan entonces solo en el iPhone.',
+          'En tu iPhone, en el espacio privado de la aplicación, con una copia en tu propio iCloud, actualizada unos segundos después de cada cambio. Nadie más tiene acceso: no hay ningún servidor nuestro. Esta copia se desactiva en <strong>Ajustes</strong> → <strong>Copia en iCloud</strong>; tus documentos quedan entonces solo en el iPhone. Esta copia no aparece en la app Archivos ni en icloud.com: solo la usa Scan Cam. Para tener tus documentos en PDF, abre <strong>Ajustes</strong> → <strong>Exportar todo</strong>.',
         ],
       },
       {
@@ -254,7 +254,7 @@ module.exports = {
       {
         q: '¿Qué pasa con mis documentos si borro la aplicación?',
         r: [
-          'Si la <strong>Copia en iCloud</strong> de Scan Cam está activada —lo está de forma predeterminada—, te esperan en tu iCloud Drive: reinstala la app, o instálala en un iPhone nuevo con la misma cuenta de Apple, y vuelven solos. Si la desactivaste, se borran con la aplicación, porque iOS elimina su espacio privado cuando se borra.',
+          'Si la <strong>Copia en iCloud</strong> de Scan Cam está activada —lo está de forma predeterminada—, te esperan en tu iCloud: reinstala la app, o instálala en un iPhone nuevo con la misma cuenta de Apple, y vuelven solos. Si la desactivaste, se borran con la aplicación, porque iOS elimina su espacio privado cuando se borra.',
           'Antes de borrar la aplicación, abre <strong>Ajustes</strong> → <strong>Exportar todo</strong>: todos tus documentos se reúnen en un solo archivo, cada documento en PDF guardado en su carpeta, que puedes guardar en Archivos, en iCloud Drive o en un ordenador. Y si solo quieres liberar espacio, «Desinstalar app» en los ajustes del iPhone quita la aplicación conservando tus documentos.',
         ],
       },

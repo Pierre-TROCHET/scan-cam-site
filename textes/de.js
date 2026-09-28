@@ -62,7 +62,7 @@ module.exports = {
     confidentialite: {
       titre: 'Datenschutzerklärung — Scan Cam',
       description:
-        'Ihre Dokumente bleiben auf Ihrem iPhone und in Ihrem eigenen iCloud Drive, nie auf einem Server von uns: kein Konto, keine Messung, keine Werbung.',
+        'Ihre Dokumente bleiben auf Ihrem iPhone und in Ihrer eigenen iCloud, nie auf einem Server von uns: kein Konto, keine Messung, keine Werbung.',
     },
   },
 
@@ -106,7 +106,7 @@ module.exports = {
       titre: 'Nie auf einem Server von uns.',
     },
     promesse:
-      'Ihre Dokumente bleiben auf Ihrem iPhone und in Ihrem eigenen iCloud Drive, nie auf einem Server von uns. Kein Konto, das angelegt werden muss, keine Messung, keine Werbung. Ihre Rechnungen, Ihre Verträge und Ihre Ausweispapiere gehen nirgendwo anders hin — außer an dem Tag, an dem Sie selbst entscheiden, sie zu teilen.',
+      'Ihre Dokumente bleiben auf Ihrem iPhone und in Ihrer eigenen iCloud, nie auf einem Server von uns. Kein Konto, das angelegt werden muss, keine Messung, keine Werbung. Ihre Rechnungen, Ihre Verträge und Ihre Ausweispapiere gehen nirgendwo anders hin — außer an dem Tag, an dem Sie selbst entscheiden, sie zu teilen.',
 
     sectionsTitre: 'Alles, was sie kann',
     sections: [
@@ -129,7 +129,7 @@ module.exports = {
           'Ordner und Unterordner, wie auf einem Computer',
           'Eine Suche, die auch findet, was tief in einem Ordner liegt, und sagt, wo es liegt',
           'Umbenennen, verschieben, duplizieren, löschen',
-          'Eine Kopie in Ihrem iCloud Drive, die Ihre Dokumente zurückbringt, wenn Sie die App neu installieren oder das iPhone wechseln',
+          'Eine Kopie in Ihrer iCloud, die Ihre Dokumente zurückbringt, wenn Sie die App neu installieren oder das iPhone wechseln',
         ],
       },
       {
@@ -199,7 +199,7 @@ module.exports = {
       {
         q: 'Wo werden meine Dokumente gesichert?',
         r: [
-          'Auf Ihrem iPhone, im privaten Bereich der App, mit einer Kopie in Ihrem eigenen iCloud Drive, die wenige Sekunden nach jeder Änderung aktualisiert wird. Niemand sonst hat Zugriff darauf: Es gibt keinen Server von uns. Diese Kopie lässt sich unter <strong>Einstellungen</strong> → <strong>iCloud-Sicherung</strong> ausschalten; Ihre Dokumente bleiben dann nur auf dem iPhone.',
+          'Auf Ihrem iPhone, im privaten Bereich der App, mit einer Kopie in Ihrer eigenen iCloud, die wenige Sekunden nach jeder Änderung aktualisiert wird. Niemand sonst hat Zugriff darauf: Es gibt keinen Server von uns. Diese Kopie lässt sich unter <strong>Einstellungen</strong> → <strong>iCloud-Sicherung</strong> ausschalten; Ihre Dokumente bleiben dann nur auf dem iPhone. Diese Kopie erscheint weder in der App „Dateien“ noch auf icloud.com: Sie dient nur Scan Cam. Um Ihre Dokumente als PDF zu erhalten, öffnen Sie <strong>Einstellungen</strong> → <strong>Alles exportieren</strong>.',
         ],
       },
       {
@@ -254,7 +254,7 @@ module.exports = {
       {
         q: 'Was passiert mit meinen Dokumenten, wenn ich die App lösche?',
         r: [
-          'Wenn die <strong>iCloud-Sicherung</strong> von Scan Cam eingeschaltet ist — das ist die Grundeinstellung —, warten sie in Ihrem iCloud Drive: Installieren Sie die App neu oder auf einem neuen iPhone mit demselben Apple Account, und sie kommen von selbst zurück. Wenn Sie sie ausgeschaltet haben, werden sie mit der App gelöscht, weil iOS deren privaten Bereich beim Entfernen löscht.',
+          'Wenn die <strong>iCloud-Sicherung</strong> von Scan Cam eingeschaltet ist — das ist die Grundeinstellung —, warten sie in Ihrer iCloud: Installieren Sie die App neu oder auf einem neuen iPhone mit demselben Apple Account, und sie kommen von selbst zurück. Wenn Sie sie ausgeschaltet haben, werden sie mit der App gelöscht, weil iOS deren privaten Bereich beim Entfernen löscht.',
           'Öffnen Sie vor dem Löschen der App <strong>Einstellungen</strong> → <strong>Alles exportieren</strong>: Alle Ihre Dokumente werden in einer einzigen Datei zusammengefasst, jedes Dokument als PDF in seinem Ordner, die Sie in Dateien, in iCloud Drive oder auf einem Computer sichern können. Und wenn Sie nur Platz schaffen möchten: „App auslagern“ in den Einstellungen des iPhone entfernt die App und behält Ihre Dokumente.',
         ],
       },
