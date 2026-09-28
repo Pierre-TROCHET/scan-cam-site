@@ -55,9 +55,9 @@ module.exports = {
 
   meta: {
     accueil: {
-      titre: 'Scan Cam — le scanner de documents qui reste sur votre iPhone',
+      titre: 'Scan Cam — le scanner de documents sans compte ni serveur',
       description:
-        'Scan Cam transforme votre iPhone en scanner de documents. Aucun compte, aucun serveur, aucune publicité.',
+        'Scan Cam transforme votre iPhone en scanner de documents. Aucun compte, aucun serveur à nous, aucune publicité.',
     },
     assistance: {
       titre: 'Assistance — Scan Cam',
@@ -70,13 +70,13 @@ module.exports = {
     confidentialite: {
       titre: 'Politique de confidentialité — Scan Cam',
       description:
-        'Vos documents restent sur votre téléphone : ni compte, ni serveur à nous, ni mesure d’audience, ni publicité.',
+        'Vos documents restent sur votre iPhone et dans votre propre iCloud Drive, jamais sur un serveur à nous : ni compte, ni mesure d’audience, ni publicité.',
     },
   },
 
   accueil: {
     badge: 'Gratuit, sans compte, sans publicité',
-    h1: 'Le scanner de documents qui ne quitte pas votre iPhone.',
+    h1: 'Le scanner de documents qui garde vos papiers chez vous.',
     lead:
       'Vous photographiez une feuille, l’application détecte ses bords, la redresse et rend le texte net : vous obtenez un vrai scan, pas une photo de papier.',
     // La capture qui accompagne l'ouverture, dans le bandeau bleu.
@@ -112,10 +112,10 @@ module.exports = {
       note: 'iPhone et iPad.',
     },
     confidentialite: {
-      titre: 'Rien ne quitte votre iPhone.',
+      titre: 'Jamais sur un serveur à nous.',
     },
     promesse:
-      'Et tout se passe sur votre téléphone. Aucun compte à créer, aucun envoi vers un serveur, aucune publicité. Vos factures, vos contrats et vos papiers d’identité ne quittent jamais votre iPhone — sauf le jour où vous décidez vous-même de les partager.',
+      'Vos documents restent sur votre iPhone et dans votre propre iCloud Drive, jamais sur un serveur à nous. Aucun compte à créer, aucune mesure d’audience, aucune publicité. Vos factures, vos contrats et vos papiers d’identité ne vont nulle part ailleurs — sauf le jour où vous décidez vous-même de les partager.',
 
     sectionsTitre: 'Tout ce qu’elle sait faire',
     sections: [
@@ -128,6 +128,7 @@ module.exports = {
           'Intensité réglable au doigt, avec un aperçu qui suit',
           'Retrait des ombres en une tape, pour les pages photographiées sous une lampe ou une main',
           'Plusieurs pages dans un même document, à réordonner, pivoter ou retirer',
+          'Import de photos et de PDF, jusqu’à 100 pages',
         ],
       },
       {
@@ -137,6 +138,7 @@ module.exports = {
           'Des dossiers et des sous-dossiers, comme sur un ordinateur',
           'Une recherche qui trouve aussi ce qui est rangé au fond d’un dossier, et qui dit où',
           'Renommer, déplacer, dupliquer, supprimer',
+          'Une copie dans votre iCloud Drive, qui ramène vos documents si vous réinstallez l’app ou changez d’iPhone',
         ],
       },
       {
@@ -206,7 +208,7 @@ module.exports = {
       {
         q: 'Où sont enregistrés mes documents ?',
         r: [
-          'Sur votre iPhone, dans l’espace privé de l’application. Ils ne sont envoyés nulle part. Si la sauvegarde iCloud de votre téléphone est activée, ils sont sauvegardés avec le reste de votre téléphone, par Apple.',
+          'Sur votre iPhone, dans l’espace privé de l’application, avec une copie dans votre propre iCloud Drive, mise à jour quelques secondes après chaque changement. Personne d’autre n’y a accès : il n’y a pas de serveur à nous. Cette copie se coupe dans <strong>Réglages</strong> → <strong>Sauvegarde iCloud</strong> ; vos documents restent alors seulement sur l’iPhone.',
         ],
       },
       {
@@ -237,7 +239,7 @@ module.exports = {
       {
         q: 'Puis-je importer un PDF déjà existant ?',
         r: [
-          'Non. L’import prend des images — photos de la pellicule ou images choisies dans Fichiers. Les PDF apparaissent en grisé.',
+          'Oui. Dans la bibliothèque, appuyez sur <strong>Importer</strong> → <strong>Fichiers</strong> et choisissez le PDF : chaque page devient une page du document, comme une page scannée, et tous les outils s’y appliquent. L’import est gratuit. Un PDF protégé par un mot de passe, ou de plus de 100 pages, est refusé.',
         ],
       },
       {
@@ -255,7 +257,14 @@ module.exports = {
       {
         q: 'J’ai supprimé un document par erreur.',
         r: [
-          'Supprimer un document l’efface du téléphone, et il n’y a pas de corbeille : rien n’ayant été envoyé ailleurs, il n’existe nulle part ailleurs. Si la sauvegarde iCloud de votre iPhone était activée, une restauration complète du téléphone peut le ramener.',
+          'Supprimer un document l’efface du téléphone et, quelques secondes plus tard, de sa copie dans iCloud : il n’y a pas de corbeille. Si la sauvegarde de votre iPhone par Apple était activée, une restauration complète du téléphone peut le ramener.',
+        ],
+      },
+      {
+        q: 'Que deviennent mes documents si je supprime l’application ?',
+        r: [
+          'Si la <strong>Sauvegarde iCloud</strong> de Scan Cam est allumée — c’est le réglage de départ —, ils vous attendent dans votre iCloud Drive : réinstallez l’app, ou installez-la sur un nouvel iPhone connecté au même compte Apple, et ils reviennent tout seuls. Si vous l’avez coupée, ils sont effacés avec l’application, car iOS efface son espace privé quand elle est supprimée.',
+          'Avant de supprimer l’application, ouvrez <strong>Réglages</strong> → <strong>Tout exporter</strong> : tous vos documents sont rassemblés dans un seul fichier, chaque document en PDF rangé dans son dossier, que vous pouvez enregistrer dans Fichiers, dans iCloud Drive ou sur un ordinateur. Et si vous voulez seulement libérer de la place, « Décharger l’app » dans les réglages de l’iPhone retire l’application en gardant vos documents.',
         ],
       },
     ],
