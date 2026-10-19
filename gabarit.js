@@ -13,6 +13,35 @@
 const icones = require('./icones');
 
 const APPSTORE = 'https://apps.apple.com/app/id6805626898';
+const APPSTORE_ID = '6805626898';
+
+/** L'adresse du site, et l'image que montre un lien collé dans un message. */
+const SITE = 'https://scancam.app/';
+const IMAGE_PARTAGE = SITE + 'images/partage.jpg';
+
+/** La langue de la page telle que l'attendent les aperçus de lien (og:locale). */
+const LOCALES = {
+  fr: 'fr_FR',
+  en: 'en_US',
+  es: 'es_ES',
+  de: 'de_DE',
+  it: 'it_IT',
+  pt: 'pt_BR',
+  ja: 'ja_JP',
+  zh: 'zh_CN',
+  ko: 'ko_KR',
+};
+
+/**
+ * L'adresse publique d'un fichier, sous la forme que Google a déjà retenue :
+ * sans « .html » (GitHub Pages sert les deux), et la racine pour `index.html`.
+ * C'est elle qui sert de « canonical », de hreflang et de plan du site : une
+ * seule orthographe par page, partout.
+ */
+function adresse(fichier) {
+  if (fichier === 'index.html') return SITE;
+  return SITE + fichier.replace(/\.html$/, '');
+}
 
 /** L'ordre du menu, et donc l'ordre du pied de page. Le même partout. */
 const PAGES = ['accueil', 'assistance', 'conditions', 'confidentialite'];
@@ -103,10 +132,54 @@ function page({ langue, langues, cle, titre, description, entete, corps, mesure 
   // Les autres langues de la même page, annoncées aux navigateurs et aux
   // moteurs de recherche. Les pages anglaises en avaient une, les françaises
   // n'en avaient aucune ; maintenant chacune les a toutes.
-  const alternatives = langues
-    .filter((autre) => autre.code !== langue.code)
-    .map((autre) => `<link rel="alternate" hreflang="${autre.code}" href="${autre.fichiers[cle]}">`)
-    .join('\n');
+  // Les adresses sont complètes (Google ignore les relatives), la page se cite
+  // elle-même, et `x-default` désigne l'anglais, la langue de repli.
+  const anglais = langues.find((autre) => autre.code === 'en') || langues[0];
+  const alternatives = [
+    ...langues.map(
+      (autre) => `<link rel="alternate" hreflang="${autre.code}" href="${adresse(autre.fichiers[cle])}">`
+    ),
+    `<link rel="alternate" hreflang="x-default" href="${adresse(anglais.fichiers[cle])}">`,
+  ].join('\n');
+
+  const url = adresse(langue.fichiers[cle]);
+
+  // Ce que montre un lien collé dans WhatsApp, Messages, Slack, X ou Facebook.
+  // Sans ces balises, le lien reste une adresse nue.
+  const partage = [
+    '<meta property="og:type" content="website">',
+    '<meta property="og:site_name" content="Scan Cam">',
+    `<meta property="og:locale" content="${LOCALES[langue.code] || langue.code}">`,
+    `<meta property="og:title" content="${echapper(titre)}">`,
+    `<meta property="og:description" content="${echapper(description)}">`,
+    `<meta property="og:url" content="${url}">`,
+    `<meta property="og:image" content="${IMAGE_PARTAGE}">`,
+    '<meta property="og:image:width" content="1200">',
+    '<meta property="og:image:height" content="630">',
+    '<meta property="og:image:alt" content="Scan Cam">',
+    '<meta name="twitter:card" content="summary_large_image">',
+  ].join('\n');
+
+  // Sur l'accueil seulement : la fiche de l'application, lisible par les
+  // moteurs de recherche.
+  const donneesApp =
+    cle === 'accueil'
+      ? '<script type="application/ld+json">' +
+        JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'SoftwareApplication',
+          name: 'Scan Cam',
+          description,
+          url,
+          inLanguage: langue.code,
+          applicationCategory: 'UtilitiesApplication',
+          operatingSystem: 'iOS',
+          installUrl: APPSTORE,
+          downloadUrl: APPSTORE,
+          offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+        }).replace(/</g, '\\u003c') +
+        '</script>\n'
+      : '';
 
   // Ce que la page sait des autres langues : de quoi proposer la sienne au
   // visiteur, dans SA langue. Déposé en JSON plutôt qu'écrit dans le script,
@@ -133,8 +206,11 @@ function page({ langue, langues, cle, titre, description, entete, corps, mesure 
 <title>${echapper(titre)}</title>
 <meta name="description" content="${echapper(description)}">
 <meta name="theme-color" content="#1250C8">
+<meta name="apple-itunes-app" content="app-id=${APPSTORE_ID}">
+<link rel="canonical" href="${url}">
 ${alternatives}
-<link rel="stylesheet" href="style.css">
+${partage}
+${donneesApp}<link rel="stylesheet" href="style.css">
 <script>if(!matchMedia("(prefers-reduced-motion: reduce)").matches)document.documentElement.classList.add("anime");</script>
 </head>
 <body>
@@ -310,4 +386,4 @@ ${pied(langue, cle, langues, mesure)}
 `;
 }
 
-module.exports = { page, menu, pied, echapper, PAGES, APPSTORE };
+module.exports = { page, menu, pied, echapper, adresse, PAGES, APPSTORE, SITE };

@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://scancam.app/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/home"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/home-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/home-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/home-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/home-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/home-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/home-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/home-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/home"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/assistance</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/assistance"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/support"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/support-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/support-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/support-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/support-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/support-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/support-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/support-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/support"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/conditions</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/conditions"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/terms-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/terms-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/terms-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/terms-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/terms-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/terms-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/terms-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/terms"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/confidentialite</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/confidentialite"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/privacy-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/privacy-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/privacy-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/privacy-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/privacy-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/privacy-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/privacy-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/privacy"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/home</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/home"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/home-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/home-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/home-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/home-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/home-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/home-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/home-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/home"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/support</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/assistance"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/support"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/support-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/support-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/support-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/support-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/support-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/support-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/support-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/support"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/terms</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/conditions"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/terms-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/terms-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/terms-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/terms-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/terms-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/terms-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/terms-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/terms"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/confidentialite"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/privacy-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/privacy-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/privacy-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/privacy-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/privacy-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/privacy-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/privacy-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/privacy"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/home-es</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/home"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/home-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/home-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/home-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/home-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/home-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/home-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/home-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/home"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/support-es</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/assistance"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/support"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/support-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/support-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/support-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/support-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/support-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/support-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/support-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/support"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/terms-es</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/conditions"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/terms-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/terms-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/terms-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/terms-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/terms-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/terms-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/terms-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/terms"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/privacy-es</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/confidentialite"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/privacy-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/privacy-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/privacy-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/privacy-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/privacy-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/privacy-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/privacy-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/privacy"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/home-de</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/home"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/home-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/home-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/home-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/home-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/home-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/home-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/home-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/home"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/support-de</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/assistance"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/support"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/support-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/support-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/support-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/support-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/support-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/support-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/support-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/support"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/terms-de</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/conditions"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/terms-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/terms-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/terms-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/terms-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/terms-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/terms-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/terms-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/terms"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/privacy-de</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/confidentialite"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/privacy-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/privacy-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/privacy-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/privacy-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/privacy-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/privacy-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/privacy-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/privacy"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/home-it</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/home"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/home-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/home-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/home-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/home-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/home-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/home-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/home-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/home"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/support-it</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/assistance"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/support"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/support-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/support-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/support-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/support-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/support-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/support-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/support-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/support"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/terms-it</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/conditions"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/terms-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/terms-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/terms-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/terms-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/terms-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/terms-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/terms-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/terms"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/privacy-it</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/confidentialite"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/privacy-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/privacy-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/privacy-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/privacy-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/privacy-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/privacy-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/privacy-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/privacy"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/home-pt</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/home"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/home-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/home-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/home-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/home-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/home-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/home-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/home-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/home"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/support-pt</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/assistance"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/support"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/support-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/support-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/support-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/support-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/support-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/support-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/support-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/support"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/terms-pt</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/conditions"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/terms-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/terms-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/terms-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/terms-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/terms-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/terms-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/terms-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/terms"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/privacy-pt</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/confidentialite"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/privacy-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/privacy-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/privacy-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/privacy-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/privacy-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/privacy-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/privacy-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/privacy"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/home-ja</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/home"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/home-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/home-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/home-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/home-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/home-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/home-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/home-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/home"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/support-ja</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/assistance"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/support"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/support-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/support-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/support-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/support-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/support-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/support-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/support-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/support"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/terms-ja</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/conditions"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/terms-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/terms-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/terms-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/terms-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/terms-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/terms-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/terms-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/terms"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/privacy-ja</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/confidentialite"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/privacy-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/privacy-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/privacy-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/privacy-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/privacy-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/privacy-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/privacy-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/privacy"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/home-zh</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/home"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/home-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/home-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/home-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/home-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/home-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/home-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/home-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/home"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/support-zh</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/assistance"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/support"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/support-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/support-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/support-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/support-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/support-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/support-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/support-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/support"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/terms-zh</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/conditions"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/terms-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/terms-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/terms-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/terms-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/terms-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/terms-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/terms-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/terms"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/privacy-zh</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/confidentialite"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/privacy-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/privacy-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/privacy-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/privacy-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/privacy-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/privacy-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/privacy-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/privacy"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/home-ko</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/home"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/home-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/home-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/home-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/home-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/home-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/home-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/home-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/home"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/support-ko</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/assistance"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/support"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/support-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/support-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/support-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/support-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/support-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/support-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/support-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/support"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/terms-ko</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/conditions"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/terms-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/terms-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/terms-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/terms-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/terms-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/terms-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/terms-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/terms"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/privacy-ko</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/confidentialite"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/privacy-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/privacy-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/privacy-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/privacy-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/privacy-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/privacy-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/privacy-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/privacy"/>
+  </url>
+</urlset>

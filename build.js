@@ -9,7 +9,7 @@
 // pour les mots, `gabarit.js` pour la structure, `style.css` pour l'habillage.
 const fs = require('fs');
 const path = require('path');
-const { page, echapper, PAGES, APPSTORE } = require('./gabarit');
+const { page, echapper, adresse, PAGES, APPSTORE, SITE } = require('./gabarit');
 const icones = require('./icones');
 const legal = require('./outils/legal');
 const { CODES, charger } = require('./langues');
@@ -237,6 +237,40 @@ function verifierLePrix(L, conditions) {
   }
 }
 
+/**
+ * Le plan du site et le fichier d'accueil des robots, écrits à la racine.
+ * Chaque page y est citée avec ses traductions, sous la même adresse que son
+ * « canonical » : Google lit trois fois la même chose, pas trois orthographes.
+ */
+function ecrirePlanEtRobots(langues) {
+  const anglais = langues.find((L) => L.code === 'en') || langues[0];
+  const urls = [];
+  for (const L of langues) {
+    for (const cle of PAGES) {
+      const liens = [
+        ...langues.map(
+          (A) => `    <xhtml:link rel="alternate" hreflang="${A.code}" href="${adresse(A.fichiers[cle])}"/>`
+        ),
+        `    <xhtml:link rel="alternate" hreflang="x-default" href="${adresse(anglais.fichiers[cle])}"/>`,
+      ];
+      urls.push(['  <url>', `    <loc>${adresse(L.fichiers[cle])}</loc>`, ...liens, '  </url>'].join('\n'));
+    }
+  }
+  const plan = [
+    '<?xml version="1.0" encoding="UTF-8"?>',
+    '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">',
+    ...urls,
+    '</urlset>',
+    '',
+  ].join('\n');
+  fs.writeFileSync(path.join(__dirname, 'sitemap.xml'), plan, 'utf8');
+  fs.writeFileSync(
+    path.join(__dirname, 'robots.txt'),
+    `User-agent: *\nAllow: /\n\nSitemap: ${SITE}sitemap.xml\n`,
+    'utf8'
+  );
+}
+
 function main() {
   const { LEGAL_TEXT, CONTACT, origine } = legal.lire();
   if (origine === 'copie') {
@@ -276,6 +310,8 @@ function main() {
       ecrites++;
     }
   }
+
+  ecrirePlanEtRobots(langues);
 
   console.log(
     `${ecrites} pages écrites — ${langues.length} langues × ${PAGES.length} pages. ` +
