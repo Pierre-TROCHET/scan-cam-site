@@ -16,6 +16,7 @@ const { CODES, charger } = require('./langues');
 const { formaterPrix, nomDuPays, lireTableau } = require('./prix');
 
 const TABLEAU = lireTableau();
+const guides = require('./guides');
 
 
 // ---------------------------------------------------------------- les corps
@@ -141,6 +142,9 @@ function accueil(L, contact) {
     `  ${image(c.pro.image, '')}`,
     '</section>',
     '',
+    // Les guides de la langue, s'il y en a (voir guides.js).
+    guides.blocGuidesAccueil(L.code),
+    '',
     '<section class="contact-carte revele">',
     `  <h2>${c.contact.titre}</h2>`,
     `  <p>${c.contact.texte}</p>`,
@@ -256,6 +260,13 @@ function ecrirePlanEtRobots(langues) {
       urls.push(['  <url>', `    <loc>${adresse(L.fichiers[cle])}</loc>`, ...liens, '  </url>'].join('\n'));
     }
   }
+  // Les guides, chacun avec ses traductions.
+  for (const e of guides.entreesPlan()) {
+    const liens = e.alternatives.map(
+      (a) => `    <xhtml:link rel="alternate" hreflang="${a.code}" href="${a.href}"/>`
+    );
+    urls.push(['  <url>', `    <loc>${e.loc}</loc>`, ...liens, '  </url>'].join('\n'));
+  }
   const plan = [
     '<?xml version="1.0" encoding="UTF-8"?>',
     '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">',
@@ -305,17 +316,19 @@ function main() {
         entete: morceaux[cle].entete,
         corps: morceaux[cle].corps,
         mesure: morceaux[cle].mesure,
+        guides: guides.lienMenu(L.code),
       });
       fs.writeFileSync(path.join(__dirname, L.fichiers[cle]), html, 'utf8');
       ecrites++;
     }
   }
 
+  const pagesGuides = guides.ecrireGuides(__dirname, langues);
   ecrirePlanEtRobots(langues);
 
   console.log(
     `${ecrites} pages écrites — ${langues.length} langues × ${PAGES.length} pages. ` +
-      `Textes juridiques : ${origine === 'application' ? "lus dans l'application" : 'copie locale'}.`
+      `${pagesGuides} pages de guides. Textes juridiques : ${origine === 'application' ? "lus dans l'application" : 'copie locale'}.`
   );
 }
 

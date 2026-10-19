@@ -468,4 +468,940 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/privacy-ko"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/privacy"/>
   </url>
+  <url>
+    <loc>https://scancam.app/guides-fr</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guides-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guides"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guides-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guides-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guides-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guides-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guides-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guides-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guides-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guides"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guides</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guides-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guides"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guides-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guides-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guides-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guides-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guides-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guides-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guides-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guides"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guides-es</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guides-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guides"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guides-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guides-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guides-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guides-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guides-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guides-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guides-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guides"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guides-de</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guides-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guides"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guides-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guides-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guides-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guides-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guides-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guides-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guides-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guides"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guides-it</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guides-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guides"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guides-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guides-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guides-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guides-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guides-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guides-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guides-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guides"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guides-pt</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guides-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guides"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guides-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guides-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guides-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guides-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guides-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guides-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guides-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guides"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guides-ja</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guides-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guides"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guides-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guides-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guides-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guides-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guides-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guides-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guides-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guides"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guides-zh</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guides-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guides"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guides-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guides-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guides-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guides-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guides-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guides-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guides-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guides"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guides-ko</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guides-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guides"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guides-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guides-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guides-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guides-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guides-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guides-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guides-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guides"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-scanner-plusieurs-pages-en-un-pdf-iphone-fr</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-scanner-plusieurs-pages-en-un-pdf-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-scan-multiple-pages-to-one-pdf-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-escanear-varias-paginas-en-un-pdf-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-mehrere-seiten-in-ein-pdf-scannen-iphone-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-scansionare-piu-pagine-in-un-pdf-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-escanear-varias-paginas-em-um-pdf-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-scan-multiple-pages-to-one-pdf-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-scan-multiple-pages-to-one-pdf-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-scan-multiple-pages-to-one-pdf-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-scan-multiple-pages-to-one-pdf-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-scan-multiple-pages-to-one-pdf-iphone</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-scanner-plusieurs-pages-en-un-pdf-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-scan-multiple-pages-to-one-pdf-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-escanear-varias-paginas-en-un-pdf-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-mehrere-seiten-in-ein-pdf-scannen-iphone-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-scansionare-piu-pagine-in-un-pdf-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-escanear-varias-paginas-em-um-pdf-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-scan-multiple-pages-to-one-pdf-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-scan-multiple-pages-to-one-pdf-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-scan-multiple-pages-to-one-pdf-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-scan-multiple-pages-to-one-pdf-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-escanear-varias-paginas-en-un-pdf-iphone-es</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-scanner-plusieurs-pages-en-un-pdf-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-scan-multiple-pages-to-one-pdf-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-escanear-varias-paginas-en-un-pdf-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-mehrere-seiten-in-ein-pdf-scannen-iphone-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-scansionare-piu-pagine-in-un-pdf-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-escanear-varias-paginas-em-um-pdf-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-scan-multiple-pages-to-one-pdf-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-scan-multiple-pages-to-one-pdf-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-scan-multiple-pages-to-one-pdf-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-scan-multiple-pages-to-one-pdf-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-mehrere-seiten-in-ein-pdf-scannen-iphone-de</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-scanner-plusieurs-pages-en-un-pdf-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-scan-multiple-pages-to-one-pdf-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-escanear-varias-paginas-en-un-pdf-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-mehrere-seiten-in-ein-pdf-scannen-iphone-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-scansionare-piu-pagine-in-un-pdf-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-escanear-varias-paginas-em-um-pdf-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-scan-multiple-pages-to-one-pdf-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-scan-multiple-pages-to-one-pdf-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-scan-multiple-pages-to-one-pdf-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-scan-multiple-pages-to-one-pdf-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-scansionare-piu-pagine-in-un-pdf-iphone-it</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-scanner-plusieurs-pages-en-un-pdf-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-scan-multiple-pages-to-one-pdf-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-escanear-varias-paginas-en-un-pdf-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-mehrere-seiten-in-ein-pdf-scannen-iphone-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-scansionare-piu-pagine-in-un-pdf-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-escanear-varias-paginas-em-um-pdf-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-scan-multiple-pages-to-one-pdf-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-scan-multiple-pages-to-one-pdf-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-scan-multiple-pages-to-one-pdf-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-scan-multiple-pages-to-one-pdf-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-escanear-varias-paginas-em-um-pdf-no-iphone-pt</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-scanner-plusieurs-pages-en-un-pdf-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-scan-multiple-pages-to-one-pdf-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-escanear-varias-paginas-en-un-pdf-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-mehrere-seiten-in-ein-pdf-scannen-iphone-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-scansionare-piu-pagine-in-un-pdf-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-escanear-varias-paginas-em-um-pdf-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-scan-multiple-pages-to-one-pdf-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-scan-multiple-pages-to-one-pdf-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-scan-multiple-pages-to-one-pdf-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-scan-multiple-pages-to-one-pdf-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-scan-multiple-pages-to-one-pdf-iphone-ja</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-scanner-plusieurs-pages-en-un-pdf-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-scan-multiple-pages-to-one-pdf-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-escanear-varias-paginas-en-un-pdf-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-mehrere-seiten-in-ein-pdf-scannen-iphone-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-scansionare-piu-pagine-in-un-pdf-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-escanear-varias-paginas-em-um-pdf-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-scan-multiple-pages-to-one-pdf-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-scan-multiple-pages-to-one-pdf-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-scan-multiple-pages-to-one-pdf-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-scan-multiple-pages-to-one-pdf-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-scan-multiple-pages-to-one-pdf-iphone-zh</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-scanner-plusieurs-pages-en-un-pdf-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-scan-multiple-pages-to-one-pdf-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-escanear-varias-paginas-en-un-pdf-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-mehrere-seiten-in-ein-pdf-scannen-iphone-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-scansionare-piu-pagine-in-un-pdf-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-escanear-varias-paginas-em-um-pdf-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-scan-multiple-pages-to-one-pdf-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-scan-multiple-pages-to-one-pdf-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-scan-multiple-pages-to-one-pdf-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-scan-multiple-pages-to-one-pdf-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-scan-multiple-pages-to-one-pdf-iphone-ko</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-scanner-plusieurs-pages-en-un-pdf-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-scan-multiple-pages-to-one-pdf-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-escanear-varias-paginas-en-un-pdf-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-mehrere-seiten-in-ein-pdf-scannen-iphone-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-scansionare-piu-pagine-in-un-pdf-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-escanear-varias-paginas-em-um-pdf-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-scan-multiple-pages-to-one-pdf-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-scan-multiple-pages-to-one-pdf-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-scan-multiple-pages-to-one-pdf-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-scan-multiple-pages-to-one-pdf-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-scanner-ses-tickets-de-caisse-iphone-fr</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-scanner-ses-tickets-de-caisse-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-scan-receipts-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-escanear-tickets-y-recibos-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-belege-mit-dem-iphone-scannen-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-scansionare-scontrini-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-escanear-recibos-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-scan-receipts-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-scan-receipts-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-scan-receipts-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-scan-receipts-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-scan-receipts-iphone</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-scanner-ses-tickets-de-caisse-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-scan-receipts-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-escanear-tickets-y-recibos-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-belege-mit-dem-iphone-scannen-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-scansionare-scontrini-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-escanear-recibos-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-scan-receipts-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-scan-receipts-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-scan-receipts-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-scan-receipts-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-escanear-tickets-y-recibos-iphone-es</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-scanner-ses-tickets-de-caisse-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-scan-receipts-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-escanear-tickets-y-recibos-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-belege-mit-dem-iphone-scannen-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-scansionare-scontrini-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-escanear-recibos-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-scan-receipts-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-scan-receipts-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-scan-receipts-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-scan-receipts-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-belege-mit-dem-iphone-scannen-de</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-scanner-ses-tickets-de-caisse-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-scan-receipts-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-escanear-tickets-y-recibos-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-belege-mit-dem-iphone-scannen-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-scansionare-scontrini-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-escanear-recibos-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-scan-receipts-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-scan-receipts-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-scan-receipts-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-scan-receipts-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-scansionare-scontrini-iphone-it</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-scanner-ses-tickets-de-caisse-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-scan-receipts-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-escanear-tickets-y-recibos-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-belege-mit-dem-iphone-scannen-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-scansionare-scontrini-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-escanear-recibos-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-scan-receipts-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-scan-receipts-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-scan-receipts-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-scan-receipts-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-escanear-recibos-no-iphone-pt</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-scanner-ses-tickets-de-caisse-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-scan-receipts-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-escanear-tickets-y-recibos-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-belege-mit-dem-iphone-scannen-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-scansionare-scontrini-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-escanear-recibos-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-scan-receipts-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-scan-receipts-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-scan-receipts-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-scan-receipts-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-scan-receipts-iphone-ja</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-scanner-ses-tickets-de-caisse-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-scan-receipts-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-escanear-tickets-y-recibos-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-belege-mit-dem-iphone-scannen-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-scansionare-scontrini-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-escanear-recibos-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-scan-receipts-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-scan-receipts-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-scan-receipts-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-scan-receipts-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-scan-receipts-iphone-zh</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-scanner-ses-tickets-de-caisse-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-scan-receipts-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-escanear-tickets-y-recibos-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-belege-mit-dem-iphone-scannen-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-scansionare-scontrini-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-escanear-recibos-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-scan-receipts-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-scan-receipts-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-scan-receipts-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-scan-receipts-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-scan-receipts-iphone-ko</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-scanner-ses-tickets-de-caisse-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-scan-receipts-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-escanear-tickets-y-recibos-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-belege-mit-dem-iphone-scannen-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-scansionare-scontrini-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-escanear-recibos-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-scan-receipts-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-scan-receipts-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-scan-receipts-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-scan-receipts-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-signer-un-document-sur-iphone-fr</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-signer-un-document-sur-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-sign-a-document-on-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-firmar-un-documento-en-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-dokument-auf-dem-iphone-unterschreiben-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-firmare-un-documento-su-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-assinar-documento-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-sign-a-document-on-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-sign-a-document-on-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-sign-a-document-on-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-sign-a-document-on-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-sign-a-document-on-iphone</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-signer-un-document-sur-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-sign-a-document-on-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-firmar-un-documento-en-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-dokument-auf-dem-iphone-unterschreiben-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-firmare-un-documento-su-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-assinar-documento-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-sign-a-document-on-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-sign-a-document-on-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-sign-a-document-on-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-sign-a-document-on-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-firmar-un-documento-en-iphone-es</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-signer-un-document-sur-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-sign-a-document-on-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-firmar-un-documento-en-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-dokument-auf-dem-iphone-unterschreiben-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-firmare-un-documento-su-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-assinar-documento-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-sign-a-document-on-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-sign-a-document-on-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-sign-a-document-on-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-sign-a-document-on-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-dokument-auf-dem-iphone-unterschreiben-de</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-signer-un-document-sur-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-sign-a-document-on-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-firmar-un-documento-en-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-dokument-auf-dem-iphone-unterschreiben-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-firmare-un-documento-su-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-assinar-documento-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-sign-a-document-on-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-sign-a-document-on-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-sign-a-document-on-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-sign-a-document-on-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-firmare-un-documento-su-iphone-it</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-signer-un-document-sur-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-sign-a-document-on-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-firmar-un-documento-en-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-dokument-auf-dem-iphone-unterschreiben-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-firmare-un-documento-su-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-assinar-documento-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-sign-a-document-on-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-sign-a-document-on-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-sign-a-document-on-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-sign-a-document-on-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-assinar-documento-no-iphone-pt</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-signer-un-document-sur-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-sign-a-document-on-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-firmar-un-documento-en-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-dokument-auf-dem-iphone-unterschreiben-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-firmare-un-documento-su-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-assinar-documento-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-sign-a-document-on-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-sign-a-document-on-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-sign-a-document-on-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-sign-a-document-on-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-sign-a-document-on-iphone-ja</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-signer-un-document-sur-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-sign-a-document-on-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-firmar-un-documento-en-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-dokument-auf-dem-iphone-unterschreiben-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-firmare-un-documento-su-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-assinar-documento-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-sign-a-document-on-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-sign-a-document-on-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-sign-a-document-on-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-sign-a-document-on-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-sign-a-document-on-iphone-zh</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-signer-un-document-sur-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-sign-a-document-on-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-firmar-un-documento-en-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-dokument-auf-dem-iphone-unterschreiben-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-firmare-un-documento-su-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-assinar-documento-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-sign-a-document-on-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-sign-a-document-on-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-sign-a-document-on-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-sign-a-document-on-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-sign-a-document-on-iphone-ko</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-signer-un-document-sur-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-sign-a-document-on-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-firmar-un-documento-en-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-dokument-auf-dem-iphone-unterschreiben-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-firmare-un-documento-su-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-assinar-documento-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-sign-a-document-on-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-sign-a-document-on-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-sign-a-document-on-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-sign-a-document-on-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-copier-le-texte-d-un-scan-iphone-fr</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-copier-le-texte-d-un-scan-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-copy-text-from-a-scan-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-copiar-el-texto-de-un-escaneo-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-text-aus-einem-scan-kopieren-iphone-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-copiare-il-testo-da-una-scansione-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-copiar-texto-de-um-documento-escaneado-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-copy-text-from-a-scan-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-copy-text-from-a-scan-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-copy-text-from-a-scan-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-copy-text-from-a-scan-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-copy-text-from-a-scan-iphone</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-copier-le-texte-d-un-scan-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-copy-text-from-a-scan-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-copiar-el-texto-de-un-escaneo-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-text-aus-einem-scan-kopieren-iphone-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-copiare-il-testo-da-una-scansione-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-copiar-texto-de-um-documento-escaneado-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-copy-text-from-a-scan-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-copy-text-from-a-scan-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-copy-text-from-a-scan-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-copy-text-from-a-scan-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-copiar-el-texto-de-un-escaneo-iphone-es</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-copier-le-texte-d-un-scan-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-copy-text-from-a-scan-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-copiar-el-texto-de-un-escaneo-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-text-aus-einem-scan-kopieren-iphone-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-copiare-il-testo-da-una-scansione-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-copiar-texto-de-um-documento-escaneado-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-copy-text-from-a-scan-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-copy-text-from-a-scan-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-copy-text-from-a-scan-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-copy-text-from-a-scan-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-text-aus-einem-scan-kopieren-iphone-de</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-copier-le-texte-d-un-scan-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-copy-text-from-a-scan-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-copiar-el-texto-de-un-escaneo-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-text-aus-einem-scan-kopieren-iphone-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-copiare-il-testo-da-una-scansione-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-copiar-texto-de-um-documento-escaneado-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-copy-text-from-a-scan-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-copy-text-from-a-scan-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-copy-text-from-a-scan-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-copy-text-from-a-scan-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-copiare-il-testo-da-una-scansione-iphone-it</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-copier-le-texte-d-un-scan-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-copy-text-from-a-scan-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-copiar-el-texto-de-un-escaneo-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-text-aus-einem-scan-kopieren-iphone-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-copiare-il-testo-da-una-scansione-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-copiar-texto-de-um-documento-escaneado-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-copy-text-from-a-scan-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-copy-text-from-a-scan-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-copy-text-from-a-scan-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-copy-text-from-a-scan-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-copiar-texto-de-um-documento-escaneado-no-iphone-pt</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-copier-le-texte-d-un-scan-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-copy-text-from-a-scan-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-copiar-el-texto-de-un-escaneo-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-text-aus-einem-scan-kopieren-iphone-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-copiare-il-testo-da-una-scansione-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-copiar-texto-de-um-documento-escaneado-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-copy-text-from-a-scan-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-copy-text-from-a-scan-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-copy-text-from-a-scan-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-copy-text-from-a-scan-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-copy-text-from-a-scan-iphone-ja</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-copier-le-texte-d-un-scan-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-copy-text-from-a-scan-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-copiar-el-texto-de-un-escaneo-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-text-aus-einem-scan-kopieren-iphone-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-copiare-il-testo-da-una-scansione-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-copiar-texto-de-um-documento-escaneado-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-copy-text-from-a-scan-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-copy-text-from-a-scan-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-copy-text-from-a-scan-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-copy-text-from-a-scan-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-copy-text-from-a-scan-iphone-zh</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-copier-le-texte-d-un-scan-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-copy-text-from-a-scan-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-copiar-el-texto-de-un-escaneo-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-text-aus-einem-scan-kopieren-iphone-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-copiare-il-testo-da-una-scansione-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-copiar-texto-de-um-documento-escaneado-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-copy-text-from-a-scan-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-copy-text-from-a-scan-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-copy-text-from-a-scan-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-copy-text-from-a-scan-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-copy-text-from-a-scan-iphone-ko</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-copier-le-texte-d-un-scan-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-copy-text-from-a-scan-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-copiar-el-texto-de-un-escaneo-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-text-aus-einem-scan-kopieren-iphone-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-copiare-il-testo-da-una-scansione-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-copiar-texto-de-um-documento-escaneado-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-copy-text-from-a-scan-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-copy-text-from-a-scan-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-copy-text-from-a-scan-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-copy-text-from-a-scan-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-fusionner-des-pdf-sur-iphone-fr</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-fusionner-des-pdf-sur-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-merge-pdf-files-on-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-combinar-archivos-pdf-en-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-pdf-dateien-auf-dem-iphone-zusammenfuehren-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-unire-file-pdf-su-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-juntar-pdf-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-merge-pdf-files-on-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-merge-pdf-files-on-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-merge-pdf-files-on-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-merge-pdf-files-on-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-merge-pdf-files-on-iphone</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-fusionner-des-pdf-sur-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-merge-pdf-files-on-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-combinar-archivos-pdf-en-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-pdf-dateien-auf-dem-iphone-zusammenfuehren-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-unire-file-pdf-su-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-juntar-pdf-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-merge-pdf-files-on-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-merge-pdf-files-on-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-merge-pdf-files-on-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-merge-pdf-files-on-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-combinar-archivos-pdf-en-iphone-es</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-fusionner-des-pdf-sur-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-merge-pdf-files-on-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-combinar-archivos-pdf-en-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-pdf-dateien-auf-dem-iphone-zusammenfuehren-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-unire-file-pdf-su-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-juntar-pdf-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-merge-pdf-files-on-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-merge-pdf-files-on-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-merge-pdf-files-on-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-merge-pdf-files-on-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-pdf-dateien-auf-dem-iphone-zusammenfuehren-de</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-fusionner-des-pdf-sur-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-merge-pdf-files-on-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-combinar-archivos-pdf-en-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-pdf-dateien-auf-dem-iphone-zusammenfuehren-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-unire-file-pdf-su-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-juntar-pdf-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-merge-pdf-files-on-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-merge-pdf-files-on-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-merge-pdf-files-on-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-merge-pdf-files-on-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-unire-file-pdf-su-iphone-it</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-fusionner-des-pdf-sur-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-merge-pdf-files-on-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-combinar-archivos-pdf-en-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-pdf-dateien-auf-dem-iphone-zusammenfuehren-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-unire-file-pdf-su-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-juntar-pdf-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-merge-pdf-files-on-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-merge-pdf-files-on-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-merge-pdf-files-on-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-merge-pdf-files-on-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-juntar-pdf-no-iphone-pt</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-fusionner-des-pdf-sur-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-merge-pdf-files-on-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-combinar-archivos-pdf-en-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-pdf-dateien-auf-dem-iphone-zusammenfuehren-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-unire-file-pdf-su-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-juntar-pdf-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-merge-pdf-files-on-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-merge-pdf-files-on-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-merge-pdf-files-on-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-merge-pdf-files-on-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-merge-pdf-files-on-iphone-ja</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-fusionner-des-pdf-sur-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-merge-pdf-files-on-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-combinar-archivos-pdf-en-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-pdf-dateien-auf-dem-iphone-zusammenfuehren-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-unire-file-pdf-su-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-juntar-pdf-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-merge-pdf-files-on-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-merge-pdf-files-on-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-merge-pdf-files-on-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-merge-pdf-files-on-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-merge-pdf-files-on-iphone-zh</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-fusionner-des-pdf-sur-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-merge-pdf-files-on-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-combinar-archivos-pdf-en-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-pdf-dateien-auf-dem-iphone-zusammenfuehren-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-unire-file-pdf-su-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-juntar-pdf-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-merge-pdf-files-on-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-merge-pdf-files-on-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-merge-pdf-files-on-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-merge-pdf-files-on-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-merge-pdf-files-on-iphone-ko</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-fusionner-des-pdf-sur-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-merge-pdf-files-on-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-combinar-archivos-pdf-en-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-pdf-dateien-auf-dem-iphone-zusammenfuehren-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-unire-file-pdf-su-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-juntar-pdf-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-merge-pdf-files-on-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-merge-pdf-files-on-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-merge-pdf-files-on-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-merge-pdf-files-on-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-extraire-des-pages-d-un-pdf-sur-iphone-fr</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-extraire-des-pages-d-un-pdf-sur-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-extract-pages-from-a-pdf-on-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-extraer-paginas-de-un-pdf-en-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-seiten-aus-einem-pdf-herausloesen-iphone-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-estrarre-pagine-da-un-pdf-su-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-extrair-paginas-de-um-pdf-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-extract-pages-from-a-pdf-on-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-extract-pages-from-a-pdf-on-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-extract-pages-from-a-pdf-on-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-extract-pages-from-a-pdf-on-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-extract-pages-from-a-pdf-on-iphone</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-extraire-des-pages-d-un-pdf-sur-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-extract-pages-from-a-pdf-on-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-extraer-paginas-de-un-pdf-en-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-seiten-aus-einem-pdf-herausloesen-iphone-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-estrarre-pagine-da-un-pdf-su-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-extrair-paginas-de-um-pdf-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-extract-pages-from-a-pdf-on-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-extract-pages-from-a-pdf-on-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-extract-pages-from-a-pdf-on-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-extract-pages-from-a-pdf-on-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-extraer-paginas-de-un-pdf-en-iphone-es</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-extraire-des-pages-d-un-pdf-sur-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-extract-pages-from-a-pdf-on-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-extraer-paginas-de-un-pdf-en-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-seiten-aus-einem-pdf-herausloesen-iphone-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-estrarre-pagine-da-un-pdf-su-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-extrair-paginas-de-um-pdf-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-extract-pages-from-a-pdf-on-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-extract-pages-from-a-pdf-on-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-extract-pages-from-a-pdf-on-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-extract-pages-from-a-pdf-on-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-seiten-aus-einem-pdf-herausloesen-iphone-de</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-extraire-des-pages-d-un-pdf-sur-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-extract-pages-from-a-pdf-on-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-extraer-paginas-de-un-pdf-en-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-seiten-aus-einem-pdf-herausloesen-iphone-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-estrarre-pagine-da-un-pdf-su-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-extrair-paginas-de-um-pdf-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-extract-pages-from-a-pdf-on-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-extract-pages-from-a-pdf-on-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-extract-pages-from-a-pdf-on-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-extract-pages-from-a-pdf-on-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-estrarre-pagine-da-un-pdf-su-iphone-it</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-extraire-des-pages-d-un-pdf-sur-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-extract-pages-from-a-pdf-on-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-extraer-paginas-de-un-pdf-en-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-seiten-aus-einem-pdf-herausloesen-iphone-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-estrarre-pagine-da-un-pdf-su-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-extrair-paginas-de-um-pdf-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-extract-pages-from-a-pdf-on-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-extract-pages-from-a-pdf-on-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-extract-pages-from-a-pdf-on-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-extract-pages-from-a-pdf-on-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-extrair-paginas-de-um-pdf-no-iphone-pt</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-extraire-des-pages-d-un-pdf-sur-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-extract-pages-from-a-pdf-on-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-extraer-paginas-de-un-pdf-en-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-seiten-aus-einem-pdf-herausloesen-iphone-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-estrarre-pagine-da-un-pdf-su-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-extrair-paginas-de-um-pdf-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-extract-pages-from-a-pdf-on-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-extract-pages-from-a-pdf-on-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-extract-pages-from-a-pdf-on-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-extract-pages-from-a-pdf-on-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-extract-pages-from-a-pdf-on-iphone-ja</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-extraire-des-pages-d-un-pdf-sur-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-extract-pages-from-a-pdf-on-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-extraer-paginas-de-un-pdf-en-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-seiten-aus-einem-pdf-herausloesen-iphone-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-estrarre-pagine-da-un-pdf-su-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-extrair-paginas-de-um-pdf-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-extract-pages-from-a-pdf-on-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-extract-pages-from-a-pdf-on-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-extract-pages-from-a-pdf-on-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-extract-pages-from-a-pdf-on-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-extract-pages-from-a-pdf-on-iphone-zh</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-extraire-des-pages-d-un-pdf-sur-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-extract-pages-from-a-pdf-on-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-extraer-paginas-de-un-pdf-en-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-seiten-aus-einem-pdf-herausloesen-iphone-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-estrarre-pagine-da-un-pdf-su-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-extrair-paginas-de-um-pdf-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-extract-pages-from-a-pdf-on-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-extract-pages-from-a-pdf-on-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-extract-pages-from-a-pdf-on-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-extract-pages-from-a-pdf-on-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-extract-pages-from-a-pdf-on-iphone-ko</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-extraire-des-pages-d-un-pdf-sur-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-extract-pages-from-a-pdf-on-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-extraer-paginas-de-un-pdf-en-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-seiten-aus-einem-pdf-herausloesen-iphone-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-estrarre-pagine-da-un-pdf-su-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-extrair-paginas-de-um-pdf-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-extract-pages-from-a-pdf-on-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-extract-pages-from-a-pdf-on-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-extract-pages-from-a-pdf-on-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-extract-pages-from-a-pdf-on-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-ajouter-un-filigrane-a-un-pdf-sur-iphone-fr</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-ajouter-un-filigrane-a-un-pdf-sur-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-add-a-watermark-to-a-pdf-on-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-poner-una-marca-de-agua-a-un-pdf-en-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-wasserzeichen-zu-einem-pdf-hinzufuegen-iphone-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-aggiungere-una-filigrana-a-un-pdf-su-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-adicionar-marca-dagua-em-pdf-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-add-a-watermark-to-a-pdf-on-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-add-a-watermark-to-a-pdf-on-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-add-a-watermark-to-a-pdf-on-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-add-a-watermark-to-a-pdf-on-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-add-a-watermark-to-a-pdf-on-iphone</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-ajouter-un-filigrane-a-un-pdf-sur-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-add-a-watermark-to-a-pdf-on-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-poner-una-marca-de-agua-a-un-pdf-en-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-wasserzeichen-zu-einem-pdf-hinzufuegen-iphone-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-aggiungere-una-filigrana-a-un-pdf-su-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-adicionar-marca-dagua-em-pdf-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-add-a-watermark-to-a-pdf-on-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-add-a-watermark-to-a-pdf-on-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-add-a-watermark-to-a-pdf-on-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-add-a-watermark-to-a-pdf-on-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-poner-una-marca-de-agua-a-un-pdf-en-iphone-es</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-ajouter-un-filigrane-a-un-pdf-sur-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-add-a-watermark-to-a-pdf-on-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-poner-una-marca-de-agua-a-un-pdf-en-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-wasserzeichen-zu-einem-pdf-hinzufuegen-iphone-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-aggiungere-una-filigrana-a-un-pdf-su-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-adicionar-marca-dagua-em-pdf-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-add-a-watermark-to-a-pdf-on-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-add-a-watermark-to-a-pdf-on-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-add-a-watermark-to-a-pdf-on-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-add-a-watermark-to-a-pdf-on-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-wasserzeichen-zu-einem-pdf-hinzufuegen-iphone-de</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-ajouter-un-filigrane-a-un-pdf-sur-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-add-a-watermark-to-a-pdf-on-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-poner-una-marca-de-agua-a-un-pdf-en-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-wasserzeichen-zu-einem-pdf-hinzufuegen-iphone-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-aggiungere-una-filigrana-a-un-pdf-su-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-adicionar-marca-dagua-em-pdf-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-add-a-watermark-to-a-pdf-on-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-add-a-watermark-to-a-pdf-on-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-add-a-watermark-to-a-pdf-on-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-add-a-watermark-to-a-pdf-on-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-aggiungere-una-filigrana-a-un-pdf-su-iphone-it</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-ajouter-un-filigrane-a-un-pdf-sur-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-add-a-watermark-to-a-pdf-on-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-poner-una-marca-de-agua-a-un-pdf-en-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-wasserzeichen-zu-einem-pdf-hinzufuegen-iphone-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-aggiungere-una-filigrana-a-un-pdf-su-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-adicionar-marca-dagua-em-pdf-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-add-a-watermark-to-a-pdf-on-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-add-a-watermark-to-a-pdf-on-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-add-a-watermark-to-a-pdf-on-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-add-a-watermark-to-a-pdf-on-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-adicionar-marca-dagua-em-pdf-no-iphone-pt</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-ajouter-un-filigrane-a-un-pdf-sur-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-add-a-watermark-to-a-pdf-on-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-poner-una-marca-de-agua-a-un-pdf-en-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-wasserzeichen-zu-einem-pdf-hinzufuegen-iphone-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-aggiungere-una-filigrana-a-un-pdf-su-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-adicionar-marca-dagua-em-pdf-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-add-a-watermark-to-a-pdf-on-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-add-a-watermark-to-a-pdf-on-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-add-a-watermark-to-a-pdf-on-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-add-a-watermark-to-a-pdf-on-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-add-a-watermark-to-a-pdf-on-iphone-ja</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-ajouter-un-filigrane-a-un-pdf-sur-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-add-a-watermark-to-a-pdf-on-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-poner-una-marca-de-agua-a-un-pdf-en-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-wasserzeichen-zu-einem-pdf-hinzufuegen-iphone-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-aggiungere-una-filigrana-a-un-pdf-su-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-adicionar-marca-dagua-em-pdf-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-add-a-watermark-to-a-pdf-on-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-add-a-watermark-to-a-pdf-on-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-add-a-watermark-to-a-pdf-on-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-add-a-watermark-to-a-pdf-on-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-add-a-watermark-to-a-pdf-on-iphone-zh</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-ajouter-un-filigrane-a-un-pdf-sur-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-add-a-watermark-to-a-pdf-on-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-poner-una-marca-de-agua-a-un-pdf-en-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-wasserzeichen-zu-einem-pdf-hinzufuegen-iphone-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-aggiungere-una-filigrana-a-un-pdf-su-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-adicionar-marca-dagua-em-pdf-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-add-a-watermark-to-a-pdf-on-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-add-a-watermark-to-a-pdf-on-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-add-a-watermark-to-a-pdf-on-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-add-a-watermark-to-a-pdf-on-iphone"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/guide-add-a-watermark-to-a-pdf-on-iphone-ko</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guide-ajouter-un-filigrane-a-un-pdf-sur-iphone-fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guide-add-a-watermark-to-a-pdf-on-iphone"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/guide-poner-una-marca-de-agua-a-un-pdf-en-iphone-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/guide-wasserzeichen-zu-einem-pdf-hinzufuegen-iphone-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/guide-aggiungere-una-filigrana-a-un-pdf-su-iphone-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/guide-adicionar-marca-dagua-em-pdf-no-iphone-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/guide-add-a-watermark-to-a-pdf-on-iphone-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/guide-add-a-watermark-to-a-pdf-on-iphone-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/guide-add-a-watermark-to-a-pdf-on-iphone-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/guide-add-a-watermark-to-a-pdf-on-iphone"/>
+  </url>
 </urlset>

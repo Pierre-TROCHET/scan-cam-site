@@ -54,13 +54,16 @@ function echapper(texte) {
     .replace(/>/g, '&gt;');
 }
 
-/** Les liens vers les autres langues, pour la MÊME page — jamais vers l'accueil. */
-function liensLangues(langue, langues, cle) {
+/**
+ * Les liens vers les autres langues, pour la MÊME page — jamais vers l'accueil.
+ * `fichierDe(autre)` dit quel fichier est cette page dans la langue `autre`.
+ */
+function liensLangues(langue, langues, fichierDe) {
   return langues
     .filter((autre) => autre.code !== langue.code)
     .map(
       (autre) =>
-        `<a class="lang" href="${autre.fichiers[cle]}" hreflang="${autre.code}" lang="${autre.code}">` +
+        `<a class="lang" href="${fichierDe(autre)}" hreflang="${autre.code}" lang="${autre.code}">` +
         `${icones.drapeau(autre.code)}<span>${autre.nom}</span></a>`
     );
 }
@@ -71,12 +74,12 @@ function liensLangues(langue, langues, cle) {
  * Elle est faite avec <details>, donc **elle fonctionne sans JavaScript**, au
  * doigt comme au clavier.
  */
-function selecteurLangues(langue, langues, cle) {
+function selecteurLangues(langue, langues, fichierDe) {
   return [
     '<details class="langues">',
     `        <summary>${icones.drapeau(langue.code)}<span>${langue.nom}</span></summary>`,
     '        <ul>',
-    ...liensLangues(langue, langues, cle).map((l) => `          <li>${l}</li>`),
+    ...liensLangues(langue, langues, fichierDe).map((l) => `          <li>${l}</li>`),
     '        </ul>',
     '      </details>',
   ].join('\n');
@@ -86,18 +89,28 @@ function selecteurLangues(langue, langues, cle) {
  * Le menu, vu depuis la page `cle`.
  * La page où l'on se trouve est MARQUÉE, jamais retirée.
  */
-function menu(langue, cle, langues) {
+function menu(langue, cle, langues, guides, fichierDe) {
   const liens = PAGES.map((p) =>
     p === cle
       ? `      <span class="current" aria-current="page">${langue.menu[p]}</span>`
       : `      <a href="${langue.fichiers[p]}">${langue.menu[p]}</a>`
   );
-  liens.push('      ' + selecteurLangues(langue, langues, cle));
+  // Les guides, juste après l'accueil, dans la langue de la page.
+  if (guides) {
+    liens.splice(
+      1,
+      0,
+      guides.courant
+        ? `      <span class="current" aria-current="page">${guides.libelle}</span>`
+        : `      <a href="${guides.fichier}">${guides.libelle}</a>`
+    );
+  }
+  if (langues.length > 1) liens.push('      ' + selecteurLangues(langue, langues, fichierDe));
   return `<nav>\n${liens.join('\n')}\n    </nav>`;
 }
 
 /** Le pied de page. Mêmes liens que le menu, plus l'App Store, toujours en tête. */
-function pied(langue, cle, langues, mesure) {
+function pied(langue, cle, langues, mesure, guides, fichierDe) {
   const liens = [`<a href="${APPSTORE}">${langue.pied.appstore}</a>`];
   for (const p of PAGES) {
     liens.push(
@@ -105,8 +118,16 @@ function pied(langue, cle, langues, mesure) {
         ? `<span class="current" aria-current="page">${langue.pied.liens[p]}</span>`
         : `<a href="${langue.fichiers[p]}">${langue.pied.liens[p]}</a>`
     );
+    // Les guides, juste après l'accueil — le même ordre que le menu.
+    if (p === 'accueil' && guides) {
+      liens.push(
+        guides.courant
+          ? `<span class="current" aria-current="page">${guides.libelle}</span>`
+          : `<a href="${guides.fichier}">${guides.libelle}</a>`
+      );
+    }
   }
-  for (const l of liensLangues(langue, langues, cle)) liens.push(l);
+  for (const l of liensLangues(langue, langues, fichierDe)) liens.push(l);
 
   return [
     '<footer class="pied">',
@@ -128,21 +149,23 @@ function pied(langue, cle, langues, mesure) {
  * Les deux sont du HTML déjà fabriqué par le programme : ils arrivent tels
  * quels, sans échappement, parce qu'ils viennent de nos propres fichiers.
  */
-function page({ langue, langues, cle, titre, description, entete, corps, mesure }) {
+function page({ langue, langues, cle, titre, description, entete, corps, mesure, cible, jsonld, guides }) {
+  // Quel fichier est cette page dans chaque langue. Les quatre pages de base le lisent dans
+  // `textes/<langue>.js` (L.fichiers[cle]) ; les guides apportent le leur (`cible`, code → fichier).
+  // Une langue où la page n'existe pas n'est ni annoncée ni proposée.
+  const fichierDe = (autre) => (cible ? cible[autre.code] : autre.fichiers[cle]);
+  const reste = langues.filter((autre) => fichierDe(autre));
   // Les autres langues de la même page, annoncées aux navigateurs et aux
   // moteurs de recherche. Les pages anglaises en avaient une, les françaises
   // n'en avaient aucune ; maintenant chacune les a toutes.
   // Les adresses sont complètes (Google ignore les relatives), la page se cite
   // elle-même, et `x-default` désigne l'anglais, la langue de repli.
-  const anglais = langues.find((autre) => autre.code === 'en') || langues[0];
+  const anglais = reste.find((autre) => autre.code === 'en') || langue;
+  const url = adresse(fichierDe(langue));
   const alternatives = [
-    ...langues.map(
-      (autre) => `<link rel="alternate" hreflang="${autre.code}" href="${adresse(autre.fichiers[cle])}">`
-    ),
-    `<link rel="alternate" hreflang="x-default" href="${adresse(anglais.fichiers[cle])}">`,
+    ...reste.map((autre) => `<link rel="alternate" hreflang="${autre.code}" href="${adresse(fichierDe(autre))}">`),
+    `<link rel="alternate" hreflang="x-default" href="${adresse(fichierDe(anglais))}">`,
   ].join('\n');
-
-  const url = adresse(langue.fichiers[cle]);
 
   // Ce que montre un lien collé dans WhatsApp, Messages, Slack, X ou Facebook.
   // Sans ces balises, le lien reste une adresse nue.
@@ -162,8 +185,9 @@ function page({ langue, langues, cle, titre, description, entete, corps, mesure 
 
   // Sur l'accueil seulement : la fiche de l'application, lisible par les
   // moteurs de recherche.
-  const donneesApp =
-    cle === 'accueil'
+  const donneesApp = jsonld
+    ? '<script type="application/ld+json">' + JSON.stringify(jsonld).replace(/</g, '\\u003c') + '</script>\n'
+    : cle === 'accueil'
       ? '<script type="application/ld+json">' +
         JSON.stringify({
           '@context': 'https://schema.org',
@@ -186,12 +210,12 @@ function page({ langue, langues, cle, titre, description, entete, corps, mesure 
   // pour que le script reste le même sur les 24 pages. Les « < » sont échappés :
   // c'est du contenu posé à l'intérieur d'une balise <script>.
   const donneesLangues = JSON.stringify(
-    langues
+    reste
       .filter((autre) => autre.code !== langue.code)
       .map((autre) => ({
         code: autre.code,
         nom: autre.nom,
-        url: autre.fichiers[cle],
+        url: fichierDe(autre),
         phrase: autre.suggestion.phrase,
         fermer: autre.suggestion.fermer,
         drapeau: icones.drapeau(autre.code),
@@ -222,7 +246,7 @@ ${donneesApp}<link rel="stylesheet" href="style.css">
         <span class="mark">SC</span>
         <span class="name">Scan Cam</span>
       </a>
-      ${menu(langue, cle, langues)}
+      ${menu(langue, cle, reste, guides, fichierDe)}
     </header>
 
 ${entete.trim()}
@@ -233,7 +257,7 @@ ${entete.trim()}
 ${mesure ? '<div class="colonne">\n' + corps.trim() + '\n</div>' : corps.trim()}
 </main>
 
-${pied(langue, cle, langues, mesure)}
+${pied(langue, cle, reste, mesure, guides, fichierDe)}
 
 <script>
 // Les sections marquées « revele » se posent quand on descend jusqu'à elles.
