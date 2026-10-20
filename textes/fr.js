@@ -281,4 +281,37 @@ module.exports = {
       remplace: '<a href="{lien}">sur le site d’Apple</a>',
     },
   },
+
+  // La version Android (bloc 72 de l'application, 20 octobre 2026). Ses deux pages juridiques
+  // sont lues dans `cam-scan/i18n/legal-android.ts`, comme celles de l'iPhone dans `legal.ts` :
+  // ici, seulement leurs noms de fichiers, leurs titres, et les phrases qui relient les deux versions.
+  // Pas de lien ni de badge Google Play : l'application n'y est pas encore.
+  android: {
+    fichiers: { conditions: 'conditions-android.html', confidentialite: 'confidentialite-android.html' },
+    conditions: {
+      h1: 'Conditions d’utilisation pour Android',
+      titre: 'Conditions d’utilisation pour Android — Scan Cam',
+      description:
+        'Les conditions d’utilisation de Scan Cam sur Android et de l’abonnement Scan Cam Pro.',
+      // En tête de la page : le renvoi vers la version iPhone.
+      versIPhone:
+        'Ces conditions concernent Scan Cam sur Android. Pour l’iPhone, lisez <a href="{lien}">les conditions d’utilisation de la version iPhone</a>.',
+    },
+    confidentialite: {
+      h1: 'Politique de confidentialité pour Android',
+      titre: 'Politique de confidentialité pour Android — Scan Cam',
+      description:
+        'Vos documents restent sur votre téléphone et, si vous l’activez, dans votre propre Google Drive, jamais sur un serveur à nous : ni compte, ni mesure d’audience, ni publicité.',
+      // En tête de la page : le renvoi vers la version iPhone.
+      versIPhone:
+        'Cette politique concerne Scan Cam sur Android. Pour l’iPhone, lisez <a href="{lien}">la politique de confidentialité de la version iPhone</a>.',
+    },
+    // En tête des pages iPhone : le renvoi vers la version Android.
+    versAndroid: {
+      conditions:
+        'Ces conditions concernent Scan Cam sur iPhone. Pour Android, lisez <a href="{lien}">les conditions d’utilisation de la version Android</a>.',
+      confidentialite:
+        'Cette politique concerne Scan Cam sur iPhone. Pour Android, lisez <a href="{lien}">la politique de confidentialité de la version Android</a>.',
+    },
+  },
 };

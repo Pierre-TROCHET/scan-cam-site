@@ -469,6 +469,240 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/privacy"/>
   </url>
   <url>
+    <loc>https://scancam.app/conditions-android</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/conditions-android"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/terms-android"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/terms-android-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/terms-android-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/terms-android-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/terms-android-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/terms-android-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/terms-android-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/terms-android-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/terms-android"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/terms-android</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/conditions-android"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/terms-android"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/terms-android-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/terms-android-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/terms-android-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/terms-android-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/terms-android-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/terms-android-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/terms-android-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/terms-android"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/terms-android-es</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/conditions-android"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/terms-android"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/terms-android-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/terms-android-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/terms-android-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/terms-android-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/terms-android-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/terms-android-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/terms-android-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/terms-android"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/terms-android-de</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/conditions-android"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/terms-android"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/terms-android-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/terms-android-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/terms-android-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/terms-android-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/terms-android-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/terms-android-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/terms-android-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/terms-android"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/terms-android-it</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/conditions-android"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/terms-android"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/terms-android-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/terms-android-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/terms-android-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/terms-android-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/terms-android-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/terms-android-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/terms-android-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/terms-android"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/terms-android-pt</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/conditions-android"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/terms-android"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/terms-android-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/terms-android-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/terms-android-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/terms-android-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/terms-android-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/terms-android-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/terms-android-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/terms-android"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/terms-android-ja</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/conditions-android"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/terms-android"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/terms-android-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/terms-android-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/terms-android-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/terms-android-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/terms-android-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/terms-android-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/terms-android-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/terms-android"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/terms-android-zh</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/conditions-android"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/terms-android"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/terms-android-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/terms-android-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/terms-android-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/terms-android-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/terms-android-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/terms-android-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/terms-android-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/terms-android"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/terms-android-ko</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/conditions-android"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/terms-android"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/terms-android-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/terms-android-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/terms-android-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/terms-android-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/terms-android-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/terms-android-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/terms-android-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/terms-android"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/confidentialite-android</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/confidentialite-android"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/privacy-android"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/privacy-android-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/privacy-android-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/privacy-android-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/privacy-android-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/privacy-android-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/privacy-android-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/privacy-android-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/privacy-android"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/privacy-android</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/confidentialite-android"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/privacy-android"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/privacy-android-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/privacy-android-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/privacy-android-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/privacy-android-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/privacy-android-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/privacy-android-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/privacy-android-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/privacy-android"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/privacy-android-es</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/confidentialite-android"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/privacy-android"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/privacy-android-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/privacy-android-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/privacy-android-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/privacy-android-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/privacy-android-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/privacy-android-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/privacy-android-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/privacy-android"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/privacy-android-de</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/confidentialite-android"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/privacy-android"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/privacy-android-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/privacy-android-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/privacy-android-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/privacy-android-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/privacy-android-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/privacy-android-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/privacy-android-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/privacy-android"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/privacy-android-it</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/confidentialite-android"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/privacy-android"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/privacy-android-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/privacy-android-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/privacy-android-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/privacy-android-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/privacy-android-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/privacy-android-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/privacy-android-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/privacy-android"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/privacy-android-pt</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/confidentialite-android"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/privacy-android"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/privacy-android-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/privacy-android-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/privacy-android-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/privacy-android-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/privacy-android-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/privacy-android-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/privacy-android-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/privacy-android"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/privacy-android-ja</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/confidentialite-android"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/privacy-android"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/privacy-android-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/privacy-android-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/privacy-android-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/privacy-android-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/privacy-android-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/privacy-android-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/privacy-android-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/privacy-android"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/privacy-android-zh</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/confidentialite-android"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/privacy-android"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/privacy-android-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/privacy-android-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/privacy-android-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/privacy-android-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/privacy-android-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/privacy-android-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/privacy-android-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/privacy-android"/>
+  </url>
+  <url>
+    <loc>https://scancam.app/privacy-android-ko</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/confidentialite-android"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/privacy-android"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scancam.app/privacy-android-es"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scancam.app/privacy-android-de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://scancam.app/privacy-android-it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scancam.app/privacy-android-pt"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://scancam.app/privacy-android-ja"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://scancam.app/privacy-android-zh"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://scancam.app/privacy-android-ko"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scancam.app/privacy-android"/>
+  </url>
+  <url>
     <loc>https://scancam.app/guides-fr</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://scancam.app/guides-fr"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://scancam.app/guides"/>

@@ -272,4 +272,37 @@ module.exports = {
       remplace: 'vollständig <a href="{lien}">auf der Website von Apple</a> lesen',
     },
   },
+
+  // La version Android (bloc 72 de l'application, 20 octobre 2026). Ses deux pages juridiques
+  // sont lues dans `cam-scan/i18n/legal-android.ts`, comme celles de l'iPhone dans `legal.ts` :
+  // ici, seulement leurs noms de fichiers, leurs titres, et les phrases qui relient les deux versions.
+  // Pas de lien ni de badge Google Play : l'application n'y est pas encore.
+  android: {
+    fichiers: { conditions: 'terms-android-de.html', confidentialite: 'privacy-android-de.html' },
+    conditions: {
+      h1: 'Nutzungsbedingungen für Android',
+      titre: 'Nutzungsbedingungen für Android — Scan Cam',
+      description:
+        'Die Nutzungsbedingungen von Scan Cam auf Android und des Abonnements Scan Cam Pro.',
+      // En tête de la page : le renvoi vers la version iPhone.
+      versIPhone:
+        'Diese Bedingungen gelten für Scan Cam auf Android. Für das iPhone lesen Sie <a href="{lien}">die Nutzungsbedingungen der iPhone-Version</a>.',
+    },
+    confidentialite: {
+      h1: 'Datenschutzerklärung für Android',
+      titre: 'Datenschutzerklärung für Android — Scan Cam',
+      description:
+        'Ihre Dokumente bleiben auf Ihrem Telefon und, wenn Sie es einschalten, in Ihrem eigenen Google Drive, nie auf einem Server von uns: kein Konto, keine Messung, keine Werbung.',
+      // En tête de la page : le renvoi vers la version iPhone.
+      versIPhone:
+        'Diese Erklärung gilt für Scan Cam auf Android. Für das iPhone lesen Sie <a href="{lien}">die Datenschutzerklärung der iPhone-Version</a>.',
+    },
+    // En tête des pages iPhone : le renvoi vers la version Android.
+    versAndroid: {
+      conditions:
+        'Diese Bedingungen gelten für Scan Cam auf dem iPhone. Für Android lesen Sie <a href="{lien}">die Nutzungsbedingungen der Android-Version</a>.',
+      confidentialite:
+        'Diese Erklärung gilt für Scan Cam auf dem iPhone. Für Android lesen Sie <a href="{lien}">die Datenschutzerklärung der Android-Version</a>.',
+    },
+  },
 };

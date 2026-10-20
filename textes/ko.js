@@ -273,4 +273,37 @@ module.exports = {
       remplace: '전문은 <a href="{lien}">Apple 웹사이트</a>에서 읽을 수 있습니다.',
     },
   },
+
+  // La version Android (bloc 72 de l'application, 20 octobre 2026). Ses deux pages juridiques
+  // sont lues dans `cam-scan/i18n/legal-android.ts`, comme celles de l'iPhone dans `legal.ts` :
+  // ici, seulement leurs noms de fichiers, leurs titres, et les phrases qui relient les deux versions.
+  // Pas de lien ni de badge Google Play : l'application n'y est pas encore.
+  android: {
+    fichiers: { conditions: 'terms-android-ko.html', confidentialite: 'privacy-android-ko.html' },
+    conditions: {
+      h1: '이용 약관 (Android 버전)',
+      titre: '이용 약관 (Android 버전) — Scan Cam',
+      description:
+        'Android용 Scan Cam 및 Scan Cam Pro 구독의 이용 약관.',
+      // En tête de la page : le renvoi vers la version iPhone.
+      versIPhone:
+        '이 약관은 Android용 Scan Cam에 적용됩니다. iPhone용은 <a href="{lien}">iPhone 버전의 이용 약관</a>을 읽어 주세요.',
+    },
+    confidentialite: {
+      h1: '개인정보 처리방침 (Android 버전)',
+      titre: '개인정보 처리방침 (Android 버전) — Scan Cam',
+      description:
+        '문서는 사용자의 휴대폰과, 켠 경우 본인의 Google 드라이브에 보관되며, 저희 서버에는 절대 저장되지 않습니다. 계정도, 이용 분석도, 광고도 없습니다.',
+      // En tête de la page : le renvoi vers la version iPhone.
+      versIPhone:
+        '이 방침은 Android용 Scan Cam에 적용됩니다. iPhone용은 <a href="{lien}">iPhone 버전의 개인정보 처리방침</a>을 읽어 주세요.',
+    },
+    // En tête des pages iPhone : le renvoi vers la version Android.
+    versAndroid: {
+      conditions:
+        '이 약관은 iPhone용 Scan Cam에 적용됩니다. Android용은 <a href="{lien}">Android 버전의 이용 약관</a>을 읽어 주세요.',
+      confidentialite:
+        '이 방침은 iPhone용 Scan Cam에 적용됩니다. Android용은 <a href="{lien}">Android 버전의 개인정보 처리방침</a>을 읽어 주세요.',
+    },
+  },
 };

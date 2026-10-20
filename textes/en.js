@@ -265,4 +265,37 @@ module.exports = {
       remplace: '<a href="{lien}">on Apple’s website</a>',
     },
   },
+
+  // La version Android (bloc 72 de l'application, 20 octobre 2026). Ses deux pages juridiques
+  // sont lues dans `cam-scan/i18n/legal-android.ts`, comme celles de l'iPhone dans `legal.ts` :
+  // ici, seulement leurs noms de fichiers, leurs titres, et les phrases qui relient les deux versions.
+  // Pas de lien ni de badge Google Play : l'application n'y est pas encore.
+  android: {
+    fichiers: { conditions: 'terms-android.html', confidentialite: 'privacy-android.html' },
+    conditions: {
+      h1: 'Terms of Use for Android',
+      titre: 'Terms of Use for Android — Scan Cam',
+      description:
+        'The terms of use of Scan Cam on Android and of the Scan Cam Pro subscription.',
+      // En tête de la page : le renvoi vers la version iPhone.
+      versIPhone:
+        'These terms cover Scan Cam on Android. For iPhone, read <a href="{lien}">the terms of use of the iPhone version</a>.',
+    },
+    confidentialite: {
+      h1: 'Privacy Policy for Android',
+      titre: 'Privacy Policy for Android — Scan Cam',
+      description:
+        'Your documents stay on your phone and, if you turn it on, in your own Google Drive, never on a server of ours: no account, no analytics, no advertising.',
+      // En tête de la page : le renvoi vers la version iPhone.
+      versIPhone:
+        'This policy covers Scan Cam on Android. For iPhone, read <a href="{lien}">the privacy policy of the iPhone version</a>.',
+    },
+    // En tête des pages iPhone : le renvoi vers la version Android.
+    versAndroid: {
+      conditions:
+        'These terms cover Scan Cam on iPhone. For Android, read <a href="{lien}">the terms of use of the Android version</a>.',
+      confidentialite:
+        'This policy covers Scan Cam on iPhone. For Android, read <a href="{lien}">the privacy policy of the Android version</a>.',
+    },
+  },
 };

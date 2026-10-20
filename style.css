@@ -877,3 +877,15 @@ main ol li::marker { color: var(--accent); font-weight: 800; }
 /* Le titre au-dessus des cartes de guides : un titre de section ordinaire, comme ceux des pages
    de texte, et non le grand titre de l'accueil — signale par Pierre le 19 octobre 2026. */
 main .guides-titre { margin: 40px 0 18px; }
+
+/* ------------------------------------------------- iPhone ou Android (20 octobre 2026)
+   En tete des pages juridiques : la version dont parle la page, et le lien vers
+   l'autre. Meme encart que les notes des guides. */
+.autre-version {
+  margin: 28px 0 8px;
+  padding: 14px 18px;
+  border-radius: var(--rayon-carte);
+  background: var(--teinte);
+  border: 1px solid var(--bord);
+  font-size: 15px;
+}

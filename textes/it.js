@@ -269,4 +269,37 @@ module.exports = {
       remplace: '<a href="{lien}">sul sito di Apple</a>',
     },
   },
+
+  // La version Android (bloc 72 de l'application, 20 octobre 2026). Ses deux pages juridiques
+  // sont lues dans `cam-scan/i18n/legal-android.ts`, comme celles de l'iPhone dans `legal.ts` :
+  // ici, seulement leurs noms de fichiers, leurs titres, et les phrases qui relient les deux versions.
+  // Pas de lien ni de badge Google Play : l'application n'y est pas encore.
+  android: {
+    fichiers: { conditions: 'terms-android-it.html', confidentialite: 'privacy-android-it.html' },
+    conditions: {
+      h1: 'Condizioni d’uso per Android',
+      titre: 'Condizioni d’uso per Android — Scan Cam',
+      description:
+        'Le condizioni d’uso di Scan Cam su Android e dell’abbonamento Scan Cam Pro.',
+      // En tête de la page : le renvoi vers la version iPhone.
+      versIPhone:
+        'Queste condizioni riguardano Scan Cam su Android. Per iPhone, leggi <a href="{lien}">le condizioni d’uso della versione per iPhone</a>.',
+    },
+    confidentialite: {
+      h1: 'Informativa sulla privacy per Android',
+      titre: 'Informativa sulla privacy per Android — Scan Cam',
+      description:
+        'I tuoi documenti restano sul tuo telefono e, se lo attivi, nel tuo Google Drive, mai su un server nostro: niente account, nessuna statistica, nessuna pubblicità.',
+      // En tête de la page : le renvoi vers la version iPhone.
+      versIPhone:
+        'Questa informativa riguarda Scan Cam su Android. Per iPhone, leggi <a href="{lien}">l’informativa sulla privacy della versione per iPhone</a>.',
+    },
+    // En tête des pages iPhone : le renvoi vers la version Android.
+    versAndroid: {
+      conditions:
+        'Queste condizioni riguardano Scan Cam su iPhone. Per Android, leggi <a href="{lien}">le condizioni d’uso della versione per Android</a>.',
+      confidentialite:
+        'Questa informativa riguarda Scan Cam su iPhone. Per Android, leggi <a href="{lien}">l’informativa sulla privacy della versione per Android</a>.',
+    },
+  },
 };

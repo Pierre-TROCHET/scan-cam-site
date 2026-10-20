@@ -262,4 +262,37 @@ module.exports = {
       remplace: '可在 <a href="{lien}">Apple 网站</a>阅读全文。',
     },
   },
+
+  // La version Android (bloc 72 de l'application, 20 octobre 2026). Ses deux pages juridiques
+  // sont lues dans `cam-scan/i18n/legal-android.ts`, comme celles de l'iPhone dans `legal.ts` :
+  // ici, seulement leurs noms de fichiers, leurs titres, et les phrases qui relient les deux versions.
+  // Pas de lien ni de badge Google Play : l'application n'y est pas encore.
+  android: {
+    fichiers: { conditions: 'terms-android-zh.html', confidentialite: 'privacy-android-zh.html' },
+    conditions: {
+      h1: '使用条款（Android 版）',
+      titre: '使用条款（Android 版） — Scan Cam',
+      description:
+        'Android 版 Scan Cam 以及 Scan Cam Pro 订阅的使用条款。',
+      // En tête de la page : le renvoi vers la version iPhone.
+      versIPhone:
+        '本条款适用于 Android 版 Scan Cam。iPhone 版请阅读<a href="{lien}">iPhone 版的使用条款</a>。',
+    },
+    confidentialite: {
+      h1: '隐私政策（Android 版）',
+      titre: '隐私政策（Android 版） — Scan Cam',
+      description:
+        '您的文档保存在您的手机上，如果您开启备份，也保存在您自己的 Google 云端硬盘中，从不放在我们的服务器上：没有账号，没有统计，没有广告。',
+      // En tête de la page : le renvoi vers la version iPhone.
+      versIPhone:
+        '本政策适用于 Android 版 Scan Cam。iPhone 版请阅读<a href="{lien}">iPhone 版的隐私政策</a>。',
+    },
+    // En tête des pages iPhone : le renvoi vers la version Android.
+    versAndroid: {
+      conditions:
+        '本条款适用于 iPhone 版 Scan Cam。Android 版请阅读<a href="{lien}">Android 版的使用条款</a>。',
+      confidentialite:
+        '本政策适用于 iPhone 版 Scan Cam。Android 版请阅读<a href="{lien}">Android 版的隐私政策</a>。',
+    },
+  },
 };

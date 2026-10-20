@@ -42,6 +42,23 @@ dossier `cam-scan` n'est pas à côté ; dans ce cas le programme le dit à voix
 **Conséquence :** pour corriger un texte juridique, on ouvre `i18n/legal.ts` dans l'application,
 dans les six langues, puis on relance `node build.js` ici. Jamais l'inverse.
 
+### La version Android (20 octobre 2026)
+
+La version Android a ses propres conditions et sa propre politique de confidentialité, lues de la
+même façon dans `cam-scan/i18n/legal-android.ts` (copie de secours : `textes/legal-android.json`).
+Elles sont publiées à part, dans les neuf langues :
+
+| Langue | Conditions | Confidentialité |
+|---|---|---|
+| fr | `conditions-android.html` | `confidentialite-android.html` |
+| en | `terms-android.html` | `privacy-android.html` |
+| autres | `terms-android-<langue>.html` | `privacy-android-<langue>.html` |
+
+**L'adresse de confidentialité est celle de la fiche Google Play** : on ne la renomme pas sans
+changer la fiche d'abord. Les noms, les titres et les phrases qui relient les deux versions
+(« Cette politique concerne Scan Cam sur iPhone. Pour Android… ») sont dans le bloc `android` de
+`textes/<langue>.js`. Pas de badge Google Play tant que l'application n'y est pas en vente.
+
 ## ⚠️ Les noms de fichiers sont déclarés chez Apple
 
 Depuis le 10 septembre 2026, **chaque langue de fiche pointe vers ses propres pages** — c'est le

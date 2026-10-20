@@ -184,7 +184,7 @@ function assistance(L, contact) {
  * le bandeau ; les suivantes deviennent un titre et son texte. Un `\n\n` dans
  * une partie sépare deux paragraphes.
  */
-function juridique(L, parties, h1, contact) {
+function juridique(L, parties, h1, contact, renvoi) {
   const apple = L.juridique.apple;
 
   // Le texte, échappé, puis rendu cliquable là où il faut :
@@ -208,7 +208,9 @@ function juridique(L, parties, h1, contact) {
   };
 
   let chapeau = '';
-  const corps = [];
+  // Le renvoi vers l'autre version (iPhone ↔ Android), en tête du texte : une
+  // personne arrivée sur la mauvaise version le voit avant de lire.
+  const corps = renvoi ? [`<p class="autre-version">${renvoi}</p>`] : [];
   for (const partie of parties) {
     if (!partie.heading && !chapeau) {
       chapeau = texte(partie.body);
@@ -230,15 +232,62 @@ function juridique(L, parties, h1, contact) {
  * 24,99 € à des Américains facturés 22,99 $. Ce contrôle empêche qu'un montant
  * y revienne par un copier-coller.
  */
-function verifierLePrix(L, conditions) {
+function verifierLePrix(L, conditions, fichier = 'legal.ts') {
   const dansLesConditions = conditions.map((p) => p.body).join(' ');
   const montant = dansLesConditions.match(/\d+[.,]\d{2}\b|[€$£¥￥]/);
   if (montant) {
     throw new Error(
       `Les conditions d'utilisation (langue ${L.code}) citent un montant (« ${montant[0]} »), alors que le ` +
-        "prix change d'un pays à l'autre. Corrigez i18n/legal.ts dans l'application."
+        `prix change d'un pays à l'autre. Corrigez i18n/${fichier} dans l'application.`
     );
   }
+}
+
+/** Le renvoi `phrase` (où `{lien}` reçoit l'adresse), ou rien si la langue n'en a pas. */
+const renvoi = (phrase, fichier) => (phrase ? phrase.split('{lien}').join(fichier) : null);
+
+/**
+ * Les deux pages juridiques de la version Android (bloc 72 de l'application,
+ * 20 octobre 2026) : `conditions-android.html` et `confidentialite-android.html`
+ * en français, `terms-android-<langue>.html` et `privacy-android-<langue>.html`
+ * ailleurs. Leur adresse est celle que demande la fiche Google Play. Elles se
+ * montent comme celles de l'iPhone, depuis `cam-scan/i18n/legal-android.ts`, et
+ * gardent dans le menu la marque de la page juridique correspondante.
+ */
+const CLES_ANDROID = ['conditions', 'confidentialite'];
+
+/** Code → fichier de la page Android `cle`, pour les langues qui l'ont. */
+const cibleAndroid = (langues, cle) =>
+  Object.fromEntries(langues.filter((L) => L.android).map((L) => [L.code, L.android.fichiers[cle]]));
+
+function ecrireAndroid(langues, LEGAL_TEXT_ANDROID, contact) {
+  let n = 0;
+  for (const L of langues) {
+    if (!L.android) continue;
+    const j = LEGAL_TEXT_ANDROID[L.code];
+    if (!j) throw new Error(`Pas de texte juridique Android pour la langue « ${L.code} ».`);
+    verifierLePrix(L, j.terms, 'legal-android.ts');
+    const parties = { conditions: j.terms, confidentialite: j.privacy };
+    for (const cle of CLES_ANDROID) {
+      const A = L.android[cle];
+      const morceau = juridique(L, parties[cle], A.h1, contact, renvoi(A.versIPhone, L.fichiers[cle]));
+      const html = page({
+        langue: L,
+        langues,
+        cle,
+        cible: cibleAndroid(langues, cle),
+        titre: A.titre,
+        description: A.description,
+        entete: morceau.entete,
+        corps: morceau.corps,
+        mesure: morceau.mesure,
+        guides: guides.lienMenu(L.code),
+      });
+      fs.writeFileSync(path.join(__dirname, L.android.fichiers[cle]), html, 'utf8');
+      n++;
+    }
+  }
+  return n;
 }
 
 /**
@@ -258,6 +307,19 @@ function ecrirePlanEtRobots(langues) {
         `    <xhtml:link rel="alternate" hreflang="x-default" href="${adresse(anglais.fichiers[cle])}"/>`,
       ];
       urls.push(['  <url>', `    <loc>${adresse(L.fichiers[cle])}</loc>`, ...liens, '  </url>'].join('\n'));
+    }
+  }
+  // Les deux pages juridiques Android, chacune avec ses traductions.
+  for (const cle of CLES_ANDROID) {
+    const cible = cibleAndroid(langues, cle);
+    const liens = [
+      ...Object.entries(cible).map(
+        ([code, f]) => `    <xhtml:link rel="alternate" hreflang="${code}" href="${adresse(f)}"/>`
+      ),
+      `    <xhtml:link rel="alternate" hreflang="x-default" href="${adresse(cible.en)}"/>`,
+    ];
+    for (const f of Object.values(cible)) {
+      urls.push(['  <url>', `    <loc>${adresse(f)}</loc>`, ...liens, '  </url>'].join('\n'));
     }
   }
   // Les guides, chacun avec ses traductions.
@@ -283,11 +345,11 @@ function ecrirePlanEtRobots(langues) {
 }
 
 function main() {
-  const { LEGAL_TEXT, CONTACT, origine } = legal.lire();
+  const { LEGAL_TEXT, LEGAL_TEXT_ANDROID, CONTACT, origine } = legal.lire();
   if (origine === 'copie') {
     console.warn(
-      "⚠️  L'application n'est pas à côté : les textes juridiques viennent de la copie " +
-        'déposée dans textes/legal.json, qui peut avoir pris du retard.'
+      "⚠️  L'application n'est pas à côté : les textes juridiques viennent des copies " +
+        'déposées dans textes/legal.json et textes/legal-android.json, qui peuvent avoir pris du retard.'
     );
   }
 
@@ -302,8 +364,20 @@ function main() {
     const morceaux = {
       accueil: accueil(L, CONTACT),
       assistance: assistance(L, CONTACT),
-      conditions: juridique(L, j.terms, L.juridique.conditions.h1, CONTACT),
-      confidentialite: juridique(L, j.privacy, L.juridique.confidentialite.h1, CONTACT),
+      conditions: juridique(
+        L,
+        j.terms,
+        L.juridique.conditions.h1,
+        CONTACT,
+        L.android && renvoi(L.android.versAndroid.conditions, L.android.fichiers.conditions)
+      ),
+      confidentialite: juridique(
+        L,
+        j.privacy,
+        L.juridique.confidentialite.h1,
+        CONTACT,
+        L.android && renvoi(L.android.versAndroid.confidentialite, L.android.fichiers.confidentialite)
+      ),
     };
 
     for (const cle of PAGES) {
@@ -323,11 +397,13 @@ function main() {
     }
   }
 
+  const pagesAndroid = ecrireAndroid(langues, LEGAL_TEXT_ANDROID, CONTACT);
   const pagesGuides = guides.ecrireGuides(__dirname, langues);
   ecrirePlanEtRobots(langues);
 
   console.log(
     `${ecrites} pages écrites — ${langues.length} langues × ${PAGES.length} pages. ` +
+      `${pagesAndroid} pages juridiques Android. ` +
       `${pagesGuides} pages de guides. Textes juridiques : ${origine === 'application' ? "lus dans l'application" : 'copie locale'}.`
   );
 }

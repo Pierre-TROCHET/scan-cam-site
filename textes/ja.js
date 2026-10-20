@@ -270,4 +270,37 @@ module.exports = {
       remplace: '全文は<a href="{lien}">Apple のサイト</a>で読めます。',
     },
   },
+
+  // La version Android (bloc 72 de l'application, 20 octobre 2026). Ses deux pages juridiques
+  // sont lues dans `cam-scan/i18n/legal-android.ts`, comme celles de l'iPhone dans `legal.ts` :
+  // ici, seulement leurs noms de fichiers, leurs titres, et les phrases qui relient les deux versions.
+  // Pas de lien ni de badge Google Play : l'application n'y est pas encore.
+  android: {
+    fichiers: { conditions: 'terms-android-ja.html', confidentialite: 'privacy-android-ja.html' },
+    conditions: {
+      h1: '利用規約（Android 版）',
+      titre: '利用規約（Android 版） — Scan Cam',
+      description:
+        'Android 版 Scan Cam および Scan Cam Pro サブスクリプションの利用規約。',
+      // En tête de la page : le renvoi vers la version iPhone.
+      versIPhone:
+        'この規約は Android 版 Scan Cam に適用されます。iPhone 版については<a href="{lien}">iPhone 版の利用規約</a>をお読みください。',
+    },
+    confidentialite: {
+      h1: 'プライバシーポリシー（Android 版）',
+      titre: 'プライバシーポリシー（Android 版） — Scan Cam',
+      description:
+        '書類はお使いのスマートフォンと、オンにした場合はご自身の Google ドライブに保存され、当方のサーバーに置かれることはありません。アカウントなし、アクセス解析なし、広告なし。',
+      // En tête de la page : le renvoi vers la version iPhone.
+      versIPhone:
+        'このポリシーは Android 版 Scan Cam に適用されます。iPhone 版については<a href="{lien}">iPhone 版のプライバシーポリシー</a>をお読みください。',
+    },
+    // En tête des pages iPhone : le renvoi vers la version Android.
+    versAndroid: {
+      conditions:
+        'この規約は iPhone 版 Scan Cam に適用されます。Android 版については<a href="{lien}">Android 版の利用規約</a>をお読みください。',
+      confidentialite:
+        'このポリシーは iPhone 版 Scan Cam に適用されます。Android 版については<a href="{lien}">Android 版のプライバシーポリシー</a>をお読みください。',
+    },
+  },
 };

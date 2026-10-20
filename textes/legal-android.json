@@ -1,0 +1,760 @@
+{
+  "LEGAL_TEXT_ANDROID": {
+    "fr": {
+      "terms": [
+        {
+          "body": "Ces conditions régissent l’utilisation de Scan Cam sur Android et l’abonnement Scan Cam Pro vendu sur Google Play. En vous abonnant, vous les acceptez, ainsi que les conditions d’utilisation de Google Play, qui régissent l’achat lui-même."
+        },
+        {
+          "heading": "L’abonnement",
+          "body": "Scan Cam Pro est un abonnement annuel, qui commence par une période d’essai gratuite de 7 jours. Son prix est celui qu’affichent l’application au moment de vous abonner et Google Play, dans la monnaie de votre pays : il varie d’un pays à l’autre. L’abonnement se renouvelle automatiquement à la fin de chaque année, sauf s’il est résilié avant cette échéance. Le renouvellement est facturé par Google, sur le moyen de paiement de votre compte Google Play."
+        },
+        {
+          "heading": "Gérer ou résilier",
+          "body": "Votre abonnement se gère dans l’application Google Play : touchez votre photo de profil, puis « Paiements et abonnements », puis « Abonnements ». C’est là qu’il peut être résilié ; Scan Cam ne peut pas le faire à votre place. Résilier avant la fin de la période d’essai gratuite n’entraîne aucun paiement. Après une résiliation, Scan Cam Pro reste ouvert jusqu’à la fin de la période déjà payée."
+        },
+        {
+          "heading": "Paiements et remboursements",
+          "body": "Les paiements sont encaissés par Google, et les remboursements suivent les règles de Google Play : une demande se fait depuis votre compte Google Play. Pour toute autre question sur votre abonnement : pierremunozfrance@gmail.com."
+        },
+        {
+          "heading": "Votre droit d’utiliser l’application",
+          "body": "L’éditeur vous accorde le droit personnel, non exclusif et non transférable d’utiliser Scan Cam sur les appareils Android que vous possédez ou dont vous avez l’usage. Sauf dans les cas où la loi l’autorise, vous ne pouvez pas copier, revendre, louer, décompiler ou modifier l’application."
+        },
+        {
+          "heading": "Ce que fait l’application",
+          "body": "Scan Cam est fournie telle quelle, pour numériser et travailler vos propres documents. Vous restez responsable de ce que contiennent les documents que vous scannez, modifiez et partagez, et du respect des droits qui s’y attachent. Vos documents n’étant gardés que sur votre téléphone, pensez à les exporter : dans les limites permises par la loi, l’éditeur ne répond pas de leur perte."
+        },
+        {
+          "heading": "Droit applicable",
+          "body": "Ces conditions sont soumises au droit français. Si vous résidez dans un autre pays de l’Union européenne, vous gardez la protection que vous accordent les règles impératives de votre pays. En cas de désaccord, écrivez d’abord à pierremunozfrance@gmail.com : une solution amiable sera recherchée."
+        },
+        {
+          "heading": "Qui édite l’application",
+          "body": "Scan Cam est éditée par Pierre Trochet, sous le nom nightbuilds. Contact : pierremunozfrance@gmail.com. Dernière mise à jour : 20 octobre 2026."
+        }
+      ],
+      "privacy": [
+        {
+          "body": "Scan Cam n’a ni compte, ni inscription, ni serveur à nous, ni mesure d’audience, ni publicité. Vos documents restent sur votre téléphone et, si vous l’activez, dans votre propre Google Drive — jamais sur un serveur à nous. En dehors de cette copie, que vous choisissez, deux choses seulement sortent de l’application, et aucune ne contient vos documents : des mesures techniques envoyées par les outils de Google qui scannent et lisent le texte, et ce qui concerne l’abonnement. Elles sont décrites plus bas."
+        },
+        {
+          "heading": "Vos documents : sur votre téléphone et dans votre Google Drive",
+          "body": "Les pages que vous numérisez, les fichiers qui en sont tirés, vos dossiers et vos signatures sont enregistrés dans l’espace privé de l’application, sur votre téléphone. Si vous l’acceptez — Scan Cam vous le propose après votre premier document, et l’interrupteur « Sauvegarde Google Drive » des réglages le permet à tout moment —, une copie en est gardée dans votre propre Google Drive, dans un espace réservé à l’application et invisible dans l’app Google Drive, pour qu’ils reviennent si vous réinstallez l’application ou changez de téléphone. Cette copie est stockée par Google, selon les règles de Google : l’éditeur de Scan Cam n’y a pas accès et ne la voit jamais, et Scan Cam ne voit rien d’autre de votre Drive. Couper la sauvegarde dans les réglages efface cette copie. Vos documents ne sont transmis à personne d’autre, et ils ne passent pas par la sauvegarde automatique d’Android."
+        },
+        {
+          "heading": "Le scanner et l’appareil photo",
+          "body": "Pour scanner, Scan Cam s’appuie sur le scanner de documents de Google (ML Kit), fourni par les services Google Play de votre téléphone. C’est lui qui ouvre l’appareil photo, au moment où vous le demandez : il prend les photos et repère les bords de la page sur le téléphone lui-même, puis rend les images à l’application, qui les écrit sur votre téléphone. L’appareil photo sert aussi, si vous le choisissez, à photographier votre signature."
+        },
+        {
+          "heading": "Vos photos",
+          "body": "L’application n’accède à vos photos que lorsque vous choisissez d’en importer une pour en faire un document : vous la choisissez dans le sélecteur d’Android, et seule celle-là lui est confiée. Elle ne parcourt jamais votre galerie, et n’y écrit jamais rien."
+        },
+        {
+          "heading": "La reconnaissance de texte",
+          "body": "Le texte est lu sur vos pages par le téléphone lui-même, sans connexion, grâce à l’outil de reconnaissance de texte de Google (ML Kit). Le contenu de vos documents n’est jamais envoyé à un service extérieur pour être analysé."
+        },
+        {
+          "heading": "Les mesures techniques de Google",
+          "body": "Google indique que ses outils ML Kit — le scanner et la reconnaissance de texte — peuvent lui envoyer des informations sur leur fonctionnement : performances, utilisation des outils, modèle et version du téléphone. Ces informations ne contiennent ni vos images ni votre texte. Elles relèvent des règles de confidentialité de Google ; l’éditeur de Scan Cam n’y a pas accès."
+        },
+        {
+          "heading": "Quand vous partagez",
+          "body": "En dehors de la copie dans votre Google Drive décrite plus haut, un document ne quitte votre téléphone que lorsque vous appuyez vous-même sur Partager ou sur « Tout exporter », et il part vers l’application ou la personne que vous désignez à ce moment-là. Ce qu’elle en fait ensuite relève de ses propres règles, pas de celles-ci."
+        },
+        {
+          "heading": "L’abonnement",
+          "body": "L’abonnement est vendu et facturé par Google, sur Google Play. Votre moyen de paiement n’est connu que de Google : l’éditeur de Scan Cam ne le voit jamais.\n\nPour savoir si vous êtes abonné, l’application interroge RevenueCat, un service qui tient à jour l’état des abonnements. Il reçoit votre achat et un numéro anonyme qu’il fabrique lui-même — jamais votre nom, jamais votre adresse e-mail, jamais un seul de vos documents. Cette information ne sert qu’à débloquer ce que vous avez payé."
+        },
+        {
+          "heading": "Effacer vos données",
+          "body": "Supprimer un document dans l’application l’efface du téléphone et, à la copie suivante, de votre Google Drive. Supprimer l’application efface tout ce qu’elle contenait sur le téléphone ; la copie dans Google Drive, elle, reste, pour que vos documents reviennent à la réinstallation. Pour l’effacer aussi, coupez la sauvegarde dans les réglages avant de supprimer l’application, ou supprimez les données cachées de Scan Cam dans les paramètres de Google Drive (« Gérer les applications »). Pour l’état de votre abonnement, voir « Vos droits », plus bas."
+        },
+        {
+          "heading": "Vos droits",
+          "body": "Le règlement européen sur les données personnelles vous donne le droit d’accéder aux données vous concernant, de les corriger et de les effacer. Vos documents étant sur votre téléphone et, si vous l’avez choisi, dans votre propre Google Drive, vous les effacez vous-même. Pour les informations d’abonnement conservées par RevenueCat, écrivez à pierremunozfrance@gmail.com : elles seront retrouvées et effacées sur demande."
+        },
+        {
+          "heading": "Qui édite l’application",
+          "body": "Scan Cam est éditée par Pierre Trochet, sous le nom nightbuilds. Pour toute question sur cette page ou sur l’application : pierremunozfrance@gmail.com."
+        },
+        {
+          "heading": "Modifications",
+          "body": "Cette politique peut évoluer si l’application évolue. La version en vigueur est toujours celle qui s’affiche ici. Dernière mise à jour : 20 octobre 2026."
+        }
+      ]
+    },
+    "en": {
+      "terms": [
+        {
+          "body": "These terms govern the use of Scan Cam on Android and the Scan Cam Pro subscription sold on Google Play. By subscribing, you accept them, as well as the Google Play Terms of Service, which govern the purchase itself."
+        },
+        {
+          "heading": "The subscription",
+          "body": "Scan Cam Pro is a yearly subscription that starts with a 7-day free trial. Its price is the one shown in the app when you subscribe and on Google Play, in your country’s currency: it varies from one country to another. The subscription renews automatically at the end of each year unless it is cancelled before that date. The renewal is billed by Google to the payment method on your Google Play account."
+        },
+        {
+          "heading": "Managing or cancelling",
+          "body": "Your subscription is managed in the Google Play app: tap your profile picture, then “Payments & subscriptions”, then “Subscriptions”. That is where it can be cancelled; Scan Cam cannot do it for you. Cancelling before the end of the free trial costs nothing. After cancelling, Scan Cam Pro stays available until the end of the period already paid for."
+        },
+        {
+          "heading": "Payments and refunds",
+          "body": "Payments are collected by Google, and refunds follow Google Play’s rules: a request is made from your Google Play account. For any other question about your subscription: pierremunozfrance@gmail.com."
+        },
+        {
+          "heading": "Your right to use the app",
+          "body": "The publisher grants you the personal, non-exclusive and non-transferable right to use Scan Cam on the Android devices that you own or have the use of. Except where the law allows it, you may not copy, resell, rent, decompile or modify the app."
+        },
+        {
+          "heading": "What the app does",
+          "body": "Scan Cam is provided as it is, to scan and work on your own documents. You remain responsible for what the documents you scan, edit and share contain, and for the rights attached to them. As your documents are kept only on your phone, remember to export them: to the extent permitted by law, the publisher is not liable for their loss."
+        },
+        {
+          "heading": "Governing law",
+          "body": "These terms are governed by French law. If you live in another country of the European Union, you keep the protection given to you by the mandatory rules of your country. In case of disagreement, write first to pierremunozfrance@gmail.com: an amicable solution will be sought."
+        },
+        {
+          "heading": "Who publishes the app",
+          "body": "Scan Cam is published by Pierre Trochet, under the name nightbuilds. Contact: pierremunozfrance@gmail.com. Last updated: 20 October 2026."
+        }
+      ],
+      "privacy": [
+        {
+          "body": "Scan Cam has no account, no sign-up, no server of ours, no analytics and no advertising. Your documents stay on your phone and, if you turn it on, in your own Google Drive — never on a server of ours. Apart from that copy, which you choose, only two things leave the app, and neither contains your documents: technical measurements sent by the Google tools that scan and read the text, and what concerns the subscription. They are described below."
+        },
+        {
+          "heading": "Your documents: on your phone and in your Google Drive",
+          "body": "The pages you scan, the files made from them, your folders and your signatures are saved in the app’s private space, on your phone. If you agree — Scan Cam offers it after your first document, and the “Google Drive backup” switch in the settings allows it at any time — a copy of them is kept in your own Google Drive, in a space reserved for the app and invisible in the Google Drive app, so that they come back if you reinstall the app or change phones. This copy is stored by Google, under Google’s rules: the publisher of Scan Cam has no access to it and never sees it, and Scan Cam sees nothing else in your Drive. Turning the backup off in the settings erases this copy. Your documents are passed to no one else, and they do not go through Android’s automatic backup."
+        },
+        {
+          "heading": "The scanner and the camera",
+          "body": "To scan, Scan Cam relies on Google’s document scanner (ML Kit), provided by the Google Play services on your phone. It is the scanner that opens the camera, at the moment you ask for it: it takes the photos and detects the edges of the page on the phone itself, then hands the images back to the app, which writes them onto your phone. The camera is also used, if you choose, to photograph your signature."
+        },
+        {
+          "heading": "Your photos",
+          "body": "The app reaches your photos only when you choose to import one to make a document from it: you pick it in the Android picker, and only that one is handed to the app. It never goes through your gallery, and never writes anything into it."
+        },
+        {
+          "heading": "Text recognition",
+          "body": "The text on your pages is read by the phone itself, with no connection, using Google’s text recognition tool (ML Kit). The contents of your documents are never sent to an outside service to be analysed."
+        },
+        {
+          "heading": "Google’s technical measurements",
+          "body": "Google states that its ML Kit tools — the scanner and text recognition — may send it information about how they work: performance, use of the tools, the phone’s model and version. This information contains neither your images nor your text. It falls under Google’s privacy rules; the publisher of Scan Cam has no access to it."
+        },
+        {
+          "heading": "When you share",
+          "body": "Apart from the copy in your Google Drive described above, a document leaves your phone only when you tap Share or “Export everything” yourself, and it goes to the app or the person you name at that moment. What they then do with it falls under their own rules, not under these."
+        },
+        {
+          "heading": "The subscription",
+          "body": "The subscription is sold and billed by Google, on Google Play. Your payment method is known to Google alone: the publisher of Scan Cam never sees it.\n\nTo know whether you are subscribed, the app asks RevenueCat, a service that keeps subscription status up to date. It receives your purchase and an anonymous number it makes up itself — never your name, never your email address, never a single one of your documents. This information serves only to unlock what you have paid for."
+        },
+        {
+          "heading": "Erasing your data",
+          "body": "Deleting a document in the app erases it from the phone and, at the next copy, from your Google Drive. Deleting the app erases everything it held on the phone; the copy in Google Drive, however, stays, so that your documents come back when you reinstall. To erase it too, turn the backup off in the settings before deleting the app, or delete Scan Cam’s hidden data in the Google Drive settings (“Manage apps”). For your subscription status, see “Your rights”, below."
+        },
+        {
+          "heading": "Your rights",
+          "body": "European data protection law gives you the right to access the data concerning you, to correct it and to erase it. As your documents are on your phone and, if you chose so, in your own Google Drive, you erase them yourself. For the subscription information held by RevenueCat, write to pierremunozfrance@gmail.com: it will be found and erased on request."
+        },
+        {
+          "heading": "Who publishes the app",
+          "body": "Scan Cam is published by Pierre Trochet, under the name nightbuilds. For any question about this page or about the app: pierremunozfrance@gmail.com."
+        },
+        {
+          "heading": "Changes",
+          "body": "This policy may change if the app changes. The version in force is always the one shown here. Last updated: 20 October 2026."
+        }
+      ]
+    },
+    "es": {
+      "terms": [
+        {
+          "body": "Estas condiciones rigen el uso de Scan Cam en Android y la suscripción Scan Cam Pro vendida en Google Play. Al suscribirte, las aceptas, así como las condiciones de servicio de Google Play, que rigen la compra en sí."
+        },
+        {
+          "heading": "La suscripción",
+          "body": "Scan Cam Pro es una suscripción anual que empieza con un periodo de prueba gratuito de 7 días. Su precio es el que muestran la aplicación al suscribirte y Google Play, en la moneda de tu país: varía de un país a otro. La suscripción se renueva automáticamente al final de cada año, salvo que se cancele antes de esa fecha. Google factura la renovación al método de pago de tu cuenta de Google Play."
+        },
+        {
+          "heading": "Gestionar o cancelar",
+          "body": "Tu suscripción se gestiona en la aplicación Google Play: toca tu foto de perfil, luego «Pagos y suscripciones» y después «Suscripciones». Ahí es donde se puede cancelar; Scan Cam no puede hacerlo por ti. Cancelar antes de que termine la prueba gratuita no conlleva ningún pago. Tras una cancelación, Scan Cam Pro sigue disponible hasta el final del periodo ya pagado."
+        },
+        {
+          "heading": "Pagos y reembolsos",
+          "body": "Google cobra los pagos, y los reembolsos siguen las reglas de Google Play: la solicitud se hace desde tu cuenta de Google Play. Para cualquier otra consulta sobre tu suscripción: pierremunozfrance@gmail.com."
+        },
+        {
+          "heading": "Tu derecho a usar la aplicación",
+          "body": "El editor te concede el derecho personal, no exclusivo e intransferible de usar Scan Cam en los dispositivos Android que posees o de los que tienes el uso. Salvo en los casos en que la ley lo permita, no puedes copiar, revender, alquilar, descompilar ni modificar la aplicación."
+        },
+        {
+          "heading": "Lo que hace la aplicación",
+          "body": "Scan Cam se ofrece tal cual, para digitalizar y trabajar tus propios documentos. Sigues siendo responsable del contenido de los documentos que escaneas, modificas y compartes, y del respeto de los derechos que les corresponden. Como tus documentos solo se guardan en tu teléfono, acuérdate de exportarlos: en la medida en que la ley lo permita, el editor no responde de su pérdida."
+        },
+        {
+          "heading": "Ley aplicable",
+          "body": "Estas condiciones se rigen por el derecho francés. Si resides en otro país de la Unión Europea, conservas la protección que te otorgan las normas imperativas de tu país. En caso de desacuerdo, escribe primero a pierremunozfrance@gmail.com: se buscará una solución amistosa."
+        },
+        {
+          "heading": "Quién edita la aplicación",
+          "body": "Scan Cam está editada por Pierre Trochet, con el nombre nightbuilds. Contacto: pierremunozfrance@gmail.com. Última actualización: 20 de octubre de 2026."
+        }
+      ],
+      "privacy": [
+        {
+          "body": "Scan Cam no tiene cuenta, ni registro, ni servidor propio, ni analítica, ni publicidad. Tus documentos se quedan en tu teléfono y, si lo activas, en tu propio Google Drive — nunca en un servidor nuestro. Aparte de esa copia, que eliges tú, solo dos cosas salen de la aplicación, y ninguna contiene tus documentos: unas mediciones técnicas que envían las herramientas de Google que escanean y leen el texto, y lo relativo a la suscripción. Se explican más abajo."
+        },
+        {
+          "heading": "Tus documentos: en tu teléfono y en tu Google Drive",
+          "body": "Las páginas que escaneas, los archivos que salen de ellas, tus carpetas y tus firmas se guardan en el espacio privado de la aplicación, en tu teléfono. Si lo aceptas — Scan Cam te lo propone después de tu primer documento, y el interruptor «Copia en Google Drive» de los ajustes lo permite en cualquier momento —, se guarda una copia en tu propio Google Drive, en un espacio reservado para la aplicación e invisible en la app Google Drive, para que vuelvan si reinstalas la aplicación o cambias de teléfono. Esta copia la almacena Google, según las reglas de Google: el editor de Scan Cam no tiene acceso a ella y nunca la ve, y Scan Cam no ve nada más de tu Drive. Desactivar la copia en los ajustes la borra. Tus documentos no se transmiten a nadie más, y no pasan por la copia de seguridad automática de Android."
+        },
+        {
+          "heading": "El escáner y la cámara",
+          "body": "Para escanear, Scan Cam se apoya en el escáner de documentos de Google (ML Kit), que proporcionan los servicios de Google Play de tu teléfono. Es él quien abre la cámara, en el momento en que lo pides: toma las fotos y detecta los bordes de la página en el propio teléfono, y luego devuelve las imágenes a la aplicación, que las escribe en tu teléfono. La cámara también sirve, si así lo eliges, para fotografiar tu firma."
+        },
+        {
+          "heading": "Tus fotos",
+          "body": "La aplicación accede a tus fotos únicamente cuando eliges importar una para convertirla en documento: la eliges en el selector de Android, y solo esa se le confía. Nunca recorre tu galería, y nunca escribe nada en ella."
+        },
+        {
+          "heading": "El reconocimiento de texto",
+          "body": "El texto de tus páginas lo lee el propio teléfono, sin conexión, gracias a la herramienta de reconocimiento de texto de Google (ML Kit). El contenido de tus documentos nunca se envía a un servicio externo para ser analizado."
+        },
+        {
+          "heading": "Las mediciones técnicas de Google",
+          "body": "Google indica que sus herramientas ML Kit — el escáner y el reconocimiento de texto — pueden enviarle información sobre su funcionamiento: rendimiento, uso de las herramientas, modelo y versión del teléfono. Esta información no contiene ni tus imágenes ni tu texto. Depende de las reglas de privacidad de Google; el editor de Scan Cam no tiene acceso a ella."
+        },
+        {
+          "heading": "Cuando compartes",
+          "body": "Aparte de la copia en tu Google Drive descrita más arriba, un documento sale de tu teléfono solo cuando pulsas tú mismo Compartir o «Exportar todo», y va a la aplicación o a la persona que indicas en ese momento. Lo que hagan después con él depende de sus propias reglas, no de estas."
+        },
+        {
+          "heading": "La suscripción",
+          "body": "Google vende y factura la suscripción, en Google Play. Tu método de pago solo lo conoce Google: el editor de Scan Cam nunca lo ve.\n\nPara saber si estás suscrito, la aplicación consulta a RevenueCat, un servicio que mantiene al día el estado de las suscripciones. Recibe tu compra y un número anónimo que él mismo genera — nunca tu nombre, nunca tu correo electrónico, nunca ninguno de tus documentos. Esta información solo sirve para desbloquear lo que has pagado."
+        },
+        {
+          "heading": "Borrar tus datos",
+          "body": "Eliminar un documento en la aplicación lo borra del teléfono y, en la siguiente copia, de tu Google Drive. Eliminar la aplicación borra todo lo que contenía en el teléfono; la copia en Google Drive, en cambio, se queda, para que tus documentos vuelvan al reinstalarla. Para borrarla también, desactiva la copia en los ajustes antes de eliminar la aplicación, o elimina los datos ocultos de Scan Cam en la configuración de Google Drive («Gestionar aplicaciones»). Para el estado de tu suscripción, consulta «Tus derechos», más abajo."
+        },
+        {
+          "heading": "Tus derechos",
+          "body": "El reglamento europeo de protección de datos te da derecho a acceder a los datos que te conciernen, a corregirlos y a borrarlos. Como tus documentos están en tu teléfono y, si así lo has elegido, en tu propio Google Drive, los borras tú mismo. Para la información de suscripción que conserva RevenueCat, escribe a pierremunozfrance@gmail.com: se localizará y se borrará a petición tuya."
+        },
+        {
+          "heading": "Quién edita la aplicación",
+          "body": "Scan Cam está editada por Pierre Trochet, con el nombre nightbuilds. Para cualquier consulta sobre esta página o sobre la aplicación: pierremunozfrance@gmail.com."
+        },
+        {
+          "heading": "Modificaciones",
+          "body": "Esta política puede evolucionar si la aplicación evoluciona. La versión vigente es siempre la que se muestra aquí. Última actualización: 20 de octubre de 2026."
+        }
+      ]
+    },
+    "de": {
+      "terms": [
+        {
+          "body": "Diese Bedingungen regeln die Nutzung von Scan Cam auf Android und das bei Google Play verkaufte Abonnement Scan Cam Pro. Mit dem Abschluss eines Abonnements akzeptieren Sie sie sowie die Nutzungsbedingungen von Google Play, die den Kauf selbst regeln."
+        },
+        {
+          "heading": "Das Abonnement",
+          "body": "Scan Cam Pro ist ein Jahresabonnement, das mit einer kostenlosen Testphase von 7 Tagen beginnt. Es gilt der Preis, der beim Abschluss in der App und bei Google Play angezeigt wird, in der Währung Ihres Landes: Er ist von Land zu Land verschieden. Das Abonnement verlängert sich am Ende jedes Jahres automatisch, sofern es nicht vor diesem Termin gekündigt wird. Die Verlängerung wird von Google über die Zahlungsmethode Ihres Google Play-Kontos abgerechnet."
+        },
+        {
+          "heading": "Verwalten oder kündigen",
+          "body": "Ihr Abonnement verwalten Sie in der Google Play-App: Tippen Sie auf Ihr Profilbild, dann auf „Zahlungen & Abos“ und dann auf „Abos“. Dort kann es gekündigt werden; Scan Cam kann das nicht für Sie tun. Eine Kündigung vor Ablauf der kostenlosen Testphase verursacht keine Kosten. Nach einer Kündigung bleibt Scan Cam Pro bis zum Ende des bereits bezahlten Zeitraums verfügbar."
+        },
+        {
+          "heading": "Zahlungen und Erstattungen",
+          "body": "Die Zahlungen werden von Google eingezogen, und Erstattungen richten sich nach den Regeln von Google Play: Eine Anfrage stellen Sie über Ihr Google Play-Konto. Bei allen anderen Fragen zu Ihrem Abonnement: pierremunozfrance@gmail.com."
+        },
+        {
+          "heading": "Ihr Recht, die App zu nutzen",
+          "body": "Der Herausgeber räumt Ihnen das persönliche, nicht ausschließliche und nicht übertragbare Recht ein, Scan Cam auf den Android-Geräten zu nutzen, die Sie besitzen oder die Ihnen zur Nutzung zur Verfügung stehen. Außer in den gesetzlich erlaubten Fällen dürfen Sie die App weder kopieren noch weiterverkaufen, vermieten, dekompilieren oder verändern."
+        },
+        {
+          "heading": "Was die App tut",
+          "body": "Scan Cam wird so bereitgestellt, wie sie ist, um Ihre eigenen Dokumente zu scannen und zu bearbeiten. Sie bleiben dafür verantwortlich, was die Dokumente enthalten, die Sie scannen, ändern und teilen, und für die daran bestehenden Rechte. Da Ihre Dokumente nur auf Ihrem Telefon aufbewahrt werden, denken Sie daran, sie zu exportieren: Soweit gesetzlich zulässig, haftet der Herausgeber nicht für ihren Verlust."
+        },
+        {
+          "heading": "Anwendbares Recht",
+          "body": "Diese Bedingungen unterliegen französischem Recht. Wenn Sie in einem anderen Land der Europäischen Union wohnen, behalten Sie den Schutz, den Ihnen die zwingenden Vorschriften Ihres Landes gewähren. Bei Meinungsverschiedenheiten schreiben Sie bitte zuerst an pierremunozfrance@gmail.com: Es wird eine gütliche Lösung gesucht."
+        },
+        {
+          "heading": "Wer die App herausgibt",
+          "body": "Scan Cam wird von Pierre Trochet unter dem Namen nightbuilds herausgegeben. Kontakt: pierremunozfrance@gmail.com. Letzte Aktualisierung: 20. Oktober 2026."
+        }
+      ],
+      "privacy": [
+        {
+          "body": "Scan Cam hat kein Konto, keine Anmeldung, keinen eigenen Server, keine Reichweitenmessung und keine Werbung. Ihre Dokumente bleiben auf Ihrem Telefon und, wenn Sie es einschalten, in Ihrem eigenen Google Drive — nie auf einem Server von uns. Abgesehen von dieser Kopie, für die Sie sich selbst entscheiden, verlassen nur zwei Dinge die App, und keines davon enthält Ihre Dokumente: technische Messdaten, die von den Google-Werkzeugen gesendet werden, die scannen und den Text lesen, und das, was das Abonnement betrifft. Beides wird weiter unten beschrieben."
+        },
+        {
+          "heading": "Ihre Dokumente: auf Ihrem Telefon und in Ihrem Google Drive",
+          "body": "Die Seiten, die Sie scannen, die daraus entstehenden Dateien, Ihre Ordner und Ihre Unterschriften werden im privaten Bereich der App auf Ihrem Telefon gespeichert. Wenn Sie zustimmen — Scan Cam schlägt es Ihnen nach Ihrem ersten Dokument vor, und der Schalter „Google Drive-Sicherung“ in den Einstellungen erlaubt es jederzeit —, wird eine Kopie davon in Ihrem eigenen Google Drive aufbewahrt, in einem der App vorbehaltenen Bereich, der in der Google Drive-App nicht sichtbar ist, damit Ihre Dokumente zurückkommen, wenn Sie die App neu installieren oder das Telefon wechseln. Diese Kopie wird von Google nach den Regeln von Google gespeichert: Der Herausgeber von Scan Cam hat keinen Zugriff darauf und sieht sie nie, und Scan Cam sieht sonst nichts von Ihrem Drive. Wenn Sie die Sicherung in den Einstellungen ausschalten, wird diese Kopie gelöscht. Ihre Dokumente werden an niemanden sonst weitergegeben, und sie laufen nicht über die automatische Sicherung von Android."
+        },
+        {
+          "heading": "Der Scanner und die Kamera",
+          "body": "Zum Scannen nutzt Scan Cam den Dokumentenscanner von Google (ML Kit), den die Google Play-Dienste Ihres Telefons bereitstellen. Er öffnet die Kamera, in dem Moment, in dem Sie es verlangen: Er nimmt die Fotos auf und erkennt die Ränder der Seite auf dem Telefon selbst, dann gibt er die Bilder an die App zurück, die sie auf Ihr Telefon schreibt. Die Kamera dient außerdem, wenn Sie das wählen, dazu, Ihre Unterschrift zu fotografieren."
+        },
+        {
+          "heading": "Ihre Fotos",
+          "body": "Die App greift nur dann auf Ihre Fotos zu, wenn Sie eines importieren, um daraus ein Dokument zu machen: Sie wählen es in der Fotoauswahl von Android aus, und nur dieses eine wird ihr übergeben. Sie durchsucht nie Ihre Galerie und schreibt nie etwas hinein."
+        },
+        {
+          "heading": "Die Texterkennung",
+          "body": "Der Text auf Ihren Seiten wird vom Telefon selbst gelesen, ohne Verbindung, mithilfe der Texterkennung von Google (ML Kit). Der Inhalt Ihrer Dokumente wird niemals zur Auswertung an einen externen Dienst gesendet."
+        },
+        {
+          "heading": "Die technischen Messdaten von Google",
+          "body": "Google gibt an, dass seine ML Kit-Werkzeuge — der Scanner und die Texterkennung — Informationen über ihre Funktionsweise an Google senden können: Leistung, Nutzung der Werkzeuge, Modell und Version des Telefons. Diese Informationen enthalten weder Ihre Bilder noch Ihren Text. Sie unterliegen den Datenschutzbestimmungen von Google; der Herausgeber von Scan Cam hat keinen Zugriff darauf."
+        },
+        {
+          "heading": "Wenn Sie teilen",
+          "body": "Abgesehen von der oben beschriebenen Kopie in Ihrem Google Drive verlässt ein Dokument Ihr Telefon nur, wenn Sie selbst auf Teilen oder auf „Alles exportieren“ tippen, und es geht an die App oder die Person, die Sie in diesem Moment bestimmen. Was damit anschließend geschieht, richtet sich nach deren eigenen Regeln, nicht nach diesen."
+        },
+        {
+          "heading": "Das Abonnement",
+          "body": "Das Abonnement wird von Google bei Google Play verkauft und abgerechnet. Ihre Zahlungsdaten kennt allein Google: Der Herausgeber von Scan Cam sieht sie nie.\n\nUm zu wissen, ob Sie ein Abonnement haben, fragt die App bei RevenueCat nach, einem Dienst, der den Stand der Abonnements führt. Er erhält Ihren Kauf und eine anonyme Nummer, die er selbst vergibt — nie Ihren Namen, nie Ihre E-Mail-Adresse, nie eines Ihrer Dokumente. Diese Information dient allein dazu, freizuschalten, wofür Sie bezahlt haben."
+        },
+        {
+          "heading": "Ihre Daten löschen",
+          "body": "Ein Dokument in der App zu löschen, entfernt es vom Telefon und, bei der nächsten Kopie, aus Ihrem Google Drive. Die App zu löschen, entfernt alles, was sie auf dem Telefon enthielt; die Kopie in Google Drive dagegen bleibt, damit Ihre Dokumente bei einer Neuinstallation zurückkommen. Um auch sie zu löschen, schalten Sie die Sicherung in den Einstellungen aus, bevor Sie die App löschen, oder löschen Sie die ausgeblendeten Daten von Scan Cam in den Einstellungen von Google Drive („Apps verwalten“). Zum Stand Ihres Abonnements siehe „Ihre Rechte“ weiter unten."
+        },
+        {
+          "heading": "Ihre Rechte",
+          "body": "Die europäische Datenschutz-Grundverordnung gibt Ihnen das Recht, auf die Sie betreffenden Daten zuzugreifen, sie zu berichtigen und zu löschen. Da Ihre Dokumente auf Ihrem Telefon und, wenn Sie das gewählt haben, in Ihrem eigenen Google Drive liegen, löschen Sie sie selbst. Für die bei RevenueCat gespeicherten Abonnementdaten schreiben Sie an pierremunozfrance@gmail.com: sie werden auf Anfrage herausgesucht und gelöscht."
+        },
+        {
+          "heading": "Wer die App herausgibt",
+          "body": "Scan Cam wird von Pierre Trochet unter dem Namen nightbuilds herausgegeben. Bei Fragen zu dieser Seite oder zur App: pierremunozfrance@gmail.com."
+        },
+        {
+          "heading": "Änderungen",
+          "body": "Diese Richtlinie kann sich ändern, wenn sich die App ändert. Es gilt immer die hier angezeigte Fassung. Letzte Aktualisierung: 20. Oktober 2026."
+        }
+      ]
+    },
+    "it": {
+      "terms": [
+        {
+          "body": "Queste condizioni regolano l’uso di Scan Cam su Android e l’abbonamento Scan Cam Pro venduto su Google Play. Abbonandoti, le accetti, insieme ai termini di servizio di Google Play, che regolano l’acquisto stesso."
+        },
+        {
+          "heading": "L’abbonamento",
+          "body": "Scan Cam Pro è un abbonamento annuale, che inizia con un periodo di prova gratuita di 7 giorni. Il suo prezzo è quello indicato nell’app al momento dell’abbonamento e su Google Play, nella valuta del tuo paese: varia da un paese all’altro. L’abbonamento si rinnova automaticamente alla fine di ogni anno, a meno che non venga disdetto prima di tale scadenza. Il rinnovo viene addebitato da Google sul metodo di pagamento del tuo account Google Play."
+        },
+        {
+          "heading": "Gestire o disdire",
+          "body": "Il tuo abbonamento si gestisce nell’app Google Play: tocca la tua foto del profilo, poi «Pagamenti e abbonamenti», poi «Abbonamenti». È lì che può essere disdetto; Scan Cam non può farlo al posto tuo. Disdire prima della fine del periodo di prova gratuita non comporta alcun pagamento. Dopo una disdetta, Scan Cam Pro resta disponibile fino alla fine del periodo già pagato."
+        },
+        {
+          "heading": "Pagamenti e rimborsi",
+          "body": "I pagamenti sono incassati da Google, e i rimborsi seguono le regole di Google Play: la richiesta si fa dal tuo account Google Play. Per qualsiasi altra domanda sul tuo abbonamento: pierremunozfrance@gmail.com."
+        },
+        {
+          "heading": "Il tuo diritto di usare l’app",
+          "body": "L’editore ti concede il diritto personale, non esclusivo e non trasferibile di usare Scan Cam sui dispositivi Android che possiedi o di cui hai l’uso. Salvo nei casi in cui la legge lo consente, non puoi copiare, rivendere, noleggiare, decompilare o modificare l’app."
+        },
+        {
+          "heading": "Cosa fa l’app",
+          "body": "Scan Cam è fornita così com’è, per scansionare e lavorare i tuoi documenti. Resti responsabile del contenuto dei documenti che scansioni, modifichi e condividi, e del rispetto dei diritti a essi collegati. Poiché i tuoi documenti sono conservati solo sul tuo telefono, ricordati di esportarli: nei limiti consentiti dalla legge, l’editore non risponde della loro perdita."
+        },
+        {
+          "heading": "Legge applicabile",
+          "body": "Queste condizioni sono soggette alla legge francese. Se risiedi in un altro paese dell’Unione europea, conservi la tutela che ti garantiscono le norme imperative del tuo paese. In caso di disaccordo, scrivi prima a pierremunozfrance@gmail.com: si cercherà una soluzione amichevole."
+        },
+        {
+          "heading": "Chi pubblica l’app",
+          "body": "Scan Cam è pubblicata da Pierre Trochet, con il nome nightbuilds. Contatto: pierremunozfrance@gmail.com. Ultimo aggiornamento: 20 ottobre 2026."
+        }
+      ],
+      "privacy": [
+        {
+          "body": "Scan Cam non ha account, né registrazione, né server nostri, né misurazione del pubblico, né pubblicità. I tuoi documenti restano sul tuo telefono e, se lo attivi, nel tuo Google Drive — mai su un nostro server. A parte questa copia, che scegli tu, solo due cose escono dall’app, e nessuna delle due contiene i tuoi documenti: misurazioni tecniche inviate dagli strumenti di Google che scansionano e leggono il testo, e ciò che riguarda l’abbonamento. Sono descritte più sotto."
+        },
+        {
+          "heading": "I tuoi documenti: sul tuo telefono e nel tuo Google Drive",
+          "body": "Le pagine che scansioni, i file che ne ricavi, le tue cartelle e le tue firme sono salvati nello spazio privato dell’app, sul tuo telefono. Se lo accetti — Scan Cam te lo propone dopo il tuo primo documento, e l’interruttore «Backup Google Drive» nelle impostazioni lo consente in qualsiasi momento —, una loro copia viene conservata nel tuo Google Drive, in uno spazio riservato all’app e invisibile nell’app Google Drive, perché i tuoi documenti tornino se reinstalli l’app o cambi telefono. Questa copia è conservata da Google, secondo le regole di Google: l’editore di Scan Cam non vi ha accesso e non la vede mai, e Scan Cam non vede nient’altro del tuo Drive. Disattivare il backup nelle impostazioni cancella questa copia. I tuoi documenti non vengono trasmessi a nessun altro, e non passano dal backup automatico di Android."
+        },
+        {
+          "heading": "Lo scanner e la fotocamera",
+          "body": "Per scansionare, Scan Cam si affida allo scanner di documenti di Google (ML Kit), fornito dai servizi Google Play del tuo telefono. È lo scanner ad aprire la fotocamera, nel momento in cui lo chiedi: scatta le foto e individua i bordi della pagina sul telefono stesso, poi restituisce le immagini all’app, che le scrive sul tuo telefono. La fotocamera serve anche, se lo scegli, a fotografare la tua firma."
+        },
+        {
+          "heading": "Le tue foto",
+          "body": "L’app accede alle tue foto solo quando scegli di importarne una per farne un documento: la scegli nel selettore di Android, e solo quella le viene affidata. Non scorre mai la tua galleria, e non vi scrive mai nulla."
+        },
+        {
+          "heading": "Il riconoscimento del testo",
+          "body": "Il testo delle tue pagine viene letto dal telefono stesso, senza connessione, grazie allo strumento di riconoscimento del testo di Google (ML Kit). Il contenuto dei tuoi documenti non viene mai inviato a un servizio esterno per essere analizzato."
+        },
+        {
+          "heading": "Le misurazioni tecniche di Google",
+          "body": "Google indica che i suoi strumenti ML Kit — lo scanner e il riconoscimento del testo — possono inviargli informazioni sul loro funzionamento: prestazioni, utilizzo degli strumenti, modello e versione del telefono. Queste informazioni non contengono né le tue immagini né il tuo testo. Sono soggette alle norme sulla privacy di Google; l’editore di Scan Cam non vi ha accesso."
+        },
+        {
+          "heading": "Quando condividi",
+          "body": "A parte la copia nel tuo Google Drive descritta più sopra, un documento lascia il tuo telefono solo quando tocchi tu stesso Condividi o «Esporta tutto», e va all’app o alla persona che indichi in quel momento. Quello che poi ne fa dipende dalle sue regole, non da queste."
+        },
+        {
+          "heading": "L’abbonamento",
+          "body": "L’abbonamento è venduto e addebitato da Google, su Google Play. Il tuo metodo di pagamento è noto solo a Google: l’editore di Scan Cam non lo vede mai.\n\nPer sapere se sei abbonato, l’app interroga RevenueCat, un servizio che tiene aggiornato lo stato degli abbonamenti. Riceve il tuo acquisto e un numero anonimo che genera da sé — mai il tuo nome, mai il tuo indirizzo email, mai nessuno dei tuoi documenti. Questa informazione serve solo a sbloccare ciò per cui hai pagato."
+        },
+        {
+          "heading": "Cancellare i tuoi dati",
+          "body": "Eliminare un documento nell’app lo cancella dal telefono e, alla copia successiva, dal tuo Google Drive. Eliminare l’app cancella tutto ciò che conteneva sul telefono; la copia su Google Drive, invece, resta, perché i tuoi documenti tornino alla reinstallazione. Per cancellare anche quella, disattiva il backup nelle impostazioni prima di eliminare l’app, oppure elimina i dati nascosti di Scan Cam nelle impostazioni di Google Drive («Gestisci app»). Per lo stato del tuo abbonamento, vedi «I tuoi diritti», più sotto."
+        },
+        {
+          "heading": "I tuoi diritti",
+          "body": "Il regolamento europeo sulla protezione dei dati personali ti dà il diritto di accedere ai dati che ti riguardano, di correggerli e di cancellarli. Poiché i tuoi documenti si trovano sul tuo telefono e, se l’hai scelto, nel tuo Google Drive, li cancelli tu stesso. Per le informazioni sull’abbonamento conservate da RevenueCat, scrivi a pierremunozfrance@gmail.com: verranno individuate e cancellate su richiesta."
+        },
+        {
+          "heading": "Chi pubblica l’app",
+          "body": "Scan Cam è pubblicata da Pierre Trochet, con il nome nightbuilds. Per qualsiasi domanda su questa pagina o sull’app: pierremunozfrance@gmail.com."
+        },
+        {
+          "heading": "Modifiche",
+          "body": "Questa informativa può cambiare se l’app cambia. La versione in vigore è sempre quella mostrata qui. Ultimo aggiornamento: 20 ottobre 2026."
+        }
+      ]
+    },
+    "pt": {
+      "terms": [
+        {
+          "body": "Estes termos regem o uso do Scan Cam no Android e a assinatura Scan Cam Pro vendida no Google Play. Ao assinar, você os aceita, assim como os Termos de Serviço do Google Play, que regem a compra em si."
+        },
+        {
+          "heading": "A assinatura",
+          "body": "O Scan Cam Pro é uma assinatura anual, que começa com um período de teste gratuito de 7 dias. O preço é o exibido pelo aplicativo no momento em que você assina e pelo Google Play, na moeda do seu país: ele varia de um país para outro. A assinatura é renovada automaticamente ao final de cada ano, a menos que seja cancelada antes desse vencimento. A renovação é cobrada pelo Google, no meio de pagamento da sua conta do Google Play."
+        },
+        {
+          "heading": "Gerenciar ou cancelar",
+          "body": "A sua assinatura é gerenciada no aplicativo Google Play: toque na sua foto do perfil, depois em “Pagamentos e assinaturas” e em seguida em “Assinaturas”. É ali que ela pode ser cancelada; o Scan Cam não pode fazer isso por você. Cancelar antes do fim do período de teste gratuito não gera nenhuma cobrança. Depois de um cancelamento, o Scan Cam Pro continua liberado até o fim do período já pago."
+        },
+        {
+          "heading": "Pagamentos e reembolsos",
+          "body": "Os pagamentos são recebidos pelo Google, e os reembolsos seguem as regras do Google Play: a solicitação é feita pela sua conta do Google Play. Para qualquer outra dúvida sobre a sua assinatura: pierremunozfrance@gmail.com."
+        },
+        {
+          "heading": "O seu direito de usar o aplicativo",
+          "body": "O editor concede a você o direito pessoal, não exclusivo e intransferível de usar o Scan Cam nos dispositivos Android que você possui ou que estão sob o seu uso. Salvo nos casos em que a lei o permita, você não pode copiar, revender, alugar, descompilar ou modificar o aplicativo."
+        },
+        {
+          "heading": "O que o aplicativo faz",
+          "body": "O Scan Cam é fornecido no estado em que se encontra, para digitalizar e trabalhar com os seus próprios documentos. Você continua responsável pelo conteúdo dos documentos que escaneia, edita e compartilha, e pelo respeito aos direitos ligados a eles. Como os seus documentos ficam guardados apenas no seu celular, lembre-se de exportá-los: nos limites permitidos por lei, o editor não se responsabiliza pela perda deles."
+        },
+        {
+          "heading": "Lei aplicável",
+          "body": "Estes termos estão sujeitos à lei francesa. Se você reside em outro país da União Europeia, continua tendo a proteção que lhe garantem as normas imperativas do seu país. Em caso de desacordo, escreva primeiro para pierremunozfrance@gmail.com: será buscada uma solução amigável."
+        },
+        {
+          "heading": "Quem publica o aplicativo",
+          "body": "O Scan Cam é publicado por Pierre Trochet, sob o nome nightbuilds. Contato: pierremunozfrance@gmail.com. Última atualização: 20 de outubro de 2026."
+        }
+      ],
+      "privacy": [
+        {
+          "body": "O Scan Cam não tem conta, nem cadastro, nem servidor próprio, nem medição de audiência, nem publicidade. Os seus documentos ficam no seu celular e, se você ativar, no seu próprio Google Drive — nunca em um servidor nosso. Fora essa cópia, que é escolha sua, apenas duas coisas saem do aplicativo, e nenhuma delas contém os seus documentos: medições técnicas enviadas pelas ferramentas do Google que escaneiam e leem o texto, e o que diz respeito à assinatura. Elas são descritas mais abaixo."
+        },
+        {
+          "heading": "Os seus documentos: no seu celular e no seu Google Drive",
+          "body": "As páginas que você digitaliza, os arquivos gerados a partir delas, as suas pastas e as suas assinaturas são salvos no espaço privado do aplicativo, no seu celular. Se você aceitar — o Scan Cam propõe isso depois do seu primeiro documento, e a chave “Backup no Google Drive” nos ajustes permite ativá-lo ou desativá-lo a qualquer momento —, uma cópia deles é guardada no seu próprio Google Drive, em um espaço reservado ao aplicativo e invisível no app Google Drive, para que eles voltem se você reinstalar o aplicativo ou trocar de celular. Essa cópia é armazenada pelo Google, segundo as regras do Google: o editor do Scan Cam não tem acesso a ela e nunca a vê, e o Scan Cam não vê mais nada do seu Drive. Desativar o backup nos ajustes apaga essa cópia. Os seus documentos não são transmitidos a mais ninguém, e não passam pelo backup automático do Android."
+        },
+        {
+          "heading": "O scanner e a câmera",
+          "body": "Para escanear, o Scan Cam usa o scanner de documentos do Google (ML Kit), fornecido pelos serviços do Google Play do seu celular. É ele que abre a câmera, no momento em que você pede: ele tira as fotos e identifica as bordas da página no próprio celular, e depois devolve as imagens ao aplicativo, que as grava no seu celular. A câmera também serve, se você quiser, para fotografar a sua assinatura."
+        },
+        {
+          "heading": "As suas fotos",
+          "body": "O aplicativo só acessa as suas fotos quando você escolhe importar uma delas para transformá-la em documento: você a escolhe no seletor do Android, e somente ela é entregue ao aplicativo. Ele nunca percorre a sua galeria, e nunca grava nada nela."
+        },
+        {
+          "heading": "O reconhecimento de texto",
+          "body": "O texto das suas páginas é lido pelo próprio celular, sem conexão, graças à ferramenta de reconhecimento de texto do Google (ML Kit). O conteúdo dos seus documentos nunca é enviado a um serviço externo para ser analisado."
+        },
+        {
+          "heading": "As medições técnicas do Google",
+          "body": "O Google informa que as ferramentas do ML Kit — o scanner e o reconhecimento de texto — podem enviar a ele informações sobre o funcionamento delas: desempenho, uso das ferramentas, modelo e versão do celular. Essas informações não contêm nem as suas imagens nem o seu texto. Elas estão sujeitas às regras de privacidade do Google; o editor do Scan Cam não tem acesso a elas."
+        },
+        {
+          "heading": "Quando você compartilha",
+          "body": "Fora a cópia no seu Google Drive descrita acima, um documento só sai do seu celular quando você mesmo toca em Compartilhar ou em “Exportar tudo”, e vai para o aplicativo ou a pessoa que você indicar nesse momento. O que ela faz com ele depois segue as regras dela, e não estas."
+        },
+        {
+          "heading": "A assinatura",
+          "body": "A assinatura é vendida e cobrada pelo Google, no Google Play. O seu meio de pagamento é conhecido apenas pelo Google: o editor do Scan Cam nunca o vê.\n\nPara saber se você é assinante, o aplicativo consulta a RevenueCat, um serviço que mantém atualizado o status das assinaturas. Ela recebe a sua compra e um número anônimo que ela mesma gera — nunca o seu nome, nunca o seu endereço de e-mail, nunca nenhum dos seus documentos. Essa informação serve apenas para desbloquear o que você pagou."
+        },
+        {
+          "heading": "Apagar os seus dados",
+          "body": "Apagar um documento no aplicativo o apaga do celular e, na cópia seguinte, do seu Google Drive. Apagar o aplicativo apaga tudo o que ele continha no celular; já a cópia no Google Drive permanece, para que os seus documentos voltem quando você reinstalar. Para apagá-la também, desative o backup nos ajustes antes de apagar o aplicativo, ou exclua os dados ocultos do Scan Cam nas configurações do Google Drive (“Gerenciar apps”). Quanto ao status da sua assinatura, veja “Os seus direitos”, mais abaixo."
+        },
+        {
+          "heading": "Os seus direitos",
+          "body": "O regulamento europeu sobre dados pessoais dá a você o direito de acessar os dados que lhe dizem respeito, de corrigi-los e de apagá-los. Como os seus documentos estão no seu celular e, se você escolheu, no seu próprio Google Drive, você mesmo os apaga. Para as informações de assinatura mantidas pela RevenueCat, escreva para pierremunozfrance@gmail.com: elas serão localizadas e apagadas mediante solicitação."
+        },
+        {
+          "heading": "Quem publica o aplicativo",
+          "body": "O Scan Cam é publicado por Pierre Trochet, sob o nome nightbuilds. Para qualquer dúvida sobre esta página ou sobre o aplicativo: pierremunozfrance@gmail.com."
+        },
+        {
+          "heading": "Alterações",
+          "body": "Esta política pode mudar se o aplicativo mudar. A versão em vigor é sempre a que aparece aqui. Última atualização: 20 de outubro de 2026."
+        }
+      ]
+    },
+    "ja": {
+      "terms": [
+        {
+          "body": "この規約は、Android 版 Scan Cam の利用と、Google Play で販売される Scan Cam Pro の購読に適用されます。購読すると、この規約と、購入そのものに適用される Google Play の利用規約に同意したことになります。"
+        },
+        {
+          "heading": "購読について",
+          "body": "Scan Cam Pro は、7 日間の無料体験から始まる年額の購読です。価格は、購読するときにアプリと Google Play に表示される、お住まいの国の通貨での金額で、国によって異なります。購読は毎年の期間の終わりに自動的に更新され、その期日より前に解約しない限り継続します。更新の請求は Google が、あなたの Google Play アカウントのお支払い方法に対して行います。"
+        },
+        {
+          "heading": "管理と解約",
+          "body": "購読は Google Play アプリで管理します。プロフィール写真をタップし、「お支払いと定期購入」、「定期購入」の順に進んでください。解約もそこで行えます。Scan Cam が代わりに解約することはできません。無料体験の終了前に解約すれば、料金はかかりません。解約後も、支払い済みの期間が終わるまでは Scan Cam Pro を引き続き使えます。"
+        },
+        {
+          "heading": "支払いと返金",
+          "body": "支払いは Google が受け取り、返金は Google Play の規則に従います。返金のリクエストは、あなたの Google Play アカウントから行います。購読についてのその他のお問い合わせは pierremunozfrance@gmail.com まで。"
+        },
+        {
+          "heading": "アプリを使用する権利",
+          "body": "提供者は、あなたが所有または使用する Android 端末で Scan Cam を使用するための、個人的かつ非独占的で譲渡できない権利をあなたに付与します。法律で認められている場合を除き、アプリを複製、転売、貸与、逆コンパイル、改変することはできません。"
+        },
+        {
+          "heading": "このアプリについて",
+          "body": "Scan Cam は、あなた自身の書類をスキャンし扱うために、現状のまま提供されます。スキャン・編集・共有する書類の内容と、それに伴う権利の尊重については、あなたの責任となります。書類はスマートフォンの中にしか保存されないため、忘れずに書き出しておいてください。法律で認められる範囲で、提供者は書類の消失について責任を負いません。"
+        },
+        {
+          "heading": "準拠法",
+          "body": "この規約にはフランス法が適用されます。欧州連合のほかの国にお住まいの場合は、お住まいの国の強行規定による保護を引き続き受けられます。意見の相違がある場合は、まず pierremunozfrance@gmail.com までご連絡ください。話し合いによる解決を目指します。"
+        },
+        {
+          "heading": "提供者",
+          "body": "Scan Cam は Pierre Trochet が nightbuilds の名前で提供しています。連絡先：pierremunozfrance@gmail.com。最終更新：2026年10月20日。"
+        }
+      ],
+      "privacy": [
+        {
+          "body": "Scan Cam にはアカウントも、登録も、自前のサーバーも、アクセス解析も、広告もありません。あなたの書類はスマートフォンの中と、オンにした場合はあなた自身の Google ドライブに保存され、私たちのサーバーに送られることはありません。あなたが選ぶこのコピーを除けば、アプリから外に出るのは次の 2 つだけで、どちらにも書類は含まれません。スキャンと文字の読み取りを行う Google のツールが送信する技術的な計測情報と、購読に関することです。詳しくは下記をご覧ください。"
+        },
+        {
+          "heading": "書類の保存場所：スマートフォンの中と Google ドライブ",
+          "body": "スキャンしたページ、そこから作られたファイル、フォルダ、署名は、スマートフォンの中のアプリ専用の領域に保存されます。あなたが同意した場合（最初の書類のあとに Scan Cam から提案されます。また、設定の「Google ドライブ バックアップ」スイッチでいつでもオン・オフを切り替えられます）、そのコピーがあなた自身の Google ドライブ内の、アプリ専用で Google ドライブ アプリには表示されない領域に保存されます。これにより、アプリを再インストールしても、スマートフォンを買い替えても、書類が戻ってきます。このコピーは Google の規則に従って Google が保管します。Scan Cam の提供者はこのコピーにアクセスできず、見ることもありません。また、Scan Cam がドライブのほかの内容を見ることもありません。設定でバックアップをオフにすると、このコピーは削除されます。書類がほかの誰かに渡されることはなく、Android の自動バックアップを経由することもありません。"
+        },
+        {
+          "heading": "スキャナーとカメラ",
+          "body": "スキャンには、スマートフォンの Google Play 開発者サービスが提供する Google のドキュメント スキャナー（ML Kit）を使います。カメラを開くのはこのスキャナーで、あなたが求めたときに開きます。写真を撮り、ページの端の検出をスマートフォン自身の上で行ってから、画像をアプリに渡し、アプリがそれをスマートフォンに保存します。また、ご希望の場合は、署名を撮影するためにもカメラを使います。"
+        },
+        {
+          "heading": "写真",
+          "body": "アプリが写真にアクセスするのは、書類にするために 1 枚を読み込むことを選んだときだけです。Android の選択画面で写真を選ぶと、その 1 枚だけがアプリに渡されます。ギャラリーを見て回ることはなく、ギャラリーに何かを書き込むこともありません。"
+        },
+        {
+          "heading": "文字認識",
+          "body": "ページの文字は、Google の文字認識ツール（ML Kit）を使って、スマートフォン自身が通信なしで読み取ります。書類の内容が解析のために外部のサービスへ送られることはありません。"
+        },
+        {
+          "heading": "Google の技術的な計測情報",
+          "body": "Google によると、ML Kit のツール（スキャナーと文字認識）は、その動作に関する情報（性能、ツールの利用状況、スマートフォンの機種とバージョン）を Google に送信することがあります。この情報に、あなたの画像や文字は含まれません。この情報は Google のプライバシーに関する規則に従って扱われ、Scan Cam の提供者がアクセスすることはできません。"
+        },
+        {
+          "heading": "共有するとき",
+          "body": "上で説明した Google ドライブへのコピーを除けば、書類がスマートフォンを離れるのは、あなた自身が「共有」または「すべて書き出す」を押したときだけで、その場で指定したアプリや相手に渡されます。渡された先での扱いは、その相手の規則によるものであり、この方針の対象ではありません。"
+        },
+        {
+          "heading": "購読について",
+          "body": "購読の販売と請求は、Google Play で Google が行います。支払い方法を知っているのは Google だけで、Scan Cam の提供者が見ることはありません。\n\n購読中かどうかを確認するため、アプリは RevenueCat という購読状況を管理するサービスに問い合わせます。RevenueCat が受け取るのは、購入の記録と、RevenueCat 自身が発行する匿名の番号だけです。お名前も、メールアドレスも、書類も、一切渡りません。この情報は、お支払いいただいた機能を使えるようにするためだけに使われます。"
+        },
+        {
+          "heading": "データの消去",
+          "body": "アプリの中で書類を削除すると、スマートフォンから消え、次のコピーのときに Google ドライブからも消えます。アプリを削除すると、スマートフォンの中にあったものはすべて消えますが、Google ドライブのコピーは残り、再インストールしたときに書類が戻ってくるようになっています。このコピーも消去するには、アプリを削除する前に設定でバックアップをオフにするか、Google ドライブの設定（「アプリの管理」）で Scan Cam の非表示のアプリデータを削除してください。購読の状況については、下の「あなたの権利」をご覧ください。"
+        },
+        {
+          "heading": "あなたの権利",
+          "body": "欧州の個人データ保護規則は、自分に関するデータを閲覧し、訂正し、消去する権利を認めています。書類はスマートフォンの中と、ご自身で選んだ場合はあなた自身の Google ドライブにありますので、ご自身で消去できます。RevenueCat が保持している購読の情報については、pierremunozfrance@gmail.com までご連絡ください。お求めに応じて探し出し、消去します。"
+        },
+        {
+          "heading": "提供者",
+          "body": "Scan Cam は Pierre Trochet が nightbuilds の名前で提供しています。このページやアプリについてのお問い合わせは pierremunozfrance@gmail.com まで。"
+        },
+        {
+          "heading": "変更について",
+          "body": "アプリの変更に伴い、この方針も変わることがあります。有効なのは常にここに表示されている版です。最終更新：2026年10月20日。"
+        }
+      ]
+    },
+    "zh": {
+      "terms": [
+        {
+          "body": "本条款适用于在 Android 上使用 Scan Cam，以及在 Google Play 上销售的 Scan Cam Pro 订阅。订阅即表示你接受本条款，以及约束购买本身的 Google Play 服务条款。"
+        },
+        {
+          "heading": "关于订阅",
+          "body": "Scan Cam Pro 是按年订阅，先享 7 天免费试用。价格以订阅时应用内和 Google Play 显示的金额为准，按你所在国家或地区的货币计价，各地价格不同。订阅每年到期时自动续期，除非在到期前取消。续期由 Google 通过你 Google Play 账户中的付款方式扣款。"
+        },
+        {
+          "heading": "管理与取消",
+          "body": "订阅在 Google Play 应用中管理：点击你的个人资料照片，然后依次点击“付款和订阅”、“订阅”。订阅可以在那里取消；Scan Cam 无法代你取消。在免费试用结束前取消，不会产生任何费用。取消后，Scan Cam Pro 仍可使用，直到已付费的期限结束。"
+        },
+        {
+          "heading": "付款与退款",
+          "body": "款项由 Google 收取，退款遵循 Google Play 的规则：请从你的 Google Play 账户提出申请。关于订阅的其他任何问题，请联系 pierremunozfrance@gmail.com。"
+        },
+        {
+          "heading": "你使用本应用的权利",
+          "body": "发布者授予你个人的、非独占的、不可转让的权利，可在你拥有或有权使用的 Android 设备上使用 Scan Cam。除法律允许的情形外，你不得复制、转售、出租、反编译或修改本应用。"
+        },
+        {
+          "heading": "这个应用做什么",
+          "body": "Scan Cam 按现状提供，用于扫描和处理你自己的文档。你扫描、修改和分享的文档内容，以及与之相关的权利，由你自己负责。由于你的文档只保存在你的手机上，请记得将它们导出：在法律允许的范围内，发布者不对其丢失承担责任。"
+        },
+        {
+          "heading": "适用法律",
+          "body": "本条款受法国法律管辖。如果你居住在欧盟其他国家，你仍享有你所在国家强制性规定给予你的保护。如有争议，请先写信至 pierremunozfrance@gmail.com：我们会寻求友好解决。"
+        },
+        {
+          "heading": "应用的发布者",
+          "body": "Scan Cam 由 Pierre Trochet 以 nightbuilds 的名义发布。联系方式：pierremunozfrance@gmail.com。最后更新：2026年10月20日。"
+        }
+      ],
+      "privacy": [
+        {
+          "body": "Scan Cam 没有账户，没有注册，没有我们自己的服务器，没有统计分析，也没有广告。你的文档保存在你的手机上，如果你开启备份，也保存在你自己的 Google 云端硬盘中——绝不会存到我们的服务器上。除了这份由你选择的副本，离开应用的只有两样东西，而且都不包含你的文档：一是 Google 用来扫描和识别文字的工具所发送的技术数据，二是与订阅有关的信息。详见下文。"
+        },
+        {
+          "heading": "你的文档：在你的手机上和你的 Google 云端硬盘中",
+          "body": "你扫描的页面、由此生成的文件、你的文件夹和签名，都保存在手机上应用自己的私有空间中。如果你同意——Scan Cam 会在你的第一份文档之后向你提出，你也可以随时通过设置中的“Google 云端硬盘备份”开关来开启或关闭——它们的一份副本会保存在你自己的 Google 云端硬盘中一个专供本应用使用、在 Google 云端硬盘应用中看不到的空间里，这样在你重新安装应用或更换手机后，文档都会回来。这份副本由 Google 按照 Google 的规则存储：Scan Cam 的发布者无法访问，也从不会看到它，而 Scan Cam 也看不到你云端硬盘中的任何其他内容。在设置中关闭备份会删除这份副本。你的文档不会转交给任何其他人，也不会经过 Android 的自动备份。"
+        },
+        {
+          "heading": "扫描器与摄像头",
+          "body": "扫描时，Scan Cam 依靠 Google 的文档扫描器（ML Kit），它由你手机上的 Google Play 服务提供。在你要求扫描时，由它打开摄像头：它拍摄照片，并在手机本机上识别页面边缘，然后把图像交还给应用，由应用写入你的手机。如果你选择这样做，摄像头也用于拍摄你的签名。"
+        },
+        {
+          "heading": "你的照片",
+          "body": "只有当你选择导入一张照片来生成文档时，应用才会访问你的照片：你在 Android 的选择器中选中它，交给应用的只有这一张。应用从不浏览你的图库，也从不向其中写入任何东西。"
+        },
+        {
+          "heading": "文字识别",
+          "body": "页面上的文字由你的手机自己识别，无需联网，使用的是 Google 的文字识别工具（ML Kit）。文档的内容绝不会发送到外部服务去分析。"
+        },
+        {
+          "heading": "Google 的技术数据",
+          "body": "Google 表示，其 ML Kit 工具（扫描器和文字识别）可能会向 Google 发送有关其运行情况的信息：性能、工具的使用情况、手机的型号和版本。这些信息既不包含你的图像，也不包含你的文字。它们受 Google 的隐私规则约束；Scan Cam 的发布者无法访问。"
+        },
+        {
+          "heading": "当你分享时",
+          "body": "除了上文所述的 Google 云端硬盘副本，只有你自己点击分享或“全部导出”，文档才会离开你的手机，并发送给你当时指定的应用或对象。对方之后如何处理，取决于对方自己的规则，不在本政策范围内。"
+        },
+        {
+          "heading": "关于订阅",
+          "body": "订阅由 Google 在 Google Play 上销售并收款。你的支付方式只有 Google 知道，Scan Cam 的发布者从不会看到。\n\n为了知道你是否已订阅，应用会向 RevenueCat 查询，这是一项记录订阅状态的服务。它收到的只有你的购买记录，以及它自己生成的一个匿名编号 —— 绝不会收到你的姓名、电子邮箱，也绝不会收到你的任何文档。这一信息只用于解锁你已付费的功能。"
+        },
+        {
+          "heading": "删除你的数据",
+          "body": "在应用里删除一份文档，它就从手机上消失，并在下一次复制时从你的 Google 云端硬盘中消失。删除应用，手机上其中的一切都会消失；但 Google 云端硬盘中的副本会保留，以便你重新安装时文档能够回来。如果也要删除这份副本，请在删除应用之前在设置中关闭备份，或者在 Google 云端硬盘的设置（“管理应用”）中删除 Scan Cam 的隐藏应用数据。关于订阅状态，请见下文的「你的权利」。"
+        },
+        {
+          "heading": "你的权利",
+          "body": "欧洲的个人数据保护条例赋予你查阅、更正和删除与你相关数据的权利。你的文档在你的手机上，如果你选择了备份，也在你自己的 Google 云端硬盘中，你可以自行删除。至于 RevenueCat 保存的订阅信息，请写信至 pierremunozfrance@gmail.com：我们会应你的要求找出并删除。"
+        },
+        {
+          "heading": "应用的发布者",
+          "body": "Scan Cam 由 Pierre Trochet 以 nightbuilds 的名义发布。关于本页面或应用的任何问题，请联系 pierremunozfrance@gmail.com。"
+        },
+        {
+          "heading": "变更",
+          "body": "如果应用有变化，本政策也可能随之调整。以此处显示的版本为准。最后更新：2026年10月20日。"
+        }
+      ]
+    },
+    "ko": {
+      "terms": [
+        {
+          "body": "본 약관은 Android에서 Scan Cam을 사용하는 것과 Google Play에서 판매되는 Scan Cam Pro 구독에 적용됩니다. 구독하면 본 약관과 함께, 구매 자체에 적용되는 Google Play 서비스 약관에 동의하는 것입니다."
+        },
+        {
+          "heading": "구독",
+          "body": "Scan Cam Pro는 7일 무료 체험 기간으로 시작하는 연간 구독입니다. 가격은 구독 시점에 앱과 Google Play에 표시되는 금액이며, 사용자 국가의 통화로 표시되고 국가마다 다릅니다. 구독은 매년 말에 자동으로 갱신되며, 갱신일 전에 해지하지 않으면 계속됩니다. 갱신 요금은 Google이 사용자의 Google Play 계정에 등록된 결제 수단으로 청구합니다."
+        },
+        {
+          "heading": "관리 또는 해지",
+          "body": "구독은 Google Play 앱에서 관리합니다. 프로필 사진을 탭한 다음 “결제 및 구독”, “구독”을 차례로 탭하세요. 해지도 그곳에서 할 수 있으며, Scan Cam이 사용자를 대신해 해지할 수는 없습니다. 무료 체험 기간이 끝나기 전에 해지하면 요금이 청구되지 않습니다. 해지한 후에도 Scan Cam Pro는 이미 결제한 기간이 끝날 때까지 계속 사용할 수 있습니다."
+        },
+        {
+          "heading": "결제 및 환불",
+          "body": "결제 대금은 Google이 수령하며, 환불은 Google Play의 규정을 따릅니다. 환불 요청은 사용자의 Google Play 계정에서 할 수 있습니다. 구독에 관한 그 밖의 문의 사항은 pierremunozfrance@gmail.com으로 보내 주세요."
+        },
+        {
+          "heading": "앱 사용 권리",
+          "body": "개발자는 사용자가 소유하거나 사용할 권한이 있는 Android 기기에서 Scan Cam을 사용할 수 있는 개인적이고 비독점적이며 양도할 수 없는 권리를 사용자에게 부여합니다. 법률이 허용하는 경우를 제외하고, 사용자는 앱을 복제, 재판매, 대여, 디컴파일 또는 수정할 수 없습니다."
+        },
+        {
+          "heading": "앱이 하는 일",
+          "body": "Scan Cam은 사용자 본인의 문서를 스캔하고 작업하기 위한 용도로 현재 상태 그대로 제공됩니다. 사용자가 스캔, 수정, 공유하는 문서의 내용과 그에 따르는 권리의 준수에 대한 책임은 사용자에게 있습니다. 문서는 휴대폰에만 보관되므로 잊지 말고 내보내 두세요. 법률이 허용하는 범위에서, 개발자는 문서의 분실에 대해 책임지지 않습니다."
+        },
+        {
+          "heading": "준거법",
+          "body": "본 약관은 프랑스 법률의 적용을 받습니다. 다른 유럽연합 국가에 거주하는 경우, 거주 국가의 강행 규정이 부여하는 보호를 그대로 받습니다. 분쟁이 생기면 먼저 pierremunozfrance@gmail.com으로 연락해 주세요. 원만한 해결 방안을 찾겠습니다."
+        },
+        {
+          "heading": "앱 개발자",
+          "body": "Scan Cam은 Pierre Trochet이 nightbuilds라는 이름으로 개발 및 배포합니다. 연락처: pierremunozfrance@gmail.com. 최종 업데이트: 2026년 10월 20일."
+        }
+      ],
+      "privacy": [
+        {
+          "body": "Scan Cam에는 계정도, 가입 절차도, 자체 서버도, 이용 분석도, 광고도 없습니다. 사용자의 문서는 휴대폰에, 그리고 사용자가 켠 경우 사용자 본인의 Google 드라이브에 보관되며, 저희 서버로는 절대 전송되지 않습니다. 사용자가 선택하는 이 사본을 제외하면 앱 밖으로 나가는 것은 두 가지뿐이며, 어느 것에도 사용자의 문서는 포함되지 않습니다. 스캔과 텍스트 인식을 담당하는 Google 도구가 보내는 기술 데이터, 그리고 구독에 관한 정보입니다. 자세한 내용은 아래에 설명되어 있습니다."
+        },
+        {
+          "heading": "문서 보관 위치: 내 휴대폰과 내 Google 드라이브",
+          "body": "사용자가 스캔한 페이지, 그로부터 만들어진 파일, 폴더와 서명은 휴대폰에 있는 앱 전용 공간에 저장됩니다. 사용자가 동의하면(Scan Cam이 첫 문서 후에 제안하며, 설정의 “Google 드라이브 백업” 스위치로 언제든지 켜고 끌 수 있습니다) 그 사본이 사용자 본인의 Google 드라이브 안에, 앱 전용이며 Google 드라이브 앱에서는 보이지 않는 공간에 보관됩니다. 따라서 앱을 다시 설치하거나 휴대폰을 바꿔도 문서가 돌아옵니다. 이 사본은 Google의 규정에 따라 Google이 저장합니다. Scan Cam의 개발자는 이 사본에 접근할 수 없고 볼 수도 없으며, Scan Cam은 드라이브의 다른 내용을 전혀 보지 않습니다. 설정에서 백업을 끄면 이 사본이 삭제됩니다. 문서는 그 밖의 누구에게도 전달되지 않으며, Android 자동 백업을 거치지도 않습니다."
+        },
+        {
+          "heading": "스캐너와 카메라",
+          "body": "스캔할 때 Scan Cam은 휴대폰의 Google Play 서비스가 제공하는 Google 문서 스캐너(ML Kit)를 사용합니다. 사용자가 요청하는 순간 카메라를 여는 것은 이 스캐너입니다. 스캐너는 사진을 찍고 휴대폰 자체에서 페이지 가장자리를 감지한 뒤 이미지를 앱에 넘겨주며, 앱이 이를 휴대폰에 저장합니다. 사용자가 원하는 경우, 카메라는 서명을 촬영하는 데에도 사용됩니다."
+        },
+        {
+          "heading": "사진",
+          "body": "앱은 사용자가 문서로 만들기 위해 사진을 가져오기로 선택한 경우에만 사진에 접근합니다. 사용자가 Android 선택 도구에서 사진을 고르면 그 사진만 앱에 전달됩니다. 앱은 갤러리를 둘러보는 일이 없으며, 갤러리에 무엇도 기록하지 않습니다."
+        },
+        {
+          "heading": "텍스트 인식",
+          "body": "페이지의 텍스트는 Google의 텍스트 인식 도구(ML Kit)를 이용해 인터넷 연결 없이 휴대폰 자체가 읽습니다. 문서의 내용은 분석을 위해 외부 서비스로 전송되지 않습니다."
+        },
+        {
+          "heading": "Google의 기술 데이터",
+          "body": "Google에 따르면 ML Kit 도구(스캐너와 텍스트 인식)는 작동에 관한 정보, 즉 성능, 도구 사용 현황, 휴대폰의 모델과 버전을 Google에 보낼 수 있습니다. 이 정보에는 사용자의 이미지나 텍스트가 포함되지 않습니다. 이 정보에는 Google의 개인정보 보호 규정이 적용되며, Scan Cam의 개발자는 이에 접근할 수 없습니다."
+        },
+        {
+          "heading": "공유할 때",
+          "body": "위에서 설명한 Google 드라이브 사본을 제외하면, 문서는 사용자가 직접 공유 또는 “모두 내보내기”를 탭할 때에만 휴대폰을 떠나며, 그 순간 사용자가 지정한 앱이나 사람에게 전달됩니다. 이후 그 앱이나 사람이 문서를 어떻게 처리하는지는 해당 당사자의 규정을 따르며, 본 방침의 적용을 받지 않습니다."
+        },
+        {
+          "heading": "구독",
+          "body": "구독은 Google이 Google Play에서 판매하고 요금을 청구합니다. 결제 수단은 Google만 알고 있으며, Scan Cam의 개발자는 이를 볼 수 없습니다.\n\n구독 여부를 확인하기 위해 앱은 구독 상태를 최신으로 관리하는 서비스인 RevenueCat에 조회합니다. RevenueCat이 받는 것은 사용자의 구입 내역과 RevenueCat이 직접 생성하는 익명 번호뿐이며, 사용자의 이름, 이메일 주소, 문서는 절대 받지 않습니다. 이 정보는 사용자가 결제한 기능을 잠금 해제하는 데에만 사용됩니다."
+        },
+        {
+          "heading": "데이터 삭제",
+          "body": "앱에서 문서를 삭제하면 휴대폰에서 지워지고, 다음 복사 때 Google 드라이브에서도 지워집니다. 앱을 삭제하면 휴대폰에 있던 앱의 모든 것이 지워지지만, Google 드라이브의 사본은 다시 설치할 때 문서가 돌아올 수 있도록 남아 있습니다. 이 사본도 지우려면 앱을 삭제하기 전에 설정에서 백업을 끄거나, Google 드라이브 설정(“앱 관리”)에서 Scan Cam의 숨겨진 앱 데이터를 삭제하세요. 구독 상태에 관해서는 아래의 “사용자의 권리”를 참조하세요."
+        },
+        {
+          "heading": "사용자의 권리",
+          "body": "유럽 개인정보 보호 규정에 따라 사용자는 자신에 관한 데이터에 접근하고, 이를 정정하고 삭제할 권리를 가집니다. 문서는 사용자의 휴대폰과, 사용자가 선택한 경우 사용자 본인의 Google 드라이브에 있으므로 사용자가 직접 삭제할 수 있습니다. RevenueCat이 보관하는 구독 정보에 관해서는 pierremunozfrance@gmail.com으로 연락해 주세요. 요청 시 해당 정보를 찾아 삭제합니다."
+        },
+        {
+          "heading": "앱 개발자",
+          "body": "Scan Cam은 Pierre Trochet이 nightbuilds라는 이름으로 개발 및 배포합니다. 이 페이지나 앱에 관한 문의 사항은 pierremunozfrance@gmail.com으로 보내 주세요."
+        },
+        {
+          "heading": "변경 사항",
+          "body": "앱이 변경되면 본 방침도 변경될 수 있습니다. 유효한 버전은 항상 여기에 표시된 버전입니다. 최종 업데이트: 2026년 10월 20일."
+        }
+      ]
+    }
+  }
+}

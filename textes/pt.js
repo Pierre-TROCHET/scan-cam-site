@@ -269,4 +269,37 @@ module.exports = {
       remplace: '<a href="{lien}">no site da Apple</a>',
     },
   },
+
+  // La version Android (bloc 72 de l'application, 20 octobre 2026). Ses deux pages juridiques
+  // sont lues dans `cam-scan/i18n/legal-android.ts`, comme celles de l'iPhone dans `legal.ts` :
+  // ici, seulement leurs noms de fichiers, leurs titres, et les phrases qui relient les deux versions.
+  // Pas de lien ni de badge Google Play : l'application n'y est pas encore.
+  android: {
+    fichiers: { conditions: 'terms-android-pt.html', confidentialite: 'privacy-android-pt.html' },
+    conditions: {
+      h1: 'Termos de Uso para Android',
+      titre: 'Termos de Uso para Android — Scan Cam',
+      description:
+        'Os termos de uso do Scan Cam no Android e da assinatura Scan Cam Pro.',
+      // En tête de la page : le renvoi vers la version iPhone.
+      versIPhone:
+        'Estes termos valem para o Scan Cam no Android. Para iPhone, leia <a href="{lien}">os Termos de Uso da versão para iPhone</a>.',
+    },
+    confidentialite: {
+      h1: 'Política de Privacidade para Android',
+      titre: 'Política de Privacidade para Android — Scan Cam',
+      description:
+        'Seus documentos ficam no seu celular e, se você ativar, no seu próprio Google Drive, nunca em um servidor nosso: sem conta, sem medição de audiência, sem anúncios.',
+      // En tête de la page : le renvoi vers la version iPhone.
+      versIPhone:
+        'Esta política vale para o Scan Cam no Android. Para iPhone, leia <a href="{lien}">a Política de Privacidade da versão para iPhone</a>.',
+    },
+    // En tête des pages iPhone : le renvoi vers la version Android.
+    versAndroid: {
+      conditions:
+        'Estes termos valem para o Scan Cam no iPhone. Para Android, leia <a href="{lien}">os Termos de Uso da versão para Android</a>.',
+      confidentialite:
+        'Esta política vale para o Scan Cam no iPhone. Para Android, leia <a href="{lien}">a Política de Privacidade da versão para Android</a>.',
+    },
+  },
 };
