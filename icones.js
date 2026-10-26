@@ -30,6 +30,15 @@ const icones = {
       'currentColor'
     ),
 
+  /** Le triangle du bouton Google Play (26 octobre 2026). Plein, comme la pomme. */
+  googleplay: (t = 18) =>
+    dessin(
+      '<path d="M5.2 2.6c-.4.2-.7.7-.7 1.2v16.4c0 .5.3 1 .7 1.2l9.3-9.4zM15.6 13.1l2.7 2.7-11.2 6.3 8.5-9zM15.6 10.9' +
+        'l-8.5-9 11.2 6.3zM19.4 8.8l-2.8 2.2 2.8 2.2 1.6-.9c.8-.5.8-1.5 0-2l-1.6-.9z"></path>',
+      t,
+      'currentColor'
+    ),
+
   /** L'étincelle du bandeau d'ouverture. */
   etincelle: (t = 14) => dessin('<path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z"></path>', t),
 

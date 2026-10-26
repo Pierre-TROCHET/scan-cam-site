@@ -32,6 +32,7 @@ module.exports = {
   pied: {
     editeur: 'Scan Cam is published by Pierre Trochet.',
     appstore: 'Download on the App Store',
+    googleplay: 'Get it on Google Play',
     liens: {
       accueil: 'Home',
       assistance: 'Support',
@@ -44,7 +45,7 @@ module.exports = {
     accueil: {
       titre: 'Scan Cam — the document scanner with no account and no server',
       description:
-        'Scan Cam turns your iPhone into a document scanner. No account, no server of ours, no advertising.',
+        'Scan Cam turns your iPhone or Android phone into a document scanner. No account, no server of ours, no advertising.',
     },
     assistance: {
       titre: 'Support — Scan Cam',
@@ -95,13 +96,13 @@ module.exports = {
         'Photographed crumpled on a table, and returned straight, white and sharp. Both pages are whole: nothing is cropped.',
     },
     appstore: {
-      note: 'iPhone and iPad.',
+      note: 'iPhone, iPad and Android.',
     },
     confidentialite: {
       titre: 'Never on a server of ours.',
     },
     promesse:
-      'Your documents stay on your iPhone and in your own iCloud, never on a server of ours. No account to create, no analytics, no adverts. Your invoices, your contracts and your identity papers go nowhere else — except on the day you decide to share them yourself.',
+      'Your documents stay on your phone, with a copy in your own iCloud on iPhone or, if you agree, in your own Google Drive on Android — never on a server of ours. No account to create, no analytics, no adverts. Your invoices, your contracts and your identity papers go nowhere else — except on the day you decide to share them yourself.',
 
     sectionsTitre: 'Everything it can do',
     sections: [
@@ -112,7 +113,7 @@ module.exports = {
           'Edges detected and the page straightened, even shot at an angle',
           'Four looks: original photo, colour, greyscale, black and white',
           'Strength adjustable with your finger, with a preview that follows',
-          'Shadows removed in one tap, for pages shot under a lamp or a hand',
+          'Shadows removed in one tap, for pages shot under a lamp or a hand (on iPhone)',
           'Several pages in one document, to reorder, rotate or remove',
           'Import photos and PDFs, up to 100 pages',
         ],
@@ -124,7 +125,7 @@ module.exports = {
           'Folders and subfolders, like on a computer',
           'A search that also finds what is filed deep inside a folder, and tells you where',
           'Rename, move, duplicate, delete',
-          'A copy in your iCloud that brings your documents back if you reinstall the app or change iPhones',
+          'A copy in your iCloud, or in your Google Drive on Android, that brings your documents back if you reinstall the app or change phones',
         ],
       },
       {
@@ -134,7 +135,7 @@ module.exports = {
           'Export to PDF or JPEG',
           'Add text on a page',
           'Print straight from the app',
-          'Save to the Files app, or send through the iPhone’s share sheet',
+          'Save to your files, or send through your phone’s share menu',
         ],
       },
     ],
@@ -181,7 +182,7 @@ module.exports = {
       'A question, a problem, an idea? Write to me. There is no support desk behind Scan Cam: I read and answer myself.',
     carte: {
       note:
-        'For a display problem, a screenshot helps a great deal: side button + volume up, at the same time.',
+        'For a display problem, a screenshot helps a great deal: side button + volume up on iPhone, power + volume down on Android, at the same time.',
     },
     faqTitre: 'Frequently asked questions',
     faq: [
@@ -195,6 +196,15 @@ module.exports = {
         q: 'Where are my documents saved?',
         r: [
           'On your iPhone, in the app’s private space, with a copy in your own iCloud, updated a few seconds after each change. Nobody else can reach it: there is no server of ours. You can turn this copy off in <strong>Settings</strong> → <strong>iCloud backup</strong>; your documents then stay on the iPhone only. This copy does not show in the Files app or on icloud.com: it is there for Scan Cam alone. To get your documents as PDFs, open <strong>Settings</strong> → <strong>Export everything</strong>.',
+        ],
+      },
+      {
+        q: 'I have an Android phone. What is different?',
+        r: [
+          'Very little: Scan Cam is on <a href="https://play.google.com/store/apps/details?id=com.trochet.scancam">Google Play</a>, with the same tools, the same nine languages and the same Pro subscription. Three differences:',
+          '<strong>The copy of your documents</strong> goes to your own Google Drive, if you agree: the app offers it after your first document, and the <strong>Google Drive backup</strong> switch in the settings turns it on or off at any time. It brings your documents back if you reinstall the app or change phones. It is kept in a space reserved for the app, invisible in the Google Drive app.',
+          '<strong>The subscription</strong> is managed and cancelled in the Google Play app: tap your profile picture, then “Payments & subscriptions”, then “Subscriptions”. Cancelling before the end of the free trial costs nothing.',
+          '<strong>Remove shadows</strong> is not available on Android yet.',
         ],
       },
       {
@@ -269,7 +279,7 @@ module.exports = {
   // La version Android (bloc 72 de l'application, 20 octobre 2026). Ses deux pages juridiques
   // sont lues dans `cam-scan/i18n/legal-android.ts`, comme celles de l'iPhone dans `legal.ts` :
   // ici, seulement leurs noms de fichiers, leurs titres, et les phrases qui relient les deux versions.
-  // Pas de lien ni de badge Google Play : l'application n'y est pas encore.
+  // L'application est sur Google Play depuis le 26 octobre 2026 : le bouton est dans `gabarit.js` et sur l'accueil.
   android: {
     fichiers: { conditions: 'terms-android.html', confidentialite: 'privacy-android.html' },
     conditions: {

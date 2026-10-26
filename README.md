@@ -57,7 +57,13 @@ Elles sont publiées à part, dans les neuf langues :
 **L'adresse de confidentialité est celle de la fiche Google Play** : on ne la renomme pas sans
 changer la fiche d'abord. Les noms, les titres et les phrases qui relient les deux versions
 (« Cette politique concerne Scan Cam sur iPhone. Pour Android… ») sont dans le bloc `android` de
-`textes/<langue>.js`. Pas de badge Google Play tant que l'application n'y est pas en vente.
+`textes/<langue>.js`.
+
+**L'application est sur Google Play depuis le 26 octobre 2026.** Le bouton « Disponible sur Google
+Play » est à côté de celui de l'App Store sur chaque accueil, et dans le pied de toutes les pages
+(adresse dans `gabarit.js`, libellé dans le bloc `pied` de `textes/<langue>.js`). L'assistance a une
+question « J'ai un téléphone Android » : copie dans Google Drive, abonnement géré dans Google Play,
+pas de « Retirer les ombres ». Les guides restent ceux de l'iPhone.
 
 ## ⚠️ Les noms de fichiers sont déclarés chez Apple
 

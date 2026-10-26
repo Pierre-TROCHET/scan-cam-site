@@ -40,6 +40,7 @@ module.exports = {
   pied: {
     editeur: 'Scan Cam은 Pierre Trochet이 제공합니다.',
     appstore: 'App Store에서 다운로드',
+    googleplay: 'Google Play에서 다운로드',
     liens: {
       accueil: '홈',
       assistance: '지원',
@@ -52,7 +53,7 @@ module.exports = {
     accueil: {
       titre: 'Scan Cam — 계정도 서버도 없는 문서 스캐너',
       description:
-        'Scan Cam은 iPhone을 문서 스캐너로 바꿔 줍니다. 계정도, 자체 서버도, 광고도 없습니다.',
+        'Scan Cam은 iPhone이나 Android 휴대폰을 문서 스캐너로 바꿔 줍니다. 계정도, 자체 서버도, 광고도 없습니다.',
     },
     assistance: {
       titre: '지원 — Scan Cam',
@@ -103,13 +104,13 @@ module.exports = {
         '탁자 위에서 구겨진 채로 찍은 종이가 반듯하고 하얗고 선명한 한 장이 됩니다. 두 장 모두 페이지 전체이며, 잘라 낸 부분은 없습니다.',
     },
     appstore: {
-      note: 'iPhone 및 iPad.',
+      note: 'iPhone, iPad 및 Android.',
     },
     confidentialite: {
       titre: '저희 서버에는 절대 저장되지 않습니다.',
     },
     promesse:
-      '문서는 사용자의 iPhone과 본인의 iCloud에 보관되며, 저희 서버에는 절대 저장되지 않습니다. 만들어야 할 계정도, 이용 분석도, 광고도 없습니다. 청구서도, 계약서도, 신분증도 직접 공유하기로 한 날이 아니면 다른 곳으로 가지 않습니다.',
+      '문서는 사용자의 휴대폰에 보관되며, iPhone에서는 본인의 iCloud에, Android에서는 동의한 경우 본인의 Google 드라이브에 사본이 보관됩니다. 저희 서버에는 절대 저장되지 않습니다. 만들어야 할 계정도, 이용 분석도, 광고도 없습니다. 청구서도, 계약서도, 신분증도 직접 공유하기로 한 날이 아니면 다른 곳으로 가지 않습니다.',
 
     sectionsTitre: '할 수 있는 일',
     sections: [
@@ -120,7 +121,7 @@ module.exports = {
           '비스듬히 찍어도 가장자리를 감지해 반듯하게',
           '네 가지 효과: 원본 사진, 컬러, 회색조, 흑백',
           '손가락으로 조절하는 강도와 바로 따라오는 미리보기',
-          '조명이나 손 때문에 생긴 그림자를 탭 한 번으로 제거',
+          '조명이나 손 때문에 생긴 그림자를 탭 한 번으로 제거 (iPhone 전용)',
           '한 문서에 여러 페이지. 순서 변경, 회전, 빼기도 자유롭게',
           '사진과 PDF 가져오기(최대 100페이지)',
         ],
@@ -132,7 +133,7 @@ module.exports = {
           '컴퓨터처럼 폴더와 하위 폴더',
           '폴더 깊숙이 넣어 둔 것도 찾아 주고, 어디에 있는지 알려 주는 검색',
           '이름 변경, 이동, 복사, 삭제',
-          'iCloud에 사본을 보관해, 앱을 다시 설치하거나 iPhone을 바꿔도 문서가 돌아옵니다',
+          'iCloud(Android에서는 Google 드라이브)에 사본을 보관해, 앱을 다시 설치하거나 휴대폰을 바꿔도 문서가 돌아옵니다',
         ],
       },
       {
@@ -142,7 +143,7 @@ module.exports = {
           'PDF 또는 JPEG로 내보내기',
           '페이지에 텍스트 추가',
           '앱에서 바로 프린트',
-          '“파일” 앱에 저장하거나 iPhone의 공유 시트로 보내기',
+          '파일에 저장하거나 휴대폰의 공유 메뉴로 보내기',
         ],
       },
     ],
@@ -189,7 +190,7 @@ module.exports = {
       '질문, 문제, 제안이 있으면 메일을 보내 주세요. Scan Cam 뒤에는 고객 센터가 없습니다. 메일을 읽고 답장하는 사람은 저 자신입니다.',
     carte: {
       note:
-        '화면 표시 문제라면 스크린샷이 큰 도움이 됩니다. 측면 버튼과 음량 높이기 버튼을 동시에 누르세요.',
+        '화면 표시 문제라면 스크린샷이 큰 도움이 됩니다. iPhone에서는 측면 버튼과 음량 높이기 버튼을, Android에서는 전원 버튼과 음량 낮추기 버튼을 동시에 누르세요.',
     },
     faqTitre: '자주 묻는 질문',
     faq: [
@@ -203,6 +204,15 @@ module.exports = {
         q: '문서는 어디에 저장되나요?',
         r: [
           'iPhone 안에 있는 앱 전용 공간에 저장되며, 본인의 iCloud에도 사본이 보관됩니다. 사본은 변경할 때마다 몇 초 뒤에 업데이트됩니다. 다른 누구도 접근할 수 없으며, 저희 서버는 없습니다. 이 사본은 <strong>설정</strong> → <strong>iCloud 백업</strong>에서 끌 수 있으며, 끄면 문서는 iPhone에만 남습니다. 이 사본은 파일 앱이나 icloud.com에는 보이지 않으며, Scan Cam 전용입니다. 문서를 PDF로 받으려면 <strong>설정</strong> → <strong>모두 내보내기</strong>를 여세요.',
+        ],
+      },
+      {
+        q: 'Android 휴대폰을 쓰고 있습니다. 무엇이 다른가요?',
+        r: [
+          '거의 같습니다. Scan Cam은 <a href="https://play.google.com/store/apps/details?id=com.trochet.scancam">Google Play</a>에 있으며, 도구도, 9개 언어도, Pro 구독도 같습니다. 다른 점은 세 가지입니다.',
+          '<strong>문서 사본</strong>은 동의한 경우 본인의 Google 드라이브에 보관됩니다. 첫 문서를 만든 뒤 앱이 이를 제안하며, 설정의 <strong>Google 드라이브 백업</strong> 스위치로 언제든 켜거나 끌 수 있습니다. 앱을 다시 설치하거나 휴대폰을 바꾸면 문서가 돌아옵니다. 사본은 앱 전용 공간에 보관되며 Google 드라이브 앱에는 보이지 않습니다.',
+          '<strong>구독</strong>은 Google Play 앱에서 관리하고 해지합니다. 프로필 사진을 탭한 다음 “결제 및 구독”, “구독”을 차례로 탭하세요. 무료 체험 기간이 끝나기 전에 해지하면 요금이 청구되지 않습니다.',
+          '<strong>그림자 제거</strong>는 아직 Android에서 사용할 수 없습니다.',
         ],
       },
       {
@@ -277,7 +287,7 @@ module.exports = {
   // La version Android (bloc 72 de l'application, 20 octobre 2026). Ses deux pages juridiques
   // sont lues dans `cam-scan/i18n/legal-android.ts`, comme celles de l'iPhone dans `legal.ts` :
   // ici, seulement leurs noms de fichiers, leurs titres, et les phrases qui relient les deux versions.
-  // Pas de lien ni de badge Google Play : l'application n'y est pas encore.
+  // L'application est sur Google Play depuis le 26 octobre 2026 : le bouton est dans `gabarit.js` et sur l'accueil.
   android: {
     fichiers: { conditions: 'terms-android-ko.html', confidentialite: 'privacy-android-ko.html' },
     conditions: {

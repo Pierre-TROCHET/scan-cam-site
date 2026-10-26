@@ -17,6 +17,7 @@ const { CODES, charger } = require(path.join(RACINE, 'langues.js'));
 const { lien, adresse } = require(path.join(RACINE, 'gabarit.js'));
 const SITE = (process.argv[2] || 'https://scancam.app/').replace(/\/?$/, '/');
 const APPSTORE = 'https://apps.apple.com/app/id6805626898';
+const GOOGLEPLAY = 'https://play.google.com/store/apps/details?id=com.trochet.scancam';
 
 const langues = charger();
 const parCode = Object.fromEntries(langues.map((L) => [L.code, L]));
@@ -95,12 +96,13 @@ async function chercher(url) {
   }
   console.log(`  ✔ ${aVoir.size} adresses internes distinctes, toutes servies`);
 
-  // 4. Le bouton App Store mène à la bonne fiche, sur chaque page.
-  console.log("\n4. Le bouton App Store");
+  // 4. Les boutons App Store et Google Play (26 octobre 2026) mènent aux bonnes fiches, sur chaque page.
+  console.log("\n4. Les boutons App Store et Google Play");
   for (const [fichier, html] of Object.entries(pages)) {
     if (!html.includes(APPSTORE)) rate(`${fichier} : pas de lien vers la fiche App Store`);
+    if (!html.includes(GOOGLEPLAY)) rate(`${fichier} : pas de lien vers la fiche Google Play`);
   }
-  console.log(`  ✔ la fiche ${APPSTORE.split('/').pop()} est liée depuis les ${Object.keys(pages).length} pages`);
+  console.log(`  ✔ les fiches App Store et Google Play sont liées depuis les ${Object.keys(pages).length} pages`);
 
   // 5. Rien qui parte en clair, et une seule marque de page courante par endroit.
   console.log('\n5. Deux détails qui se voient tard');

@@ -37,6 +37,7 @@ module.exports = {
   pied: {
     editeur: 'Scan Cam の発行者は Pierre Trochet です。',
     appstore: 'App Store でダウンロード',
+    googleplay: 'Google Play で手に入れよう',
     liens: {
       accueil: 'ホーム',
       assistance: 'サポート',
@@ -49,7 +50,7 @@ module.exports = {
     accueil: {
       titre: 'Scan Cam — アカウントもサーバーもいらない書類スキャナー',
       description:
-        'Scan Cam は iPhone を書類スキャナーに変えます。アカウントも、当方のサーバーも、広告もありません。',
+        'Scan Cam は iPhone や Android スマートフォンを書類スキャナーに変えます。アカウントも、当方のサーバーも、広告もありません。',
     },
     assistance: {
       titre: 'サポート — Scan Cam',
@@ -100,13 +101,13 @@ module.exports = {
         'テーブルの上でくしゃくしゃのまま撮った紙が、まっすぐで白く、くっきりした一枚になります。どちらもページ全体で、切り取りはしていません。',
     },
     appstore: {
-      note: 'iPhone と iPad。',
+      note: 'iPhone、iPad、Android。',
     },
     confidentialite: {
       titre: '当方のサーバーには、何も置きません。',
     },
     promesse:
-      '書類はお使いの iPhone と、ご自身の iCloud に保存され、当方のサーバーに置かれることはありません。アカウントを作る必要も、アクセス解析も、広告もありません。請求書も契約書も身分証も、ご自身で共有すると決めた日以外、ほかの場所へ行くことはありません。',
+      '書類はお使いのスマートフォンに保存され、iPhone ではご自身の iCloud に、Android ではご希望の場合にご自身の Google ドライブにコピーが置かれます。当方のサーバーに置かれることはありません。アカウントを作る必要も、アクセス解析も、広告もありません。請求書も契約書も身分証も、ご自身で共有すると決めた日以外、ほかの場所へ行くことはありません。',
 
     sectionsTitre: 'できること',
     sections: [
@@ -117,7 +118,7 @@ module.exports = {
           '斜めから撮っても、縁を検出してまっすぐに',
           '4種類の仕上がり：元の写真、カラー、グレースケール、白黒',
           '指で調整できる強さと、それに追従するプレビュー',
-          '照明や手でできた影を、ワンタップで除去',
+          '照明や手でできた影を、ワンタップで除去（iPhone のみ）',
           '1つの書類に複数ページ。並べ替え、回転、削除も自由',
           '写真と PDF の読み込み（100 ページまで）',
         ],
@@ -129,7 +130,7 @@ module.exports = {
           'パソコンのようなフォルダとサブフォルダ',
           'フォルダの奥にしまったものも見つけ、どこにあるかを教える検索',
           '名前の変更、移動、複製、削除',
-          'iCloud にコピーを保存。アプリを入れ直したときや iPhone を買い替えたときも、書類が戻ってきます',
+          'iCloud（Android では Google ドライブ）にコピーを保存。アプリを入れ直したときやスマートフォンを買い替えたときも、書類が戻ってきます',
         ],
       },
       {
@@ -139,7 +140,7 @@ module.exports = {
           'PDF または JPEG で書き出し',
           'ページに文字を追加',
           'アプリから直接プリント',
-          'ファイルアプリに保存、または iPhone の共有シートから送信',
+          'ファイルに保存、またはスマートフォンの共有メニューから送信',
         ],
       },
     ],
@@ -186,7 +187,7 @@ module.exports = {
       'ご質問、不具合、ご提案があればメールをください。Scan Cam の裏にサポート窓口はありません。読んで返事をするのは私自身です。',
     carte: {
       note:
-        '表示の不具合は、スクリーンショットがあると大変助かります。サイドボタンと音量を上げるボタンを同時に押してください。',
+        '表示の不具合は、スクリーンショットがあると大変助かります。iPhone ではサイドボタンと音量を上げるボタン、Android では電源ボタンと音量を下げるボタンを同時に押してください。',
     },
     faqTitre: 'よくあるご質問',
     faq: [
@@ -200,6 +201,15 @@ module.exports = {
         q: '書類はどこに保存されますか。',
         r: [
           'お使いの iPhone の中のアプリ専用の場所に保存され、ご自身の iCloud にもコピーが置かれます。コピーは変更のたびに数秒後に更新されます。ほかの誰もアクセスできず、当方のサーバーもありません。このコピーは <strong>設定</strong> → <strong>iCloud バックアップ</strong> でオフにでき、その場合、書類は iPhone の中だけに残ります。このコピーは「ファイル」アプリや icloud.com には表示されず、Scan Cam 専用です。書類を PDF で受け取りたいときは、<strong>設定</strong> → <strong>すべて書き出す</strong> を開いてください。',
+        ],
+      },
+      {
+        q: 'Android スマートフォンを使っています。何が違いますか。',
+        r: [
+          'ほとんど同じです。Scan Cam は <a href="https://play.google.com/store/apps/details?id=com.trochet.scancam">Google Play</a> にあり、ツールも、9 つの言語も、Pro のサブスクリプションも同じです。違いは三つです。',
+          '<strong>書類のコピー</strong>は、ご希望の場合にご自身の Google ドライブに保存されます。最初の書類のあとにアプリからご案内し、設定の <strong>Google ドライブ バックアップ</strong> のスイッチでいつでもオン・オフできます。アプリを入れ直したときやスマートフォンを買い替えたときに、書類が戻ってきます。コピーはアプリ専用の領域に置かれ、Google ドライブ アプリには表示されません。',
+          '<strong>サブスクリプション</strong>の管理と解約は Google Play アプリで行います。プロフィール写真をタップし、「お支払いと定期購入」、「定期購入」の順に進んでください。無料体験の終了前に解約すれば、料金はかかりません。',
+          '<strong>影を取り除く</strong>は、Android ではまだ使えません。',
         ],
       },
       {
@@ -274,7 +284,7 @@ module.exports = {
   // La version Android (bloc 72 de l'application, 20 octobre 2026). Ses deux pages juridiques
   // sont lues dans `cam-scan/i18n/legal-android.ts`, comme celles de l'iPhone dans `legal.ts` :
   // ici, seulement leurs noms de fichiers, leurs titres, et les phrases qui relient les deux versions.
-  // Pas de lien ni de badge Google Play : l'application n'y est pas encore.
+  // L'application est sur Google Play depuis le 26 octobre 2026 : le bouton est dans `gabarit.js` et sur l'accueil.
   android: {
     fichiers: { conditions: 'terms-android-ja.html', confidentialite: 'privacy-android-ja.html' },
     conditions: {

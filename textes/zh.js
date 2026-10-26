@@ -38,6 +38,7 @@ module.exports = {
   pied: {
     editeur: 'Scan Cam 由 Pierre Trochet 发布。',
     appstore: '在 App Store 下载',
+    googleplay: '在 Google Play 下载',
     liens: {
       accueil: '首页',
       assistance: '支持',
@@ -49,7 +50,7 @@ module.exports = {
   meta: {
     accueil: {
       titre: 'Scan Cam — 无需账号、没有服务器的文档扫描仪',
-      description: 'Scan Cam 把您的 iPhone 变成一台文档扫描仪。无需账号，没有我们的服务器，没有广告。',
+      description: 'Scan Cam 把您的 iPhone 或 Android 手机变成一台文档扫描仪。无需账号，没有我们的服务器，没有广告。',
     },
     assistance: {
       titre: '支持 — Scan Cam',
@@ -96,13 +97,13 @@ module.exports = {
       legende: '在桌上揉皱着拍下，再还给您一张端正、洁白、清晰的页面。两张都是整页，没有做任何裁切。',
     },
     appstore: {
-      note: 'iPhone 和 iPad。',
+      note: 'iPhone、iPad 和 Android。',
     },
     confidentialite: {
       titre: '绝不放在我们的服务器上。',
     },
     promesse:
-      '您的文档保存在您的 iPhone 和您自己的 iCloud 里，从不放在我们的服务器上。无需注册账号，没有统计，也没有广告。您的发票、合同和身份证件不会去往别处——除非哪一天您自己决定分享它们。',
+      '您的文档保存在您的手机里：在 iPhone 上另有一份副本存在您自己的 iCloud 中，在 Android 上则经您同意后存在您自己的 Google 云端硬盘中——从不放在我们的服务器上。无需注册账号，没有统计，也没有广告。您的发票、合同和身份证件不会去往别处——除非哪一天您自己决定分享它们。',
 
     sectionsTitre: '它能做的一切',
     sections: [
@@ -113,7 +114,7 @@ module.exports = {
           '自动识别边缘并校正页面，拍歪了也没关系',
           '四种效果：原始照片、彩色、灰度、黑白',
           '强度用手指调节，预览实时跟随',
-          '一键去除阴影，适合在灯下或手下拍摄的页面',
+          '一键去除阴影，适合在灯下或手下拍摄的页面（仅限 iPhone）',
           '一个文档可含多页，可重新排序、旋转或移除',
           '导入照片和 PDF，最多 100 页',
         ],
@@ -125,7 +126,7 @@ module.exports = {
           '文件夹和子文件夹，就像在电脑上一样',
           '搜索也能找到藏在文件夹深处的内容，并告诉您它在哪里',
           '重命名、移动、复制、删除',
-          '在您的 iCloud 中保留一份副本，重装 App 或更换 iPhone 后文档会自动回来',
+          '在您的 iCloud（Android 上为 Google 云端硬盘）中保留一份副本，重装 App 或更换手机后文档会自动回来',
         ],
       },
       {
@@ -135,7 +136,7 @@ module.exports = {
           '导出为 PDF 或 JPEG',
           '在页面上添加文字',
           '直接从应用打印',
-          '保存到「文件」应用，或通过 iPhone 的分享面板发送',
+          '保存到您的文件，或通过手机的分享菜单发送',
         ],
       },
     ],
@@ -180,7 +181,7 @@ module.exports = {
     lead:
       '有疑问、遇到问题，或者有想法？请给我写信。Scan Cam 背后没有客服团队：读信和回信的都是我本人。',
     carte: {
-      note: '如果是显示方面的问题，一张截图会很有帮助：同时按下侧边按钮和音量调高键。',
+      note: '如果是显示方面的问题，一张截图会很有帮助：iPhone 上同时按下侧边按钮和音量调高键，Android 上同时按下电源键和音量调低键。',
     },
     faqTitre: '常见问题',
     faq: [
@@ -194,6 +195,15 @@ module.exports = {
         q: '我的文档保存在哪里？',
         r: [
           '保存在您的 iPhone 上 App 的私有空间里，并在您自己的 iCloud 中保留一份副本，每次改动后几秒钟内更新。其他任何人都无法访问：我们没有服务器。可以在<strong>设置</strong> → <strong>iCloud 备份</strong>中关闭这份副本，关闭后文档只保存在 iPhone 上。这份副本不会出现在“文件”App 或 icloud.com 上，只供 Scan Cam 使用。如需 PDF 格式的文档，请打开<strong>设置</strong> → <strong>全部导出</strong>。',
+        ],
+      },
+      {
+        q: '我用的是 Android 手机，有什么不同？',
+        r: [
+          '几乎没有：Scan Cam 已上架 <a href="https://play.google.com/store/apps/details?id=com.trochet.scancam">Google Play</a>，工具相同，同样支持九种语言，Pro 订阅也一样。只有三点不同：',
+          '<strong>文档副本</strong>经您同意后保存在您自己的 Google 云端硬盘中：App 会在您的第一份文档之后询问您，设置中的 <strong>Google 云端硬盘备份</strong> 开关可随时打开或关闭它。重装 App 或更换手机后，它会让您的文档回来。副本存放在 App 专用的空间里，在 Google 云端硬盘应用中看不到。',
+          '<strong>订阅</strong>在 Google Play 应用中管理和取消：点击您的个人资料照片，然后依次点击“付款和订阅”、“订阅”。在免费试用结束前取消，不会产生任何费用。',
+          '<strong>去除阴影</strong>目前在 Android 上还没有。',
         ],
       },
       {
@@ -266,7 +276,7 @@ module.exports = {
   // La version Android (bloc 72 de l'application, 20 octobre 2026). Ses deux pages juridiques
   // sont lues dans `cam-scan/i18n/legal-android.ts`, comme celles de l'iPhone dans `legal.ts` :
   // ici, seulement leurs noms de fichiers, leurs titres, et les phrases qui relient les deux versions.
-  // Pas de lien ni de badge Google Play : l'application n'y est pas encore.
+  // L'application est sur Google Play depuis le 26 octobre 2026 : le bouton est dans `gabarit.js` et sur l'accueil.
   android: {
     fichiers: { conditions: 'terms-android-zh.html', confidentialite: 'privacy-android-zh.html' },
     conditions: {

@@ -9,7 +9,7 @@
 // pour les mots, `gabarit.js` pour la structure, `style.css` pour l'habillage.
 const fs = require('fs');
 const path = require('path');
-const { page, echapper, adresse, PAGES, APPSTORE, SITE } = require('./gabarit');
+const { page, echapper, adresse, PAGES, APPSTORE, GOOGLEPLAY, SITE } = require('./gabarit');
 const icones = require('./icones');
 const legal = require('./outils/legal');
 const { CODES, charger } = require('./langues');
@@ -82,6 +82,7 @@ function accueil(L, contact) {
     `        <p class="lead">${c.lead}</p>`,
     '        <div class="actions">',
     `          <a class="appstore" href="${APPSTORE}">${icones.apple(18)}${L.pied.appstore}</a>`,
+    `          <a class="appstore" href="${GOOGLEPLAY}">${icones.googleplay(18)}${L.pied.googleplay}</a>`,
     `          <p class="appstore-note">${c.appstore.note}</p>`,
     '        </div>',
     '      </div>',

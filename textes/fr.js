@@ -44,6 +44,7 @@ module.exports = {
   pied: {
     editeur: 'Scan Cam est éditée par Pierre Trochet.',
     appstore: 'Télécharger sur l’App Store',
+    googleplay: 'Disponible sur Google Play',
     // Les libellés longs, en bas de page.
     liens: {
       accueil: 'Accueil',
@@ -57,7 +58,7 @@ module.exports = {
     accueil: {
       titre: 'Scan Cam — le scanner de documents sans compte ni serveur',
       description:
-        'Scan Cam transforme votre iPhone en scanner de documents. Aucun compte, aucun serveur à nous, aucune publicité.',
+        'Scan Cam transforme votre iPhone ou votre téléphone Android en scanner de documents. Aucun compte, aucun serveur à nous, aucune publicité.',
     },
     assistance: {
       titre: 'Assistance — Scan Cam',
@@ -109,13 +110,13 @@ module.exports = {
         'Photographiée froissée sur une table, et rendue droite, blanche et nette. Les deux pages sont entières : rien n’est recadré.',
     },
     appstore: {
-      note: 'iPhone et iPad.',
+      note: 'iPhone, iPad et Android.',
     },
     confidentialite: {
       titre: 'Jamais sur un serveur à nous.',
     },
     promesse:
-      'Vos documents restent sur votre iPhone et dans votre propre iCloud, jamais sur un serveur à nous. Aucun compte à créer, aucune mesure d’audience, aucune publicité. Vos factures, vos contrats et vos papiers d’identité ne vont nulle part ailleurs — sauf le jour où vous décidez vous-même de les partager.',
+      'Vos documents restent sur votre téléphone, avec une copie dans votre propre iCloud sur iPhone ou, si vous l’acceptez, dans votre propre Google Drive sur Android — jamais sur un serveur à nous. Aucun compte à créer, aucune mesure d’audience, aucune publicité. Vos factures, vos contrats et vos papiers d’identité ne vont nulle part ailleurs — sauf le jour où vous décidez vous-même de les partager.',
 
     sectionsTitre: 'Tout ce qu’elle sait faire',
     sections: [
@@ -126,7 +127,7 @@ module.exports = {
           'Bords détectés et page redressée, même photographiée de travers',
           'Quatre rendus : photo d’origine, couleur, niveaux de gris, noir et blanc',
           'Intensité réglable au doigt, avec un aperçu qui suit',
-          'Retrait des ombres en une tape, pour les pages photographiées sous une lampe ou une main',
+          'Retrait des ombres en une tape, pour les pages photographiées sous une lampe ou une main (sur iPhone)',
           'Plusieurs pages dans un même document, à réordonner, pivoter ou retirer',
           'Import de photos et de PDF, jusqu’à 100 pages',
         ],
@@ -138,7 +139,7 @@ module.exports = {
           'Des dossiers et des sous-dossiers, comme sur un ordinateur',
           'Une recherche qui trouve aussi ce qui est rangé au fond d’un dossier, et qui dit où',
           'Renommer, déplacer, dupliquer, supprimer',
-          'Une copie dans votre iCloud, qui ramène vos documents si vous réinstallez l’app ou changez d’iPhone',
+          'Une copie dans votre iCloud, ou dans votre Google Drive sur Android, qui ramène vos documents si vous réinstallez l’app ou changez de téléphone',
         ],
       },
       {
@@ -148,7 +149,7 @@ module.exports = {
           'Exporter en PDF ou en JPEG',
           'Ajouter du texte sur une page',
           'Imprimer directement depuis l’application',
-          'Enregistrer dans l’app Fichiers, ou envoyer par la fenêtre de partage de l’iPhone',
+          'Enregistrer dans vos fichiers, ou envoyer par le menu de partage du téléphone',
         ],
       },
     ],
@@ -195,7 +196,7 @@ module.exports = {
       'Une question, un problème, une idée ? Écrivez-moi. Il n’y a pas de service client derrière Scan Cam : c’est moi qui lis et qui réponds.',
     carte: {
       note:
-        'Pour un problème d’affichage, une capture d’écran aide beaucoup : bouton latéral + volume haut, en même temps.',
+        'Pour un problème d’affichage, une capture d’écran aide beaucoup : bouton latéral + volume haut sur iPhone, marche/arrêt + volume bas sur Android, en même temps.',
     },
     faqTitre: 'Questions fréquentes',
     faq: [
@@ -209,6 +210,15 @@ module.exports = {
         q: 'Où sont enregistrés mes documents ?',
         r: [
           'Sur votre iPhone, dans l’espace privé de l’application, avec une copie dans votre propre iCloud, mise à jour quelques secondes après chaque changement. Personne d’autre n’y a accès : il n’y a pas de serveur à nous. Cette copie se coupe dans <strong>Réglages</strong> → <strong>Sauvegarde iCloud</strong> ; vos documents restent alors seulement sur l’iPhone. Cette copie n’apparaît ni dans l’app Fichiers ni sur icloud.com : elle ne sert qu’à Scan Cam. Pour avoir vos documents en PDF, ouvrez <strong>Réglages</strong> → <strong>Tout exporter</strong>.',
+        ],
+      },
+      {
+        q: 'J’ai un téléphone Android. Qu’est-ce qui change ?',
+        r: [
+          'Presque rien : Scan Cam est sur <a href="https://play.google.com/store/apps/details?id=com.trochet.scancam">Google Play</a>, avec les mêmes outils, les mêmes neuf langues et le même abonnement Pro. Trois différences :',
+          '<strong>La copie de vos documents</strong> va dans votre propre Google Drive, si vous l’acceptez : l’application vous le propose après votre premier document, et l’interrupteur <strong>Sauvegarde Google Drive</strong> des réglages l’allume ou la coupe à tout moment. Elle ramène vos documents si vous réinstallez l’app ou changez de téléphone. Elle est rangée dans un espace réservé à l’application, invisible dans l’app Google Drive.',
+          '<strong>L’abonnement</strong> se gère et se résilie dans l’application Google Play : touchez votre photo de profil, puis « Paiements et abonnements », puis « Abonnements ». Résilier avant la fin de l’essai gratuit n’entraîne aucun paiement.',
+          '<strong>Retirer les ombres</strong> n’existe pas encore sur Android.',
         ],
       },
       {
@@ -285,7 +295,7 @@ module.exports = {
   // La version Android (bloc 72 de l'application, 20 octobre 2026). Ses deux pages juridiques
   // sont lues dans `cam-scan/i18n/legal-android.ts`, comme celles de l'iPhone dans `legal.ts` :
   // ici, seulement leurs noms de fichiers, leurs titres, et les phrases qui relient les deux versions.
-  // Pas de lien ni de badge Google Play : l'application n'y est pas encore.
+  // L'application est sur Google Play depuis le 26 octobre 2026 : le bouton est dans `gabarit.js` et sur l'accueil.
   android: {
     fichiers: { conditions: 'conditions-android.html', confidentialite: 'confidentialite-android.html' },
     conditions: {

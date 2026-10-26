@@ -14,6 +14,8 @@ const icones = require('./icones');
 
 const APPSTORE = 'https://apps.apple.com/app/id6805626898';
 const APPSTORE_ID = '6805626898';
+// La fiche Google Play, en ligne depuis le 26 octobre 2026 (compte nightbuilds).
+const GOOGLEPLAY = 'https://play.google.com/store/apps/details?id=com.trochet.scancam';
 
 /** L'adresse du site, et l'image que montre un lien collé dans un message. */
 const SITE = 'https://scancam.app/';
@@ -127,9 +129,9 @@ function menu(langue, cle, langues, guides, fichierDe) {
   return `<nav>\n${liens.join('\n')}\n    </nav>`;
 }
 
-/** Le pied de page. Mêmes liens que le menu, plus l'App Store, toujours en tête. */
+/** Le pied de page. Mêmes liens que le menu, plus l'App Store et Google Play, toujours en tête. */
 function pied(langue, cle, langues, mesure, guides, fichierDe) {
-  const liens = [`<a href="${APPSTORE}">${langue.pied.appstore}</a>`];
+  const liens = [`<a href="${APPSTORE}">${langue.pied.appstore}</a>`, `<a href="${GOOGLEPLAY}">${langue.pied.googleplay}</a>`];
   for (const p of PAGES) {
     liens.push(
       p === cle
@@ -215,9 +217,9 @@ function page({ langue, langues, cle, titre, description, entete, corps, mesure,
           url,
           inLanguage: langue.code,
           applicationCategory: 'UtilitiesApplication',
-          operatingSystem: 'iOS',
-          installUrl: APPSTORE,
-          downloadUrl: APPSTORE,
+          operatingSystem: 'iOS, Android',
+          installUrl: [APPSTORE, GOOGLEPLAY],
+          downloadUrl: [APPSTORE, GOOGLEPLAY],
           offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
         }).replace(/</g, '\\u003c') +
         '</script>\n'
@@ -428,4 +430,4 @@ ${pied(langue, cle, reste, mesure, guides, fichierDe)}
 `);
 }
 
-module.exports = { page, menu, pied, echapper, adresse, lien, PAGES, APPSTORE, SITE };
+module.exports = { page, menu, pied, echapper, adresse, lien, PAGES, APPSTORE, GOOGLEPLAY, SITE };
