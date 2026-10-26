@@ -43,6 +43,24 @@ function adresse(fichier) {
   return SITE + fichier.replace(/\.html$/, '');
 }
 
+/**
+ * Le lien interne vers un fichier, sous cette même orthographe sans « .html »
+ * (26 octobre 2026). Avec « home.html » dans les liens et « home » en canonical,
+ * Google trouvait chaque page deux fois et rangeait la moitié du site en
+ * doublons (« Autre page avec balise canonique correcte », « Page en double sans
+ * URL canonique sélectionnée »). Les fichiers gardent leur nom : les adresses en
+ * « .html » déclarées chez Apple et Google Play répondent toujours.
+ */
+function lien(fichier) {
+  if (fichier === 'index.html') return './';
+  return fichier.replace(/\.html$/, '');
+}
+
+/** Tous les liens internes d'une page passés par `lien` : une seule orthographe, celle du canonical. */
+function liensPropres(html) {
+  return html.replace(/href="([a-z0-9-]+\.html)"/g, (_, fichier) => `href="${lien(fichier)}"`);
+}
+
 /** L'ordre du menu, et donc l'ordre du pied de page. Le même partout. */
 const PAGES = ['accueil', 'assistance', 'conditions', 'confidentialite'];
 
@@ -215,14 +233,14 @@ function page({ langue, langues, cle, titre, description, entete, corps, mesure,
       .map((autre) => ({
         code: autre.code,
         nom: autre.nom,
-        url: fichierDe(autre),
+        url: lien(fichierDe(autre)),
         phrase: autre.suggestion.phrase,
         fermer: autre.suggestion.fermer,
         drapeau: icones.drapeau(autre.code),
       }))
   ).replace(/</g, '\\u003c');
 
-  return `<!doctype html>
+  return liensPropres(`<!doctype html>
 <html lang="${langue.code}">
 <head>
 <meta charset="utf-8">
@@ -407,7 +425,7 @@ ${pied(langue, cle, reste, mesure, guides, fichierDe)}
 
 </body>
 </html>
-`;
+`);
 }
 
-module.exports = { page, menu, pied, echapper, adresse, PAGES, APPSTORE, SITE };
+module.exports = { page, menu, pied, echapper, adresse, lien, PAGES, APPSTORE, SITE };

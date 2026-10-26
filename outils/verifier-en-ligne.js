@@ -14,6 +14,7 @@ const path = require('path');
 
 const RACINE = path.join(__dirname, '..');
 const { CODES, charger } = require(path.join(RACINE, 'langues.js'));
+const { lien, adresse } = require(path.join(RACINE, 'gabarit.js'));
 const SITE = (process.argv[2] || 'https://scancam.app/').replace(/\/?$/, '/');
 const APPSTORE = 'https://apps.apple.com/app/id6805626898';
 
@@ -67,8 +68,9 @@ async function chercher(url) {
     for (const autre of CODES) {
       if (autre === qui.code) continue;
       const attendu = parCode[autre].fichiers[qui.cle];
-      const dansLeMenu = new RegExp(`href="${attendu}" hreflang="${autre}"`).test(html);
-      const dansLaTete = new RegExp(`rel="alternate" hreflang="${autre}" href="${attendu}"`).test(html);
+      // Liens sans « .html » et adresses complètes en tête, comme le canonical (26 octobre 2026).
+      const dansLeMenu = html.includes(`href="${lien(attendu)}" hreflang="${autre}"`);
+      const dansLaTete = html.includes(`rel="alternate" hreflang="${autre}" href="${adresse(attendu)}"`);
       if (!dansLeMenu) rate(`${fichier} : pas de lien vers ${attendu} (${autre}) dans le sélecteur`);
       else if (!dansLaTete) rate(`${fichier} : pas de <link rel="alternate"> vers ${attendu} (${autre})`);
       else soeurs++;
