@@ -28,7 +28,8 @@ module.exports = {
   },
   "pied": {
     "titre": "试试 Scan Cam",
-    "texte": "Scan Cam 可免费下载。扫描、文件夹、滤镜和导出 PDF 均免费，没有时间限制；Pro 订阅提供更多工具，并含 7 天免费试用。"
+    "texte": "Scan Cam 可免费下载。扫描、文件夹、滤镜和导出 PDF 均免费，没有时间限制；Pro 订阅提供更多工具，并含 7 天免费试用。",
+    "youtube": "想看视频？YouTube 上有简短教程（英文）"
   },
   "liees": "更多指南",
   "captures": {
@@ -628,6 +629,86 @@ module.exports = {
         "sign",
         "merge",
         "multi-page"
+      ]
+    },
+    {
+      "cle": "without-subscription",
+      "fichier": "guide-scan-a-document-on-iphone-without-a-subscription-zh.html",
+      "niveau": "free",
+      "titre": "如何不订阅也能在 iPhone 上扫描文档 — Scan Cam",
+      "description": "不花钱在 iPhone 上扫描文档：Apple 的“备忘录”和“文件” App 已经可以做到，QuickScan 也是免费的。Scan Cam 多了什么，其中哪些是免费的。",
+      "h1": "如何不订阅也能在 iPhone 上扫描文档",
+      "lead": "诚实的回答：您不需要订阅，甚至不需要下载任何 App。先介绍免费的方法，再说说像 Scan Cam 这样的 App 能多做些什么——如果您需要的话。",
+      "carte": "先看免费的方法（备忘录、文件、QuickScan），再看 Scan Cam 多了什么。",
+      "corps": [
+        [
+          "h2",
+          "用 iPhone 自带的“备忘录” App"
+        ],
+        [
+          "ol",
+          [
+            "打开“备忘录”，新建一条备忘录。",
+            "轻点相机按钮（根据 iOS 版本，也可能是回形针按钮），然后选择“扫描文稿”。",
+            "对准纸张：iPhone 会找到边缘并自动拍摄。需要的话再添加几页，然后轻点“存储”。",
+            "要以 PDF 发送，在备忘录中打开扫描件，轻点共享按钮。"
+          ]
+        ],
+        [
+          "p",
+          "免费，无需账号，没有广告。扫描件保存在备忘录里；如果您的备忘录存放在 iCloud 中，它也会一起同步。"
+        ],
+        [
+          "h2",
+          "用“文件” App"
+        ],
+        [
+          "p",
+          "在“文件”中轻点屏幕顶部的三个点，然后选择“扫描文稿”。PDF 会直接存到您当前所在的文件夹，扫描完就能归档。"
+        ],
+        [
+          "h2",
+          "用免费 App：QuickScan"
+        ],
+        [
+          "p",
+          "如果您想要一个单独的 App，“OCR Text Scanner: QuickScan”免费、没有广告，也能识别页面上的文字；它的 App 内购买是捐赠，不会解锁任何功能。不过价格可能会变，安装前请先在 App Store 上确认。"
+        ],
+        [
+          "h2",
+          "Scan Cam 多了什么"
+        ],
+        [
+          "p",
+          "Scan Cam 可以免费下载，扫描、文件夹、滤镜和导出 PDF 都是免费的，没有时间和页数限制。如果您经常扫描，它就值得一用：按文件夹整理的资料库、干净清晰的页面、把多页排好顺序合成一个 PDF，以及在您自己的 iCloud 中保存一份文档副本。"
+        ],
+        [
+          "img",
+          [
+            "propre"
+          ]
+        ],
+        [
+          "note",
+          "<strong>免费还是 Pro？</strong> 这里介绍的功能在 Scan Cam 中全部免费。Pro 订阅增加签名、文字提取、水印、合并以及导出为 Word 或 Excel，并去掉 PDF 底部的“Scanned with Scan Cam”小字；订阅从 7 天免费试用开始。"
+        ],
+        [
+          "h2",
+          "总结"
+        ],
+        [
+          "ul",
+          [
+            "偶尔扫描一下：“备忘录”或“文件”就够了。",
+            "想要单独的免费 App：QuickScan。",
+            "有很多文档要扫描、整理、日后查找：Scan Cam，基本功能免费。"
+          ]
+        ]
+      ],
+      "suite": [
+        "multi-page",
+        "receipts",
+        "extract-text"
       ]
     }
   ]

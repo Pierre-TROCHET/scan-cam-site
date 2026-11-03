@@ -58,7 +58,7 @@ module.exports = {
     confidentialite: {
       titre: 'Privacy Policy — Scan Cam',
       description:
-        'Your documents stay on your iPhone and in your own iCloud, never on a server of ours: no account, no analytics, no advertising.',
+        'Your documents stay on your iPhone and in your own iCloud, never on a server of ours: no account, no advertising, no analytics of ours.',
     },
   },
 
@@ -102,7 +102,7 @@ module.exports = {
       titre: 'Never on a server of ours.',
     },
     promesse:
-      'Your documents stay on your phone, with a copy in your own iCloud on iPhone or, if you agree, in your own Google Drive on Android — never on a server of ours. No account to create, no analytics, no adverts. Your invoices, your contracts and your identity papers go nowhere else — except on the day you decide to share them yourself.',
+      'Your documents stay on your phone, with a copy in your own iCloud on iPhone or, if you agree, in your own Google Drive on Android — never on a server of ours. No account to create, no adverts, no analytics of ours. Your invoices, your contracts and your identity papers go nowhere else — except on the day you decide to share them yourself.',
 
     sectionsTitre: 'Everything it can do',
     sections: [
@@ -241,7 +241,7 @@ module.exports = {
       {
         q: 'Does text recognition need the internet?',
         r: [
-          'No. The text is read by your iPhone itself, with no connection, and the contents of your documents are never sent to an outside service. It reads the Latin alphabet, Japanese, Chinese and Korean.',
+          'No. The text is read by the phone itself, with no connection, using Google’s recognition tool (ML Kit) built into the app, and the contents of your documents are never sent to an outside service. ML Kit only sends Google technical measurements, without your images or your text: the privacy policy lists them. It reads the Latin alphabet, Japanese, Chinese and Korean.',
         ],
       },
       {
@@ -295,7 +295,7 @@ module.exports = {
       h1: 'Privacy Policy for Android',
       titre: 'Privacy Policy for Android — Scan Cam',
       description:
-        'Your documents stay on your phone and, if you turn it on, in your own Google Drive, never on a server of ours: no account, no analytics, no advertising.',
+        'Your documents stay on your phone and, if you turn it on, in your own Google Drive, never on a server of ours: no account, no advertising, no analytics of ours.',
       // En tête de la page : le renvoi vers la version iPhone.
       versIPhone:
         'This policy covers Scan Cam on Android. For iPhone, read <a href="{lien}">the privacy policy of the iPhone version</a>.',

@@ -62,7 +62,7 @@ module.exports = {
     confidentialite: {
       titre: 'Política de Privacidade — Scan Cam',
       description:
-        'Seus documentos ficam no seu iPhone e no seu próprio iCloud, nunca em um servidor nosso: sem conta, sem medição de audiência, sem anúncios.',
+        'Seus documentos ficam no seu iPhone e no seu próprio iCloud, nunca em um servidor nosso: sem conta, sem anúncios, sem medição de audiência da nossa parte.',
     },
   },
 
@@ -106,7 +106,7 @@ module.exports = {
       titre: 'Nunca em um servidor nosso.',
     },
     promesse:
-      'Seus documentos ficam no seu celular, com uma cópia no seu próprio iCloud no iPhone ou, se você aceitar, no seu próprio Google Drive no Android — nunca em um servidor nosso. Nenhuma conta para criar, nenhuma medição de audiência, nenhum anúncio. Suas contas, seus contratos e seus documentos de identidade não vão para nenhum outro lugar — a não ser no dia em que você mesmo decidir compartilhá-los.',
+      'Seus documentos ficam no seu celular, com uma cópia no seu próprio iCloud no iPhone ou, se você aceitar, no seu próprio Google Drive no Android — nunca em um servidor nosso. Nenhuma conta para criar, nenhum anúncio, nenhuma medição de audiência da nossa parte. Suas contas, seus contratos e seus documentos de identidade não vão para nenhum outro lugar — a não ser no dia em que você mesmo decidir compartilhá-los.',
 
     sectionsTitre: 'Tudo o que ele faz',
     sections: [
@@ -245,7 +245,7 @@ module.exports = {
       {
         q: 'O reconhecimento de texto precisa de internet?',
         r: [
-          'Não. O texto é lido pelo próprio iPhone, sem conexão, e o conteúdo dos seus documentos nunca é enviado a um serviço externo. Ele lê o alfabeto latino, japonês, chinês e coreano.',
+          'Não. O texto é lido pelo próprio celular, sem conexão, com a ferramenta de reconhecimento do Google (ML Kit) integrada ao aplicativo, e o conteúdo dos seus documentos nunca é enviado a um serviço externo. O ML Kit envia ao Google apenas medições técnicas, sem as suas imagens nem o seu texto: a política de privacidade as detalha. Ele lê o alfabeto latino, japonês, chinês e coreano.',
         ],
       },
       {
@@ -299,7 +299,7 @@ module.exports = {
       h1: 'Política de Privacidade para Android',
       titre: 'Política de Privacidade para Android — Scan Cam',
       description:
-        'Seus documentos ficam no seu celular e, se você ativar, no seu próprio Google Drive, nunca em um servidor nosso: sem conta, sem medição de audiência, sem anúncios.',
+        'Seus documentos ficam no seu celular e, se você ativar, no seu próprio Google Drive, nunca em um servidor nosso: sem conta, sem anúncios, sem medição de audiência da nossa parte.',
       // En tête de la page : le renvoi vers la version iPhone.
       versIPhone:
         'Esta política vale para o Scan Cam no Android. Para iPhone, leia <a href="{lien}">a Política de Privacidade da versão para iPhone</a>.',

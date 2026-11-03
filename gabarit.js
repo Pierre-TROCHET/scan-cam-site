@@ -16,6 +16,8 @@ const APPSTORE = 'https://apps.apple.com/app/id6805626898';
 const APPSTORE_ID = '6805626898';
 // La fiche Google Play, en ligne depuis le 26 octobre 2026 (compte nightbuilds).
 const GOOGLEPLAY = 'https://play.google.com/store/apps/details?id=com.trochet.scancam';
+// La chaîne YouTube des tutos, créée le 2 novembre 2026. Les vidéos sont en anglais.
+const YOUTUBE = 'https://www.youtube.com/@scancamapp';
 
 /** L'adresse du site, et l'image que montre un lien collé dans un message. */
 const SITE = 'https://scancam.app/';
@@ -430,4 +432,4 @@ ${pied(langue, cle, reste, mesure, guides, fichierDe)}
 `);
 }
 
-module.exports = { page, menu, pied, echapper, adresse, lien, PAGES, APPSTORE, GOOGLEPLAY, SITE };
+module.exports = { page, menu, pied, echapper, adresse, lien, PAGES, APPSTORE, GOOGLEPLAY, YOUTUBE, SITE };

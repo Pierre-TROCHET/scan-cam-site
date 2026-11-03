@@ -8,7 +8,7 @@
 // Appelé par build.js, qui écrit aussi le plan du site (sitemap.xml) avec ces adresses.
 const fs = require('fs');
 const path = require('path');
-const { page, adresse, echapper, APPSTORE, SITE } = require('./gabarit');
+const { page, adresse, echapper, APPSTORE, YOUTUBE, SITE } = require('./gabarit');
 const icones = require('./icones');
 const { CODES } = require('./langues');
 
@@ -128,6 +128,10 @@ const cibleIndex = () => Object.fromEntries(presentes().map((code) => [code, G[c
 const cibleGuide = (cle) =>
   Object.fromEntries(presentes().map((code) => [code, G[code].guides.find((g) => g.cle === cle).fichier]));
 
+/** Le lien vers les tutos vidéo de la chaîne YouTube, sous le bouton App Store et sur la page des guides. */
+const lienVideos = (T) =>
+  `  <p class="guide-video"><a href="${YOUTUBE}">${icones.video(18)}<span>${T.pied.youtube}</span></a></p>`;
+
 function pageGuide(L, langues, guide) {
   const T = G[L.code];
   const parCle = Object.fromEntries(T.guides.map((g) => [g.cle, g]));
@@ -148,6 +152,7 @@ function pageGuide(L, langues, guide) {
     `  <h2>${T.pied.titre}</h2>`,
     `  <p>${T.pied.texte}</p>`,
     `  <a class="appstore" href="${APPSTORE}">${icones.apple(18)}${L.pied.appstore}</a>`,
+    lienVideos(T),
     '</section>',
     '',
     `<h2>${T.liees}</h2>`,
@@ -204,9 +209,13 @@ function pageIndex(L, langues) {
   );
   // Un titre de section ordinaire (celui des pages de texte), pas le grand titre de l'accueil :
   // juste sous le bandeau, le grand titre paraissait collé et plus gros que tout le reste.
-  const corps = [`<h2 class="guides-titre">${a.sectionTitre}</h2>`, '<div class="cartes">', ...cartes, '</div>'].join(
-    '\n'
-  );
+  const corps = [
+    `<h2 class="guides-titre">${a.sectionTitre}</h2>`,
+    '<div class="cartes">',
+    ...cartes,
+    '</div>',
+    lienVideos(T),
+  ].join('\n');
   return page({
     langue: L,
     langues,

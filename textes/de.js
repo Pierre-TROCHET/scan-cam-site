@@ -63,7 +63,7 @@ module.exports = {
     confidentialite: {
       titre: 'Datenschutzerklärung — Scan Cam',
       description:
-        'Ihre Dokumente bleiben auf Ihrem iPhone und in Ihrer eigenen iCloud, nie auf einem Server von uns: kein Konto, keine Messung, keine Werbung.',
+        'Ihre Dokumente bleiben auf Ihrem iPhone und in Ihrer eigenen iCloud, nie auf einem Server von uns: kein Konto, keine Werbung, keine Messung durch uns.',
     },
   },
 
@@ -107,7 +107,7 @@ module.exports = {
       titre: 'Nie auf einem Server von uns.',
     },
     promesse:
-      'Ihre Dokumente bleiben auf Ihrem Telefon, mit einer Kopie in Ihrer eigenen iCloud auf dem iPhone oder, wenn Sie zustimmen, in Ihrem eigenen Google Drive auf Android — nie auf einem Server von uns. Kein Konto, das angelegt werden muss, keine Messung, keine Werbung. Ihre Rechnungen, Ihre Verträge und Ihre Ausweispapiere gehen nirgendwo anders hin — außer an dem Tag, an dem Sie selbst entscheiden, sie zu teilen.',
+      'Ihre Dokumente bleiben auf Ihrem Telefon, mit einer Kopie in Ihrer eigenen iCloud auf dem iPhone oder, wenn Sie zustimmen, in Ihrem eigenen Google Drive auf Android — nie auf einem Server von uns. Kein Konto, das angelegt werden muss, keine Werbung, keine Messung durch uns. Ihre Rechnungen, Ihre Verträge und Ihre Ausweispapiere gehen nirgendwo anders hin — außer an dem Tag, an dem Sie selbst entscheiden, sie zu teilen.',
 
     sectionsTitre: 'Alles, was sie kann',
     sections: [
@@ -246,7 +246,7 @@ module.exports = {
       {
         q: 'Braucht die Texterkennung Internet?',
         r: [
-          'Nein. Der Text wird von Ihrem iPhone selbst gelesen, ohne Verbindung, und der Inhalt Ihrer Dokumente wird nie an einen fremden Dienst gesendet. Sie liest das lateinische Alphabet, Japanisch, Chinesisch und Koreanisch.',
+          'Nein. Der Text wird vom Telefon selbst gelesen, ohne Verbindung, mit dem in die App eingebauten Erkennungswerkzeug von Google (ML Kit), und der Inhalt Ihrer Dokumente wird nie an einen fremden Dienst gesendet. ML Kit sendet Google nur technische Messdaten, ohne Ihre Bilder und ohne Ihren Text: Die Datenschutzerklärung führt sie auf. Sie liest das lateinische Alphabet, Japanisch, Chinesisch und Koreanisch.',
         ],
       },
       {
@@ -302,7 +302,7 @@ module.exports = {
       h1: 'Datenschutzerklärung für Android',
       titre: 'Datenschutzerklärung für Android — Scan Cam',
       description:
-        'Ihre Dokumente bleiben auf Ihrem Telefon und, wenn Sie es einschalten, in Ihrem eigenen Google Drive, nie auf einem Server von uns: kein Konto, keine Messung, keine Werbung.',
+        'Ihre Dokumente bleiben auf Ihrem Telefon und, wenn Sie es einschalten, in Ihrem eigenen Google Drive, nie auf einem Server von uns: kein Konto, keine Werbung, keine Messung durch uns.',
       // En tête de la page : le renvoi vers la version iPhone.
       versIPhone:
         'Diese Erklärung gilt für Scan Cam auf Android. Für das iPhone lesen Sie <a href="{lien}">die Datenschutzerklärung der iPhone-Version</a>.',

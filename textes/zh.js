@@ -62,7 +62,7 @@ module.exports = {
     },
     confidentialite: {
       titre: '隐私政策 — Scan Cam',
-      description: '您的文档保存在您的 iPhone 和您自己的 iCloud 里，从不放在我们的服务器上：没有账号，没有统计，没有广告。',
+      description: '您的文档保存在您的 iPhone 和您自己的 iCloud 里，从不放在我们的服务器上：没有账号，没有广告，我们也不做统计。',
     },
   },
 
@@ -103,7 +103,7 @@ module.exports = {
       titre: '绝不放在我们的服务器上。',
     },
     promesse:
-      '您的文档保存在您的手机里：在 iPhone 上另有一份副本存在您自己的 iCloud 中，在 Android 上则经您同意后存在您自己的 Google 云端硬盘中——从不放在我们的服务器上。无需注册账号，没有统计，也没有广告。您的发票、合同和身份证件不会去往别处——除非哪一天您自己决定分享它们。',
+      '您的文档保存在您的手机里：在 iPhone 上另有一份副本存在您自己的 iCloud 中，在 Android 上则经您同意后存在您自己的 Google 云端硬盘中——从不放在我们的服务器上。无需注册账号，没有广告，我们也不做统计。您的发票、合同和身份证件不会去往别处——除非哪一天您自己决定分享它们。',
 
     sectionsTitre: '它能做的一切',
     sections: [
@@ -240,7 +240,7 @@ module.exports = {
       {
         q: '文字识别需要联网吗？',
         r: [
-          '不需要。文字由您的 iPhone 自己读取，无需连接网络，文档的内容也绝不会发送给外部服务。可识别拉丁字母、日文、中文和韩文。',
+          '不需要。文字由手机自己读取，无需连接网络，使用的是集成在应用中的 Google 文字识别工具（ML Kit），文档的内容也绝不会发送给外部服务。ML Kit 只会向 Google 发送不含您的图像和文字的技术数据，隐私政策中有详细说明。可识别拉丁字母、日文、中文和韩文。',
         ],
       },
       {
@@ -292,7 +292,7 @@ module.exports = {
       h1: '隐私政策（Android 版）',
       titre: '隐私政策（Android 版） — Scan Cam',
       description:
-        '您的文档保存在您的手机上，如果您开启备份，也保存在您自己的 Google 云端硬盘中，从不放在我们的服务器上：没有账号，没有统计，没有广告。',
+        '您的文档保存在您的手机上，如果您开启备份，也保存在您自己的 Google 云端硬盘中，从不放在我们的服务器上：没有账号，没有广告，我们也不做统计。',
       // En tête de la page : le renvoi vers la version iPhone.
       versIPhone:
         '本政策适用于 Android 版 Scan Cam。iPhone 版请阅读<a href="{lien}">iPhone 版的隐私政策</a>。',

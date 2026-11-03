@@ -62,7 +62,7 @@ module.exports = {
     confidentialite: {
       titre: 'Informativa sulla privacy — Scan Cam',
       description:
-        'I tuoi documenti restano sul tuo iPhone e nel tuo iCloud, mai su un server nostro: niente account, nessuna statistica, nessuna pubblicità.',
+        'I tuoi documenti restano sul tuo iPhone e nel tuo iCloud, mai su un server nostro: niente account, nessuna pubblicità, nessuna statistica da parte nostra.',
     },
   },
 
@@ -106,7 +106,7 @@ module.exports = {
       titre: 'Mai su un server nostro.',
     },
     promesse:
-      'I tuoi documenti restano sul tuo telefono, con una copia nel tuo iCloud su iPhone o, se lo accetti, nel tuo Google Drive su Android: mai su un server nostro. Nessun account da creare, nessuna statistica, nessuna pubblicità. Le tue fatture, i tuoi contratti e i tuoi documenti d’identità non vanno da nessun’altra parte, tranne il giorno in cui decidi tu di condividerli.',
+      'I tuoi documenti restano sul tuo telefono, con una copia nel tuo iCloud su iPhone o, se lo accetti, nel tuo Google Drive su Android: mai su un server nostro. Nessun account da creare, nessuna pubblicità, nessuna statistica da parte nostra. Le tue fatture, i tuoi contratti e i tuoi documenti d’identità non vanno da nessun’altra parte, tranne il giorno in cui decidi tu di condividerli.',
 
     sectionsTitre: 'Tutto quello che sa fare',
     sections: [
@@ -245,7 +245,7 @@ module.exports = {
       {
         q: 'Il riconoscimento del testo ha bisogno di internet?',
         r: [
-          'No. Il testo viene letto dal tuo iPhone stesso, senza connessione, e il contenuto dei tuoi documenti non viene mai inviato a un servizio esterno. Legge l’alfabeto latino, il giapponese, il cinese e il coreano.',
+          'No. Il testo viene letto dal telefono stesso, senza connessione, con lo strumento di riconoscimento di Google (ML Kit) integrato nell’app, e il contenuto dei tuoi documenti non viene mai inviato a un servizio esterno. ML Kit invia a Google solo misurazioni tecniche, senza le tue immagini né il tuo testo: l’informativa sulla privacy le elenca. Legge l’alfabeto latino, il giapponese, il cinese e il coreano.',
         ],
       },
       {
@@ -299,7 +299,7 @@ module.exports = {
       h1: 'Informativa sulla privacy per Android',
       titre: 'Informativa sulla privacy per Android — Scan Cam',
       description:
-        'I tuoi documenti restano sul tuo telefono e, se lo attivi, nel tuo Google Drive, mai su un server nostro: niente account, nessuna statistica, nessuna pubblicità.',
+        'I tuoi documenti restano sul tuo telefono e, se lo attivi, nel tuo Google Drive, mai su un server nostro: niente account, nessuna pubblicità, nessuna statistica da parte nostra.',
       // En tête de la page : le renvoi vers la version iPhone.
       versIPhone:
         'Questa informativa riguarda Scan Cam su Android. Per iPhone, leggi <a href="{lien}">l’informativa sulla privacy della versione per iPhone</a>.',

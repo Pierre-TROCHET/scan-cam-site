@@ -27,7 +27,8 @@ module.exports = {
   },
   "pied": {
     "titre": "Essayez Scan Cam",
-    "texte": "Scan Cam se télécharge gratuitement. Le scan, les dossiers, les filtres et l’export en PDF sont gratuits, sans limite de temps ; l’abonnement Pro ajoute les outils supplémentaires, et commence par un essai gratuit de 7 jours."
+    "texte": "Scan Cam se télécharge gratuitement. Le scan, les dossiers, les filtres et l’export en PDF sont gratuits, sans limite de temps ; l’abonnement Pro ajoute les outils supplémentaires, et commence par un essai gratuit de 7 jours.",
+    "youtube": "Plutôt en vidéo ? Les tutos courts sont sur YouTube (en anglais)"
   },
   "liees": "Autres guides",
   "captures": {
@@ -627,6 +628,86 @@ module.exports = {
         "sign",
         "merge",
         "multi-page"
+      ]
+    },
+    {
+      "cle": "without-subscription",
+      "fichier": "guide-scanner-un-document-sur-iphone-sans-abonnement-fr.html",
+      "niveau": "free",
+      "titre": "Comment scanner un document sur iPhone sans abonnement — Scan Cam",
+      "description": "Scanner un document sur iPhone sans payer : les apps Notes et Fichiers d’Apple le font déjà, et QuickScan est gratuite. Ce que Scan Cam fait de plus, et ce qui y est gratuit.",
+      "h1": "Comment scanner un document sur iPhone sans abonnement",
+      "lead": "La réponse honnête : il ne faut ni abonnement, ni même une app à télécharger. Voici d’abord les solutions gratuites, puis ce qu’une app comme Scan Cam ajoute, si vous en avez besoin.",
+      "carte": "Les solutions gratuites d’abord — Notes, Fichiers, QuickScan —, puis ce que Scan Cam ajoute.",
+      "corps": [
+        [
+          "h2",
+          "Avec l’app Notes, déjà sur votre iPhone"
+        ],
+        [
+          "ol",
+          [
+            "Ouvrez Notes et créez une note.",
+            "Touchez le bouton de l’appareil photo, ou le trombone selon votre version d’iOS, puis « Scanner des documents ».",
+            "Cadrez la feuille : l’iPhone trouve ses bords et la prend tout seul. Ajoutez d’autres pages si besoin, puis touchez « Enregistrer ».",
+            "Pour l’envoyer en PDF, ouvrez le scan dans la note et touchez le bouton de partage."
+          ]
+        ],
+        [
+          "p",
+          "C’est gratuit, sans compte et sans publicité. Le scan reste dans la note, et suit vos notes dans iCloud si elles y sont."
+        ],
+        [
+          "h2",
+          "Avec l’app Fichiers"
+        ],
+        [
+          "p",
+          "Dans Fichiers, touchez les trois points en haut de l’écran, puis « Scanner des documents ». Le PDF est enregistré dans le dossier où vous êtes : pratique pour ranger un document dès qu’il est scanné."
+        ],
+        [
+          "h2",
+          "Avec une app gratuite : QuickScan"
+        ],
+        [
+          "p",
+          "Si vous préférez une app à part, « OCR Text Scanner: QuickScan » est gratuite, sans publicité, et lit aussi le texte des pages ; ses achats intégrés sont des dons qui ne débloquent rien. Vérifiez tout de même son prix sur l’App Store avant de l’installer : il peut changer."
+        ],
+        [
+          "h2",
+          "Ce que Scan Cam fait de plus"
+        ],
+        [
+          "p",
+          "Scan Cam se télécharge gratuitement, et le scan, les dossiers, les filtres et l’export en PDF y sont gratuits, sans limite de temps ni de pages. Elle vaut la peine si vous scannez souvent : une bibliothèque rangée en dossiers, des pages nettoyées et nettes, plusieurs pages remises en ordre dans un seul PDF, et une copie de vos documents dans votre propre iCloud."
+        ],
+        [
+          "img",
+          [
+            "propre"
+          ]
+        ],
+        [
+          "note",
+          "<strong>Gratuit ou Pro ?</strong> Tout ce qui est décrit ici est gratuit dans Scan Cam. L’abonnement Pro ajoute la signature, le texte extrait, le filigrane, la fusion et l’export Word ou Excel, et retire la petite mention « Numérisé avec Scan Cam » des PDF ; il commence par un essai gratuit de 7 jours."
+        ],
+        [
+          "h2",
+          "En résumé"
+        ],
+        [
+          "ul",
+          [
+            "Un scan de temps en temps : l’app Notes ou l’app Fichiers suffit.",
+            "Une app gratuite à part : QuickScan.",
+            "Beaucoup de documents à scanner, ranger et retrouver : Scan Cam, gratuite pour l’essentiel."
+          ]
+        ]
+      ],
+      "suite": [
+        "multi-page",
+        "receipts",
+        "extract-text"
       ]
     }
   ]

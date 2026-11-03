@@ -71,7 +71,7 @@ module.exports = {
     confidentialite: {
       titre: 'Politique de confidentialité — Scan Cam',
       description:
-        'Vos documents restent sur votre iPhone et dans votre propre iCloud, jamais sur un serveur à nous : ni compte, ni mesure d’audience, ni publicité.',
+        'Vos documents restent sur votre iPhone et dans votre propre iCloud, jamais sur un serveur à nous : ni compte, ni publicité, ni mesure d’audience de notre part.',
     },
   },
 
@@ -116,7 +116,7 @@ module.exports = {
       titre: 'Jamais sur un serveur à nous.',
     },
     promesse:
-      'Vos documents restent sur votre téléphone, avec une copie dans votre propre iCloud sur iPhone ou, si vous l’acceptez, dans votre propre Google Drive sur Android — jamais sur un serveur à nous. Aucun compte à créer, aucune mesure d’audience, aucune publicité. Vos factures, vos contrats et vos papiers d’identité ne vont nulle part ailleurs — sauf le jour où vous décidez vous-même de les partager.',
+      'Vos documents restent sur votre téléphone, avec une copie dans votre propre iCloud sur iPhone ou, si vous l’acceptez, dans votre propre Google Drive sur Android — jamais sur un serveur à nous. Aucun compte à créer, aucune publicité, aucune mesure d’audience de notre part. Vos factures, vos contrats et vos papiers d’identité ne vont nulle part ailleurs — sauf le jour où vous décidez vous-même de les partager.',
 
     sectionsTitre: 'Tout ce qu’elle sait faire',
     sections: [
@@ -255,7 +255,7 @@ module.exports = {
       {
         q: 'La reconnaissance de texte a-t-elle besoin d’internet ?',
         r: [
-          'Non. Le texte est lu par votre iPhone lui-même, sans connexion, et le contenu de vos documents n’est jamais envoyé à un service extérieur. Elle lit l’alphabet latin, le japonais, le chinois et le coréen.',
+          'Non. Le texte est lu par le téléphone lui-même, sans connexion, avec l’outil de reconnaissance de Google (ML Kit) intégré à l’application, et le contenu de vos documents n’est jamais envoyé à un service extérieur. ML Kit envoie seulement à Google des mesures techniques, sans vos images ni votre texte : la politique de confidentialité les détaille. Elle lit l’alphabet latin, le japonais, le chinois et le coréen.',
         ],
       },
       {
@@ -311,7 +311,7 @@ module.exports = {
       h1: 'Politique de confidentialité pour Android',
       titre: 'Politique de confidentialité pour Android — Scan Cam',
       description:
-        'Vos documents restent sur votre téléphone et, si vous l’activez, dans votre propre Google Drive, jamais sur un serveur à nous : ni compte, ni mesure d’audience, ni publicité.',
+        'Vos documents restent sur votre téléphone et, si vous l’activez, dans votre propre Google Drive, jamais sur un serveur à nous : ni compte, ni publicité, ni mesure d’audience de notre part.',
       // En tête de la page : le renvoi vers la version iPhone.
       versIPhone:
         'Cette politique concerne Scan Cam sur Android. Pour l’iPhone, lisez <a href="{lien}">la politique de confidentialité de la version iPhone</a>.',

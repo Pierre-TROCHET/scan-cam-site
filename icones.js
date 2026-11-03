@@ -39,6 +39,14 @@ const icones = {
       'currentColor'
     ),
 
+  /** L'écran et son triangle, pour le lien vers la chaîne YouTube (2 novembre 2026). */
+  video: (t = 18) =>
+    dessin(
+      '<rect x="2.5" y="5" width="19" height="14" rx="4"></rect>' +
+        '<path d="M10.2 9.4v5.2l4.4-2.6z" fill="currentColor"></path>',
+      t
+    ),
+
   /** L'étincelle du bandeau d'ouverture. */
   etincelle: (t = 14) => dessin('<path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z"></path>', t),
 

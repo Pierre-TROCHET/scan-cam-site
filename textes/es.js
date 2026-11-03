@@ -63,7 +63,7 @@ module.exports = {
     confidentialite: {
       titre: 'Política de privacidad — Scan Cam',
       description:
-        'Tus documentos se quedan en tu iPhone y en tu propio iCloud, nunca en un servidor nuestro: sin cuenta, sin analíticas, sin publicidad.',
+        'Tus documentos se quedan en tu iPhone y en tu propio iCloud, nunca en un servidor nuestro: sin cuenta, sin publicidad, sin analíticas nuestras.',
     },
   },
 
@@ -107,7 +107,7 @@ module.exports = {
       titre: 'Nunca en un servidor nuestro.',
     },
     promesse:
-      'Tus documentos se quedan en tu teléfono, con una copia en tu propio iCloud en iPhone o, si lo aceptas, en tu propio Google Drive en Android: nunca en un servidor nuestro. Sin cuenta que crear, sin analíticas, sin publicidad. Tus facturas, tus contratos y tus documentos de identidad no van a ningún otro sitio, salvo el día en que decidas compartirlos tú mismo.',
+      'Tus documentos se quedan en tu teléfono, con una copia en tu propio iCloud en iPhone o, si lo aceptas, en tu propio Google Drive en Android: nunca en un servidor nuestro. Sin cuenta que crear, sin publicidad, sin analíticas nuestras. Tus facturas, tus contratos y tus documentos de identidad no van a ningún otro sitio, salvo el día en que decidas compartirlos tú mismo.',
 
     sectionsTitre: 'Todo lo que sabe hacer',
     sections: [
@@ -246,7 +246,7 @@ module.exports = {
       {
         q: '¿El reconocimiento de texto necesita internet?',
         r: [
-          'No. El texto lo lee tu propio iPhone, sin conexión, y el contenido de tus documentos nunca se envía a un servicio externo. Lee el alfabeto latino, el japonés, el chino y el coreano.',
+          'No. El texto lo lee el propio teléfono, sin conexión, con la herramienta de reconocimiento de Google (ML Kit) integrada en la aplicación, y el contenido de tus documentos nunca se envía a un servicio externo. ML Kit solo envía a Google mediciones técnicas, sin tus imágenes ni tu texto: la política de privacidad las detalla. Lee el alfabeto latino, el japonés, el chino y el coreano.',
         ],
       },
       {
@@ -300,7 +300,7 @@ module.exports = {
       h1: 'Política de privacidad para Android',
       titre: 'Política de privacidad para Android — Scan Cam',
       description:
-        'Tus documentos se quedan en tu teléfono y, si lo activas, en tu propio Google Drive, nunca en un servidor nuestro: sin cuenta, sin analíticas, sin publicidad.',
+        'Tus documentos se quedan en tu teléfono y, si lo activas, en tu propio Google Drive, nunca en un servidor nuestro: sin cuenta, sin publicidad, sin analíticas nuestras.',
       // En tête de la page : le renvoi vers la version iPhone.
       versIPhone:
         'Esta política se aplica a Scan Cam en Android. Para iPhone, lee <a href="{lien}">la política de privacidad de la versión para iPhone</a>.',
