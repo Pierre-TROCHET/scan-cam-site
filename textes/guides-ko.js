@@ -32,6 +32,7 @@ module.exports = {
     "youtube": "영상으로 보고 싶다면 YouTube의 짧은 튜토리얼을 확인하세요 (영어)"
   },
   "liees": "더 많은 가이드",
+  "clip": "Scan Cam 화면 녹화 (소리 없음)",
   "captures": {
     "scanner": {
       "alt": "Scan Cam의 스캐너: 청구서가 탁자 위에 놓여 있고, 페이지가 파란색 테두리로 표시되며, 아래에 셔터 버튼이 있습니다.",

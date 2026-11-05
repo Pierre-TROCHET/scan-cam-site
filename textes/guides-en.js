@@ -43,6 +43,7 @@ module.exports = {
     "youtube": "Prefer video? Watch the short tutorials on YouTube"
   },
   "liees": "More guides",
+  "clip": "Filmed in Scan Cam, without sound.",
   "captures": {
     "scanner": {
       "alt": "The Scan Cam scanner: an invoice lies on a table, the page is outlined in blue, with the shutter button below.",

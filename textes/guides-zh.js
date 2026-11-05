@@ -32,6 +32,7 @@ module.exports = {
     "youtube": "想看视频？YouTube 上有简短教程（英文）"
   },
   "liees": "更多指南",
+  "clip": "Scan Cam 屏幕录制（无声）",
   "captures": {
     "scanner": {
       "alt": "Scan Cam 的扫描界面：一张发票平放在桌上，页面被蓝色框出，下方是快门按钮。",

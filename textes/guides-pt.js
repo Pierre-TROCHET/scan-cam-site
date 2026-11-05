@@ -30,6 +30,7 @@ module.exports = {
     "youtube": "Prefere vídeo? Veja os tutoriais curtos no YouTube (em inglês)"
   },
   "liees": "Mais guias",
+  "clip": "Gravado no Scan Cam, sem som.",
   "captures": {
     "scanner": {
       "alt": "O scanner do Scan Cam: uma fatura sobre uma mesa, a página contornada em azul e o botão de captura embaixo.",

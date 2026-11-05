@@ -31,6 +31,7 @@ module.exports = {
     "youtube": "動画で見たい方は、YouTube の短いチュートリアルをどうぞ（英語）"
   },
   "liees": "ほかのガイド",
+  "clip": "Scan Cam の画面録画（音声なし）",
   "captures": {
     "scanner": {
       "alt": "Scan Cam のスキャナー画面。テーブルの上の請求書が青い枠で囲まれ、その下にシャッターボタンがあります。",

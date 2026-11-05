@@ -8,7 +8,7 @@
 // Appelé par build.js, qui écrit aussi le plan du site (sitemap.xml) avec ces adresses.
 const fs = require('fs');
 const path = require('path');
-const { page, adresse, echapper, APPSTORE, YOUTUBE, SITE } = require('./gabarit');
+const { page, adresse, echapper, APPSTORE, GOOGLEPLAY, YOUTUBE, SITE } = require('./gabarit');
 const icones = require('./icones');
 const { CODES } = require('./langues');
 
@@ -34,6 +34,33 @@ const CAPTURES = {
   recherche: { hauteur: 1214, traduite: true },
   partage: { hauteur: 1214, traduite: true },
 };
+
+/**
+ * Les clips muets (images/guides/clips/<prise>.mp4, 560 × 1212, et leur affiche <prise>.jpg) : les
+ * enregistrements d'écran de l'app, sans le son, avec un rond sur chaque geste — demandé par Pierre le
+ * 5 novembre 2026. Ils sont fabriqués par « fiche Appstore Scan Cam/6 - Marketing/YouTube/clips-site.js ».
+ * L'application y est en anglais, comme dans les captures non traduites.
+ *
+ * Par guide : [numéro du bloc 'img' dans `corps` (le même dans toutes les langues), prise]. Si ce bloc
+ * n'a qu'une capture, le clip se pose à côté d'elle ; s'il en a deux, dans sa propre rangée, au-dessus.
+ */
+const CLIPS = {
+  'multi-page': [[2, 'scan'], [5, 'reordonner']],
+  receipts: [[2, 'filtres'], [6, 'ranger']],
+  sign: [[5, 'signature']],
+  'extract-text': [[4, 'texte']],
+  merge: [[5, 'fusion']],
+  'extract-pages': [[5, 'pages']],
+  watermark: [[2, 'filigrane']],
+  'without-subscription': [[9, 'scan']],
+};
+for (const [cle, clips] of Object.entries(CLIPS)) {
+  for (const [, prise] of clips) {
+    if (!fs.existsSync(path.join(__dirname, 'images', 'guides', 'clips', `${prise}.mp4`))) {
+      throw new Error(`guides.js : le clip « ${prise} » du guide ${cle} est introuvable (images/guides/clips/) — lancer clips-site.js.`);
+    }
+  }
+}
 
 /** Les textes des guides, par langue — seulement les langues qui en ont. */
 const G = {};
@@ -61,6 +88,18 @@ for (const [code, T] of Object.entries(G)) {
   }
 }
 
+// Un clip se pose sur une capture : le bloc désigné doit en être une, dans chaque langue.
+for (const [code, T] of Object.entries(G)) {
+  for (const g of T.guides) {
+    for (const [n] of CLIPS[g.cle] || []) {
+      if (!g.corps[n] || g.corps[n][0] !== 'img') {
+        throw new Error(`textes/guides-${code}.js (${g.cle}) : le bloc ${n} devait être une capture, pour y poser un clip.`);
+      }
+    }
+  }
+  if (!T.clip) throw new Error(`textes/guides-${code}.js : il manque la légende des clips (« clip »).`);
+}
+
 const presentes = () => CODES.filter((code) => G[code]);
 
 /** L'adresse de la capture `cle` pour la langue `code` : la traduite si elle existe, l'anglaise sinon. */
@@ -72,10 +111,43 @@ function srcCapture(code, cle) {
   return `images/guides/${cle}.jpg`;
 }
 
+/**
+ * Un clip, posé comme une capture. Il porte `controls` : sans script, ou pour qui a demandé moins
+ * d'animations, il attend qu'on appuie sur lecture. Sinon le script du bas de page retire les boutons
+ * et le fait tourner en boucle, muet, comme une capture animée.
+ */
+function figureClip(code, prise, nom) {
+  return [
+    '  <figure class="guide-clip">',
+    `    <video src="images/guides/clips/${prise}.mp4" poster="images/guides/clips/${prise}.jpg" width="560" height="1212" muted loop playsinline controls preload="none" aria-label="${echapper(nom)}"></video>`,
+    `    <figcaption>${G[code].clip}</figcaption>`,
+    '  </figure>',
+  ].join('\n');
+}
+
+/** Le script qui fait tourner les clips d'une page. */
+const SCRIPT_CLIPS = `<script>
+// Les clips des guides : muets, en boucle, lancés d'emblée. Pour qui a demandé moins d'animations
+// (la classe « anime » est alors absente), ils gardent leurs boutons et attendent qu'on les lance.
+(function () {
+  if (!document.documentElement.classList.contains("anime")) return;
+  var clips = document.querySelectorAll(".guide-clip video");
+  for (var i = 0; i < clips.length; i++) {
+    var v = clips[i];
+    v.controls = false;
+    v.muted = true;
+    v.autoplay = true;
+    v.preload = "auto";
+    var lancer = v.play();
+    if (lancer && lancer.catch) lancer.catch(function () {});
+  }
+})();
+</script>`;
+
 const liste = (points) => '<ul>\n' + points.map((p) => `  <li>${p}</li>`).join('\n') + '\n</ul>';
 
 /** Un bloc d'un guide — le format est expliqué en tête de textes/guides-en.js. */
-function bloc(code, [type, contenu]) {
+function bloc(code, [type, contenu], clip = null, nom = '') {
   const T = G[code];
   if (type === 'h2') return `<h2>${contenu}</h2>`;
   if (type === 'p') return `<p>${contenu}</p>`;
@@ -85,8 +157,13 @@ function bloc(code, [type, contenu]) {
   // Une ou deux captures côte à côte, chacune avec sa légende. Largeur et hauteur écrites :
   // la page ne saute pas quand l'image arrive.
   if (type === 'img') {
-    return [
-      `<div class="guide-captures guide-captures--${contenu.length}">`,
+    // Le clip à côté d'une capture seule, ou dans sa propre rangée au-dessus d'une paire.
+    const voisin = clip && contenu.length === 1 ? [figureClip(code, clip, nom)] : [];
+    const avant = clip && !voisin.length
+      ? `<div class="guide-captures guide-captures--1">\n${figureClip(code, clip, nom)}\n</div>\n`
+      : '';
+    return avant + [
+      `<div class="guide-captures guide-captures--${contenu.length + voisin.length}">`,
       ...contenu.map((cle) =>
         [
           '  <figure>',
@@ -95,6 +172,7 @@ function bloc(code, [type, contenu]) {
           '  </figure>',
         ].join('\n')
       ),
+      ...voisin,
       '</div>',
     ].join('\n');
   }
@@ -128,7 +206,7 @@ const cibleIndex = () => Object.fromEntries(presentes().map((code) => [code, G[c
 const cibleGuide = (cle) =>
   Object.fromEntries(presentes().map((code) => [code, G[code].guides.find((g) => g.cle === cle).fichier]));
 
-/** Le lien vers les tutos vidéo de la chaîne YouTube, sous le bouton App Store et sur la page des guides. */
+/** Le lien vers les tutos vidéo de la chaîne YouTube, sous les boutons des boutiques et sur la page des guides. */
 const lienVideos = (T) =>
   `  <p class="guide-video"><a href="${YOUTUBE}">${icones.video(18)}<span>${T.pied.youtube}</span></a></p>`;
 
@@ -146,17 +224,25 @@ function pageGuide(L, langues, guide) {
 
   const corps = [
     `<p class="guide-retour"><a href="${T.accueil.fichier}">← ${T.accueil.h1}</a></p>`,
-    ...guide.corps.map((b) => bloc(L.code, b)),
+    ...guide.corps.map((b, n) => {
+      const clip = (CLIPS[guide.cle] || []).find(([k]) => k === n);
+      return bloc(L.code, b, clip ? clip[1] : null, guide.h1);
+    }),
     '',
     '<section class="bloc bloc--sombre guide-cta">',
     `  <h2>${T.pied.titre}</h2>`,
     `  <p>${T.pied.texte}</p>`,
-    `  <a class="appstore" href="${APPSTORE}">${icones.apple(18)}${L.pied.appstore}</a>`,
+    // Les deux boutiques côte à côte, comme sur l'accueil (Google Play ajouté le 5 novembre 2026).
+    '  <div class="actions">',
+    `    <a class="appstore" href="${APPSTORE}">${icones.apple(18)}${L.pied.appstore}</a>`,
+    `    <a class="appstore" href="${GOOGLEPLAY}">${icones.googleplay(18)}${L.pied.googleplay}</a>`,
+    '  </div>',
     lienVideos(T),
     '</section>',
     '',
     `<h2>${T.liees}</h2>`,
     liste(guide.suite.map((cle) => `<a href="${parCle[cle].fichier}">${parCle[cle].h1}</a>`)),
+    ...(CLIPS[guide.cle] ? ['', SCRIPT_CLIPS] : []),
   ].join('\n');
 
   const jsonld = {
@@ -169,7 +255,7 @@ function pageGuide(L, langues, guide) {
     url,
     image: SITE + 'images/partage.jpg',
     datePublished: '2026-10-19',
-    dateModified: '2026-10-19',
+    dateModified: '2026-11-05',
     author: { '@type': 'Person', name: 'Pierre Trochet' },
     about: { '@type': 'SoftwareApplication', name: 'Scan Cam', operatingSystem: 'iOS', url: APPSTORE },
   };
@@ -265,4 +351,4 @@ function entreesPlan() {
   return entrees;
 }
 
-module.exports = { ecrireGuides, blocGuidesAccueil, lienMenu, entreesPlan, CAPTURES };
+module.exports = { ecrireGuides, blocGuidesAccueil, lienMenu, entreesPlan, CAPTURES, CLIPS };

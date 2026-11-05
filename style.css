@@ -826,7 +826,7 @@ main ol li::marker { color: var(--accent); font-weight: 800; }
   border: 1px solid var(--bord);
 }
 .guide-cta { margin: 40px 0 8px; }
-.guide-cta .appstore { margin-top: 6px; }
+.guide-cta .actions { margin-top: 6px; } /* App Store et Google Play, côte à côte (5 novembre 2026) */
 .guide-video { margin: 24px 0 0; }
 .guide-video a { display: inline-flex; align-items: center; gap: 8px; font-weight: 600; }
 .guide-video svg { display: block; flex: none; }
@@ -864,7 +864,9 @@ main ol li::marker { color: var(--accent); font-weight: 800; }
   max-width: 100%;
 }
 .guide-captures--2 figure { width: calc(50% - 10px); max-width: 280px; }
-.guide-captures img {
+/* Les clips muets (5 novembre 2026) : habillés comme les captures, à leur taille. */
+.guide-captures img,
+.guide-captures video {
   display: block;
   width: 100%;
   height: auto;

@@ -60,8 +60,8 @@ changer la fiche d'abord. Les noms, les titres et les phrases qui relient les de
 `textes/<langue>.js`.
 
 **L'application est sur Google Play depuis le 26 octobre 2026.** Le bouton « Disponible sur Google
-Play » est à côté de celui de l'App Store sur chaque accueil, et dans le pied de toutes les pages
-(adresse dans `gabarit.js`, libellé dans le bloc `pied` de `textes/<langue>.js`). L'assistance a une
+Play » est à côté de celui de l'App Store sur chaque accueil, dans l'encadré « Essayez Scan Cam » de
+chaque guide (depuis le 5 novembre 2026), et dans le pied de toutes les pages (adresse dans `gabarit.js`, libellé dans le bloc `pied` de `textes/<langue>.js`). L'assistance a une
 question « J'ai un téléphone Android » : copie dans Google Drive, abonnement géré dans Google Play,
 pas de « Retirer les ombres ». Les guides restent ceux de l'iPhone.
 
@@ -155,3 +155,13 @@ page neuve peut donc s'afficher un moment avec l'ancien habillage. `Ctrl + Maj +
 Les travaux en cours et à venir — le gabarit, l'habillage, les animations, les six langues —
 sont dans la section **« Le site scancam.app — son plan à lui »** de `PLAN.md`, dans le dépôt de
 l'application. Les blocs y sont numérotés S1, S2, S3…
+
+## Les clips muets des guides (5 novembre 2026)
+
+Les guides montrent, à côté de leurs captures, de courts **clips muets** : les enregistrements d'écran
+de l'app (en anglais, thème clair), avec un rond sur chaque geste, en boucle. Ils sont dans
+`images/guides/clips/` (`<prise>.mp4`, 560 × 1212, et `<prise>.jpg`, l'affiche) et sont **fabriqués**
+par `fiche Appstore Scan Cam/6 - Marketing/YouTube/clips-site.js`, à partir des mêmes prises que les
+Shorts (`prises-5-nov.js`, `prises-nouvelles.js`). Le tableau `CLIPS` de `guides.js` dit quel clip va
+sur quelle capture. Pour qui a demandé moins d'animations (ou sans JavaScript), le clip ne part pas
+seul : il garde ses boutons de lecture.
