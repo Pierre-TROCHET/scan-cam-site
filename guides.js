@@ -13,54 +13,13 @@ const icones = require('./icones');
 const { CODES } = require('./langues');
 
 /**
- * Les captures (images/guides/). Celles marquées `traduite` existent dans chaque langue — ce sont
- * les captures de la fiche App Store, dont l'interface est traduite — et se trouvent dans
- * images/guides/<langue>/. Les autres ont été prises sur l'iPhone avec l'app en anglais, et servent
- * à toutes les langues (décision de Pierre, 19 octobre 2026).
- */
-const CAPTURES = {
-  scanner: { hauteur: 1212 },
-  filtres: { hauteur: 1212 },
-  dossiers: { hauteur: 1212 },
-  bibliotheque: { hauteur: 1212 },
-  document: { hauteur: 1212 },
-  fusion: { hauteur: 1212 },
-  extraction: { hauteur: 1212 },
-  'nouvelle-signature': { hauteur: 1212 },
-  propre: { hauteur: 1214, traduite: true },
-  signature: { hauteur: 1214, traduite: true },
-  texte: { hauteur: 1214, traduite: true },
-  filigrane: { hauteur: 1214, traduite: true },
-  recherche: { hauteur: 1214, traduite: true },
-  partage: { hauteur: 1214, traduite: true },
-};
-
-/**
  * Les clips muets (images/guides/clips/<prise>.mp4, 560 × 1212, et leur affiche <prise>.jpg) : les
- * enregistrements d'écran de l'app, sans le son, avec un rond sur chaque geste — demandé par Pierre le
- * 5 novembre 2026. Ils sont fabriqués par « fiche Appstore Scan Cam/6 - Marketing/YouTube/clips-site.js ».
- * L'application y est en anglais, comme dans les captures non traduites.
- *
- * Par guide : [numéro du bloc 'img' dans `corps` (le même dans toutes les langues), prise]. Si ce bloc
- * n'a qu'une capture, le clip se pose à côté d'elle ; s'il en a deux, dans sa propre rangée, au-dessus.
+ * enregistrements d'écran de l'app, sans le son, avec un rond sur chaque geste, en anglais pour toutes
+ * les langues. Ils sont fabriqués par « fiche Appstore Scan Cam/6 - Marketing/YouTube/clips-site.js » et
+ * posés par les blocs ['clip', '<prise>'] des textes. Depuis le 5 novembre 2026, ils remplacent les
+ * captures fixes (demande de Pierre : « retire les photos statiques »).
  */
-const CLIPS = {
-  'multi-page': [[2, 'scan'], [5, 'reordonner']],
-  receipts: [[2, 'filtres'], [6, 'ranger']],
-  sign: [[5, 'signature']],
-  'extract-text': [[4, 'texte']],
-  merge: [[5, 'fusion']],
-  'extract-pages': [[5, 'pages']],
-  watermark: [[2, 'filigrane']],
-  'without-subscription': [[9, 'scan']],
-};
-for (const [cle, clips] of Object.entries(CLIPS)) {
-  for (const [, prise] of clips) {
-    if (!fs.existsSync(path.join(__dirname, 'images', 'guides', 'clips', `${prise}.mp4`))) {
-      throw new Error(`guides.js : le clip « ${prise} » du guide ${cle} est introuvable (images/guides/clips/) — lancer clips-site.js.`);
-    }
-  }
-}
+const cheminClip = (prise) => path.join(__dirname, 'images', 'guides', 'clips', `${prise}.mp4`);
 
 /** Les textes des guides, par langue — seulement les langues qui en ont. */
 const G = {};
@@ -70,8 +29,8 @@ for (const code of CODES) {
 }
 if (!G.en) throw new Error('textes/guides-en.js est introuvable : c’est la langue de référence des guides.');
 
-// Chaque traduction doit avoir les mêmes guides et les mêmes captures que l'anglais : sinon une
-// page annoncerait une traduction qui n'existe pas, ou poserait une image sans texte.
+// Chaque traduction doit avoir les mêmes guides que l'anglais, et chaque clip doit exister : sinon une
+// page annoncerait une traduction qui n'existe pas, ou poserait une vidéo absente.
 const clesGuides = G.en.guides.map((g) => g.cle).join(',');
 for (const [code, T] of Object.entries(G)) {
   if (T.guides.map((g) => g.cle).join(',') !== clesGuides) {
@@ -79,49 +38,28 @@ for (const [code, T] of Object.entries(G)) {
   }
   for (const g of T.guides) {
     for (const [type, contenu] of g.corps) {
-      if (type !== 'img') continue;
-      for (const cle of contenu) {
-        if (!CAPTURES[cle]) throw new Error(`textes/guides-${code}.js (${g.cle}) : capture inconnue « ${cle} ».`);
-        if (!T.captures[cle]) throw new Error(`textes/guides-${code}.js : il manque le texte de la capture « ${cle} ».`);
+      if (type === 'clip' && !fs.existsSync(cheminClip(contenu))) {
+        throw new Error(`textes/guides-${code}.js (${g.cle}) : le clip « ${contenu} » est introuvable (images/guides/clips/) — lancer clips-site.js.`);
       }
     }
   }
-}
-
-// Un clip se pose sur une capture : le bloc désigné doit en être une, dans chaque langue.
-for (const [code, T] of Object.entries(G)) {
-  for (const g of T.guides) {
-    for (const [n] of CLIPS[g.cle] || []) {
-      if (!g.corps[n] || g.corps[n][0] !== 'img') {
-        throw new Error(`textes/guides-${code}.js (${g.cle}) : le bloc ${n} devait être une capture, pour y poser un clip.`);
-      }
-    }
-  }
-  if (!T.clip) throw new Error(`textes/guides-${code}.js : il manque la légende des clips (« clip »).`);
 }
 
 const presentes = () => CODES.filter((code) => G[code]);
 
-/** L'adresse de la capture `cle` pour la langue `code` : la traduite si elle existe, l'anglaise sinon. */
-function srcCapture(code, cle) {
-  if (CAPTURES[cle].traduite && code !== 'en') {
-    const traduite = `images/guides/${code}/${cle}.jpg`;
-    if (fs.existsSync(path.join(__dirname, traduite))) return traduite;
-  }
-  return `images/guides/${cle}.jpg`;
-}
-
 /**
- * Un clip, posé comme une capture. Il porte `controls` : sans script, ou pour qui a demandé moins
- * d'animations, il attend qu'on appuie sur lecture. Sinon le script du bas de page retire les boutons
- * et le fait tourner en boucle, muet, comme une capture animée.
+ * Un clip, seul sur sa ligne, sans légende. Il porte `controls` : sans script, ou pour qui a demandé
+ * moins d'animations, il attend qu'on appuie sur lecture. Sinon le script du bas de page retire les
+ * boutons et le fait tourner en boucle, muet, comme une capture animée. Largeur et hauteur écrites : la
+ * page ne saute pas quand la vidéo arrive.
  */
-function figureClip(code, prise, nom) {
+function figureClip(prise, nom) {
   return [
+    '<div class="guide-captures">',
     '  <figure class="guide-clip">',
     `    <video src="images/guides/clips/${prise}.mp4" poster="images/guides/clips/${prise}.jpg" width="560" height="1212" muted loop playsinline controls preload="none" aria-label="${echapper(nom)}"></video>`,
-    `    <figcaption>${G[code].clip}</figcaption>`,
     '  </figure>',
+    '</div>',
   ].join('\n');
 }
 
@@ -146,36 +84,14 @@ const SCRIPT_CLIPS = `<script>
 
 const liste = (points) => '<ul>\n' + points.map((p) => `  <li>${p}</li>`).join('\n') + '\n</ul>';
 
-/** Un bloc d'un guide — le format est expliqué en tête de textes/guides-en.js. */
-function bloc(code, [type, contenu], clip = null, nom = '') {
-  const T = G[code];
+/** Un bloc d'un guide — le format est expliqué en tête de textes/guides-en.js. `nom` : le titre du guide, qui décrit ses clips. */
+function bloc([type, contenu], nom) {
   if (type === 'h2') return `<h2>${contenu}</h2>`;
   if (type === 'p') return `<p>${contenu}</p>`;
   if (type === 'note') return `<p class="guide-note">${contenu}</p>`;
   if (type === 'ul') return liste(contenu);
   if (type === 'ol') return '<ol>\n' + contenu.map((p) => `  <li>${p}</li>`).join('\n') + '\n</ol>';
-  // Une ou deux captures côte à côte, chacune avec sa légende. Largeur et hauteur écrites :
-  // la page ne saute pas quand l'image arrive.
-  if (type === 'img') {
-    // Le clip à côté d'une capture seule, ou dans sa propre rangée au-dessus d'une paire.
-    const voisin = clip && contenu.length === 1 ? [figureClip(code, clip, nom)] : [];
-    const avant = clip && !voisin.length
-      ? `<div class="guide-captures guide-captures--1">\n${figureClip(code, clip, nom)}\n</div>\n`
-      : '';
-    return avant + [
-      `<div class="guide-captures guide-captures--${contenu.length + voisin.length}">`,
-      ...contenu.map((cle) =>
-        [
-          '  <figure>',
-          `    <img src="${srcCapture(code, cle)}" width="560" height="${CAPTURES[cle].hauteur}" alt="${echapper(T.captures[cle].alt)}" loading="lazy" decoding="async">`,
-          `    <figcaption>${T.captures[cle].legende}</figcaption>`,
-          '  </figure>',
-        ].join('\n')
-      ),
-      ...voisin,
-      '</div>',
-    ].join('\n');
-  }
+  if (type === 'clip') return figureClip(contenu, nom);
   throw new Error(`Bloc de guide inconnu : « ${type} »`);
 }
 
@@ -224,10 +140,7 @@ function pageGuide(L, langues, guide) {
 
   const corps = [
     `<p class="guide-retour"><a href="${T.accueil.fichier}">← ${T.accueil.h1}</a></p>`,
-    ...guide.corps.map((b, n) => {
-      const clip = (CLIPS[guide.cle] || []).find(([k]) => k === n);
-      return bloc(L.code, b, clip ? clip[1] : null, guide.h1);
-    }),
+    ...guide.corps.map((b) => bloc(b, guide.h1)),
     '',
     '<section class="bloc bloc--sombre guide-cta">',
     `  <h2>${T.pied.titre}</h2>`,
@@ -242,7 +155,7 @@ function pageGuide(L, langues, guide) {
     '',
     `<h2>${T.liees}</h2>`,
     liste(guide.suite.map((cle) => `<a href="${parCle[cle].fichier}">${parCle[cle].h1}</a>`)),
-    ...(CLIPS[guide.cle] ? ['', SCRIPT_CLIPS] : []),
+    ...(guide.corps.some(([type]) => type === 'clip') ? ['', SCRIPT_CLIPS] : []),
   ].join('\n');
 
   const jsonld = {
@@ -351,4 +264,4 @@ function entreesPlan() {
   return entrees;
 }
 
-module.exports = { ecrireGuides, blocGuidesAccueil, lienMenu, entreesPlan, CAPTURES, CLIPS };
+module.exports = { ecrireGuides, blocGuidesAccueil, lienMenu, entreesPlan };

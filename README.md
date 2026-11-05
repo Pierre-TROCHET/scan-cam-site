@@ -158,10 +158,20 @@ l'application. Les blocs y sont numérotés S1, S2, S3…
 
 ## Les clips muets des guides (5 novembre 2026)
 
-Les guides montrent, à côté de leurs captures, de courts **clips muets** : les enregistrements d'écran
-de l'app (en anglais, thème clair), avec un rond sur chaque geste, en boucle. Ils sont dans
-`images/guides/clips/` (`<prise>.mp4`, 560 × 1212, et `<prise>.jpg`, l'affiche) et sont **fabriqués**
-par `fiche Appstore Scan Cam/6 - Marketing/YouTube/clips-site.js`, à partir des mêmes prises que les
-Shorts (`prises-5-nov.js`, `prises-nouvelles.js`). Le tableau `CLIPS` de `guides.js` dit quel clip va
-sur quelle capture. Pour qui a demandé moins d'animations (ou sans JavaScript), le clip ne part pas
+Les guides n'ont plus de captures fixes : seulement de courts **clips muets**, sans légende, les
+enregistrements d'écran de l'app (en anglais, thème clair), avec un rond sur chaque geste, en boucle.
+Ils sont dans `images/guides/clips/` (`<prise>.mp4`, 560 × 1212, et `<prise>.jpg`, l'affiche) et sont
+**fabriqués** par `fiche Appstore Scan Cam/6 - Marketing/YouTube/clips-site.js`, à partir des mêmes
+prises que les Shorts (`prises-5-nov.js`, `prises-nouvelles.js`). Un bloc `['clip', '<prise>']` des
+textes pose un clip. Pour qui a demandé moins d'animations (ou sans JavaScript), le clip ne part pas
 seul : il garde ses boutons de lecture.
+
+Le même jour, les textes des guides ont été raccourcis de 60 % (Pierre les trouvait trop verbeux) :
+quelques étapes, le clip, une note « Gratuit ou Pro ? ». Titres, descriptions et adresses n'ont pas
+changé.
+
+## Le favicon (5 novembre 2026)
+
+`favicon.ico` (16, 32, 48 px), `icone-192.png` et `apple-touch-icon.png` sont tirés de l'icône de
+l'application (`cam-scan/assets/images/icon.png`) par `node outils/favicon.js`. Si l'icône change,
+relancer ce script puis `node build.js`. Les balises sont dans l'en-tête de `gabarit.js`.

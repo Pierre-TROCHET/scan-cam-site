@@ -4,7 +4,7 @@
 //     node outils/guides-verifier.js           (toutes celles qui ont un fichier)
 //
 // Il vérifie ce qui ferait une page fausse sans que rien ne casse au moment de la fabrication :
-// un guide ou une étape en moins, une capture changée, un nom de fichier en double, un prix écrit
+// un guide ou une étape en moins, un clip changé, un nom de fichier en double, un prix écrit
 // en toutes lettres (il change d'un pays à l'autre), et — en avertissement — un mot en gras qui
 // n'est pas un libellé de l'application dans cette langue (cam-scan/i18n/<langue>.ts).
 const fs = require('fs');
@@ -69,12 +69,6 @@ function verifier(code, EN, tousLesFichiers) {
   if (T.accueil && T.accueil.fichier !== attenduIndex)
     erreurs.push(`accueil.fichier vaut « ${T.accueil.fichier} », attendu « ${attenduIndex} »`);
 
-  const clesCaptures = Object.keys(EN.captures).sort().join(',');
-  if (Object.keys(T.captures || {}).sort().join(',') !== clesCaptures)
-    erreurs.push(`les captures ne sont pas celles de l'anglais (${clesCaptures})`);
-  for (const [cle, c] of Object.entries(T.captures || {}))
-    if (!c.alt || !c.legende) erreurs.push(`capture « ${cle} » : alt ou légende vide`);
-
   if (!T.guides || T.guides.length !== EN.guides.length) {
     erreurs.push(`${T.guides ? T.guides.length : 0} guides au lieu de ${EN.guides.length}`);
   } else {
@@ -97,8 +91,8 @@ function verifier(code, EN, tousLesFichiers) {
         if (t2 !== type) erreurs.push(`${ici}, bloc ${j + 1} : « ${t2} » au lieu de « ${type} »`);
         else if (Array.isArray(contenu) && (!Array.isArray(c2) || c2.length !== contenu.length))
           erreurs.push(`${ici}, bloc ${j + 1} (${type}) : ${Array.isArray(c2) ? c2.length : '?'} éléments au lieu de ${contenu.length}`);
-        else if (type === 'img' && JSON.stringify(c2) !== JSON.stringify(contenu))
-          erreurs.push(`${ici}, bloc ${j + 1} : captures ${JSON.stringify(c2)} au lieu de ${JSON.stringify(contenu)}`);
+        else if (type === 'clip' && c2 !== contenu)
+          erreurs.push(`${ici}, bloc ${j + 1} : clip « ${c2} » au lieu de « ${contenu} »`);
       });
     });
   }

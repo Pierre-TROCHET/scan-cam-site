@@ -253,6 +253,9 @@ function page({ langue, langues, cle, titre, description, entete, corps, mesure,
 <meta name="description" content="${echapper(description)}">
 <meta name="theme-color" content="#1250C8">
 <meta name="apple-itunes-app" content="app-id=${APPSTORE_ID}">
+<link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48">
+<link rel="icon" href="icone-192.png" type="image/png" sizes="192x192">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="canonical" href="${url}">
 ${alternatives}
 ${partage}
