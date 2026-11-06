@@ -47,7 +47,7 @@ module.exports = {
 
   meta: {
     accueil: {
-      titre: 'Scan Cam — o scanner de documentos sem conta nem servidor',
+      titre: 'Scan Cam PDF — o scanner de documentos sem conta nem servidor',
       description:
         'O Scan Cam transforma seu iPhone ou celular Android em um scanner de documentos. Sem conta, sem servidor nosso, sem anúncios.',
     },
@@ -117,7 +117,7 @@ module.exports = {
           'Bordas detectadas e página endireitada, mesmo fotografada torta',
           'Quatro acabamentos: foto original, cor, tons de cinza e preto e branco',
           'Intensidade ajustável com o dedo, com uma pré-visualização que acompanha',
-          'Sombras removidas com um toque, para páginas fotografadas sob uma luminária ou uma mão (no iPhone)',
+          'Sombras removidas com um toque, para páginas fotografadas sob uma luminária ou uma mão',
           'Várias páginas no mesmo documento, para reordenar, girar ou remover',
           'Importação de fotos e PDFs, até 100 páginas',
         ],
@@ -205,10 +205,9 @@ module.exports = {
       {
         q: 'Tenho um celular Android. O que muda?',
         r: [
-          'Quase nada: o Scan Cam está no <a href="https://play.google.com/store/apps/details?id=com.trochet.scancam">Google Play</a>, com as mesmas ferramentas, os mesmos nove idiomas e a mesma assinatura Pro. Três diferenças:',
+          'Quase nada: o Scan Cam está no <a href="https://play.google.com/store/apps/details?id=com.trochet.scancam">Google Play</a>, com as mesmas ferramentas, os mesmos nove idiomas e a mesma assinatura Pro. Duas diferenças:',
           '<strong>A cópia dos seus documentos</strong> vai para o seu próprio Google Drive, se você aceitar: o app propõe isso depois do seu primeiro documento, e a chave <strong>Backup no Google Drive</strong> nos ajustes a ativa ou desativa a qualquer momento. Ela traz seus documentos de volta se você reinstalar o app ou trocar de celular. Fica guardada em um espaço reservado ao app, invisível no app Google Drive.',
           '<strong>A assinatura</strong> é gerenciada e cancelada no aplicativo Google Play: toque na sua foto do perfil, depois em “Pagamentos e assinaturas” e em seguida em “Assinaturas”. Cancelar antes do fim do teste grátis não gera nenhuma cobrança.',
-          '<strong>Remover sombras</strong> ainda não existe no Android.',
         ],
       },
       {

@@ -43,7 +43,7 @@ module.exports = {
 
   meta: {
     accueil: {
-      titre: 'Scan Cam — the document scanner with no account and no server',
+      titre: 'Scan Cam PDF — the document scanner with no account and no server',
       description:
         'Scan Cam turns your iPhone or Android phone into a document scanner. No account, no server of ours, no advertising.',
     },
@@ -113,7 +113,7 @@ module.exports = {
           'Edges detected and the page straightened, even shot at an angle',
           'Four looks: original photo, colour, greyscale, black and white',
           'Strength adjustable with your finger, with a preview that follows',
-          'Shadows removed in one tap, for pages shot under a lamp or a hand (on iPhone)',
+          'Shadows removed in one tap, for pages shot under a lamp or a hand',
           'Several pages in one document, to reorder, rotate or remove',
           'Import photos and PDFs, up to 100 pages',
         ],
@@ -201,10 +201,9 @@ module.exports = {
       {
         q: 'I have an Android phone. What is different?',
         r: [
-          'Very little: Scan Cam is on <a href="https://play.google.com/store/apps/details?id=com.trochet.scancam">Google Play</a>, with the same tools, the same nine languages and the same Pro subscription. Three differences:',
+          'Very little: Scan Cam is on <a href="https://play.google.com/store/apps/details?id=com.trochet.scancam">Google Play</a>, with the same tools, the same nine languages and the same Pro subscription. Two differences:',
           '<strong>The copy of your documents</strong> goes to your own Google Drive, if you agree: the app offers it after your first document, and the <strong>Google Drive backup</strong> switch in the settings turns it on or off at any time. It brings your documents back if you reinstall the app or change phones. It is kept in a space reserved for the app, invisible in the Google Drive app.',
           '<strong>The subscription</strong> is managed and cancelled in the Google Play app: tap your profile picture, then “Payments & subscriptions”, then “Subscriptions”. Cancelling before the end of the free trial costs nothing.',
-          '<strong>Remove shadows</strong> is not available on Android yet.',
         ],
       },
       {

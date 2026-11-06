@@ -10,9 +10,9 @@ module.exports = {
   "accueil": {
     "fichier": "guides-ko.html",
     "titre": "가이드 — Scan Cam",
-    "description": "Scan Cam으로 iPhone에서 문서를 스캔, 서명, 병합하고 텍스트를 읽는 단계별 가이드.",
+    "description": "Scan Cam으로 휴대폰에서 문서를 스캔, 서명, 병합하고 텍스트를 읽는 단계별 가이드.",
     "h1": "가이드",
-    "lead": "iPhone 스캐너로 가장 자주 하는 일들을 단계별로 짧게 안내합니다.",
+    "lead": "휴대폰 스캐너로 가장 자주 하는 일들을 단계별로 짧게 안내합니다.",
     "sectionTitre": "가이드 선택",
     "gratuit": "무료",
     "pro": "Pro"
@@ -23,7 +23,7 @@ module.exports = {
   },
   "blocAccueil": {
     "titre": "가이드",
-    "texte": "iPhone에서 문서를 스캔하고, 서명하고, 병합하고, 텍스트를 읽는 방법을 단계별로 안내합니다.",
+    "texte": "휴대폰에서 문서를 스캔하고, 서명하고, 병합하고, 텍스트를 읽는 방법을 단계별로 안내합니다.",
     "tous": "전체 가이드"
   },
   "pied": {
@@ -37,9 +37,9 @@ module.exports = {
       "cle": "multi-page",
       "fichier": "guide-scan-multiple-pages-to-one-pdf-iphone-ko.html",
       "niveau": "free",
-      "titre": "iPhone에서 여러 페이지를 하나의 PDF로 스캔하는 방법 — Scan Cam",
-      "description": "계약서, 서식, 숙제의 모든 페이지를 iPhone에서 하나의 PDF로. 무료, 계정 불필요.",
-      "h1": "iPhone에서 여러 페이지를 하나의 PDF로 스캔하는 방법",
+      "titre": "휴대폰에서 여러 페이지를 하나의 PDF로 스캔하는 방법 — Scan Cam",
+      "description": "계약서, 서식, 숙제의 모든 페이지를 휴대폰에서 하나의 PDF로. 무료, 계정 불필요.",
+      "h1": "휴대폰에서 여러 페이지를 하나의 PDF로 스캔하는 방법",
       "lead": "계약서, 서식, 숙제의 모든 페이지를 하나의 PDF로 스캔하세요. 무료이며 계정도 필요 없습니다.",
       "carte": "모든 페이지를 한 문서로 스캔한 다음, 하나의 PDF로 공유하세요.",
       "corps": [
@@ -94,9 +94,9 @@ module.exports = {
       "cle": "receipts",
       "fichier": "guide-scan-receipts-iphone-ko.html",
       "niveau": "free",
-      "titre": "iPhone에서 영수증을 스캔하고 정리하는 방법 — Scan Cam",
-      "description": "종이 영수증을 iPhone에서 선명한 PDF로 만들고 폴더에 정리해 회계사에게 보내세요.",
-      "h1": "iPhone에서 영수증을 스캔하고 정리하는 방법",
+      "titre": "휴대폰에서 영수증을 스캔하고 정리하는 방법 — Scan Cam",
+      "description": "종이 영수증을 휴대폰에서 선명한 PDF로 만들고 폴더에 정리해 회계사에게 보내세요.",
+      "h1": "휴대폰에서 영수증을 스캔하고 정리하는 방법",
       "lead": "감열지 영수증은 몇 달 안에 바랩니다. 받은 날 바로 스캔해서 찾기 쉬운 곳에 정리해 두세요.",
       "carte": "종이 영수증을 선명하게 사본으로 만들어 정리하고, 필요한 사람에게 보내세요.",
       "corps": [
@@ -150,9 +150,9 @@ module.exports = {
       "cle": "sign",
       "fichier": "guide-sign-a-document-on-iphone-ko.html",
       "niveau": "pro",
-      "titre": "iPhone에서 손가락으로 문서에 서명하는 방법 — Scan Cam",
-      "description": "서명을 한 번 그려 두고 iPhone의 스캔 문서나 PDF에 넣으세요. Scan Cam Pro 단계별 안내.",
-      "h1": "iPhone에서 손가락으로 문서에 서명하는 방법",
+      "titre": "휴대폰에서 손가락으로 문서에 서명하는 방법 — Scan Cam",
+      "description": "서명을 한 번 그려 두고 휴대폰의 스캔 문서나 PDF에 넣으세요. Scan Cam Pro 단계별 안내.",
+      "h1": "휴대폰에서 손가락으로 문서에 서명하는 방법",
       "lead": "프린터도 펜도 필요 없습니다. 서명을 한 번 그려 두면 어떤 문서에든 넣을 수 있습니다.",
       "carte": "서명을 한 번 그리거나 촬영해 두고, 어떤 문서에든 넣으세요.",
       "corps": [
@@ -201,9 +201,9 @@ module.exports = {
       "cle": "extract-text",
       "fichier": "guide-copy-text-from-a-scan-iphone-ko.html",
       "niveau": "pro",
-      "titre": "iPhone에서 스캔한 문서의 텍스트를 복사하는 방법(OCR) — Scan Cam",
-      "description": "iPhone에서 스캔 문서나 PDF를 오프라인으로 읽고 텍스트를 복사하세요. Scan Cam Pro 안내.",
-      "h1": "iPhone에서 스캔한 문서의 텍스트를 복사하는 방법",
+      "titre": "휴대폰에서 스캔한 문서의 텍스트를 복사하는 방법(OCR) — Scan Cam",
+      "description": "휴대폰에서 스캔 문서나 PDF를 오프라인으로 읽고 텍스트를 복사하세요. Scan Cam Pro 안내.",
+      "h1": "휴대폰에서 스캔한 문서의 텍스트를 복사하는 방법",
       "lead": "텍스트 인식(OCR)이 스캔한 페이지를 읽어 복사할 수 있는 텍스트로 바꿔 줍니다.",
       "carte": "인터넷 없이 휴대폰에서 페이지를 읽고 텍스트를 복사하세요.",
       "corps": [
@@ -225,7 +225,7 @@ module.exports = {
         ],
         [
           "p",
-          "텍스트는 인터넷 없이 iPhone 자체에서 읽히므로, 문서가 어디로도 전송되지 않습니다. 아무것도 인식되지 않으면 더 밝은 곳에서 페이지를 다시 스캔하세요."
+          "텍스트는 인터넷 없이 휴대폰 자체에서 읽히므로, 문서가 어디로도 전송되지 않습니다. 아무것도 인식되지 않으면 더 밝은 곳에서 페이지를 다시 스캔하세요."
         ],
         [
           "note",
@@ -242,9 +242,9 @@ module.exports = {
       "cle": "merge",
       "fichier": "guide-merge-pdf-files-on-iphone-ko.html",
       "niveau": "pro",
-      "titre": "iPhone에서 PDF 파일을 병합하는 방법 — Scan Cam",
-      "description": "여러 스캔 문서나 PDF를 원하는 순서대로 iPhone에서 하나의 PDF로. Scan Cam Pro 안내.",
-      "h1": "iPhone에서 PDF 파일을 병합하는 방법",
+      "titre": "휴대폰에서 PDF 파일을 병합하는 방법 — Scan Cam",
+      "description": "여러 스캔 문서나 PDF를 원하는 순서대로 휴대폰에서 하나의 PDF로. Scan Cam Pro 안내.",
+      "h1": "휴대폰에서 PDF 파일을 병합하는 방법",
       "lead": "여러 문서를 원하는 순서대로 파일 하나로 보내세요. 원본은 그대로 남습니다.",
       "carte": "여러 문서를 원하는 순서대로 하나의 PDF로 합치세요.",
       "corps": [
@@ -282,9 +282,9 @@ module.exports = {
       "cle": "extract-pages",
       "fichier": "guide-extract-pages-from-a-pdf-on-iphone-ko.html",
       "niveau": "pro",
-      "titre": "iPhone에서 PDF의 페이지를 추출하는 방법 — Scan Cam",
-      "description": "iPhone에서 PDF나 스캔 문서의 일부 페이지를 새 문서로. 원본은 그대로. Scan Cam Pro 안내.",
-      "h1": "iPhone에서 PDF의 페이지를 추출하는 방법",
+      "titre": "휴대폰에서 PDF의 페이지를 추출하는 방법 — Scan Cam",
+      "description": "휴대폰에서 PDF나 스캔 문서의 일부 페이지를 새 문서로. 원본은 그대로. Scan Cam Pro 안내.",
+      "h1": "휴대폰에서 PDF의 페이지를 추출하는 방법",
       "lead": "일부 페이지만 필요하신가요? 그 페이지로 새 문서를 만들고 원본은 그대로 두세요.",
       "carte": "고른 페이지로 새 문서를 만들고 원본은 그대로 보관하세요.",
       "corps": [
@@ -322,9 +322,9 @@ module.exports = {
       "cle": "watermark",
       "fichier": "guide-add-a-watermark-to-a-pdf-on-iphone-ko.html",
       "niveau": "pro",
-      "titre": "iPhone에서 PDF에 워터마크를 넣는 방법 — Scan Cam",
-      "description": "iPhone에서 스캔 문서나 PDF의 모든 페이지에 “대외비”나 원하는 문구를 넣으세요.",
-      "h1": "iPhone에서 PDF에 워터마크를 넣는 방법",
+      "titre": "휴대폰에서 PDF에 워터마크를 넣는 방법 — Scan Cam",
+      "description": "휴대폰에서 스캔 문서나 PDF의 모든 페이지에 “대외비”나 원하는 문구를 넣으세요.",
+      "h1": "휴대폰에서 PDF에 워터마크를 넣는 방법",
       "lead": "한 가지 용도로만 쓸 신분증 사본, 밖으로 돌면 안 되는 초안: 워터마크가 문서의 용도를 알려 줍니다.",
       "carte": "문서의 모든 페이지에 원하는 문구를 넣으세요.",
       "corps": [

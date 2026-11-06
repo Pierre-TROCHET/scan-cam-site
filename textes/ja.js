@@ -48,7 +48,7 @@ module.exports = {
 
   meta: {
     accueil: {
-      titre: 'Scan Cam — アカウントもサーバーもいらない書類スキャナー',
+      titre: 'Scan Cam PDF — アカウントもサーバーもいらない書類スキャナー',
       description:
         'Scan Cam は iPhone や Android スマートフォンを書類スキャナーに変えます。アカウントも、当方のサーバーも、広告もありません。',
     },
@@ -118,7 +118,7 @@ module.exports = {
           '斜めから撮っても、縁を検出してまっすぐに',
           '4種類の仕上がり：元の写真、カラー、グレースケール、白黒',
           '指で調整できる強さと、それに追従するプレビュー',
-          '照明や手でできた影を、ワンタップで除去（iPhone のみ）',
+          '照明や手でできた影を、ワンタップで除去',
           '1つの書類に複数ページ。並べ替え、回転、削除も自由',
           '写真と PDF の読み込み（100 ページまで）',
         ],
@@ -206,10 +206,9 @@ module.exports = {
       {
         q: 'Android スマートフォンを使っています。何が違いますか。',
         r: [
-          'ほとんど同じです。Scan Cam は <a href="https://play.google.com/store/apps/details?id=com.trochet.scancam">Google Play</a> にあり、ツールも、9 つの言語も、Pro のサブスクリプションも同じです。違いは三つです。',
+          'ほとんど同じです。Scan Cam は <a href="https://play.google.com/store/apps/details?id=com.trochet.scancam">Google Play</a> にあり、ツールも、9 つの言語も、Pro のサブスクリプションも同じです。違いは二つです。',
           '<strong>書類のコピー</strong>は、ご希望の場合にご自身の Google ドライブに保存されます。最初の書類のあとにアプリからご案内し、設定の <strong>Google ドライブ バックアップ</strong> のスイッチでいつでもオン・オフできます。アプリを入れ直したときやスマートフォンを買い替えたときに、書類が戻ってきます。コピーはアプリ専用の領域に置かれ、Google ドライブ アプリには表示されません。',
           '<strong>サブスクリプション</strong>の管理と解約は Google Play アプリで行います。プロフィール写真をタップし、「お支払いと定期購入」、「定期購入」の順に進んでください。無料体験の終了前に解約すれば、料金はかかりません。',
-          '<strong>影を取り除く</strong>は、Android ではまだ使えません。',
         ],
       },
       {

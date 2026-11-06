@@ -8,9 +8,9 @@ module.exports = {
   "accueil": {
     "fichier": "guides-pt.html",
     "titre": "Guias — Scan Cam",
-    "description": "Guias passo a passo para escanear, assinar, juntar e ler documentos no seu iPhone com o Scan Cam.",
+    "description": "Guias passo a passo para escanear, assinar, juntar e ler documentos no seu celular com o Scan Cam.",
     "h1": "Guias",
-    "lead": "Respostas curtas, passo a passo, para o que as pessoas mais querem fazer com um scanner no iPhone.",
+    "lead": "Respostas curtas, passo a passo, para o que as pessoas mais querem fazer com um scanner no celular.",
     "sectionTitre": "Escolha um guia",
     "gratuit": "Grátis",
     "pro": "Pro"
@@ -21,7 +21,7 @@ module.exports = {
   },
   "blocAccueil": {
     "titre": "Guias",
-    "texte": "Respostas passo a passo para escanear, assinar, juntar e ler documentos no seu iPhone.",
+    "texte": "Respostas passo a passo para escanear, assinar, juntar e ler documentos no seu celular.",
     "tous": "Todos os guias"
   },
   "pied": {
@@ -35,9 +35,9 @@ module.exports = {
       "cle": "multi-page",
       "fichier": "guide-escanear-varias-paginas-em-um-pdf-no-iphone-pt.html",
       "niveau": "free",
-      "titre": "Como escanear várias páginas em um só PDF no iPhone — Scan Cam",
-      "description": "Escaneie todas as páginas de um contrato, formulário ou trabalho escolar em um só PDF no iPhone, reorganize e compartilhe. Grátis e sem conta.",
-      "h1": "Como escanear várias páginas em um só PDF no iPhone",
+      "titre": "Como escanear várias páginas em um só PDF no celular — Scan Cam",
+      "description": "Escaneie todas as páginas de um contrato, formulário ou trabalho escolar em um só PDF no celular, reorganize e compartilhe. Grátis e sem conta.",
+      "h1": "Como escanear várias páginas em um só PDF no celular",
       "lead": "Escaneie todas as folhas de um contrato, formulário ou trabalho escolar em um único PDF, de graça e sem conta.",
       "carte": "Escaneie cada folha em um só documento e compartilhe como um único PDF.",
       "corps": [
@@ -92,9 +92,9 @@ module.exports = {
       "cle": "receipts",
       "fichier": "guide-escanear-recibos-no-iphone-pt.html",
       "niveau": "free",
-      "titre": "Como escanear recibos no iPhone e mantê-los organizados — Scan Cam",
-      "description": "Transforme recibos de papel em PDFs limpos e nítidos no iPhone, guarde-os em pastas e envie ao seu contador. Escanear e organizar é grátis.",
-      "h1": "Como escanear recibos no iPhone e mantê-los organizados",
+      "titre": "Como escanear recibos no celular e mantê-los organizados — Scan Cam",
+      "description": "Transforme recibos de papel em PDFs limpos e nítidos no celular, guarde-os em pastas e envie ao seu contador. Escanear e organizar é grátis.",
+      "h1": "Como escanear recibos no celular e mantê-los organizados",
       "lead": "Recibos de papel térmico desbotam em poucos meses. Escaneie no dia em que os receber e guarde onde vai encontrá-los.",
       "carte": "Faça cópias nítidas e organizadas dos recibos de papel e envie a quem precisar.",
       "corps": [
@@ -148,9 +148,9 @@ module.exports = {
       "cle": "sign",
       "fichier": "guide-assinar-documento-no-iphone-pt.html",
       "niveau": "pro",
-      "titre": "Como assinar um documento no iPhone com o dedo — Scan Cam",
-      "description": "Desenhe sua assinatura uma vez e coloque-a em qualquer documento escaneado ou PDF no iPhone. Passo a passo com o Scan Cam Pro.",
-      "h1": "Como assinar um documento no iPhone com o dedo",
+      "titre": "Como assinar um documento no celular com o dedo — Scan Cam",
+      "description": "Desenhe sua assinatura uma vez e coloque-a em qualquer documento escaneado ou PDF no celular. Passo a passo com o Scan Cam Pro.",
+      "h1": "Como assinar um documento no celular com o dedo",
       "lead": "Sem impressora, sem caneta: desenhe sua assinatura uma vez e coloque-a em qualquer documento.",
       "carte": "Desenhe ou fotografe sua assinatura uma vez e coloque-a em qualquer documento.",
       "corps": [
@@ -199,9 +199,9 @@ module.exports = {
       "cle": "extract-text",
       "fichier": "guide-copiar-texto-de-um-documento-escaneado-no-iphone-pt.html",
       "niveau": "pro",
-      "titre": "Como copiar o texto de um documento escaneado no iPhone (OCR) — Scan Cam",
-      "description": "Leia uma digitalização ou um PDF no iPhone e copie o texto, sem internet. Reconhecimento de texto passo a passo com o Scan Cam Pro.",
-      "h1": "Como copiar o texto de um documento escaneado no iPhone",
+      "titre": "Como copiar o texto de um documento escaneado no celular (OCR) — Scan Cam",
+      "description": "Leia uma digitalização ou um PDF no celular e copie o texto, sem internet. Reconhecimento de texto passo a passo com o Scan Cam Pro.",
+      "h1": "Como copiar o texto de um documento escaneado no celular",
       "lead": "O reconhecimento de texto (OCR) lê uma página escaneada e entrega o texto para você copiar.",
       "carte": "Leia uma página e copie o texto, no celular e sem internet.",
       "corps": [
@@ -223,7 +223,7 @@ module.exports = {
         ],
         [
           "p",
-          "O texto é lido pelo próprio iPhone, sem internet: seus documentos nunca são enviados a lugar nenhum. Nada foi reconhecido? Escaneie a página de novo com uma luz melhor."
+          "O texto é lido pelo próprio celular, sem internet: seus documentos nunca são enviados a lugar nenhum. Nada foi reconhecido? Escaneie a página de novo com uma luz melhor."
         ],
         [
           "note",
@@ -240,9 +240,9 @@ module.exports = {
       "cle": "merge",
       "fichier": "guide-juntar-pdf-no-iphone-pt.html",
       "niveau": "pro",
-      "titre": "Como juntar arquivos PDF no iPhone — Scan Cam",
-      "description": "Junte várias digitalizações ou PDFs em um só PDF no iPhone, na ordem que você escolher. Passo a passo com o Scan Cam Pro.",
-      "h1": "Como juntar arquivos PDF no iPhone",
+      "titre": "Como juntar arquivos PDF no celular — Scan Cam",
+      "description": "Junte várias digitalizações ou PDFs em um só PDF no celular, na ordem que você escolher. Passo a passo com o Scan Cam Pro.",
+      "h1": "Como juntar arquivos PDF no celular",
       "lead": "Vários documentos, um só arquivo para enviar, na ordem que você quiser. Os originais ficam como estão.",
       "carte": "Junte vários documentos em um só PDF, na ordem que você escolher.",
       "corps": [
@@ -280,9 +280,9 @@ module.exports = {
       "cle": "extract-pages",
       "fichier": "guide-extrair-paginas-de-um-pdf-no-iphone-pt.html",
       "niveau": "pro",
-      "titre": "Como extrair páginas de um PDF no iPhone — Scan Cam",
-      "description": "Tire algumas páginas de um PDF ou de uma digitalização para um novo documento no iPhone, sem alterar o original. Passo a passo com o Scan Cam Pro.",
-      "h1": "Como extrair páginas de um PDF no iPhone",
+      "titre": "Como extrair páginas de um PDF no celular — Scan Cam",
+      "description": "Tire algumas páginas de um PDF ou de uma digitalização para um novo documento no celular, sem alterar o original. Passo a passo com o Scan Cam Pro.",
+      "h1": "Como extrair páginas de um PDF no celular",
       "lead": "Só algumas páginas importam? Crie com elas um novo documento e deixe o original como está.",
       "carte": "Crie um novo documento com as páginas que escolher e mantenha o original.",
       "corps": [
@@ -320,9 +320,9 @@ module.exports = {
       "cle": "watermark",
       "fichier": "guide-adicionar-marca-dagua-em-pdf-no-iphone-pt.html",
       "niveau": "pro",
-      "titre": "Como adicionar uma marca d’água a um PDF no iPhone — Scan Cam",
-      "description": "Coloque CONFIDENCIAL ou o seu próprio texto em todas as páginas de uma digitalização ou PDF no iPhone. Passo a passo com o Scan Cam Pro.",
-      "h1": "Como adicionar uma marca d’água a um PDF no iPhone",
+      "titre": "Como adicionar uma marca d’água a um PDF no celular — Scan Cam",
+      "description": "Coloque CONFIDENCIAL ou o seu próprio texto em todas as páginas de uma digitalização ou PDF no celular. Passo a passo com o Scan Cam Pro.",
+      "h1": "Como adicionar uma marca d’água a um PDF no celular",
       "lead": "Uma cópia do seu documento de identidade para um único fim, um rascunho que não pode circular: uma marca d’água diz para que serve o documento.",
       "carte": "Coloque o seu próprio texto em todas as páginas de um documento.",
       "corps": [

@@ -56,7 +56,7 @@ module.exports = {
 
   meta: {
     accueil: {
-      titre: 'Scan Cam — le scanner de documents sans compte ni serveur',
+      titre: 'Scan Cam PDF — le scanner de documents sans compte ni serveur',
       description:
         'Scan Cam transforme votre iPhone ou votre téléphone Android en scanner de documents. Aucun compte, aucun serveur à nous, aucune publicité.',
     },
@@ -127,7 +127,7 @@ module.exports = {
           'Bords détectés et page redressée, même photographiée de travers',
           'Quatre rendus : photo d’origine, couleur, niveaux de gris, noir et blanc',
           'Intensité réglable au doigt, avec un aperçu qui suit',
-          'Retrait des ombres en une tape, pour les pages photographiées sous une lampe ou une main (sur iPhone)',
+          'Retrait des ombres en une tape, pour les pages photographiées sous une lampe ou une main',
           'Plusieurs pages dans un même document, à réordonner, pivoter ou retirer',
           'Import de photos et de PDF, jusqu’à 100 pages',
         ],
@@ -215,10 +215,9 @@ module.exports = {
       {
         q: 'J’ai un téléphone Android. Qu’est-ce qui change ?',
         r: [
-          'Presque rien : Scan Cam est sur <a href="https://play.google.com/store/apps/details?id=com.trochet.scancam">Google Play</a>, avec les mêmes outils, les mêmes neuf langues et le même abonnement Pro. Trois différences :',
+          'Presque rien : Scan Cam est sur <a href="https://play.google.com/store/apps/details?id=com.trochet.scancam">Google Play</a>, avec les mêmes outils, les mêmes neuf langues et le même abonnement Pro. Deux différences :',
           '<strong>La copie de vos documents</strong> va dans votre propre Google Drive, si vous l’acceptez : l’application vous le propose après votre premier document, et l’interrupteur <strong>Sauvegarde Google Drive</strong> des réglages l’allume ou la coupe à tout moment. Elle ramène vos documents si vous réinstallez l’app ou changez de téléphone. Elle est rangée dans un espace réservé à l’application, invisible dans l’app Google Drive.',
           '<strong>L’abonnement</strong> se gère et se résilie dans l’application Google Play : touchez votre photo de profil, puis « Paiements et abonnements », puis « Abonnements ». Résilier avant la fin de l’essai gratuit n’entraîne aucun paiement.',
-          '<strong>Retirer les ombres</strong> n’existe pas encore sur Android.',
         ],
       },
       {

@@ -8,9 +8,9 @@ module.exports = {
   "accueil": {
     "fichier": "guides-de.html",
     "titre": "Anleitungen — Scan Cam",
-    "description": "Schritt-für-Schritt-Anleitungen zum Scannen, Unterschreiben, Zusammenführen und Auslesen von Dokumenten auf Ihrem iPhone mit Scan Cam.",
+    "description": "Schritt-für-Schritt-Anleitungen zum Scannen, Unterschreiben, Zusammenführen und Auslesen von Dokumenten auf Ihrem Smartphone mit Scan Cam.",
     "h1": "Anleitungen",
-    "lead": "Kurze Antworten, Schritt für Schritt, auf das, was man mit einem Scanner auf dem iPhone am häufigsten tun möchte.",
+    "lead": "Kurze Antworten, Schritt für Schritt, auf das, was man mit einem Scanner auf dem Smartphone am häufigsten tun möchte.",
     "sectionTitre": "Wählen Sie eine Anleitung",
     "gratuit": "Kostenlos",
     "pro": "Pro"
@@ -21,7 +21,7 @@ module.exports = {
   },
   "blocAccueil": {
     "titre": "Anleitungen",
-    "texte": "Schritt für Schritt: Dokumente auf Ihrem iPhone scannen, unterschreiben, zusammenführen und auslesen.",
+    "texte": "Schritt für Schritt: Dokumente auf Ihrem Smartphone scannen, unterschreiben, zusammenführen und auslesen.",
     "tous": "Alle Anleitungen"
   },
   "pied": {
@@ -35,9 +35,9 @@ module.exports = {
       "cle": "multi-page",
       "fichier": "guide-mehrere-seiten-in-ein-pdf-scannen-iphone-de.html",
       "niveau": "free",
-      "titre": "So scannen Sie mehrere Seiten in ein einziges PDF auf dem iPhone — Scan Cam",
+      "titre": "So scannen Sie mehrere Seiten in ein einziges PDF auf dem Smartphone — Scan Cam",
       "description": "Alle Seiten eines Vertrags, Formulars oder einer Hausaufgabe in ein einziges PDF scannen, ordnen, ergänzen und teilen. Kostenlos und ohne Konto.",
-      "h1": "So scannen Sie mehrere Seiten in ein einziges PDF auf dem iPhone",
+      "h1": "So scannen Sie mehrere Seiten in ein einziges PDF auf dem Smartphone",
       "lead": "Scannen Sie alle Blätter eines Vertrags, eines Formulars oder einer Hausaufgabe in ein einziges PDF, kostenlos und ohne Konto.",
       "carte": "Jedes Blatt in ein Dokument scannen und es dann als ein einziges PDF teilen.",
       "corps": [
@@ -92,9 +92,9 @@ module.exports = {
       "cle": "receipts",
       "fichier": "guide-belege-mit-dem-iphone-scannen-de.html",
       "niveau": "free",
-      "titre": "So scannen Sie Belege mit dem iPhone und halten sie geordnet — Scan Cam",
-      "description": "Machen Sie aus Kassenbons auf Papier saubere, scharfe PDFs auf Ihrem iPhone, legen Sie sie in Ordnern ab und senden Sie sie an Ihre Steuerberatung. Kostenlos.",
-      "h1": "So scannen Sie Belege mit dem iPhone und halten sie geordnet",
+      "titre": "So scannen Sie Belege mit dem Smartphone und halten sie geordnet — Scan Cam",
+      "description": "Machen Sie aus Kassenbons auf Papier saubere, scharfe PDFs auf Ihrem Smartphone, legen Sie sie in Ordnern ab und senden Sie sie an Ihre Steuerberatung. Kostenlos.",
+      "h1": "So scannen Sie Belege mit dem Smartphone und halten sie geordnet",
       "lead": "Kassenbons aus Thermopapier verblassen innerhalb weniger Monate. Scannen Sie sie am Tag, an dem Sie sie bekommen, und legen Sie sie dort ab, wo Sie sie wiederfinden.",
       "carte": "Scharfe, abgelegte Kopien von Papierbelegen anfertigen und an alle senden, die sie brauchen.",
       "corps": [
@@ -148,9 +148,9 @@ module.exports = {
       "cle": "sign",
       "fichier": "guide-dokument-auf-dem-iphone-unterschreiben-de.html",
       "niveau": "pro",
-      "titre": "So unterschreiben Sie ein Dokument auf dem iPhone mit dem Finger — Scan Cam",
-      "description": "Zeichnen Sie Ihre Unterschrift einmal und setzen Sie sie dann auf jedes gescannte Dokument oder PDF auf Ihrem iPhone. Schritt für Schritt mit Scan Cam Pro.",
-      "h1": "So unterschreiben Sie ein Dokument auf dem iPhone mit dem Finger",
+      "titre": "So unterschreiben Sie ein Dokument auf dem Smartphone mit dem Finger — Scan Cam",
+      "description": "Zeichnen Sie Ihre Unterschrift einmal und setzen Sie sie dann auf jedes gescannte Dokument oder PDF auf Ihrem Smartphone. Schritt für Schritt mit Scan Cam Pro.",
+      "h1": "So unterschreiben Sie ein Dokument auf dem Smartphone mit dem Finger",
       "lead": "Kein Drucker, kein Stift: Zeichnen Sie Ihre Unterschrift einmal und setzen Sie sie dann auf jedes Dokument.",
       "carte": "Ihre Unterschrift einmal zeichnen oder fotografieren und dann auf jedes Dokument setzen.",
       "corps": [
@@ -199,9 +199,9 @@ module.exports = {
       "cle": "extract-text",
       "fichier": "guide-text-aus-einem-scan-kopieren-iphone-de.html",
       "niveau": "pro",
-      "titre": "So kopieren Sie den Text aus einem gescannten Dokument auf dem iPhone (OCR) — Scan Cam",
-      "description": "Lesen Sie einen Scan oder ein PDF auf Ihrem iPhone aus und kopieren Sie den Text, offline. Texterkennung Schritt für Schritt mit Scan Cam Pro.",
-      "h1": "So kopieren Sie den Text aus einem gescannten Dokument auf dem iPhone",
+      "titre": "So kopieren Sie den Text aus einem gescannten Dokument auf dem Smartphone (OCR) — Scan Cam",
+      "description": "Lesen Sie einen Scan oder ein PDF auf Ihrem Smartphone aus und kopieren Sie den Text, offline. Texterkennung Schritt für Schritt mit Scan Cam Pro.",
+      "h1": "So kopieren Sie den Text aus einem gescannten Dokument auf dem Smartphone",
       "lead": "Die Texterkennung (OCR) liest eine gescannte Seite und gibt Ihnen ihren Text zum Kopieren.",
       "carte": "Eine Seite auslesen und ihren Text kopieren, auf dem Telefon und ohne Internet.",
       "corps": [
@@ -223,7 +223,7 @@ module.exports = {
         ],
         [
           "p",
-          "Der Text wird vom iPhone selbst gelesen, ohne Internet: Ihre Dokumente werden nirgendwohin gesendet. Nichts erkannt? Scannen Sie die Seite bei besserem Licht erneut."
+          "Der Text wird vom Smartphone selbst gelesen, ohne Internet: Ihre Dokumente werden nirgendwohin gesendet. Nichts erkannt? Scannen Sie die Seite bei besserem Licht erneut."
         ],
         [
           "note",
@@ -240,9 +240,9 @@ module.exports = {
       "cle": "merge",
       "fichier": "guide-pdf-dateien-auf-dem-iphone-zusammenfuehren-de.html",
       "niveau": "pro",
-      "titre": "So führen Sie PDF-Dateien auf dem iPhone zusammen — Scan Cam",
-      "description": "Fassen Sie mehrere Scans oder PDFs auf Ihrem iPhone zu einem PDF zusammen, in der Reihenfolge Ihrer Wahl. Schritt für Schritt mit Scan Cam Pro.",
-      "h1": "So führen Sie PDF-Dateien auf dem iPhone zusammen",
+      "titre": "So führen Sie PDF-Dateien auf dem Smartphone zusammen — Scan Cam",
+      "description": "Fassen Sie mehrere Scans oder PDFs auf Ihrem Smartphone zu einem PDF zusammen, in der Reihenfolge Ihrer Wahl. Schritt für Schritt mit Scan Cam Pro.",
+      "h1": "So führen Sie PDF-Dateien auf dem Smartphone zusammen",
       "lead": "Mehrere Dokumente, eine Datei zum Versenden, in der gewünschten Reihenfolge. Die Originale bleiben, wie sie sind.",
       "carte": "Mehrere Dokumente zu einem PDF zusammenfügen, in der Reihenfolge Ihrer Wahl.",
       "corps": [
@@ -280,9 +280,9 @@ module.exports = {
       "cle": "extract-pages",
       "fichier": "guide-seiten-aus-einem-pdf-herausloesen-iphone-de.html",
       "niveau": "pro",
-      "titre": "So lösen Sie Seiten aus einem PDF auf dem iPhone heraus — Scan Cam",
-      "description": "Holen Sie einige Seiten eines PDFs oder Scans auf Ihrem iPhone in ein neues Dokument, ohne das Original zu ändern. Schritt für Schritt mit Scan Cam Pro.",
-      "h1": "So lösen Sie Seiten aus einem PDF auf dem iPhone heraus",
+      "titre": "So lösen Sie Seiten aus einem PDF auf dem Smartphone heraus — Scan Cam",
+      "description": "Holen Sie einige Seiten eines PDFs oder Scans auf Ihrem Smartphone in ein neues Dokument, ohne das Original zu ändern. Schritt für Schritt mit Scan Cam Pro.",
+      "h1": "So lösen Sie Seiten aus einem PDF auf dem Smartphone heraus",
       "lead": "Nur einige Seiten zählen? Erstellen Sie daraus ein neues Dokument und lassen Sie das Original, wie es ist.",
       "carte": "Ein neues Dokument aus den gewählten Seiten erstellen und das Original behalten.",
       "corps": [
@@ -320,9 +320,9 @@ module.exports = {
       "cle": "watermark",
       "fichier": "guide-wasserzeichen-zu-einem-pdf-hinzufuegen-iphone-de.html",
       "niveau": "pro",
-      "titre": "So fügen Sie einem PDF auf dem iPhone ein Wasserzeichen hinzu — Scan Cam",
-      "description": "Setzen Sie VERTRAULICH oder Ihren eigenen Text quer über jede Seite eines Scans oder PDFs auf Ihrem iPhone. Schritt für Schritt mit Scan Cam Pro.",
-      "h1": "So fügen Sie einem PDF auf dem iPhone ein Wasserzeichen hinzu",
+      "titre": "So fügen Sie einem PDF auf dem Smartphone ein Wasserzeichen hinzu — Scan Cam",
+      "description": "Setzen Sie VERTRAULICH oder Ihren eigenen Text quer über jede Seite eines Scans oder PDFs auf Ihrem Smartphone. Schritt für Schritt mit Scan Cam Pro.",
+      "h1": "So fügen Sie einem PDF auf dem Smartphone ein Wasserzeichen hinzu",
       "lead": "Eine Kopie Ihres Ausweises für einen einzigen Zweck, ein Entwurf, der nicht weitergegeben werden darf: Ein Wasserzeichen sagt, wofür das Dokument bestimmt ist.",
       "carte": "Ihren eigenen Text quer über jede Seite eines Dokuments setzen.",
       "corps": [

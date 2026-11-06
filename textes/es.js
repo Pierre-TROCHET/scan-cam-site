@@ -48,7 +48,7 @@ module.exports = {
 
   meta: {
     accueil: {
-      titre: 'Scan Cam — el escáner de documentos sin cuenta ni servidor',
+      titre: 'Scan Cam PDF — el escáner de documentos sin cuenta ni servidor',
       description:
         'Scan Cam convierte tu iPhone o tu teléfono Android en un escáner de documentos. Sin cuenta, sin servidor nuestro, sin publicidad.',
     },
@@ -118,7 +118,7 @@ module.exports = {
           'Bordes detectados y página enderezada, aunque la fotografíes torcida',
           'Cuatro acabados: foto original, color, escala de grises y blanco y negro',
           'Intensidad ajustable con el dedo, con una vista previa que la sigue',
-          'Sombras eliminadas con un toque, para las páginas fotografiadas bajo una lámpara o una mano (en iPhone)',
+          'Sombras eliminadas con un toque, para las páginas fotografiadas bajo una lámpara o una mano',
           'Varias páginas en un mismo documento, para reordenar, girar o quitar',
           'Importación de fotos y PDF, hasta 100 páginas',
         ],
@@ -206,10 +206,9 @@ module.exports = {
       {
         q: 'Tengo un teléfono Android. ¿Qué cambia?',
         r: [
-          'Casi nada: Scan Cam está en <a href="https://play.google.com/store/apps/details?id=com.trochet.scancam">Google Play</a>, con las mismas herramientas, los mismos nueve idiomas y la misma suscripción Pro. Tres diferencias:',
+          'Casi nada: Scan Cam está en <a href="https://play.google.com/store/apps/details?id=com.trochet.scancam">Google Play</a>, con las mismas herramientas, los mismos nueve idiomas y la misma suscripción Pro. Dos diferencias:',
           '<strong>La copia de tus documentos</strong> va a tu propio Google Drive, si lo aceptas: la app te lo propone después de tu primer documento, y el interruptor <strong>Copia en Google Drive</strong> de los ajustes la activa o la desactiva en cualquier momento. Recupera tus documentos si reinstalas la app o cambias de teléfono. Se guarda en un espacio reservado a la app, invisible en la app Google Drive.',
           '<strong>La suscripción</strong> se gestiona y se cancela en la aplicación Google Play: toca tu foto de perfil, luego «Pagos y suscripciones» y después «Suscripciones». Cancelar antes de que termine la prueba gratuita no conlleva ningún pago.',
-          '<strong>Quitar las sombras</strong> todavía no existe en Android.',
         ],
       },
       {

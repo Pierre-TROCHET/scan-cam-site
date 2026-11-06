@@ -47,7 +47,7 @@ module.exports = {
 
   meta: {
     accueil: {
-      titre: 'Scan Cam — lo scanner di documenti senza account né server',
+      titre: 'Scan Cam PDF — lo scanner di documenti senza account né server',
       description:
         'Scan Cam trasforma il tuo iPhone o il tuo telefono Android in uno scanner di documenti. Niente account, nessun server nostro, niente pubblicità.',
     },
@@ -117,7 +117,7 @@ module.exports = {
           'Bordi rilevati e pagina raddrizzata, anche se la fotografi storta',
           'Quattro stili: foto originale, colore, scala di grigi, bianco e nero',
           'Intensità regolabile con il dito, con un’anteprima che la segue',
-          'Ombre rimosse con un tocco, per le pagine fotografiate sotto una lampada o una mano (su iPhone)',
+          'Ombre rimosse con un tocco, per le pagine fotografiate sotto una lampada o una mano',
           'Più pagine nello stesso documento, da riordinare, ruotare o togliere',
           'Importazione di foto e PDF, fino a 100 pagine',
         ],
@@ -205,10 +205,9 @@ module.exports = {
       {
         q: 'Ho un telefono Android. Che cosa cambia?',
         r: [
-          'Quasi niente: Scan Cam è su <a href="https://play.google.com/store/apps/details?id=com.trochet.scancam">Google Play</a>, con gli stessi strumenti, le stesse nove lingue e lo stesso abbonamento Pro. Tre differenze:',
+          'Quasi niente: Scan Cam è su <a href="https://play.google.com/store/apps/details?id=com.trochet.scancam">Google Play</a>, con gli stessi strumenti, le stesse nove lingue e lo stesso abbonamento Pro. Due differenze:',
           '<strong>La copia dei tuoi documenti</strong> va nel tuo Google Drive, se lo accetti: l’app te lo propone dopo il tuo primo documento, e l’interruttore <strong>Backup Google Drive</strong> nelle impostazioni la attiva o la disattiva in qualsiasi momento. Riporta i tuoi documenti se reinstalli l’app o cambi telefono. È conservata in uno spazio riservato all’app, invisibile nell’app Google Drive.',
           '<strong>L’abbonamento</strong> si gestisce e si disdice nell’app Google Play: tocca la tua foto del profilo, poi «Pagamenti e abbonamenti», poi «Abbonamenti». Disdire prima della fine della prova gratuita non comporta alcun pagamento.',
-          '<strong>Rimuovi le ombre</strong> non esiste ancora su Android.',
         ],
       },
       {

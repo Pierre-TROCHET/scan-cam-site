@@ -170,7 +170,17 @@ function pageGuide(L, langues, guide) {
     datePublished: '2026-10-19',
     dateModified: '2026-11-05',
     author: { '@type': 'Person', name: 'Pierre Trochet' },
-    about: { '@type': 'SoftwareApplication', name: 'Scan Cam', operatingSystem: 'iOS', url: APPSTORE },
+    // La même app sur iPhone et sur Android (6 novembre 2026) : les deux boutiques.
+    about: {
+      '@type': 'SoftwareApplication',
+      name: 'Scan Cam PDF',
+      alternateName: 'Scan Cam',
+      operatingSystem: 'iOS, Android',
+      url: APPSTORE,
+      installUrl: [APPSTORE, GOOGLEPLAY],
+      downloadUrl: [APPSTORE, GOOGLEPLAY],
+      sameAs: [APPSTORE, GOOGLEPLAY, YOUTUBE],
+    },
   };
 
   return page({

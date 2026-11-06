@@ -48,7 +48,7 @@ module.exports = {
 
   meta: {
     accueil: {
-      titre: 'Scan Cam — der Dokumentenscanner ohne Konto und ohne Server',
+      titre: 'Scan Cam PDF — der Dokumentenscanner ohne Konto und ohne Server',
       description:
         'Scan Cam macht aus Ihrem iPhone oder Android-Telefon einen Dokumentenscanner. Kein Konto, kein Server von uns, keine Werbung.',
     },
@@ -118,7 +118,7 @@ module.exports = {
           'Ränder erkannt und Seite geradegerückt, auch schräg fotografiert',
           'Vier Anmutungen: Originalfoto, Farbe, Graustufen, Schwarzweiß',
           'Stärke mit dem Finger regelbar, mit einer Vorschau, die mitgeht',
-          'Schatten mit einem Tippen entfernt, für Seiten unter einer Lampe oder einer Hand (auf dem iPhone)',
+          'Schatten mit einem Tippen entfernt, für Seiten unter einer Lampe oder einer Hand',
           'Mehrere Seiten in einem Dokument, zum Umsortieren, Drehen oder Entfernen',
           'Import von Fotos und PDFs, bis zu 100 Seiten',
         ],
@@ -206,10 +206,9 @@ module.exports = {
       {
         q: 'Ich habe ein Android-Telefon. Was ist anders?',
         r: [
-          'Fast nichts: Scan Cam gibt es bei <a href="https://play.google.com/store/apps/details?id=com.trochet.scancam">Google Play</a>, mit denselben Werkzeugen, denselben neun Sprachen und demselben Pro-Abo. Drei Unterschiede:',
+          'Fast nichts: Scan Cam gibt es bei <a href="https://play.google.com/store/apps/details?id=com.trochet.scancam">Google Play</a>, mit denselben Werkzeugen, denselben neun Sprachen und demselben Pro-Abo. Zwei Unterschiede:',
           '<strong>Die Kopie Ihrer Dokumente</strong> kommt in Ihr eigenes Google Drive, wenn Sie zustimmen: Die App schlägt es Ihnen nach Ihrem ersten Dokument vor, und der Schalter <strong>Google Drive-Sicherung</strong> in den Einstellungen schaltet sie jederzeit ein oder aus. Sie bringt Ihre Dokumente zurück, wenn Sie die App neu installieren oder das Telefon wechseln. Sie liegt in einem Bereich, der nur der App gehört und in der Google Drive-App nicht zu sehen ist.',
           '<strong>Das Abo</strong> wird in der Google Play-App verwaltet und gekündigt: Tippen Sie auf Ihr Profilbild, dann auf „Zahlungen & Abos“ und dann auf „Abos“. Eine Kündigung vor Ende der kostenlosen Probezeit führt zu keiner Zahlung.',
-          '<strong>Schatten entfernen</strong> gibt es auf Android noch nicht.',
         ],
       },
       {

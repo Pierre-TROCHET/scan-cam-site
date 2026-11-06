@@ -214,7 +214,8 @@ function page({ langue, langues, cle, titre, description, entete, corps, mesure,
         JSON.stringify({
           '@context': 'https://schema.org',
           '@type': 'SoftwareApplication',
-          name: 'Scan Cam',
+          name: 'Scan Cam PDF',
+          alternateName: 'Scan Cam',
           description,
           url,
           inLanguage: langue.code,
@@ -223,6 +224,8 @@ function page({ langue, langues, cle, titre, description, entete, corps, mesure,
           installUrl: [APPSTORE, GOOGLEPLAY],
           downloadUrl: [APPSTORE, GOOGLEPLAY],
           offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+          // Les trois profils de l'app, reliés pour les moteurs de recherche (6 novembre 2026).
+          sameAs: [APPSTORE, GOOGLEPLAY, YOUTUBE],
         }).replace(/</g, '\\u003c') +
         '</script>\n'
       : '';

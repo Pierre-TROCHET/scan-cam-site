@@ -49,7 +49,7 @@ module.exports = {
 
   meta: {
     accueil: {
-      titre: 'Scan Cam — 无需账号、没有服务器的文档扫描仪',
+      titre: 'Scan Cam PDF — 无需账号、没有服务器的文档扫描仪',
       description: 'Scan Cam 把您的 iPhone 或 Android 手机变成一台文档扫描仪。无需账号，没有我们的服务器，没有广告。',
     },
     assistance: {
@@ -114,7 +114,7 @@ module.exports = {
           '自动识别边缘并校正页面，拍歪了也没关系',
           '四种效果：原始照片、彩色、灰度、黑白',
           '强度用手指调节，预览实时跟随',
-          '一键去除阴影，适合在灯下或手下拍摄的页面（仅限 iPhone）',
+          '一键去除阴影，适合在灯下或手下拍摄的页面',
           '一个文档可含多页，可重新排序、旋转或移除',
           '导入照片和 PDF，最多 100 页',
         ],
@@ -200,10 +200,9 @@ module.exports = {
       {
         q: '我用的是 Android 手机，有什么不同？',
         r: [
-          '几乎没有：Scan Cam 已上架 <a href="https://play.google.com/store/apps/details?id=com.trochet.scancam">Google Play</a>，工具相同，同样支持九种语言，Pro 订阅也一样。只有三点不同：',
+          '几乎没有：Scan Cam 已上架 <a href="https://play.google.com/store/apps/details?id=com.trochet.scancam">Google Play</a>，工具相同，同样支持九种语言，Pro 订阅也一样。只有两点不同：',
           '<strong>文档副本</strong>经您同意后保存在您自己的 Google 云端硬盘中：App 会在您的第一份文档之后询问您，设置中的 <strong>Google 云端硬盘备份</strong> 开关可随时打开或关闭它。重装 App 或更换手机后，它会让您的文档回来。副本存放在 App 专用的空间里，在 Google 云端硬盘应用中看不到。',
           '<strong>订阅</strong>在 Google Play 应用中管理和取消：点击您的个人资料照片，然后依次点击“付款和订阅”、“订阅”。在免费试用结束前取消，不会产生任何费用。',
-          '<strong>去除阴影</strong>目前在 Android 上还没有。',
         ],
       },
       {

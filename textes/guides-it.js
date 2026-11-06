@@ -8,9 +8,9 @@ module.exports = {
   "accueil": {
     "fichier": "guides-it.html",
     "titre": "Guide — Scan Cam",
-    "description": "Guide passo passo per scansionare, firmare, unire e leggere documenti sul tuo iPhone con Scan Cam.",
+    "description": "Guide passo passo per scansionare, firmare, unire e leggere documenti sul tuo telefono con Scan Cam.",
     "h1": "Guide",
-    "lead": "Risposte brevi, passo passo, alle cose che si vogliono fare più spesso con uno scanner sull’iPhone.",
+    "lead": "Risposte brevi, passo passo, alle cose che si vogliono fare più spesso con uno scanner sul telefono.",
     "sectionTitre": "Scegli una guida",
     "gratuit": "Gratis",
     "pro": "Pro"
@@ -21,7 +21,7 @@ module.exports = {
   },
   "blocAccueil": {
     "titre": "Guide",
-    "texte": "Risposte passo passo per scansionare, firmare, unire e leggere documenti sul tuo iPhone.",
+    "texte": "Risposte passo passo per scansionare, firmare, unire e leggere documenti sul tuo telefono.",
     "tous": "Tutte le guide"
   },
   "pied": {
@@ -35,9 +35,9 @@ module.exports = {
       "cle": "multi-page",
       "fichier": "guide-scansionare-piu-pagine-in-un-pdf-iphone-it.html",
       "niveau": "free",
-      "titre": "Come scansionare più pagine in un unico PDF su iPhone — Scan Cam",
-      "description": "Tutte le pagine di un contratto, un modulo o dei compiti in un unico PDF sull’iPhone: riordinale, aggiungi quella mancante, condividi. Gratis, senza account.",
-      "h1": "Come scansionare più pagine in un unico PDF su iPhone",
+      "titre": "Come scansionare più pagine in un unico PDF sul telefono — Scan Cam",
+      "description": "Tutte le pagine di un contratto, un modulo o dei compiti in un unico PDF sul telefono: riordinale, aggiungi quella mancante, condividi. Gratis, senza account.",
+      "h1": "Come scansionare più pagine in un unico PDF sul telefono",
       "lead": "Scansiona tutti i fogli di un contratto, di un modulo o di un compito in un unico PDF, gratis e senza account.",
       "carte": "Scansiona ogni foglio in un solo documento, poi condividilo come un unico PDF.",
       "corps": [
@@ -92,9 +92,9 @@ module.exports = {
       "cle": "receipts",
       "fichier": "guide-scansionare-scontrini-iphone-it.html",
       "niveau": "free",
-      "titre": "Come scansionare gli scontrini con l’iPhone e tenerli in ordine — Scan Cam",
-      "description": "Trasforma gli scontrini di carta in PDF nitidi sul tuo iPhone, archiviali in cartelle e inviali al commercialista. Scansione e archiviazione gratuite.",
-      "h1": "Come scansionare gli scontrini con l’iPhone e tenerli in ordine",
+      "titre": "Come scansionare gli scontrini con il telefono e tenerli in ordine — Scan Cam",
+      "description": "Trasforma gli scontrini di carta in PDF nitidi sul tuo telefono, archiviali in cartelle e inviali al commercialista. Scansione e archiviazione gratuite.",
+      "h1": "Come scansionare gli scontrini con il telefono e tenerli in ordine",
       "lead": "Gli scontrini su carta termica sbiadiscono nel giro di qualche mese. Scansionali il giorno stesso in cui li ricevi, e mettili dove li ritroverai.",
       "carte": "Fai copie nitide e ordinate degli scontrini di carta e inviale a chi ne ha bisogno.",
       "corps": [
@@ -148,9 +148,9 @@ module.exports = {
       "cle": "sign",
       "fichier": "guide-firmare-un-documento-su-iphone-it.html",
       "niveau": "pro",
-      "titre": "Come firmare un documento sull’iPhone con il dito — Scan Cam",
-      "description": "Disegna la tua firma una volta, poi posizionala su qualsiasi documento scansionato o PDF sul tuo iPhone. Passo passo con Scan Cam Pro.",
-      "h1": "Come firmare un documento sull’iPhone con il dito",
+      "titre": "Come firmare un documento sul telefono con il dito — Scan Cam",
+      "description": "Disegna la tua firma una volta, poi posizionala su qualsiasi documento scansionato o PDF sul tuo telefono. Passo passo con Scan Cam Pro.",
+      "h1": "Come firmare un documento sul telefono con il dito",
       "lead": "Niente stampante, niente penna: disegna la tua firma una volta, poi posizionala su qualsiasi documento.",
       "carte": "Disegna o fotografa la tua firma una volta, poi posizionala su qualsiasi documento.",
       "corps": [
@@ -199,9 +199,9 @@ module.exports = {
       "cle": "extract-text",
       "fichier": "guide-copiare-il-testo-da-una-scansione-iphone-it.html",
       "niveau": "pro",
-      "titre": "Come copiare il testo di un documento scansionato su iPhone (OCR) — Scan Cam",
-      "description": "Leggi una scansione o un PDF sul tuo iPhone e copiane il testo, offline. Riconoscimento del testo passo passo con Scan Cam Pro.",
-      "h1": "Come copiare il testo di un documento scansionato su iPhone",
+      "titre": "Come copiare il testo di un documento scansionato sul telefono (OCR) — Scan Cam",
+      "description": "Leggi una scansione o un PDF sul tuo telefono e copiane il testo, offline. Riconoscimento del testo passo passo con Scan Cam Pro.",
+      "h1": "Come copiare il testo di un documento scansionato sul telefono",
       "lead": "Il riconoscimento del testo (OCR) legge una pagina scansionata e ti dà il suo testo da copiare.",
       "carte": "Leggi una pagina e copiane il testo, sul telefono e senza internet.",
       "corps": [
@@ -223,7 +223,7 @@ module.exports = {
         ],
         [
           "p",
-          "Il testo viene letto dall’iPhone stesso, senza internet: i tuoi documenti non vengono mai inviati da nessuna parte. Non viene riconosciuto nulla? Scansiona di nuovo la pagina con una luce migliore."
+          "Il testo viene letto dal telefono stesso, senza internet: i tuoi documenti non vengono mai inviati da nessuna parte. Non viene riconosciuto nulla? Scansiona di nuovo la pagina con una luce migliore."
         ],
         [
           "note",
@@ -240,9 +240,9 @@ module.exports = {
       "cle": "merge",
       "fichier": "guide-unire-file-pdf-su-iphone-it.html",
       "niveau": "pro",
-      "titre": "Come unire file PDF su iPhone — Scan Cam",
-      "description": "Riunisci più scansioni o PDF in un unico PDF sul tuo iPhone, nell’ordine che scegli. Passo passo con Scan Cam Pro.",
-      "h1": "Come unire file PDF su iPhone",
+      "titre": "Come unire file PDF sul telefono — Scan Cam",
+      "description": "Riunisci più scansioni o PDF in un unico PDF sul tuo telefono, nell’ordine che scegli. Passo passo con Scan Cam Pro.",
+      "h1": "Come unire file PDF sul telefono",
       "lead": "Più documenti, un solo file da inviare, nell’ordine che vuoi. Gli originali restano come sono.",
       "carte": "Unisci più documenti in un unico PDF, nell’ordine che scegli.",
       "corps": [
@@ -280,9 +280,9 @@ module.exports = {
       "cle": "extract-pages",
       "fichier": "guide-estrarre-pagine-da-un-pdf-su-iphone-it.html",
       "niveau": "pro",
-      "titre": "Come estrarre pagine da un PDF su iPhone — Scan Cam",
-      "description": "Estrai alcune pagine di un PDF o di una scansione in un nuovo documento sul tuo iPhone, senza modificare l’originale. Passo passo con Scan Cam Pro.",
-      "h1": "Come estrarre pagine da un PDF su iPhone",
+      "titre": "Come estrarre pagine da un PDF sul telefono — Scan Cam",
+      "description": "Estrai alcune pagine di un PDF o di una scansione in un nuovo documento sul tuo telefono, senza modificare l’originale. Passo passo con Scan Cam Pro.",
+      "h1": "Come estrarre pagine da un PDF sul telefono",
       "lead": "Contano solo alcune pagine? Crea con quelle un nuovo documento e lascia l’originale com’è.",
       "carte": "Crea un nuovo documento con le pagine che scegli, e conserva l’originale.",
       "corps": [
@@ -320,9 +320,9 @@ module.exports = {
       "cle": "watermark",
       "fichier": "guide-aggiungere-una-filigrana-a-un-pdf-su-iphone-it.html",
       "niveau": "pro",
-      "titre": "Come aggiungere una filigrana a un PDF su iPhone — Scan Cam",
-      "description": "Applica RISERVATO o un tuo testo su ogni pagina di una scansione o di un PDF sul tuo iPhone. Passo passo con Scan Cam Pro.",
-      "h1": "Come aggiungere una filigrana a un PDF su iPhone",
+      "titre": "Come aggiungere una filigrana a un PDF sul telefono — Scan Cam",
+      "description": "Applica RISERVATO o un tuo testo su ogni pagina di una scansione o di un PDF sul tuo telefono. Passo passo con Scan Cam Pro.",
+      "h1": "Come aggiungere una filigrana a un PDF sul telefono",
       "lead": "Una copia del documento d’identità per un solo scopo, una bozza che non deve circolare: una filigrana dice a cosa serve il documento.",
       "carte": "Applica un tuo testo su ogni pagina di un documento.",
       "corps": [

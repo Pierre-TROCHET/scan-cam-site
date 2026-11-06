@@ -51,7 +51,7 @@ module.exports = {
 
   meta: {
     accueil: {
-      titre: 'Scan Cam — 계정도 서버도 없는 문서 스캐너',
+      titre: 'Scan Cam PDF — 계정도 서버도 없는 문서 스캐너',
       description:
         'Scan Cam은 iPhone이나 Android 휴대폰을 문서 스캐너로 바꿔 줍니다. 계정도, 자체 서버도, 광고도 없습니다.',
     },
@@ -121,7 +121,7 @@ module.exports = {
           '비스듬히 찍어도 가장자리를 감지해 반듯하게',
           '네 가지 효과: 원본 사진, 컬러, 회색조, 흑백',
           '손가락으로 조절하는 강도와 바로 따라오는 미리보기',
-          '조명이나 손 때문에 생긴 그림자를 탭 한 번으로 제거 (iPhone 전용)',
+          '조명이나 손 때문에 생긴 그림자를 탭 한 번으로 제거',
           '한 문서에 여러 페이지. 순서 변경, 회전, 빼기도 자유롭게',
           '사진과 PDF 가져오기(최대 100페이지)',
         ],
@@ -209,10 +209,9 @@ module.exports = {
       {
         q: 'Android 휴대폰을 쓰고 있습니다. 무엇이 다른가요?',
         r: [
-          '거의 같습니다. Scan Cam은 <a href="https://play.google.com/store/apps/details?id=com.trochet.scancam">Google Play</a>에 있으며, 도구도, 9개 언어도, Pro 구독도 같습니다. 다른 점은 세 가지입니다.',
+          '거의 같습니다. Scan Cam은 <a href="https://play.google.com/store/apps/details?id=com.trochet.scancam">Google Play</a>에 있으며, 도구도, 9개 언어도, Pro 구독도 같습니다. 다른 점은 두 가지입니다.',
           '<strong>문서 사본</strong>은 동의한 경우 본인의 Google 드라이브에 보관됩니다. 첫 문서를 만든 뒤 앱이 이를 제안하며, 설정의 <strong>Google 드라이브 백업</strong> 스위치로 언제든 켜거나 끌 수 있습니다. 앱을 다시 설치하거나 휴대폰을 바꾸면 문서가 돌아옵니다. 사본은 앱 전용 공간에 보관되며 Google 드라이브 앱에는 보이지 않습니다.',
           '<strong>구독</strong>은 Google Play 앱에서 관리하고 해지합니다. 프로필 사진을 탭한 다음 “결제 및 구독”, “구독”을 차례로 탭하세요. 무료 체험 기간이 끝나기 전에 해지하면 요금이 청구되지 않습니다.',
-          '<strong>그림자 제거</strong>는 아직 Android에서 사용할 수 없습니다.',
         ],
       },
       {

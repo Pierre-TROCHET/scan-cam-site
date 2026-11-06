@@ -62,8 +62,20 @@ changer la fiche d'abord. Les noms, les titres et les phrases qui relient les de
 **L'application est sur Google Play depuis le 26 octobre 2026.** Le bouton « Disponible sur Google
 Play » est à côté de celui de l'App Store sur chaque accueil, dans l'encadré « Essayez Scan Cam » de
 chaque guide (depuis le 5 novembre 2026), et dans le pied de toutes les pages (adresse dans `gabarit.js`, libellé dans le bloc `pied` de `textes/<langue>.js`). L'assistance a une
-question « J'ai un téléphone Android » : copie dans Google Drive, abonnement géré dans Google Play,
-pas de « Retirer les ombres ». Les guides restent ceux de l'iPhone.
+question « J'ai un téléphone Android » : copie dans Google Drive, abonnement géré dans Google Play.
+« Retirer les ombres » est sur Android depuis la version 1.5 (confirmé par Pierre le 6 novembre
+2026) : l'accueil ne le marque plus « sur iPhone », et l'assistance ne le compte plus parmi les
+différences.
+
+**Depuis le 6 novembre 2026, les guides valent pour les deux téléphones** : plus de « sur iPhone »
+dans leurs titres et leurs textes (« sur son téléphone », « on your phone », « auf dem Smartphone »,
+« sul telefono », « no celular », スマートフォン, 휴대폰, 手机…), et leur fiche `about` dit
+`iOS, Android` avec les deux boutiques. **Les adresses gardent « iphone »** : GitHub Pages ne sait
+pas rediriger, et le plan du site, les descriptions YouTube et `shorts-youtube.json` y mènent déjà.
+Seul le guide « sans abonnement » reste celui de l'iPhone : il compare les apps Notes et Fichiers
+d'Apple. Le même jour, les titres des accueils et la fiche de l'app disent **« Scan Cam PDF »**
+(`alternateName` « Scan Cam », `sameAs` App Store, Google Play et YouTube) : c'est le nom sous lequel
+l'app sort première dans l'App Store.
 
 ## ⚠️ Les noms de fichiers sont déclarés chez Apple
 

@@ -10,9 +10,9 @@ module.exports = {
   "accueil": {
     "fichier": "guides-zh.html",
     "titre": "使用指南 — Scan Cam",
-    "description": "用 Scan Cam 在 iPhone 上扫描、签名、合并和识别文档的分步指南。",
+    "description": "用 Scan Cam 在手机上扫描、签名、合并和识别文档的分步指南。",
     "h1": "使用指南",
-    "lead": "在 iPhone 上用扫描仪最常做的几件事，这里一步一步简短说明。",
+    "lead": "在手机上用扫描仪最常做的几件事，这里一步一步简短说明。",
     "sectionTitre": "选择一篇指南",
     "gratuit": "免费",
     "pro": "Pro"
@@ -23,7 +23,7 @@ module.exports = {
   },
   "blocAccueil": {
     "titre": "使用指南",
-    "texte": "在 iPhone 上扫描、签名、合并和识别文档，一步一步教您完成。",
+    "texte": "在手机上扫描、签名、合并和识别文档，一步一步教您完成。",
     "tous": "全部指南"
   },
   "pied": {
@@ -37,9 +37,9 @@ module.exports = {
       "cle": "multi-page",
       "fichier": "guide-scan-multiple-pages-to-one-pdf-iphone-zh.html",
       "niveau": "free",
-      "titre": "如何在 iPhone 上把多页扫描成一个 PDF — Scan Cam",
-      "description": "在 iPhone 上把合同、表格或作业的每一页扫描进同一个 PDF，免费，无需账号。",
-      "h1": "如何在 iPhone 上把多页扫描成一个 PDF",
+      "titre": "如何在手机上把多页扫描成一个 PDF — Scan Cam",
+      "description": "在手机上把合同、表格或作业的每一页扫描进同一个 PDF，免费，无需账号。",
+      "h1": "如何在手机上把多页扫描成一个 PDF",
       "lead": "把合同、表格或作业的每一页扫描成一个 PDF，免费，而且无需账号。",
       "carte": "把每一页都扫描进同一份文档，再作为一个 PDF 分享出去。",
       "corps": [
@@ -94,9 +94,9 @@ module.exports = {
       "cle": "receipts",
       "fichier": "guide-scan-receipts-iphone-zh.html",
       "niveau": "free",
-      "titre": "如何在 iPhone 上扫描收据并整理好 — Scan Cam",
-      "description": "在 iPhone 上把纸质收据变成清晰的 PDF，归入文件夹，再发给会计。扫描和归档免费。",
-      "h1": "如何在 iPhone 上扫描收据并整理好",
+      "titre": "如何在手机上扫描收据并整理好 — Scan Cam",
+      "description": "在手机上把纸质收据变成清晰的 PDF，归入文件夹，再发给会计。扫描和归档免费。",
+      "h1": "如何在手机上扫描收据并整理好",
       "lead": "热敏小票几个月就会褪色。拿到当天就扫描，并把它们放在找得到的地方。",
       "carte": "把纸质收据做成清晰、归好档的副本，发给需要的人。",
       "corps": [
@@ -150,9 +150,9 @@ module.exports = {
       "cle": "sign",
       "fichier": "guide-sign-a-document-on-iphone-zh.html",
       "niveau": "pro",
-      "titre": "如何在 iPhone 上用手指签署文档 — Scan Cam",
-      "description": "签名只需画一次，之后可放到 iPhone 上任何扫描件或 PDF 上。Scan Cam Pro 分步指南。",
-      "h1": "如何在 iPhone 上用手指签署文档",
+      "titre": "如何在手机上用手指签署文档 — Scan Cam",
+      "description": "签名只需画一次，之后可放到手机上任何扫描件或 PDF 上。Scan Cam Pro 分步指南。",
+      "h1": "如何在手机上用手指签署文档",
       "lead": "不需要打印机，也不需要笔：签名只需画一次，就能放到任何文档上。",
       "carte": "手写或拍下您的签名一次，之后可放到任何文档上。",
       "corps": [
@@ -201,9 +201,9 @@ module.exports = {
       "cle": "extract-text",
       "fichier": "guide-copy-text-from-a-scan-iphone-zh.html",
       "niveau": "pro",
-      "titre": "如何在 iPhone 上复制扫描文档中的文字（OCR） — Scan Cam",
-      "description": "在 iPhone 上离线识别扫描件或 PDF，并复制其中的文字。Scan Cam Pro 分步指南。",
-      "h1": "如何在 iPhone 上复制扫描文档中的文字",
+      "titre": "如何在手机上复制扫描文档中的文字（OCR） — Scan Cam",
+      "description": "在手机上离线识别扫描件或 PDF，并复制其中的文字。Scan Cam Pro 分步指南。",
+      "h1": "如何在手机上复制扫描文档中的文字",
       "lead": "文字识别（OCR）会读取扫描的页面，把文字交给您复制。",
       "carte": "识别页面并复制其中的文字，在手机上完成，无需联网。",
       "corps": [
@@ -225,7 +225,7 @@ module.exports = {
         ],
         [
           "p",
-          "文字由 iPhone 本身识别，无需联网：您的文档从不会被发送到任何地方。什么都没识别出来？请在光线更好的地方重新扫描该页。"
+          "文字由手机本身识别，无需联网：您的文档从不会被发送到任何地方。什么都没识别出来？请在光线更好的地方重新扫描该页。"
         ],
         [
           "note",
@@ -242,9 +242,9 @@ module.exports = {
       "cle": "merge",
       "fichier": "guide-merge-pdf-files-on-iphone-zh.html",
       "niveau": "pro",
-      "titre": "如何在 iPhone 上合并 PDF 文件 — Scan Cam",
-      "description": "在 iPhone 上按您选的顺序，把多份扫描件或 PDF 合成一个 PDF。Scan Cam Pro 分步指南。",
-      "h1": "如何在 iPhone 上合并 PDF 文件",
+      "titre": "如何在手机上合并 PDF 文件 — Scan Cam",
+      "description": "在手机上按您选的顺序，把多份扫描件或 PDF 合成一个 PDF。Scan Cam Pro 分步指南。",
+      "h1": "如何在手机上合并 PDF 文件",
       "lead": "好几份文档，按您想要的顺序合成一个文件发送。原件保持原样。",
       "carte": "按您选的顺序，把多份文档合成一个 PDF。",
       "corps": [
@@ -282,9 +282,9 @@ module.exports = {
       "cle": "extract-pages",
       "fichier": "guide-extract-pages-from-a-pdf-on-iphone-zh.html",
       "niveau": "pro",
-      "titre": "如何在 iPhone 上从 PDF 中提取页面 — Scan Cam",
-      "description": "在 iPhone 上把 PDF 或扫描件中的部分页面提取为新文档，原件保持不变。",
-      "h1": "如何在 iPhone 上从 PDF 中提取页面",
+      "titre": "如何在手机上从 PDF 中提取页面 — Scan Cam",
+      "description": "在手机上把 PDF 或扫描件中的部分页面提取为新文档，原件保持不变。",
+      "h1": "如何在手机上从 PDF 中提取页面",
       "lead": "只需要其中几页？用它们新建一份文档，原件保持原样。",
       "carte": "用您挑选的页面新建一份文档，原件保留不变。",
       "corps": [
@@ -322,9 +322,9 @@ module.exports = {
       "cle": "watermark",
       "fichier": "guide-add-a-watermark-to-a-pdf-on-iphone-zh.html",
       "niveau": "pro",
-      "titre": "如何在 iPhone 上为 PDF 添加水印 — Scan Cam",
-      "description": "在 iPhone 上为扫描件或 PDF 的每一页加上「机密」或您自己的文字。Scan Cam Pro 分步指南。",
-      "h1": "如何在 iPhone 上为 PDF 添加水印",
+      "titre": "如何在手机上为 PDF 添加水印 — Scan Cam",
+      "description": "在手机上为扫描件或 PDF 的每一页加上「机密」或您自己的文字。Scan Cam Pro 分步指南。",
+      "h1": "如何在手机上为 PDF 添加水印",
       "lead": "只用于某一用途的身份证件复印件，一份不能外传的草稿：水印说明了这份文档的用途。",
       "carte": "在文档的每一页上加上您自己的文字。",
       "corps": [

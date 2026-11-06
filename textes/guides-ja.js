@@ -9,9 +9,9 @@ module.exports = {
   "accueil": {
     "fichier": "guides-ja.html",
     "titre": "使い方ガイド — Scan Cam",
-    "description": "Scan Cam で、iPhone で書類をスキャン・署名・結合・読み取りする手順を紹介します。",
+    "description": "Scan Cam を使って、スマートフォンで書類をスキャン・署名・結合・読み取りする手順を紹介します。",
     "h1": "使い方ガイド",
-    "lead": "iPhone のスキャナーでよく行う作業を、短く、一歩ずつ説明します。",
+    "lead": "スマートフォンのスキャナーでよく行う作業を、短く、一歩ずつ説明します。",
     "sectionTitre": "ガイドを選ぶ",
     "gratuit": "無料",
     "pro": "Pro"
@@ -22,7 +22,7 @@ module.exports = {
   },
   "blocAccueil": {
     "titre": "使い方ガイド",
-    "texte": "iPhone で書類をスキャン・署名・結合・読み取りする方法を、一歩ずつ説明します。",
+    "texte": "スマートフォンで書類をスキャン・署名・結合・読み取りする方法を、一歩ずつ説明します。",
     "tous": "すべてのガイド"
   },
   "pied": {
@@ -36,9 +36,9 @@ module.exports = {
       "cle": "multi-page",
       "fichier": "guide-scan-multiple-pages-to-one-pdf-iphone-ja.html",
       "niveau": "free",
-      "titre": "iPhone で複数ページを 1 つの PDF にスキャンする方法 — Scan Cam",
-      "description": "契約書や書類の全ページを iPhone で 1 つの PDF にスキャンし、並べ替えて共有。無料、アカウント不要。",
-      "h1": "iPhone で複数ページを 1 つの PDF にスキャンする方法",
+      "titre": "スマートフォンで複数ページを 1 つの PDF にスキャンする方法 — Scan Cam",
+      "description": "契約書や書類の全ページをスマートフォンで 1 つの PDF にスキャンし、並べ替えて共有。無料、アカウント不要。",
+      "h1": "スマートフォンで複数ページを 1 つの PDF にスキャンする方法",
       "lead": "契約書や申込書、宿題のすべてのページを、無料・アカウントなしで 1 つの PDF にスキャンします。",
       "carte": "すべての紙を 1 つの書類にスキャンし、1 つの PDF として共有します。",
       "corps": [
@@ -93,9 +93,9 @@ module.exports = {
       "cle": "receipts",
       "fichier": "guide-scan-receipts-iphone-ja.html",
       "niveau": "free",
-      "titre": "iPhone でレシートをスキャンして整理する方法 — Scan Cam",
-      "description": "紙のレシートを iPhone でくっきりした PDF にし、フォルダで整理して送れます。スキャンと整理は無料。",
-      "h1": "iPhone でレシートをスキャンして整理する方法",
+      "titre": "スマートフォンでレシートをスキャンして整理する方法 — Scan Cam",
+      "description": "紙のレシートをスマートフォンでくっきりした PDF にし、フォルダで整理して送れます。スキャンと整理は無料。",
+      "h1": "スマートフォンでレシートをスキャンして整理する方法",
       "lead": "感熱紙のレシートは数か月で色あせます。受け取ったその日にスキャンして、すぐ見つかる場所に整理しましょう。",
       "carte": "紙のレシートをくっきりと保存・整理して、必要な人に送ります。",
       "corps": [
@@ -149,9 +149,9 @@ module.exports = {
       "cle": "sign",
       "fichier": "guide-sign-a-document-on-iphone-ja.html",
       "niveau": "pro",
-      "titre": "iPhone で書類に指で署名する方法 — Scan Cam",
-      "description": "署名を一度描けば、スキャンした書類や PDF に iPhone で何度でも置けます。Scan Cam Pro の手順です。",
-      "h1": "iPhone で書類に指で署名する方法",
+      "titre": "スマートフォンで書類に指で署名する方法 — Scan Cam",
+      "description": "署名を一度描けば、スキャンした書類や PDF にスマートフォンで何度でも置けます。Scan Cam Pro の手順です。",
+      "h1": "スマートフォンで書類に指で署名する方法",
       "lead": "プリンターもペンもいりません。署名を一度描けば、どの書類にも置けます。",
       "carte": "署名を一度描くか撮影すれば、どの書類にも置けます。",
       "corps": [
@@ -200,11 +200,11 @@ module.exports = {
       "cle": "extract-text",
       "fichier": "guide-copy-text-from-a-scan-iphone-ja.html",
       "niveau": "pro",
-      "titre": "iPhone でスキャンした書類の文字をコピーする方法（OCR） — Scan Cam",
-      "description": "スキャンや PDF の文字を iPhone でオフラインのまま読み取り、コピー。Scan Cam Pro の文字認識の手順です。",
-      "h1": "iPhone でスキャンした書類の文字をコピーする方法",
+      "titre": "スマートフォンでスキャンした書類の文字をコピーする方法（OCR） — Scan Cam",
+      "description": "スキャンや PDF の文字をスマートフォンでオフラインのまま読み取り、コピー。Scan Cam Pro の文字認識の手順です。",
+      "h1": "スマートフォンでスキャンした書類の文字をコピーする方法",
       "lead": "文字認識（OCR）が、スキャンしたページを読み取り、コピーできる文字にします。",
-      "carte": "ページを読み取り、文字をコピー。iPhone の中で、インターネットなしで。",
+      "carte": "ページを読み取り、文字をコピー。スマートフォンの中で、インターネットなしで。",
       "corps": [
         [
           "h2",
@@ -224,7 +224,7 @@ module.exports = {
         ],
         [
           "p",
-          "文字の読み取りは iPhone 自身が行い、インターネットは使いません。書類がどこかに送られることはありません。何も認識されないときは、明るい場所でもう一度スキャンしてください。"
+          "文字の読み取りはスマートフォン自身が行い、インターネットは使いません。書類がどこかに送られることはありません。何も認識されないときは、明るい場所でもう一度スキャンしてください。"
         ],
         [
           "note",
@@ -241,9 +241,9 @@ module.exports = {
       "cle": "merge",
       "fichier": "guide-merge-pdf-files-on-iphone-ja.html",
       "niveau": "pro",
-      "titre": "iPhone で PDF ファイルを結合する方法 — Scan Cam",
-      "description": "複数のスキャンや PDF を、好きな順番で 1 つの PDF に iPhone で結合。Scan Cam Pro の手順です。",
-      "h1": "iPhone で PDF ファイルを結合する方法",
+      "titre": "スマートフォンで PDF ファイルを結合する方法 — Scan Cam",
+      "description": "複数のスキャンや PDF を、好きな順番で 1 つの PDF にスマートフォンで結合。Scan Cam Pro の手順です。",
+      "h1": "スマートフォンで PDF ファイルを結合する方法",
       "lead": "いくつもの書類を、好きな順番で 1 つのファイルにまとめて送れます。元の書類はそのまま残ります。",
       "carte": "複数の書類を、好きな順番で 1 つの PDF にまとめます。",
       "corps": [
@@ -281,9 +281,9 @@ module.exports = {
       "cle": "extract-pages",
       "fichier": "guide-extract-pages-from-a-pdf-on-iphone-ja.html",
       "niveau": "pro",
-      "titre": "iPhone で PDF からページを抜き出す方法 — Scan Cam",
-      "description": "PDF やスキャンから一部のページを iPhone で新しい書類に抜き出し、元はそのまま。Scan Cam Pro の手順です。",
-      "h1": "iPhone で PDF からページを抜き出す方法",
+      "titre": "スマートフォンで PDF からページを抜き出す方法 — Scan Cam",
+      "description": "PDF やスキャンから一部のページをスマートフォンで新しい書類に抜き出し、元はそのまま。Scan Cam Pro の手順です。",
+      "h1": "スマートフォンで PDF からページを抜き出す方法",
       "lead": "必要なのは一部のページだけ？ そのページで新しい書類を作り、元の書類はそのまま残しましょう。",
       "carte": "選んだページで新しい書類を作り、元の書類は残します。",
       "corps": [
@@ -321,9 +321,9 @@ module.exports = {
       "cle": "watermark",
       "fichier": "guide-add-a-watermark-to-a-pdf-on-iphone-ja.html",
       "niveau": "pro",
-      "titre": "iPhone で PDF に透かしを入れる方法 — Scan Cam",
-      "description": "「社外秘」や好きな文字を、スキャンや PDF の全ページに iPhone で入れられます。Scan Cam Pro の手順です。",
-      "h1": "iPhone で PDF に透かしを入れる方法",
+      "titre": "スマートフォンで PDF に透かしを入れる方法 — Scan Cam",
+      "description": "「社外秘」や好きな文字を、スキャンや PDF の全ページにスマートフォンで入れられます。Scan Cam Pro の手順です。",
+      "h1": "スマートフォンで PDF に透かしを入れる方法",
       "lead": "特定の用途だけに使う身分証のコピー、外に出してはいけない下書き。透かしが、その書類の用途を示します。",
       "carte": "書類の全ページに、好きな文字を入れます。",
       "corps": [
